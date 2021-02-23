@@ -1,9 +1,37 @@
 module.exports = {
-    name: 'item',
+    name: 'search',
     description: 'Info about the arguments',
     args: true,
     execute(message, args) {
-        var id = args[0]
+        var id
+        for(var l=0;l<256*66;l++){
+            var folder_loc = Math.floor(l / 256)
+            var item_loc = l
+
+            try {
+                var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/objects/0/${folder_loc}/${item_loc}.json`);
+                for (var k = 0; k < item.skills.length; k++) {
+                    if(item.type != "Loot" || item.skills.length < 0){
+                        k = item.skills.length
+                    }
+                    if(item.id != null && item.displayName != null && item.id != undefined && item.displayName != undefined && item.displayName.includes(args[0])) {
+                        console.log(`"id": "${item.id}", "item": "${item.displayName}",`)
+                        id = item.id
+                        return
+                    }
+                    //var skillID = (item.skills[i].skillID)
+                    //console.log(`"${i}":{"item":${id}, "skillID":${item.skills[k].skillID}},`)
+                    //skillz.push(item.skills[k].skillID)
+                }
+
+
+
+            } catch {
+                //console.log(`Object ${id} DNE`)
+
+            }
+        }
+        //var id;
         var folder_loc = Math.floor(id / 256)
         var item_loc = id
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
@@ -144,15 +172,15 @@ module.exports = {
         iconPath = iconPath.replace(` `, "%20");
         iconPath = iconPath.toLowerCase()
         var iconURL = `https://xiphoseer.github.io/lu-res/${iconPath.substring(6)}`
-/*
-https://xiphoseer.github.io/lu-res/textures/ui/../../textures/auramar/ui/inventory/Hands/KiteShield_Bat.png
-https://xiphoseer.github.io/lu-res/textures/ui/amar/ui/inventory/Hands/KiteShield_Bat.png
-https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshield_bat.png
- */
+        /*
+        https://xiphoseer.github.io/lu-res/textures/ui/../../textures/auramar/ui/inventory/Hands/KiteShield_Bat.png
+        https://xiphoseer.github.io/lu-res/textures/ui/amar/ui/inventory/Hands/KiteShield_Bat.png
+        https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshield_bat.png
+         */
 
         console.log(iconURL)
         //console.log(`https://xiphoseer.github.io/lu-res/textures/ui/..\\..\\textures\\ui\\inventory\\faction kits\\sorcerer_shoulder_3.png`.replace('\\', '/'))
-            //https://xiphoseer.github.io/lu-res/textures/ui/inventory/faction%20kits/sorcerer_shoulder_3.png
+        //https://xiphoseer.github.io/lu-res/textures/ui/inventory/faction%20kits/sorcerer_shoulder_3.png
 
         var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
         if(cooldown==undefined || cooldown==null || cooldown==``){
