@@ -78,7 +78,8 @@ module.exports = {
                 //console.log(`cool: ${cooldownFile.cooldown}`)
                 if (cooldownFile.cooldown != 0) {
                     cooldowngroup = cooldownFile.cooldowngroup
-                    cooldown = cooldownFile.cooldown
+                    cooldown = `${cooldownFile.cooldown} Seconds`
+
                     console.log(`Cooldown Group: ${cooldownFile.cooldowngroup}\nItem Cooldown: ${cooldownFile.cooldown} seconds`)
                 }
 
@@ -191,7 +192,7 @@ https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshiel
             )
             .addFields(
                 { name: 'ChargeUp', value: chargeUp, inline: true },
-                { name: 'Cooldown Time', value: `${cooldown} Seconds`, inline: true },
+                { name: 'Cooldown Time', value: cooldown, inline: true },
                 { name: 'Cooldown Group', value: cooldowngroup, inline: true },
             )
             .addFields(
