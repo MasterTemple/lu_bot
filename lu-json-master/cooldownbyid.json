@@ -1,0 +1,7050 @@
+{
+  "10": {
+    "cooldown": "0" ,
+    "cooldowngroup": "null" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "6407" ,
+        "item": "GM Only - Hat of Pwnage"
+      } ,
+      {
+        "id": "10020" ,
+        "item": ""
+      }
+    ]
+  } ,
+  "126": {
+    "cooldown": "20" ,
+    "cooldowngroup": "50" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "2620" ,
+        "item": "Quicksicle"
+      } ,
+      {
+        "id": "12781" ,
+        "item": "Bat Lord Helmet"
+      }
+    ]
+  } ,
+  "195": {
+    "cooldown": "1" ,
+    "cooldowngroup": "0" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "6407" ,
+        "item": "GM Only - Hat of Pwnage"
+      }
+    ]
+  } ,
+  "196": {
+    "cooldown": "1" ,
+    "cooldowngroup": "0" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "6407" ,
+        "item": "GM Only - Hat of Pwnage"
+      }
+    ]
+  } ,
+  "197": {
+    "cooldown": "1" ,
+    "cooldowngroup": "0" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "6407" ,
+        "item": "GM Only - Hat of Pwnage"
+      }
+    ]
+  } ,
+  "198": {
+    "cooldown": "1" ,
+    "cooldowngroup": "0" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "6407" ,
+        "item": "GM Only - Hat of Pwnage"
+      }
+    ]
+  } ,
+  "223": {
+    "cooldown": "0" ,
+    "cooldowngroup": "0" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "6646" ,
+        "item": "30 pts imagination hat"
+      }
+    ]
+  } ,
+  "247": {
+    "cooldown": "5" ,
+    "cooldowngroup": "6" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "2635" ,
+        "item": "Pirate Captain Hat"
+      }
+    ]
+  } ,
+  "248": {
+    "cooldown": "5" ,
+    "cooldowngroup": "6" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "2632" ,
+        "item": "Brown Pirate Hat"
+      } ,
+      {
+        "id": "2633" ,
+        "item": "Black Pirate Hat"
+      }
+    ]
+  } ,
+  "288": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "2616" ,
+        "item": "Great Prismatic Wrench"
+      } ,
+      {
+        "id": "6852" ,
+        "item": "Great Composite Axe"
+      } ,
+      {
+        "id": "6972" ,
+        "item": "Numb Chuck's Maelstrom Staff"
+      }
+    ]
+  } ,
+  "289": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "3855" ,
+        "item": "Super Bobbejaan Spanner"
+      } ,
+      {
+        "id": "9258" ,
+        "item": "Super Composite Axe"
+      } ,
+      {
+        "id": "12313" ,
+        "item": "Lucky Woodsman's Axe"
+      } ,
+      {
+        "id": "13920" ,
+        "item": "Superior Halberd"
+      }
+    ]
+  } ,
+  "298": {
+    "cooldown": "8" ,
+    "cooldowngroup": "3" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "2" ,
+    "list": [
+      {
+        "id": "6935" ,
+        "item": "Knit Cap of Stunning"
+      } ,
+      {
+        "id": "12308" ,
+        "item": "Banneret's Helm"
+      } ,
+      {
+        "id": "12563" ,
+        "item": "NPC Assembly Scout Helmet"
+      } ,
+      {
+        "id": "12606" ,
+        "item": "NPC Paradox Scout Helmet"
+      } ,
+      {
+        "id": "12622" ,
+        "item": "NPC Venture Scout Helmet"
+      } ,
+      {
+        "id": "12648" ,
+        "item": ""
+      } ,
+      {
+        "id": "13101" ,
+        "item": "NPC Sensei Wu Helmet"
+      }
+    ]
+  } ,
+  "314": {
+    "cooldown": "5" ,
+    "cooldowngroup": "5" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "1" ,
+    "list": [
+      {
+        "id": "6922" ,
+        "item": "Turban of Healing"
+      }
+    ]
+  } ,
+  "315": {
+    "cooldown": "5" ,
+    "cooldowngroup": "5" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "3" ,
+    "list": [
+      {
+        "id": "6933" ,
+        "item": "Hood of Healing"
+      }
+    ]
+  } ,
+  "321": {
+    "cooldown": "6" ,
+    "cooldowngroup": "3" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "1" ,
+    "list": [
+      {
+        "id": "3066" ,
+        "item": "Yar Har Har Sextant"
+      }
+    ]
+  } ,
+  "325": {
+    "cooldown": "90" ,
+    "cooldowngroup": "8" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "5" ,
+    "list": [
+      {
+        "id": "6931" ,
+        "item": "Shield of Shielding"
+      } ,
+      {
+        "id": "12743" ,
+        "item": "Mosaic Shield"
+      } ,
+      {
+        "id": "13781" ,
+        "item": "Scarlet Scythe Left Hand Proxy"
+      }
+    ]
+  } ,
+  "335": {
+    "cooldown": "40" ,
+    "cooldowngroup": "50" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "2" ,
+    "list": [
+      {
+        "id": "5995" ,
+        "item": "Speedy Cap"
+      } ,
+      {
+        "id": "13934" ,
+        "item": "molewacker Left Hand Proxy"
+      }
+    ]
+  } ,
+  "338": {
+    "cooldown": "10" ,
+    "cooldowngroup": "21" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "8" ,
+    "list": [
+      {
+        "id": "7409" ,
+        "item": "Knight Shoulderpads 3"
+      } ,
+      {
+        "id": "12967" ,
+        "item": "Knight Shoulderpads 3"
+      } ,
+      {
+        "id": "16179" ,
+        "item": "Valiant Knight's Cape"
+      }
+    ]
+  } ,
+  "342": {
+    "cooldown": "7" ,
+    "cooldowngroup": "24" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "4" ,
+    "list": [
+      {
+        "id": "7403" ,
+        "item": "Knight Shield 2"
+      } ,
+      {
+        "id": "12129" ,
+        "item": ""
+      } ,
+      {
+        "id": "12130" ,
+        "item": ""
+      } ,
+      {
+        "id": "12565" ,
+        "item": "NPC Assembly Scout Armor"
+      } ,
+      {
+        "id": "12607" ,
+        "item": "NPC Paradox Scout Armor"
+      } ,
+      {
+        "id": "12623" ,
+        "item": "NPC Venture Scout Armor"
+      } ,
+      {
+        "id": "12649" ,
+        "item": ""
+      } ,
+      {
+        "id": "14319" ,
+        "item": "Sentinel Gear - Knight - shield proxy"
+      }
+    ]
+  } ,
+  "345": {
+    "cooldown": "6" ,
+    "cooldowngroup": "24" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "7" ,
+    "list": [
+      {
+        "id": "7407" ,
+        "item": "Sorcerer Orb 2"
+      }
+    ]
+  } ,
+  "358": {
+    "cooldown": "10" ,
+    "cooldowngroup": "24" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "4" ,
+    "list": [
+      {
+        "id": "7405" ,
+        "item": "Engineer Controller 2"
+      }
+    ]
+  } ,
+  "360": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "1" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "1726" ,
+        "item": "Nexus Force Helmet"
+      } ,
+      {
+        "id": "2632" ,
+        "item": "Brown Pirate Hat"
+      } ,
+      {
+        "id": "2633" ,
+        "item": "Black Pirate Hat"
+      } ,
+      {
+        "id": "2945" ,
+        "item": "No Robots Shirt"
+      } ,
+      {
+        "id": "2957" ,
+        "item": "White Ninja Gi"
+      } ,
+      {
+        "id": "3010" ,
+        "item": "LEGO Universe Shirt"
+      } ,
+      {
+        "id": "3013" ,
+        "item": "Grey Knit Cap"
+      } ,
+      {
+        "id": "3852" ,
+        "item": "Firefighter Helmet"
+      } ,
+      {
+        "id": "3859" ,
+        "item": "Police Hat"
+      } ,
+      {
+        "id": "3860" ,
+        "item": "Hard Hat"
+      } ,
+      {
+        "id": "3862" ,
+        "item": "Double Striped Skunk Shirt"
+      } ,
+      {
+        "id": "4924" ,
+        "item": "Prismatic Baseball Cap"
+      } ,
+      {
+        "id": "5682" ,
+        "item": "Black Neck Scarf"
+      } ,
+      {
+        "id": "6202" ,
+        "item": "Metal Legs, Solid"
+      } ,
+      {
+        "id": "6849" ,
+        "item": "Buckler Shield"
+      } ,
+      {
+        "id": "6850" ,
+        "item": "Blue Space Helmet"
+      } ,
+      {
+        "id": "6853" ,
+        "item": "Morion Helmet"
+      } ,
+      {
+        "id": "6855" ,
+        "item": "Yellow Shoulder Parrot"
+      } ,
+      {
+        "id": "6856" ,
+        "item": "Orange Shoulder Parrot"
+      } ,
+      {
+        "id": "6880" ,
+        "item": "Armored Viking Helmet"
+      } ,
+      {
+        "id": "6882" ,
+        "item": "Compass"
+      } ,
+      {
+        "id": "6921" ,
+        "item": "Breastplate of Armor 1"
+      } ,
+      {
+        "id": "6928" ,
+        "item": "T-Shirt of Protection"
+      } ,
+      {
+        "id": "6932" ,
+        "item": "Wizard's Hat of Whirlwind"
+      } ,
+      {
+        "id": "7359" ,
+        "item": "Knight Helm 2"
+      } ,
+      {
+        "id": "7367" ,
+        "item": "Knight Breastplate 1"
+      } ,
+      {
+        "id": "7368" ,
+        "item": "Knight Breastplate 2"
+      } ,
+      {
+        "id": "7373" ,
+        "item": "Sorcerer Breastplate 1"
+      } ,
+      {
+        "id": "7374" ,
+        "item": "Sorcerer Breastplate 2"
+      } ,
+      {
+        "id": "7377" ,
+        "item": "Buccaneer Shirt 2"
+      } ,
+      {
+        "id": "7383" ,
+        "item": "Engineer Pants 2"
+      } ,
+      {
+        "id": "7386" ,
+        "item": "Sorcerer Pants 2"
+      } ,
+      {
+        "id": "7388" ,
+        "item": "Buccaneer Pantaloons 1"
+      } ,
+      {
+        "id": "7389" ,
+        "item": "Buccaneer Pantaloons 2"
+      } ,
+      {
+        "id": "7400" ,
+        "item": "Buccaneer Pistol & Cutlass 1"
+      } ,
+      {
+        "id": "7406" ,
+        "item": "Engineer Controller 3"
+      } ,
+      {
+        "id": "7408" ,
+        "item": "Sorcerer Orb 3"
+      } ,
+      {
+        "id": "7443" ,
+        "item": "Space Ranger Helmet 2"
+      } ,
+      {
+        "id": "7446" ,
+        "item": "Samurai Helm 2"
+      } ,
+      {
+        "id": "7450" ,
+        "item": "Space Marauder Helm 3"
+      } ,
+      {
+        "id": "7453" ,
+        "item": "Shinobi Hood 3"
+      } ,
+      {
+        "id": "7456" ,
+        "item": "Inventor Goggles 3"
+      } ,
+      {
+        "id": "7465" ,
+        "item": "Daredevil Helmet 3"
+      } ,
+      {
+        "id": "7466" ,
+        "item": "Space Ranger Armor 1"
+      } ,
+      {
+        "id": "7467" ,
+        "item": "Space Ranger Armor 2"
+      } ,
+      {
+        "id": "7469" ,
+        "item": "Samurai Breastplate 1"
+      } ,
+      {
+        "id": "7470" ,
+        "item": "Samurai Breastplate 2"
+      } ,
+      {
+        "id": "7472" ,
+        "item": "Space Marauder Jacket 1"
+      } ,
+      {
+        "id": "7473" ,
+        "item": "Space Marauder Jacket 2"
+      } ,
+      {
+        "id": "7475" ,
+        "item": "Shinobi Gi 1"
+      } ,
+      {
+        "id": "7479" ,
+        "item": "Inventor Armor 2"
+      } ,
+      {
+        "id": "7481" ,
+        "item": "Summoner Robe 1"
+      } ,
+      {
+        "id": "7482" ,
+        "item": "Summoner Robe 2"
+      } ,
+      {
+        "id": "7485" ,
+        "item": "Adventurer Coat 2"
+      } ,
+      {
+        "id": "7487" ,
+        "item": "Daredevil Jacket 1"
+      } ,
+      {
+        "id": "7488" ,
+        "item": "Daredevil Jacket 2"
+      } ,
+      {
+        "id": "7491" ,
+        "item": "Space Ranger Pants 2"
+      } ,
+      {
+        "id": "7496" ,
+        "item": "Space Marauder Pants 1"
+      } ,
+      {
+        "id": "7499" ,
+        "item": "Shinobi Leggings 1"
+      } ,
+      {
+        "id": "7503" ,
+        "item": "Inventor Pants 2"
+      } ,
+      {
+        "id": "7506" ,
+        "item": "Summoner Pants 2"
+      } ,
+      {
+        "id": "7508" ,
+        "item": "Adventurer Pants 1"
+      } ,
+      {
+        "id": "7509" ,
+        "item": "Adventurer Pants 2"
+      } ,
+      {
+        "id": "7527" ,
+        "item": "Inventor Improved Launcher 2"
+      } ,
+      {
+        "id": "7535" ,
+        "item": "Daredevil Flareguns 1"
+      } ,
+      {
+        "id": "7540" ,
+        "item": "Space Marauder Shoulderpads 3"
+      } ,
+      {
+        "id": "7541" ,
+        "item": "Shinobi Shoulderpads 3"
+      } ,
+      {
+        "id": "7544" ,
+        "item": "Space Ranger Launcher 2"
+      } ,
+      {
+        "id": "7545" ,
+        "item": "Space Ranger Launcher 3"
+      } ,
+      {
+        "id": "7546" ,
+        "item": "Samurai Bow 2"
+      } ,
+      {
+        "id": "7547" ,
+        "item": "Samurai Bow 3"
+      } ,
+      {
+        "id": "7550" ,
+        "item": "Space Marauder Launcher 3"
+      } ,
+      {
+        "id": "7557" ,
+        "item": "Summoner Orb 3"
+      } ,
+      {
+        "id": "7728" ,
+        "item": "Skater Helmet"
+      } ,
+      {
+        "id": "7729" ,
+        "item": "Viking Helm"
+      } ,
+      {
+        "id": "7730" ,
+        "item": "Red Racing Helmet"
+      } ,
+      {
+        "id": "7732" ,
+        "item": "Walkie Talkie"
+      } ,
+      {
+        "id": "7742" ,
+        "item": "Firefighter Coat"
+      } ,
+      {
+        "id": "7743" ,
+        "item": "Police Jacket"
+      } ,
+      {
+        "id": "7746" ,
+        "item": "Diver Wetsuit"
+      } ,
+      {
+        "id": "7781" ,
+        "item": "Aviator Hat with Goggles"
+      } ,
+      {
+        "id": "7789" ,
+        "item": "Sun Headdress"
+      } ,
+      {
+        "id": "7792" ,
+        "item": "Fish Hat"
+      } ,
+      {
+        "id": "7834" ,
+        "item": "Pharaoh's Hat"
+      } ,
+      {
+        "id": "7990" ,
+        "item": "Blue Kepi Hat"
+      } ,
+      {
+        "id": "7991" ,
+        "item": "Black Racing Helmet"
+      } ,
+      {
+        "id": "7992" ,
+        "item": "Blue Racing Helmet"
+      } ,
+      {
+        "id": "8035" ,
+        "item": "Nemesis Helm"
+      } ,
+      {
+        "id": "8036" ,
+        "item": "Warlord Helm"
+      } ,
+      {
+        "id": "8037" ,
+        "item": "Green Racing Helmet"
+      } ,
+      {
+        "id": "8038" ,
+        "item": "White Racing Helmet"
+      } ,
+      {
+        "id": "8039" ,
+        "item": "Yellow Racing Helmet"
+      } ,
+      {
+        "id": "8040" ,
+        "item": "Dark Grey Racing Helmet"
+      } ,
+      {
+        "id": "8041" ,
+        "item": "Light Grey Racing Helmet"
+      } ,
+      {
+        "id": "8084" ,
+        "item": "Black Shako Hat"
+      } ,
+      {
+        "id": "8355" ,
+        "item": "Narwhal Shirt"
+      } ,
+      {
+        "id": "8426" ,
+        "item": "Tan Cowboy Hat"
+      } ,
+      {
+        "id": "8460" ,
+        "item": "Space Marauder Shoulderpads 2"
+      } ,
+      {
+        "id": "8461" ,
+        "item": "Shinobi Shoulderpads 2"
+      } ,
+      {
+        "id": "8462" ,
+        "item": "Engineer Vest 2"
+      } ,
+      {
+        "id": "8464" ,
+        "item": "Summoner Shoulderpads 2"
+      } ,
+      {
+        "id": "8465" ,
+        "item": "Adventurer Backpack 2"
+      } ,
+      {
+        "id": "8466" ,
+        "item": "Daredevil Shoulderpads 2"
+      } ,
+      {
+        "id": "8467" ,
+        "item": "Buccaneer Bandolier 2"
+      } ,
+      {
+        "id": "8528" ,
+        "item": "Troll Shield"
+      } ,
+      {
+        "id": "8530" ,
+        "item": "Imagination Tanks"
+      } ,
+      {
+        "id": "8532" ,
+        "item": "Briefcase"
+      } ,
+      {
+        "id": "8535" ,
+        "item": "Explorer Air Tank"
+      } ,
+      {
+        "id": "8539" ,
+        "item": "Messenger Bag"
+      } ,
+      {
+        "id": "8546" ,
+        "item": "Space Headgear"
+      } ,
+      {
+        "id": "8547" ,
+        "item": "Scoundrel Cap"
+      } ,
+      {
+        "id": "8597" ,
+        "item": "Card Shark Shirt"
+      } ,
+      {
+        "id": "8602" ,
+        "item": "Blue Uniform"
+      } ,
+      {
+        "id": "8603" ,
+        "item": "Red Uniform"
+      } ,
+      {
+        "id": "8612" ,
+        "item": "Aviator Shirt"
+      } ,
+      {
+        "id": "8613" ,
+        "item": "Cattle Rustler Shirt"
+      } ,
+      {
+        "id": "8615" ,
+        "item": "EMT Shirt"
+      } ,
+      {
+        "id": "8620" ,
+        "item": "Viking Barbarian Shirt"
+      } ,
+      {
+        "id": "8625" ,
+        "item": "Mail Shirt with Belt"
+      } ,
+      {
+        "id": "8639" ,
+        "item": "Obsidian Armor"
+      } ,
+      {
+        "id": "8647" ,
+        "item": "Cargo Pants"
+      } ,
+      {
+        "id": "8648" ,
+        "item": "Jeans"
+      } ,
+      {
+        "id": "8649" ,
+        "item": "Chaps"
+      } ,
+      {
+        "id": "8664" ,
+        "item": "Jodhpurs"
+      } ,
+      {
+        "id": "8675" ,
+        "item": "Reinforced Pith Helmet"
+      } ,
+      {
+        "id": "8676" ,
+        "item": "Cadet Helm"
+      } ,
+      {
+        "id": "8678" ,
+        "item": "Dwarf Helmet"
+      } ,
+      {
+        "id": "8679" ,
+        "item": "Rounded Helm"
+      } ,
+      {
+        "id": "8682" ,
+        "item": "Knapsack"
+      } ,
+      {
+        "id": "8684" ,
+        "item": "Epaulets of Extravagance"
+      } ,
+      {
+        "id": "10123" ,
+        "item": "Green Soccer Shirt"
+      } ,
+      {
+        "id": "10125" ,
+        "item": "Queen Shirt"
+      } ,
+      {
+        "id": "10131" ,
+        "item": "Fire Brick Shirt"
+      } ,
+      {
+        "id": "11298" ,
+        "item": "Peppy's Black Mug"
+      } ,
+      {
+        "id": "12094" ,
+        "item": "White Neckerchief"
+      } ,
+      {
+        "id": "12242" ,
+        "item": "Warm Cap"
+      } ,
+      {
+        "id": "12291" ,
+        "item": "Flannel Pants"
+      } ,
+      {
+        "id": "12295" ,
+        "item": "Snow Flake Shield"
+      } ,
+      {
+        "id": "12299" ,
+        "item": "Flannel Shirt"
+      } ,
+      {
+        "id": "12374" ,
+        "item": "Parka Jacket"
+      } ,
+      {
+        "id": "12601" ,
+        "item": "Padded Toque of Healing"
+      } ,
+      {
+        "id": "12686" ,
+        "item": "Bat Lord Shirt"
+      } ,
+      {
+        "id": "12700" ,
+        "item": "Denim Shirt"
+      } ,
+      {
+        "id": "12705" ,
+        "item": "Cool Car Euro Shirt"
+      } ,
+      {
+        "id": "12771" ,
+        "item": "Trousers"
+      } ,
+      {
+        "id": "12781" ,
+        "item": "Bat Lord Helmet"
+      } ,
+      {
+        "id": "12788" ,
+        "item": "Comfy Jeans"
+      } ,
+      {
+        "id": "12798" ,
+        "item": "Bone Suit Pants"
+      } ,
+      {
+        "id": "12922" ,
+        "item": "Summoner Orb 3"
+      } ,
+      {
+        "id": "12965" ,
+        "item": "Engineer Controller 3"
+      } ,
+      {
+        "id": "12978" ,
+        "item": "Samurai Bow 3"
+      } ,
+      {
+        "id": "12985" ,
+        "item": "Sorcerer Orb 3"
+      } ,
+      {
+        "id": "12986" ,
+        "item": "Space Marauder Helm 3"
+      } ,
+      {
+        "id": "12988" ,
+        "item": "Space Marauder Launcher 3"
+      } ,
+      {
+        "id": "12991" ,
+        "item": "Space Marauder Shoulderpads 3"
+      } ,
+      {
+        "id": "12993" ,
+        "item": "Daredevil Helmet 3"
+      } ,
+      {
+        "id": "13000" ,
+        "item": "Bat Lord Pants"
+      } ,
+      {
+        "id": "13546" ,
+        "item": "Parrot Pants"
+      } ,
+      {
+        "id": "13547" ,
+        "item": "Maelstrom Shirt"
+      } ,
+      {
+        "id": "13579" ,
+        "item": "Oil Can"
+      } ,
+      {
+        "id": "13581" ,
+        "item": "Skeleton Key"
+      } ,
+      {
+        "id": "13911" ,
+        "item": "Hat of Wizardry"
+      } ,
+      {
+        "id": "13917" ,
+        "item": "Hood of the Sage"
+      } ,
+      {
+        "id": "13977" ,
+        "item": "Test Rank 1 Hat"
+      } ,
+      {
+        "id": "13978" ,
+        "item": "Test Rank 2 Hat"
+      } ,
+      {
+        "id": "13979" ,
+        "item": "Test Rank 1 Shirt"
+      } ,
+      {
+        "id": "13980" ,
+        "item": "Test Rank 2 Shirt"
+      } ,
+      {
+        "id": "13986" ,
+        "item": "Test Rank 2 Shoulders"
+      } ,
+      {
+        "id": "13987" ,
+        "item": "Test Rank 3 Shoulders"
+      } ,
+      {
+        "id": "13991" ,
+        "item": "Test Rank 3 Shirt"
+      } ,
+      {
+        "id": "13992" ,
+        "item": "Test Rank 3 Hat"
+      } ,
+      {
+        "id": "14093" ,
+        "item": "Zazzy Pants"
+      } ,
+      {
+        "id": "14100" ,
+        "item": "Master Driver Helmet"
+      } ,
+      {
+        "id": "14172" ,
+        "item": "Pants of Quakes"
+      } ,
+      {
+        "id": "14191" ,
+        "item": "Green Frog's Egg"
+      } ,
+      {
+        "id": "14192" ,
+        "item": "White Cat's Fish"
+      } ,
+      {
+        "id": "14193" ,
+        "item": "Light Gray Mouse's Cheese"
+      } ,
+      {
+        "id": "14194" ,
+        "item": "Brown Dog's Bone"
+      } ,
+      {
+        "id": "14499" ,
+        "item": "Dragon Mask"
+      } ,
+      {
+        "id": "14559" ,
+        "item": "Dark Gray Frog's Egg"
+      } ,
+      {
+        "id": "14560" ,
+        "item": "Red Frog's Egg"
+      } ,
+      {
+        "id": "14561" ,
+        "item": "Yellow Frog's Egg"
+      } ,
+      {
+        "id": "14562" ,
+        "item": "Black Cat's Fish"
+      } ,
+      {
+        "id": "14563" ,
+        "item": "Tan Cat's Fish"
+      } ,
+      {
+        "id": "14564" ,
+        "item": "Orange Cat's Fish"
+      } ,
+      {
+        "id": "14565" ,
+        "item": "White Mouse's Cheese"
+      } ,
+      {
+        "id": "14566" ,
+        "item": "Brown Mouse's Cheese"
+      } ,
+      {
+        "id": "14567" ,
+        "item": "Dark Gray Mouse's Cheese"
+      } ,
+      {
+        "id": "14568" ,
+        "item": "Dark Gray Dog's Bone"
+      } ,
+      {
+        "id": "14569" ,
+        "item": "Red Dog's Bone"
+      } ,
+      {
+        "id": "14570" ,
+        "item": "Reddish Brown Dog's Bone"
+      } ,
+      {
+        "id": "14571" ,
+        "item": "Red Scorpion's Stinger"
+      } ,
+      {
+        "id": "14811" ,
+        "item": "Brown Cape"
+      } ,
+      {
+        "id": "14817" ,
+        "item": "White Shoulder Owl"
+      } ,
+      {
+        "id": "14818" ,
+        "item": "Black Shoulder Owl"
+      } ,
+      {
+        "id": "15926" ,
+        "item": "Rice Hat"
+      } ,
+      {
+        "id": "16084" ,
+        "item": "Common Kosode"
+      } ,
+      {
+        "id": "16118" ,
+        "item": "Common Kosode Pants"
+      } ,
+      {
+        "id": "16188" ,
+        "item": "Valiant Space Marauder's Cape"
+      } ,
+      {
+        "id": "16190" ,
+        "item": "Valiant Shinobi's Cape"
+      } ,
+      {
+        "id": "16269" ,
+        "item": "Pants of Storms"
+      } ,
+      {
+        "id": "16270" ,
+        "item": "Pants of Frost"
+      } ,
+      {
+        "id": "16271" ,
+        "item": "Pants of Flames"
+      } ,
+      {
+        "id": "16644" ,
+        "item": "Dragon Mask"
+      }
+    ]
+  } ,
+  "361": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "2" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "2635" ,
+        "item": "Pirate Captain Hat"
+      } ,
+      {
+        "id": "2950" ,
+        "item": "Red Striped Crew Shirt"
+      } ,
+      {
+        "id": "2951" ,
+        "item": "Blue Striped Crew Shirt"
+      } ,
+      {
+        "id": "2952" ,
+        "item": "Yellow Striped Crew Shirt"
+      } ,
+      {
+        "id": "2953" ,
+        "item": "White Pirate Ship Shirt"
+      } ,
+      {
+        "id": "2958" ,
+        "item": "Black Ninja Gi"
+      } ,
+      {
+        "id": "2962" ,
+        "item": "Ninja Buckler Shield"
+      } ,
+      {
+        "id": "3861" ,
+        "item": "Diver Helmet"
+      } ,
+      {
+        "id": "6795" ,
+        "item": "Admiral Hat"
+      } ,
+      {
+        "id": "6796" ,
+        "item": "Ship Blueprint"
+      } ,
+      {
+        "id": "6797" ,
+        "item": "Jack Knife's Treasure Map"
+      } ,
+      {
+        "id": "6798" ,
+        "item": "White First Mate's Shirt"
+      } ,
+      {
+        "id": "6854" ,
+        "item": "Green Shoulder Parrot"
+      } ,
+      {
+        "id": "6924" ,
+        "item": "Shield of Armor"
+      } ,
+      {
+        "id": "6925" ,
+        "item": "Helm Of Entrapment"
+      } ,
+      {
+        "id": "6931" ,
+        "item": "Shield of Shielding"
+      } ,
+      {
+        "id": "6935" ,
+        "item": "Knit Cap of Stunning"
+      } ,
+      {
+        "id": "7133" ,
+        "item": "Black Firefighter Helmet"
+      } ,
+      {
+        "id": "7360" ,
+        "item": "Knight Helm 3"
+      } ,
+      {
+        "id": "7369" ,
+        "item": "Knight Breastplate 3"
+      } ,
+      {
+        "id": "7370" ,
+        "item": "Engineer Shirt 1"
+      } ,
+      {
+        "id": "7371" ,
+        "item": "Engineer Shirt 2"
+      } ,
+      {
+        "id": "7372" ,
+        "item": "Engineer Shirt 3"
+      } ,
+      {
+        "id": "7375" ,
+        "item": "Sorcerer Breastplate 3"
+      } ,
+      {
+        "id": "7378" ,
+        "item": "Buccaneer Shirt 3"
+      } ,
+      {
+        "id": "7379" ,
+        "item": "Knight Leggings 1"
+      } ,
+      {
+        "id": "7380" ,
+        "item": "Knight Leggings 2"
+      } ,
+      {
+        "id": "7381" ,
+        "item": "Knight Leggings 3"
+      } ,
+      {
+        "id": "7384" ,
+        "item": "Engineer Pants 3"
+      } ,
+      {
+        "id": "7387" ,
+        "item": "Sorcerer Pants 3"
+      } ,
+      {
+        "id": "7390" ,
+        "item": "Buccaneer Pantaloons 3"
+      } ,
+      {
+        "id": "7403" ,
+        "item": "Knight Shield 2"
+      } ,
+      {
+        "id": "7415" ,
+        "item": "Sorcerer Shoulderpads 3"
+      } ,
+      {
+        "id": "7416" ,
+        "item": "Buccaneer Bandolier 3"
+      } ,
+      {
+        "id": "7417" ,
+        "item": "Engineer Vest 3"
+      } ,
+      {
+        "id": "7444" ,
+        "item": "Space Ranger Helmet 3"
+      } ,
+      {
+        "id": "7447" ,
+        "item": "Samurai Helm 3"
+      } ,
+      {
+        "id": "7476" ,
+        "item": "Shinobi Gi 2"
+      } ,
+      {
+        "id": "7478" ,
+        "item": "Inventor Armor 1"
+      } ,
+      {
+        "id": "7483" ,
+        "item": "Summoner Robe 3"
+      } ,
+      {
+        "id": "7486" ,
+        "item": "Adventurer Coat 3"
+      } ,
+      {
+        "id": "7489" ,
+        "item": "Daredevil Jacket 3"
+      } ,
+      {
+        "id": "7490" ,
+        "item": "Space Ranger Pants 1"
+      } ,
+      {
+        "id": "7492" ,
+        "item": "Space Ranger Pants 3"
+      } ,
+      {
+        "id": "7493" ,
+        "item": "Samurai Leggings 1"
+      } ,
+      {
+        "id": "7494" ,
+        "item": "Samurai Leggings 2"
+      } ,
+      {
+        "id": "7497" ,
+        "item": "Space Marauder Pants 2"
+      } ,
+      {
+        "id": "7498" ,
+        "item": "Space Marauder Pants 3"
+      } ,
+      {
+        "id": "7500" ,
+        "item": "Shinobi Leggings 2"
+      } ,
+      {
+        "id": "7501" ,
+        "item": "Shinobi Leggings 3"
+      } ,
+      {
+        "id": "7504" ,
+        "item": "Inventor Pants 3"
+      } ,
+      {
+        "id": "7507" ,
+        "item": "Summoner Pants 3"
+      } ,
+      {
+        "id": "7510" ,
+        "item": "Adventurer Pants 3"
+      } ,
+      {
+        "id": "7512" ,
+        "item": "Daredevil Pants 2"
+      } ,
+      {
+        "id": "7513" ,
+        "item": "Daredevil Pants 3"
+      } ,
+      {
+        "id": "7525" ,
+        "item": "Shinobi Katana 3"
+      } ,
+      {
+        "id": "7542" ,
+        "item": "Inventor Shoulderpads 3"
+      } ,
+      {
+        "id": "7543" ,
+        "item": "Daredevil Shoulderpads 3"
+      } ,
+      {
+        "id": "7555" ,
+        "item": "Summoner Shoulderpads 3"
+      } ,
+      {
+        "id": "7558" ,
+        "item": "Adventurer Backpack 3"
+      } ,
+      {
+        "id": "7570" ,
+        "item": "Red Shoulder Parrot"
+      } ,
+      {
+        "id": "7592" ,
+        "item": "Red Ninja Gi"
+      } ,
+      {
+        "id": "7741" ,
+        "item": "Wolves Shirt"
+      } ,
+      {
+        "id": "7782" ,
+        "item": "Wolf Head Helmet"
+      } ,
+      {
+        "id": "8086" ,
+        "item": "Red Imperial Shirt"
+      } ,
+      {
+        "id": "8087" ,
+        "item": "Blue Imperial Shirt"
+      } ,
+      {
+        "id": "8333" ,
+        "item": "Shield of Blocking"
+      } ,
+      {
+        "id": "8358" ,
+        "item": "Pink Kimono"
+      } ,
+      {
+        "id": "8456" ,
+        "item": "Knight Shoulderpads 2"
+      } ,
+      {
+        "id": "8457" ,
+        "item": "Space Ranger Pack 2"
+      } ,
+      {
+        "id": "8458" ,
+        "item": "Samurai Shoulderpads 2"
+      } ,
+      {
+        "id": "8459" ,
+        "item": "Sorcerer Shoulderpads 2"
+      } ,
+      {
+        "id": "8463" ,
+        "item": "Inventor Shoulderpads 2"
+      } ,
+      {
+        "id": "8534" ,
+        "item": "Utility Harness"
+      } ,
+      {
+        "id": "8548" ,
+        "item": "Dragon Helm MK I"
+      } ,
+      {
+        "id": "8608" ,
+        "item": "Crown on Checks Shirt"
+      } ,
+      {
+        "id": "8617" ,
+        "item": "Retro Daredevil Shirt"
+      } ,
+      {
+        "id": "8618" ,
+        "item": "Female Pirate Shirt"
+      } ,
+      {
+        "id": "8626" ,
+        "item": "Pirate Princess Dress"
+      } ,
+      {
+        "id": "8627" ,
+        "item": "Fancy Captain Shirt"
+      } ,
+      {
+        "id": "8640" ,
+        "item": "Bell Bottoms"
+      } ,
+      {
+        "id": "8641" ,
+        "item": "Steel Legs"
+      } ,
+      {
+        "id": "8642" ,
+        "item": "Dungarees"
+      } ,
+      {
+        "id": "8643" ,
+        "item": "Capris"
+      } ,
+      {
+        "id": "8646" ,
+        "item": "Khakis"
+      } ,
+      {
+        "id": "8650" ,
+        "item": "Tights"
+      } ,
+      {
+        "id": "8673" ,
+        "item": "Kettle Helmet"
+      } ,
+      {
+        "id": "8680" ,
+        "item": "Grease Can"
+      } ,
+      {
+        "id": "8683" ,
+        "item": "Epaulets of Authority"
+      } ,
+      {
+        "id": "9805" ,
+        "item": "Orange Oxygen Bottles"
+      } ,
+      {
+        "id": "10121" ,
+        "item": "Red Double Breasted Uniform"
+      } ,
+      {
+        "id": "10122" ,
+        "item": "Blue Double Breasted Uniform"
+      } ,
+      {
+        "id": "10128" ,
+        "item": "Vampire Shirt"
+      } ,
+      {
+        "id": "10313" ,
+        "item": "Brown Owl Backpack"
+      } ,
+      {
+        "id": "11207" ,
+        "item": "White Owl Backpack"
+      } ,
+      {
+        "id": "12101" ,
+        "item": "Mosaic Shoulderpads"
+      } ,
+      {
+        "id": "12296" ,
+        "item": "Present Shield"
+      } ,
+      {
+        "id": "12297" ,
+        "item": "Winter Sweater"
+      } ,
+      {
+        "id": "12308" ,
+        "item": "Banneret's Helm"
+      } ,
+      {
+        "id": "12312" ,
+        "item": "Tie Dye Shirt"
+      } ,
+      {
+        "id": "12517" ,
+        "item": ""
+      } ,
+      {
+        "id": "12546" ,
+        "item": "Howdy Cowboy Hat"
+      } ,
+      {
+        "id": "12627" ,
+        "item": "Ripsaw"
+      } ,
+      {
+        "id": "12636" ,
+        "item": "The Serratorizer"
+      } ,
+      {
+        "id": "12638" ,
+        "item": "The Broadsider"
+      } ,
+      {
+        "id": "12647" ,
+        "item": "The Rutcarver"
+      } ,
+      {
+        "id": "12678" ,
+        "item": "Bat Lord Shield"
+      } ,
+      {
+        "id": "12682" ,
+        "item": "Baseball Jersey 1"
+      } ,
+      {
+        "id": "12688" ,
+        "item": "Cool Car Muscle Shirt"
+      } ,
+      {
+        "id": "12710" ,
+        "item": "Paisley Shirt"
+      } ,
+      {
+        "id": "12712" ,
+        "item": "Biking Jersey"
+      } ,
+      {
+        "id": "12737" ,
+        "item": "Visored Space Helm"
+      } ,
+      {
+        "id": "12755" ,
+        "item": "Tribal Shirt"
+      } ,
+      {
+        "id": "12758" ,
+        "item": "Bone Suit Shirt"
+      } ,
+      {
+        "id": "12770" ,
+        "item": "Cutoff Jeans"
+      } ,
+      {
+        "id": "12789" ,
+        "item": "Flight Suit Legs"
+      } ,
+      {
+        "id": "12796" ,
+        "item": "Pinstripe Pant Legs"
+      } ,
+      {
+        "id": "12801" ,
+        "item": "Mosaic Pants"
+      } ,
+      {
+        "id": "12817" ,
+        "item": "The Wingreaper"
+      } ,
+      {
+        "id": "12886" ,
+        "item": "Cyborg Helmet"
+      } ,
+      {
+        "id": "12901" ,
+        "item": "Mosaic Jester Cap"
+      } ,
+      {
+        "id": "12918" ,
+        "item": "Imagination Spinjitzu Hood"
+      } ,
+      {
+        "id": "12919" ,
+        "item": "Imagination Spinjitzu Shirt"
+      } ,
+      {
+        "id": "12920" ,
+        "item": "Imagination Spinjitzu Pants"
+      } ,
+      {
+        "id": "12923" ,
+        "item": "Summoner Shoulderpads 3"
+      } ,
+      {
+        "id": "12945" ,
+        "item": "Summoner Robe 3"
+      } ,
+      {
+        "id": "12946" ,
+        "item": "Summoner Pants 3"
+      } ,
+      {
+        "id": "12947" ,
+        "item": "Engineer Shirt 3"
+      } ,
+      {
+        "id": "12949" ,
+        "item": "Engineer Pants 3"
+      } ,
+      {
+        "id": "12950" ,
+        "item": "Knight Breastplate 3"
+      } ,
+      {
+        "id": "12951" ,
+        "item": "Knight Leggings 3"
+      } ,
+      {
+        "id": "12954" ,
+        "item": "Buccaneer Shirt 3"
+      } ,
+      {
+        "id": "12955" ,
+        "item": "Buccaneer Pantaloons 3"
+      } ,
+      {
+        "id": "12956" ,
+        "item": "Daredevil Jacket 3"
+      } ,
+      {
+        "id": "12957" ,
+        "item": "Daredevil Pants 3"
+      } ,
+      {
+        "id": "12958" ,
+        "item": "Sorcerer Breastplate 3"
+      } ,
+      {
+        "id": "12959" ,
+        "item": "Sorcerer Pants 3"
+      } ,
+      {
+        "id": "12961" ,
+        "item": "Space Marauder Pants 3"
+      } ,
+      {
+        "id": "12963" ,
+        "item": "Engineer Vest 3"
+      } ,
+      {
+        "id": "12966" ,
+        "item": "Knight Helm 3"
+      } ,
+      {
+        "id": "12976" ,
+        "item": "Samurai Helm 3"
+      } ,
+      {
+        "id": "12989" ,
+        "item": "Sorcerer Shoulderpads 3"
+      } ,
+      {
+        "id": "12990" ,
+        "item": "Buccaneer Bandolier 3"
+      } ,
+      {
+        "id": "12995" ,
+        "item": "Daredevil Shoulderpads 3"
+      } ,
+      {
+        "id": "12997" ,
+        "item": "Bone Suit Helm"
+      } ,
+      {
+        "id": "13304" ,
+        "item": "NPC Hael Storm Armor"
+      } ,
+      {
+        "id": "13312" ,
+        "item": "NPC Doc Overbuild Armor"
+      } ,
+      {
+        "id": "13333" ,
+        "item": "NPC Scuba Tank Vendor"
+      } ,
+      {
+        "id": "13527" ,
+        "item": "Nexus Tower Shirt"
+      } ,
+      {
+        "id": "13913" ,
+        "item": "Hat of the Adept"
+      } ,
+      {
+        "id": "13914" ,
+        "item": "Helm of the Mountain King"
+      } ,
+      {
+        "id": "13981" ,
+        "item": "Test Rank 1 Pants"
+      } ,
+      {
+        "id": "13982" ,
+        "item": "Test Rank 2 Pants"
+      } ,
+      {
+        "id": "13989" ,
+        "item": "Test Rank 3 Pants"
+      } ,
+      {
+        "id": "14092" ,
+        "item": "Jazzy Pants"
+      } ,
+      {
+        "id": "14098" ,
+        "item": "Race Ace Helmet"
+      } ,
+      {
+        "id": "14128" ,
+        "item": "Atlantis Squid Helm"
+      } ,
+      {
+        "id": "14136" ,
+        "item": "Hood of Quakes"
+      } ,
+      {
+        "id": "14174" ,
+        "item": "test hael hair"
+      } ,
+      {
+        "id": "14484" ,
+        "item": "TEST Bone Axe Proxy"
+      } ,
+      {
+        "id": "14802" ,
+        "item": "NPC Wan Wan Wolf Helm"
+      } ,
+      {
+        "id": "14805" ,
+        "item": "Red Cape"
+      } ,
+      {
+        "id": "14806" ,
+        "item": "Blue Cape"
+      } ,
+      {
+        "id": "14807" ,
+        "item": "White Cape"
+      } ,
+      {
+        "id": "14808" ,
+        "item": "Black Cape"
+      } ,
+      {
+        "id": "14809" ,
+        "item": "Pink Cape"
+      } ,
+      {
+        "id": "14810" ,
+        "item": "Green Cape"
+      } ,
+      {
+        "id": "14812" ,
+        "item": "Yellow Cape"
+      } ,
+      {
+        "id": "14813" ,
+        "item": "Orange Cape"
+      } ,
+      {
+        "id": "14814" ,
+        "item": "Purple Cape"
+      } ,
+      {
+        "id": "14833" ,
+        "item": "NPC Red Samurai Helm"
+      } ,
+      {
+        "id": "15845" ,
+        "item": "NPC Old Peasant Hat"
+      } ,
+      {
+        "id": "15917" ,
+        "item": "Practice Kabuto"
+      } ,
+      {
+        "id": "15918" ,
+        "item": "Athlete's Shade"
+      } ,
+      {
+        "id": "15919" ,
+        "item": "Workman's Rice Hat"
+      } ,
+      {
+        "id": "15990" ,
+        "item": "Crimson Guard"
+      } ,
+      {
+        "id": "16063" ,
+        "item": "Jay's First Gi"
+      } ,
+      {
+        "id": "16064" ,
+        "item": "Zane's First Gi"
+      } ,
+      {
+        "id": "16066" ,
+        "item": "Faded Gi"
+      } ,
+      {
+        "id": "16069" ,
+        "item": "Daidaiiro Gi"
+      } ,
+      {
+        "id": "16070" ,
+        "item": "Worn Gi"
+      } ,
+      {
+        "id": "16082" ,
+        "item": "Faded Kosode"
+      } ,
+      {
+        "id": "16083" ,
+        "item": "Dark Kosode"
+      } ,
+      {
+        "id": "16086" ,
+        "item": "Nya's Casual Kimono"
+      } ,
+      {
+        "id": "16096" ,
+        "item": "Cole's First Gi Pants"
+      } ,
+      {
+        "id": "16099" ,
+        "item": "Zane's First Gi Pants"
+      } ,
+      {
+        "id": "16101" ,
+        "item": "Faded Gi Pants"
+      } ,
+      {
+        "id": "16106" ,
+        "item": "Worn Gi Pants"
+      } ,
+      {
+        "id": "16119" ,
+        "item": "Dark Kosode Pants"
+      } ,
+      {
+        "id": "16120" ,
+        "item": "Faded Kosode Pants"
+      } ,
+      {
+        "id": "16121" ,
+        "item": "Kuro Hakama"
+      } ,
+      {
+        "id": "16182" ,
+        "item": "Valiant Engineer's Cape"
+      } ,
+      {
+        "id": "16183" ,
+        "item": "Valiant Summoner's Cape"
+      } ,
+      {
+        "id": "16184" ,
+        "item": "Valiant Inventor's Cape"
+      } ,
+      {
+        "id": "16185" ,
+        "item": "Valiant Daredevil's Cape"
+      } ,
+      {
+        "id": "16186" ,
+        "item": "Valiant Buccaneer's Cape"
+      } ,
+      {
+        "id": "16187" ,
+        "item": "Valiant Adventurer's Cape"
+      } ,
+      {
+        "id": "16189" ,
+        "item": "Valiant Sorcerer's Cape"
+      } ,
+      {
+        "id": "16272" ,
+        "item": "Hood of Storms"
+      } ,
+      {
+        "id": "16276" ,
+        "item": "Hood of Frost"
+      } ,
+      {
+        "id": "16277" ,
+        "item": "Hood of Flames"
+      } ,
+      {
+        "id": "16607" ,
+        "item": "Cole's Pants of Quakes"
+      } ,
+      {
+        "id": "16610" ,
+        "item": "Jay's Pants of Storms"
+      } ,
+      {
+        "id": "16613" ,
+        "item": "Zane's Pants of Frost"
+      } ,
+      {
+        "id": "16616" ,
+        "item": "Kai's Pants of Flames"
+      } ,
+      {
+        "id": "16633" ,
+        "item": "Kai's DX Pants of Flames"
+      } ,
+      {
+        "id": "16636" ,
+        "item": "Zane's DX Pants of Frost"
+      } ,
+      {
+        "id": "16638" ,
+        "item": "Jay's DX Pants of Storms"
+      } ,
+      {
+        "id": "16640" ,
+        "item": "Cole's DX Pants of Quakes"
+      }
+    ]
+  } ,
+  "362": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "3" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "2624" ,
+        "item": "Kettle Helmet"
+      } ,
+      {
+        "id": "2641" ,
+        "item": "Maelstrom-Infused White Ninja Hood"
+      } ,
+      {
+        "id": "2642" ,
+        "item": "Maelstrom-Infused Black Ninja Hood"
+      } ,
+      {
+        "id": "2647" ,
+        "item": "White Conical Hat"
+      } ,
+      {
+        "id": "2955" ,
+        "item": "No Ninjas Shirt"
+      } ,
+      {
+        "id": "3938" ,
+        "item": "Conductor's Shirt"
+      } ,
+      {
+        "id": "5843" ,
+        "item": "Hawaiian Shirt"
+      } ,
+      {
+        "id": "5844" ,
+        "item": "Stromling Defeater Shirt"
+      } ,
+      {
+        "id": "6801" ,
+        "item": "Red Captain Shirt"
+      } ,
+      {
+        "id": "6802" ,
+        "item": "Blue Captain Shirt"
+      } ,
+      {
+        "id": "6927" ,
+        "item": "Creative Pants"
+      } ,
+      {
+        "id": "6929" ,
+        "item": "Armored Shirt"
+      } ,
+      {
+        "id": "7404" ,
+        "item": "Knight Shield 3"
+      } ,
+      {
+        "id": "7409" ,
+        "item": "Knight Shoulderpads 3"
+      } ,
+      {
+        "id": "7468" ,
+        "item": "Space Ranger Armor 3"
+      } ,
+      {
+        "id": "7471" ,
+        "item": "Samurai Breastplate 3"
+      } ,
+      {
+        "id": "7474" ,
+        "item": "Space Marauder Jacket 3"
+      } ,
+      {
+        "id": "7477" ,
+        "item": "Shinobi Gi 3"
+      } ,
+      {
+        "id": "7480" ,
+        "item": "Inventor Armor 3"
+      } ,
+      {
+        "id": "7495" ,
+        "item": "Samurai Leggings 3"
+      } ,
+      {
+        "id": "7538" ,
+        "item": "Space Ranger Pack 3"
+      } ,
+      {
+        "id": "7539" ,
+        "item": "Samurai Shoulderpads 3"
+      } ,
+      {
+        "id": "7740" ,
+        "item": "LEGO Dice Shirt"
+      } ,
+      {
+        "id": "7784" ,
+        "item": "Mega Chest Armor"
+      } ,
+      {
+        "id": "7786" ,
+        "item": "Mega Helm"
+      } ,
+      {
+        "id": "7790" ,
+        "item": "Jester Hat"
+      } ,
+      {
+        "id": "8085" ,
+        "item": "Red Shako Hat"
+      } ,
+      {
+        "id": "8353" ,
+        "item": "Hanbock"
+      } ,
+      {
+        "id": "8360" ,
+        "item": "Sensei Shirt"
+      } ,
+      {
+        "id": "8425" ,
+        "item": "White Cowboy Hat"
+      } ,
+      {
+        "id": "8529" ,
+        "item": "Scorpion Shield"
+      } ,
+      {
+        "id": "8531" ,
+        "item": "Heater Shield"
+      } ,
+      {
+        "id": "8537" ,
+        "item": "Tech Armor"
+      } ,
+      {
+        "id": "8538" ,
+        "item": "Scutum Shield"
+      } ,
+      {
+        "id": "8544" ,
+        "item": "King's Crown"
+      } ,
+      {
+        "id": "8621" ,
+        "item": "Mail Shirt with Gorget"
+      } ,
+      {
+        "id": "8631" ,
+        "item": "Confederate Shirt"
+      } ,
+      {
+        "id": "8636" ,
+        "item": "Squire's Helm"
+      } ,
+      {
+        "id": "8637" ,
+        "item": "Breastplate of Armored Inspiration"
+      } ,
+      {
+        "id": "8638" ,
+        "item": "Powered Armor"
+      } ,
+      {
+        "id": "8644" ,
+        "item": "Gauchos"
+      } ,
+      {
+        "id": "8645" ,
+        "item": "Iron Legs"
+      } ,
+      {
+        "id": "9856" ,
+        "item": "Nexus Force Cape"
+      } ,
+      {
+        "id": "11286" ,
+        "item": "Dino-Pack"
+      } ,
+      {
+        "id": "11287" ,
+        "item": "Grey T-Rex Backpack"
+      } ,
+      {
+        "id": "12219" ,
+        "item": "Test Item with Precondition for Vendor"
+      } ,
+      {
+        "id": "12289" ,
+        "item": "Winter Parka"
+      } ,
+      {
+        "id": "12310" ,
+        "item": "Ogre Buckler"
+      } ,
+      {
+        "id": "12311" ,
+        "item": "Bowling Shirt"
+      } ,
+      {
+        "id": "12472" ,
+        "item": "Explorien Bot Helm"
+      } ,
+      {
+        "id": "12490" ,
+        "item": ""
+      } ,
+      {
+        "id": "12593" ,
+        "item": "Rugby Shirt"
+      } ,
+      {
+        "id": "12667" ,
+        "item": "Handy Spanner"
+      } ,
+      {
+        "id": "12681" ,
+        "item": "Ogre-Jaw Shield"
+      } ,
+      {
+        "id": "12706" ,
+        "item": "Cool Car Import Shirt"
+      } ,
+      {
+        "id": "12709" ,
+        "item": "Tire Tracks shirt"
+      } ,
+      {
+        "id": "12711" ,
+        "item": "Blocks Shirt"
+      } ,
+      {
+        "id": "12714" ,
+        "item": "Futuron Shirt"
+      } ,
+      {
+        "id": "12733" ,
+        "item": "Heavy Staff"
+      } ,
+      {
+        "id": "12741" ,
+        "item": "Dragon Helm MK II"
+      } ,
+      {
+        "id": "12742" ,
+        "item": "Medic Shield"
+      } ,
+      {
+        "id": "12743" ,
+        "item": "Mosaic Shield"
+      } ,
+      {
+        "id": "12756" ,
+        "item": "Mosaic Shirt"
+      } ,
+      {
+        "id": "12768" ,
+        "item": "Bassinet Helm"
+      } ,
+      {
+        "id": "12769" ,
+        "item": "Visored Racing Helmet"
+      } ,
+      {
+        "id": "12782" ,
+        "item": "Eisenhut"
+      } ,
+      {
+        "id": "12783" ,
+        "item": "Forester's Hood"
+      } ,
+      {
+        "id": "12785" ,
+        "item": "Miners' Helm"
+      } ,
+      {
+        "id": "12792" ,
+        "item": "Harlequin Costume Legs"
+      } ,
+      {
+        "id": "12793" ,
+        "item": "Lederhosen Legs"
+      } ,
+      {
+        "id": "12797" ,
+        "item": "Racing Legs"
+      } ,
+      {
+        "id": "12809" ,
+        "item": "The Wormholer"
+      } ,
+      {
+        "id": "12816" ,
+        "item": "The Doomslicer"
+      } ,
+      {
+        "id": "12952" ,
+        "item": "Samurai Breastplate 3"
+      } ,
+      {
+        "id": "12953" ,
+        "item": "Samurai Leggings 3"
+      } ,
+      {
+        "id": "12960" ,
+        "item": "Space Marauder Jacket 3"
+      } ,
+      {
+        "id": "12967" ,
+        "item": "Knight Shoulderpads 3"
+      } ,
+      {
+        "id": "12969" ,
+        "item": "Knight Shield 3"
+      } ,
+      {
+        "id": "12992" ,
+        "item": "Samurai Shoulderpads 3"
+      } ,
+      {
+        "id": "13526" ,
+        "item": "Green Tiki Shirt"
+      } ,
+      {
+        "id": "13617" ,
+        "item": "Shard Armor"
+      } ,
+      {
+        "id": "13814" ,
+        "item": "Golden Telescope"
+      } ,
+      {
+        "id": "13915" ,
+        "item": "Helm of the Blacksmith"
+      } ,
+      {
+        "id": "13916" ,
+        "item": "Hood of the Mystic"
+      } ,
+      {
+        "id": "14091" ,
+        "item": "Snazzy Pants"
+      } ,
+      {
+        "id": "14099" ,
+        "item": "Racemaster Helmet"
+      } ,
+      {
+        "id": "14173" ,
+        "item": "Gi of Quakes"
+      } ,
+      {
+        "id": "14675" ,
+        "item": "White Ninja Hood"
+      } ,
+      {
+        "id": "14723" ,
+        "item": "NPC Zane White Ninja hood"
+      } ,
+      {
+        "id": "14724" ,
+        "item": "NPC Cole Black Ninja hood"
+      } ,
+      {
+        "id": "14725" ,
+        "item": "NPC Ren Blue Ninja hood"
+      } ,
+      {
+        "id": "14726" ,
+        "item": "NPC Kai Red Ninja hood"
+      } ,
+      {
+        "id": "14730" ,
+        "item": "NPC Nya Ninja Hair"
+      } ,
+      {
+        "id": "14804" ,
+        "item": "NPC Coolie hat"
+      } ,
+      {
+        "id": "15843" ,
+        "item": "Kai's First Gi"
+      } ,
+      {
+        "id": "15844" ,
+        "item": "Cole's First Gi"
+      } ,
+      {
+        "id": "15914" ,
+        "item": "Crimson Kabuto"
+      } ,
+      {
+        "id": "15916" ,
+        "item": "Tarnished Kabuto"
+      } ,
+      {
+        "id": "15920" ,
+        "item": "Scholar's Travel Hat"
+      } ,
+      {
+        "id": "15974" ,
+        "item": "Turtle Pack"
+      } ,
+      {
+        "id": "15975" ,
+        "item": "Imaginite Pack"
+      } ,
+      {
+        "id": "15991" ,
+        "item": "Blue O-Yoroi"
+      } ,
+      {
+        "id": "15992" ,
+        "item": "Dark Defense"
+      } ,
+      {
+        "id": "15993" ,
+        "item": "Scale Mail"
+      } ,
+      {
+        "id": "15994" ,
+        "item": "Shimmering O-Yoroi"
+      } ,
+      {
+        "id": "16067" ,
+        "item": "Haiiro Gi"
+      } ,
+      {
+        "id": "16068" ,
+        "item": "Midori Gi"
+      } ,
+      {
+        "id": "16085" ,
+        "item": "Sakura's Festival Kimono"
+      } ,
+      {
+        "id": "16087" ,
+        "item": "Classy Kimono"
+      } ,
+      {
+        "id": "16095" ,
+        "item": "Kai's First Gi Pants"
+      } ,
+      {
+        "id": "16098" ,
+        "item": "Jay's First Gi Pants"
+      } ,
+      {
+        "id": "16100" ,
+        "item": "Murasaki Pants"
+      } ,
+      {
+        "id": "16102" ,
+        "item": "Haiiro Gi Pants"
+      } ,
+      {
+        "id": "16103" ,
+        "item": "Midori Gi Pants"
+      } ,
+      {
+        "id": "16105" ,
+        "item": "Daidaiiro Gi Pants"
+      } ,
+      {
+        "id": "16122" ,
+        "item": "Kai's Loungy Pants"
+      } ,
+      {
+        "id": "16123" ,
+        "item": "Murasaki Hakama"
+      } ,
+      {
+        "id": "16179" ,
+        "item": "Valiant Knight's Cape"
+      } ,
+      {
+        "id": "16180" ,
+        "item": "Valiant Samurai's Cape"
+      } ,
+      {
+        "id": "16181" ,
+        "item": "Valiant Space Ranger's Cape"
+      } ,
+      {
+        "id": "16266" ,
+        "item": "Gi of Storms"
+      } ,
+      {
+        "id": "16267" ,
+        "item": "Gi of Frost"
+      } ,
+      {
+        "id": "16268" ,
+        "item": "Gi of Flames"
+      } ,
+      {
+        "id": "16587" ,
+        "item": "NPC Red Top Hat"
+      } ,
+      {
+        "id": "16605" ,
+        "item": "Cole's Hood of Quakes"
+      } ,
+      {
+        "id": "16608" ,
+        "item": "Jay's Hood of Storms"
+      } ,
+      {
+        "id": "16611" ,
+        "item": "Zane's Hood of Frost"
+      } ,
+      {
+        "id": "16614" ,
+        "item": "Kai's Hood of Flames"
+      }
+    ]
+  } ,
+  "363": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "4" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "1889" ,
+        "item": "Red Ninja Hood - Maelstrom Infused"
+      } ,
+      {
+        "id": "2960" ,
+        "item": "No Pirates Shirt"
+      } ,
+      {
+        "id": "6926" ,
+        "item": "Shirt of Armor"
+      } ,
+      {
+        "id": "7739" ,
+        "item": "Target Duck Shirt"
+      } ,
+      {
+        "id": "8345" ,
+        "item": "Blue Kimono"
+      } ,
+      {
+        "id": "8347" ,
+        "item": "Twin Dragons Kimono"
+      } ,
+      {
+        "id": "8350" ,
+        "item": "Kung Fu Master Shirt"
+      } ,
+      {
+        "id": "8361" ,
+        "item": "Belted Ninja Shirt"
+      } ,
+      {
+        "id": "8598" ,
+        "item": "Zippered Leather Jacket"
+      } ,
+      {
+        "id": "8606" ,
+        "item": "Shabby Ninja Shirt"
+      } ,
+      {
+        "id": "8624" ,
+        "item": "Jester Shirt"
+      } ,
+      {
+        "id": "8681" ,
+        "item": "Gem Scepter"
+      } ,
+      {
+        "id": "12095" ,
+        "item": "Crux Prime Armor"
+      } ,
+      {
+        "id": "12283" ,
+        "item": "Jolly Beard"
+      } ,
+      {
+        "id": "12309" ,
+        "item": "Maelstrom Eye Shield"
+      } ,
+      {
+        "id": "12427" ,
+        "item": "PaperFigShield"
+      } ,
+      {
+        "id": "12435" ,
+        "item": "Flogmore's Hat"
+      } ,
+      {
+        "id": "12530" ,
+        "item": "Headbash Helmet"
+      } ,
+      {
+        "id": "12561" ,
+        "item": "King Bling Crown"
+      } ,
+      {
+        "id": "12599" ,
+        "item": "Crux Planet Shield"
+      } ,
+      {
+        "id": "12603" ,
+        "item": "Cuirass Armor"
+      } ,
+      {
+        "id": "12613" ,
+        "item": "Riot Shield"
+      } ,
+      {
+        "id": "12637" ,
+        "item": "The Powerjouster"
+      } ,
+      {
+        "id": "12642" ,
+        "item": "The Samuraizor"
+      } ,
+      {
+        "id": "12669" ,
+        "item": "Sapphire Scepter"
+      } ,
+      {
+        "id": "12672" ,
+        "item": "Knotwork Shield"
+      } ,
+      {
+        "id": "12675" ,
+        "item": "Fleur-de-Lis Shield"
+      } ,
+      {
+        "id": "12689" ,
+        "item": "Dashiki Shirt"
+      } ,
+      {
+        "id": "12691" ,
+        "item": "Flaming Tire Shirt"
+      } ,
+      {
+        "id": "12693" ,
+        "item": "Harlequin Shirt"
+      } ,
+      {
+        "id": "12702" ,
+        "item": "Wedding Dress"
+      } ,
+      {
+        "id": "12707" ,
+        "item": "Blacktron Shirt"
+      } ,
+      {
+        "id": "12715" ,
+        "item": "Tiki Batik Shirt"
+      } ,
+      {
+        "id": "12732" ,
+        "item": "Massive Spear"
+      } ,
+      {
+        "id": "12744" ,
+        "item": "Construction Shield"
+      } ,
+      {
+        "id": "12749" ,
+        "item": "Cow Skull Shirt"
+      } ,
+      {
+        "id": "12773" ,
+        "item": "Wooden Shield"
+      } ,
+      {
+        "id": "12780" ,
+        "item": "Egyptian Headdress"
+      } ,
+      {
+        "id": "12784" ,
+        "item": "Iron Barbute"
+      } ,
+      {
+        "id": "13525" ,
+        "item": "Scanning Helm"
+      } ,
+      {
+        "id": "13983" ,
+        "item": "Test Rank 2 Shield"
+      } ,
+      {
+        "id": "13988" ,
+        "item": "Test Rank 3 Shield"
+      } ,
+      {
+        "id": "14120" ,
+        "item": "Nexus Force Shield MK II"
+      } ,
+      {
+        "id": "14121" ,
+        "item": "Nexus Force Shield MK I"
+      } ,
+      {
+        "id": "15935" ,
+        "item": "Apothecary's Hood"
+      } ,
+      {
+        "id": "15936" ,
+        "item": "Hobby Hood"
+      } ,
+      {
+        "id": "15960" ,
+        "item": "Piercing Patch Hood"
+      } ,
+      {
+        "id": "16065" ,
+        "item": "Murasaki Gi"
+      } ,
+      {
+        "id": "16606" ,
+        "item": "Cole's Gi of Quakes"
+      } ,
+      {
+        "id": "16609" ,
+        "item": "Jay's Gi of Storms"
+      } ,
+      {
+        "id": "16612" ,
+        "item": "Zane's Gi of Frost"
+      } ,
+      {
+        "id": "16615" ,
+        "item": "Kai's Gi of Flames"
+      } ,
+      {
+        "id": "16634" ,
+        "item": "Kai's DX Gi of Flames"
+      } ,
+      {
+        "id": "16635" ,
+        "item": "Zane's DX Gi of Frost"
+      } ,
+      {
+        "id": "16637" ,
+        "item": "Jay's DX Gi of Storms"
+      } ,
+      {
+        "id": "16639" ,
+        "item": "Cole's DX Gi of Quakes"
+      }
+    ]
+  } ,
+  "364": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "5" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12426" ,
+        "item": "Explorien Bot Pants"
+      } ,
+      {
+        "id": "12630" ,
+        "item": "T-Rex Shirt"
+      } ,
+      {
+        "id": "12677" ,
+        "item": "Wolf Shield"
+      } ,
+      {
+        "id": "12690" ,
+        "item": "Explorien Bot Shirt"
+      } ,
+      {
+        "id": "12696" ,
+        "item": "Poncho"
+      } ,
+      {
+        "id": "12698" ,
+        "item": "Scale Mail Shirt"
+      } ,
+      {
+        "id": "12708" ,
+        "item": "Banded Armor"
+      } ,
+      {
+        "id": "12726" ,
+        "item": "Little Friend"
+      } ,
+      {
+        "id": "12734" ,
+        "item": "Zweihander"
+      } ,
+      {
+        "id": "12747" ,
+        "item": "Body Armor"
+      } ,
+      {
+        "id": "12748" ,
+        "item": "Classic Astronaut Shirt"
+      } ,
+      {
+        "id": "12753" ,
+        "item": "Safety Vest"
+      } ,
+      {
+        "id": "12754" ,
+        "item": "Shark Shirt"
+      } ,
+      {
+        "id": "12786" ,
+        "item": "Dragon Helm MK III"
+      } ,
+      {
+        "id": "12912" ,
+        "item": "NPC Venture Scout"
+      } ,
+      {
+        "id": "12913" ,
+        "item": "NPC Venture Scout"
+      } ,
+      {
+        "id": "12914" ,
+        "item": "NPC Sentinel Scout"
+      } ,
+      {
+        "id": "12915" ,
+        "item": "NPC Paradox Scout"
+      } ,
+      {
+        "id": "14119" ,
+        "item": "Nexus Force Shield MK III"
+      } ,
+      {
+        "id": "15954" ,
+        "item": "Slash and Stitch"
+      } ,
+      {
+        "id": "15955" ,
+        "item": "Thought Blade"
+      } ,
+      {
+        "id": "15959" ,
+        "item": "Spearman's Healing Hood"
+      }
+    ]
+  } ,
+  "365": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "6" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "8348" ,
+        "item": "Dragon Style Gi"
+      } ,
+      {
+        "id": "8354" ,
+        "item": "Mantis Style Gi"
+      } ,
+      {
+        "id": "8356" ,
+        "item": "Panda Style Gi"
+      } ,
+      {
+        "id": "15947" ,
+        "item": "Kiro Swordsman's Hood"
+      } ,
+      {
+        "id": "15961" ,
+        "item": "Think and Throw"
+      }
+    ]
+  } ,
+  "368": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "9" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "10019" ,
+        "item": ""
+      } ,
+      {
+        "id": "14353" ,
+        "item": "Trial Assembly Gear"
+      }
+    ]
+  } ,
+  "369": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "1" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "2588" ,
+        "item": "Chef Hat"
+      } ,
+      {
+        "id": "2623" ,
+        "item": "Wizard Hat"
+      } ,
+      {
+        "id": "2624" ,
+        "item": "Kettle Helmet"
+      } ,
+      {
+        "id": "2627" ,
+        "item": "Black Knit Cap"
+      } ,
+      {
+        "id": "2634" ,
+        "item": "Binoculars"
+      } ,
+      {
+        "id": "2942" ,
+        "item": "Monument Shirt"
+      } ,
+      {
+        "id": "2944" ,
+        "item": "Concert Superstar Shirt"
+      } ,
+      {
+        "id": "2958" ,
+        "item": "Black Ninja Gi"
+      } ,
+      {
+        "id": "3010" ,
+        "item": "LEGO Universe Shirt"
+      } ,
+      {
+        "id": "3853" ,
+        "item": "Witch Hat"
+      } ,
+      {
+        "id": "3858" ,
+        "item": "Flower Hat"
+      } ,
+      {
+        "id": "3863" ,
+        "item": "Striped Skunk Shirt"
+      } ,
+      {
+        "id": "4924" ,
+        "item": "Prismatic Baseball Cap"
+      } ,
+      {
+        "id": "5682" ,
+        "item": "Black Neck Scarf"
+      } ,
+      {
+        "id": "5842" ,
+        "item": "Red Brick Shirt"
+      } ,
+      {
+        "id": "5995" ,
+        "item": "Speedy Cap"
+      } ,
+      {
+        "id": "6197" ,
+        "item": "Tan Aussie Hat"
+      } ,
+      {
+        "id": "6198" ,
+        "item": "Aviator Helmet"
+      } ,
+      {
+        "id": "6199" ,
+        "item": "Pith Helmet"
+      } ,
+      {
+        "id": "6262" ,
+        "item": "Pet Triceratops Shirt"
+      } ,
+      {
+        "id": "6263" ,
+        "item": "Pet Doberman Shirt"
+      } ,
+      {
+        "id": "6264" ,
+        "item": "Pet Buffalo Shirt"
+      } ,
+      {
+        "id": "6796" ,
+        "item": "Ship Blueprint"
+      } ,
+      {
+        "id": "6799" ,
+        "item": "First Mate's Vest"
+      } ,
+      {
+        "id": "6800" ,
+        "item": "Brown First Mate's Shirt"
+      } ,
+      {
+        "id": "6803" ,
+        "item": "Blue Baseball Cap"
+      } ,
+      {
+        "id": "6849" ,
+        "item": "Buckler Shield"
+      } ,
+      {
+        "id": "6853" ,
+        "item": "Morion Helmet"
+      } ,
+      {
+        "id": "6854" ,
+        "item": "Green Shoulder Parrot"
+      } ,
+      {
+        "id": "6882" ,
+        "item": "Compass"
+      } ,
+      {
+        "id": "6925" ,
+        "item": "Helm Of Entrapment"
+      } ,
+      {
+        "id": "7360" ,
+        "item": "Knight Helm 3"
+      } ,
+      {
+        "id": "7362" ,
+        "item": "Sorcerer Hat 3"
+      } ,
+      {
+        "id": "7364" ,
+        "item": "Engineer Helmet 3"
+      } ,
+      {
+        "id": "7366" ,
+        "item": "Buccaneer Hat 3"
+      } ,
+      {
+        "id": "7367" ,
+        "item": "Knight Breastplate 1"
+      } ,
+      {
+        "id": "7370" ,
+        "item": "Engineer Shirt 1"
+      } ,
+      {
+        "id": "7371" ,
+        "item": "Engineer Shirt 2"
+      } ,
+      {
+        "id": "7373" ,
+        "item": "Sorcerer Breastplate 1"
+      } ,
+      {
+        "id": "7376" ,
+        "item": "Buccaneer Shirt 1"
+      } ,
+      {
+        "id": "7380" ,
+        "item": "Knight Leggings 2"
+      } ,
+      {
+        "id": "7388" ,
+        "item": "Buccaneer Pantaloons 1"
+      } ,
+      {
+        "id": "7399" ,
+        "item": "Sorcerer Wand 3"
+      } ,
+      {
+        "id": "7400" ,
+        "item": "Buccaneer Pistol & Cutlass 1"
+      } ,
+      {
+        "id": "7404" ,
+        "item": "Knight Shield 3"
+      } ,
+      {
+        "id": "7405" ,
+        "item": "Engineer Controller 2"
+      } ,
+      {
+        "id": "7407" ,
+        "item": "Sorcerer Orb 2"
+      } ,
+      {
+        "id": "7409" ,
+        "item": "Knight Shoulderpads 3"
+      } ,
+      {
+        "id": "7444" ,
+        "item": "Space Ranger Helmet 3"
+      } ,
+      {
+        "id": "7447" ,
+        "item": "Samurai Helm 3"
+      } ,
+      {
+        "id": "7456" ,
+        "item": "Inventor Goggles 3"
+      } ,
+      {
+        "id": "7462" ,
+        "item": "Adventurer Hat 3"
+      } ,
+      {
+        "id": "7465" ,
+        "item": "Daredevil Helmet 3"
+      } ,
+      {
+        "id": "7466" ,
+        "item": "Space Ranger Armor 1"
+      } ,
+      {
+        "id": "7469" ,
+        "item": "Samurai Breastplate 1"
+      } ,
+      {
+        "id": "7472" ,
+        "item": "Space Marauder Jacket 1"
+      } ,
+      {
+        "id": "7475" ,
+        "item": "Shinobi Gi 1"
+      } ,
+      {
+        "id": "7476" ,
+        "item": "Shinobi Gi 2"
+      } ,
+      {
+        "id": "7478" ,
+        "item": "Inventor Armor 1"
+      } ,
+      {
+        "id": "7484" ,
+        "item": "Adventurer Coat 1"
+      } ,
+      {
+        "id": "7487" ,
+        "item": "Daredevil Jacket 1"
+      } ,
+      {
+        "id": "7494" ,
+        "item": "Samurai Leggings 2"
+      } ,
+      {
+        "id": "7496" ,
+        "item": "Space Marauder Pants 1"
+      } ,
+      {
+        "id": "7497" ,
+        "item": "Space Marauder Pants 2"
+      } ,
+      {
+        "id": "7499" ,
+        "item": "Shinobi Leggings 1"
+      } ,
+      {
+        "id": "7500" ,
+        "item": "Shinobi Leggings 2"
+      } ,
+      {
+        "id": "7503" ,
+        "item": "Inventor Pants 2"
+      } ,
+      {
+        "id": "7506" ,
+        "item": "Summoner Pants 2"
+      } ,
+      {
+        "id": "7508" ,
+        "item": "Adventurer Pants 1"
+      } ,
+      {
+        "id": "7511" ,
+        "item": "Daredevil Pants 1"
+      } ,
+      {
+        "id": "7522" ,
+        "item": "Space Marauder Blaster 3"
+      } ,
+      {
+        "id": "7524" ,
+        "item": "Shinobi Katana 2"
+      } ,
+      {
+        "id": "7527" ,
+        "item": "Inventor Improved Launcher 2"
+      } ,
+      {
+        "id": "7535" ,
+        "item": "Daredevil Flareguns 1"
+      } ,
+      {
+        "id": "7539" ,
+        "item": "Samurai Shoulderpads 3"
+      } ,
+      {
+        "id": "7548" ,
+        "item": "Space Marauder Launcher 2"
+      } ,
+      {
+        "id": "7732" ,
+        "item": "Walkie Talkie"
+      } ,
+      {
+        "id": "7735" ,
+        "item": "Pet Bunny Shirt"
+      } ,
+      {
+        "id": "7736" ,
+        "item": "Pet Terrier Shirt"
+      } ,
+      {
+        "id": "7737" ,
+        "item": "Pet Cat Shirt"
+      } ,
+      {
+        "id": "7739" ,
+        "item": "Target Duck Shirt"
+      } ,
+      {
+        "id": "7741" ,
+        "item": "Wolves Shirt"
+      } ,
+      {
+        "id": "7744" ,
+        "item": "Witch Robe"
+      } ,
+      {
+        "id": "7745" ,
+        "item": "Chef Jacket"
+      } ,
+      {
+        "id": "7747" ,
+        "item": "Overalls"
+      } ,
+      {
+        "id": "7748" ,
+        "item": "Flower Shirt"
+      } ,
+      {
+        "id": "7749" ,
+        "item": "Wizard Tunic"
+      } ,
+      {
+        "id": "7793" ,
+        "item": "Grey Kepi Hat"
+      } ,
+      {
+        "id": "8084" ,
+        "item": "Black Shako Hat"
+      } ,
+      {
+        "id": "8359" ,
+        "item": "Referee Shirt"
+      } ,
+      {
+        "id": "8459" ,
+        "item": "Sorcerer Shoulderpads 2"
+      } ,
+      {
+        "id": "8460" ,
+        "item": "Space Marauder Shoulderpads 2"
+      } ,
+      {
+        "id": "8461" ,
+        "item": "Shinobi Shoulderpads 2"
+      } ,
+      {
+        "id": "8530" ,
+        "item": "Imagination Tanks"
+      } ,
+      {
+        "id": "8534" ,
+        "item": "Utility Harness"
+      } ,
+      {
+        "id": "8535" ,
+        "item": "Explorer Air Tank"
+      } ,
+      {
+        "id": "8538" ,
+        "item": "Scutum Shield"
+      } ,
+      {
+        "id": "8541" ,
+        "item": "Lockjaw Helm"
+      } ,
+      {
+        "id": "8543" ,
+        "item": "Key of Imagination"
+      } ,
+      {
+        "id": "8546" ,
+        "item": "Space Headgear"
+      } ,
+      {
+        "id": "8547" ,
+        "item": "Scoundrel Cap"
+      } ,
+      {
+        "id": "8548" ,
+        "item": "Dragon Helm MK I"
+      } ,
+      {
+        "id": "8584" ,
+        "item": "Pet Crab Shirt"
+      } ,
+      {
+        "id": "8585" ,
+        "item": "Pet Crocodile Shirt"
+      } ,
+      {
+        "id": "8586" ,
+        "item": "Pet Red Dragon Shirt"
+      } ,
+      {
+        "id": "8587" ,
+        "item": "Pet Elephant Shirt"
+      } ,
+      {
+        "id": "8588" ,
+        "item": "Pet Goat Shirt"
+      } ,
+      {
+        "id": "8589" ,
+        "item": "Pet Green Dragon Shirt"
+      } ,
+      {
+        "id": "8590" ,
+        "item": "Pet Lion Shirt"
+      } ,
+      {
+        "id": "8591" ,
+        "item": "Pet Mantis Shirt"
+      } ,
+      {
+        "id": "8592" ,
+        "item": "Pet Panda Shirt"
+      } ,
+      {
+        "id": "8593" ,
+        "item": "Pet Robot Dog Shirt"
+      } ,
+      {
+        "id": "8594" ,
+        "item": "Pet Skunk Shirt"
+      } ,
+      {
+        "id": "8595" ,
+        "item": "Pet Tortoise Shirt"
+      } ,
+      {
+        "id": "8596" ,
+        "item": "Pet Warthog Shirt"
+      } ,
+      {
+        "id": "8597" ,
+        "item": "Card Shark Shirt"
+      } ,
+      {
+        "id": "8599" ,
+        "item": "New Western Shirt"
+      } ,
+      {
+        "id": "8601" ,
+        "item": "Lounge Lizard Shirt"
+      } ,
+      {
+        "id": "8602" ,
+        "item": "Blue Uniform"
+      } ,
+      {
+        "id": "8603" ,
+        "item": "Red Uniform"
+      } ,
+      {
+        "id": "8612" ,
+        "item": "Aviator Shirt"
+      } ,
+      {
+        "id": "8613" ,
+        "item": "Cattle Rustler Shirt"
+      } ,
+      {
+        "id": "8623" ,
+        "item": "Dark Blue Princess Shirt"
+      } ,
+      {
+        "id": "8626" ,
+        "item": "Pirate Princess Dress"
+      } ,
+      {
+        "id": "8643" ,
+        "item": "Capris"
+      } ,
+      {
+        "id": "8647" ,
+        "item": "Cargo Pants"
+      } ,
+      {
+        "id": "8648" ,
+        "item": "Jeans"
+      } ,
+      {
+        "id": "8650" ,
+        "item": "Tights"
+      } ,
+      {
+        "id": "8666" ,
+        "item": "Sweat Pants"
+      } ,
+      {
+        "id": "8667" ,
+        "item": "Clam Diggers"
+      } ,
+      {
+        "id": "8674" ,
+        "item": "Wrench"
+      } ,
+      {
+        "id": "8675" ,
+        "item": "Reinforced Pith Helmet"
+      } ,
+      {
+        "id": "8676" ,
+        "item": "Cadet Helm"
+      } ,
+      {
+        "id": "8682" ,
+        "item": "Knapsack"
+      } ,
+      {
+        "id": "9250" ,
+        "item": "DELETE ME Bandana"
+      } ,
+      {
+        "id": "10122" ,
+        "item": "Blue Double Breasted Uniform"
+      } ,
+      {
+        "id": "10123" ,
+        "item": "Green Soccer Shirt"
+      } ,
+      {
+        "id": "10124" ,
+        "item": "Island Dolphin Shirt"
+      } ,
+      {
+        "id": "10128" ,
+        "item": "Vampire Shirt"
+      } ,
+      {
+        "id": "10130" ,
+        "item": "Weightlifter Shirt"
+      } ,
+      {
+        "id": "10131" ,
+        "item": "Fire Brick Shirt"
+      } ,
+      {
+        "id": "11298" ,
+        "item": "Peppy's Black Mug"
+      } ,
+      {
+        "id": "12291" ,
+        "item": "Flannel Pants"
+      } ,
+      {
+        "id": "12295" ,
+        "item": "Snow Flake Shield"
+      } ,
+      {
+        "id": "12299" ,
+        "item": "Flannel Shirt"
+      } ,
+      {
+        "id": "12309" ,
+        "item": "Maelstrom Eye Shield"
+      } ,
+      {
+        "id": "12311" ,
+        "item": "Bowling Shirt"
+      } ,
+      {
+        "id": "12625" ,
+        "item": "NPC Venture Scout Gun"
+      } ,
+      {
+        "id": "12651" ,
+        "item": ""
+      } ,
+      {
+        "id": "12706" ,
+        "item": "Cool Car Import Shirt"
+      } ,
+      {
+        "id": "12734" ,
+        "item": "Zweihander"
+      } ,
+      {
+        "id": "12773" ,
+        "item": "Wooden Shield"
+      } ,
+      {
+        "id": "12784" ,
+        "item": "Iron Barbute"
+      } ,
+      {
+        "id": "12788" ,
+        "item": "Comfy Jeans"
+      } ,
+      {
+        "id": "12798" ,
+        "item": "Bone Suit Pants"
+      } ,
+      {
+        "id": "12962" ,
+        "item": "Engineer Helmet 3"
+      } ,
+      {
+        "id": "12966" ,
+        "item": "Knight Helm 3"
+      } ,
+      {
+        "id": "12967" ,
+        "item": "Knight Shoulderpads 3"
+      } ,
+      {
+        "id": "12969" ,
+        "item": "Knight Shield 3"
+      } ,
+      {
+        "id": "12976" ,
+        "item": "Samurai Helm 3"
+      } ,
+      {
+        "id": "12981" ,
+        "item": "Buccaneer Hat 3"
+      } ,
+      {
+        "id": "12983" ,
+        "item": "Sorcerer Hat 3"
+      } ,
+      {
+        "id": "12984" ,
+        "item": "Sorcerer Wand 3"
+      } ,
+      {
+        "id": "12987" ,
+        "item": "Space Marauder Blaster 3"
+      } ,
+      {
+        "id": "12992" ,
+        "item": "Samurai Shoulderpads 3"
+      } ,
+      {
+        "id": "12993" ,
+        "item": "Daredevil Helmet 3"
+      } ,
+      {
+        "id": "13315" ,
+        "item": "NPC WeightLifter Weight Vendor"
+      } ,
+      {
+        "id": "13316" ,
+        "item": "NPC Vampire Bat Vendor"
+      } ,
+      {
+        "id": "13317" ,
+        "item": "NPC Surfer Board Vendor"
+      } ,
+      {
+        "id": "13318" ,
+        "item": "NPC Spartan Spear Vendor"
+      } ,
+      {
+        "id": "13319" ,
+        "item": "NPC Spartan Shield Vendor"
+      } ,
+      {
+        "id": "13320" ,
+        "item": "NPC Spartan Helmet Vendor"
+      } ,
+      {
+        "id": "13322" ,
+        "item": "NPC Spaceman Helmet Vendor"
+      } ,
+      {
+        "id": "13323" ,
+        "item": "NPC Spaceman Gun Vendor"
+      } ,
+      {
+        "id": "13324" ,
+        "item": "NPC Skier Hat Vendor"
+      } ,
+      {
+        "id": "13325" ,
+        "item": "NPC Skier Ski Vendor"
+      } ,
+      {
+        "id": "13326" ,
+        "item": "NPC Skier Pole Vendor"
+      } ,
+      {
+        "id": "13327" ,
+        "item": "NPC Skater Helm Vendor"
+      } ,
+      {
+        "id": "13329" ,
+        "item": "NPC Skater Boardi Vendor"
+      } ,
+      {
+        "id": "13330" ,
+        "item": "NPC Singer Mic Vendor"
+      } ,
+      {
+        "id": "13331" ,
+        "item": "NPC Singer Hair Vendor"
+      } ,
+      {
+        "id": "13332" ,
+        "item": "NPC Scuba Helm Vendor"
+      } ,
+      {
+        "id": "13334" ,
+        "item": "NPC Robot Helm Vendor"
+      } ,
+      {
+        "id": "13335" ,
+        "item": "NPC Pharaoh Hat Vendor"
+      } ,
+      {
+        "id": "13336" ,
+        "item": "NPC Pharaoh Staff Vendor"
+      } ,
+      {
+        "id": "13337" ,
+        "item": "NPCNurse Hair Vendor"
+      } ,
+      {
+        "id": "13338" ,
+        "item": "NPC Nurse Needle Vendor"
+      } ,
+      {
+        "id": "13339" ,
+        "item": "NPC Nurse Sign Vendor"
+      } ,
+      {
+        "id": "13340" ,
+        "item": "NPC Magician wand Vendor"
+      } ,
+      {
+        "id": "13341" ,
+        "item": "NPC Magician Hat Vendor"
+      } ,
+      {
+        "id": "13342" ,
+        "item": "NPC LifeGuard Hair Vendor"
+      } ,
+      {
+        "id": "13343" ,
+        "item": "NPC LifeGuard Board Vendor"
+      } ,
+      {
+        "id": "13344" ,
+        "item": "NPC Jiu Jitsu Master Hair Vendor"
+      } ,
+      {
+        "id": "13345" ,
+        "item": "NPC Jiu Jitsu Master Trophy Vendor"
+      } ,
+      {
+        "id": "13346" ,
+        "item": "NPC Indian  Hair Vendor"
+      } ,
+      {
+        "id": "13347" ,
+        "item": "NPC Crash Dummy  Hair Vendor"
+      } ,
+      {
+        "id": "13348" ,
+        "item": "NPC Crash Dummy Wrench Vendor"
+      } ,
+      {
+        "id": "13349" ,
+        "item": "NPC Crash Dummy Sign Vendor"
+      } ,
+      {
+        "id": "13350" ,
+        "item": "NPC Cowboy Hat Vendor"
+      } ,
+      {
+        "id": "13351" ,
+        "item": "NPC Cowboy Gun Vendor"
+      } ,
+      {
+        "id": "13352" ,
+        "item": "NPC Clown Hair Vendor"
+      } ,
+      {
+        "id": "13353" ,
+        "item": "NPC Clown Horn Vendor"
+      } ,
+      {
+        "id": "13354" ,
+        "item": "NPC CheerLeader Pom 1 Vendor"
+      } ,
+      {
+        "id": "13355" ,
+        "item": "NPC CheerLeader Pom 2 Vendor"
+      } ,
+      {
+        "id": "13356" ,
+        "item": "NPC CheerLeader Hair Vendor"
+      } ,
+      {
+        "id": "13357" ,
+        "item": "NPC Caveman Hair Vendor"
+      } ,
+      {
+        "id": "13358" ,
+        "item": "NPC Caveman Club Vendor"
+      } ,
+      {
+        "id": "13389" ,
+        "item": "NPC Vampire Hair Vendor"
+      } ,
+      {
+        "id": "13390" ,
+        "item": "NPC DiscoDJ Hair Vendor"
+      } ,
+      {
+        "id": "13581" ,
+        "item": "Skeleton Key"
+      } ,
+      {
+        "id": "14093" ,
+        "item": "Zazzy Pants"
+      } ,
+      {
+        "id": "14191" ,
+        "item": "Green Frog's Egg"
+      } ,
+      {
+        "id": "14192" ,
+        "item": "White Cat's Fish"
+      } ,
+      {
+        "id": "14193" ,
+        "item": "Light Gray Mouse's Cheese"
+      } ,
+      {
+        "id": "14194" ,
+        "item": "Brown Dog's Bone"
+      } ,
+      {
+        "id": "14378" ,
+        "item": "Plunger Gun"
+      } ,
+      {
+        "id": "14499" ,
+        "item": "Dragon Mask"
+      } ,
+      {
+        "id": "14559" ,
+        "item": "Dark Gray Frog's Egg"
+      } ,
+      {
+        "id": "14560" ,
+        "item": "Red Frog's Egg"
+      } ,
+      {
+        "id": "14561" ,
+        "item": "Yellow Frog's Egg"
+      } ,
+      {
+        "id": "14562" ,
+        "item": "Black Cat's Fish"
+      } ,
+      {
+        "id": "14563" ,
+        "item": "Tan Cat's Fish"
+      } ,
+      {
+        "id": "14564" ,
+        "item": "Orange Cat's Fish"
+      } ,
+      {
+        "id": "14565" ,
+        "item": "White Mouse's Cheese"
+      } ,
+      {
+        "id": "14566" ,
+        "item": "Brown Mouse's Cheese"
+      } ,
+      {
+        "id": "14567" ,
+        "item": "Dark Gray Mouse's Cheese"
+      } ,
+      {
+        "id": "14568" ,
+        "item": "Dark Gray Dog's Bone"
+      } ,
+      {
+        "id": "14569" ,
+        "item": "Red Dog's Bone"
+      } ,
+      {
+        "id": "14570" ,
+        "item": "Reddish Brown Dog's Bone"
+      } ,
+      {
+        "id": "14571" ,
+        "item": "Red Scorpion's Stinger"
+      } ,
+      {
+        "id": "14811" ,
+        "item": "Brown Cape"
+      } ,
+      {
+        "id": "14816" ,
+        "item": "Brown Shoulder Owl"
+      } ,
+      {
+        "id": "14818" ,
+        "item": "Black Shoulder Owl"
+      } ,
+      {
+        "id": "15911" ,
+        "item": "Sharp Kunai"
+      } ,
+      {
+        "id": "15990" ,
+        "item": "Crimson Guard"
+      } ,
+      {
+        "id": "15991" ,
+        "item": "Blue O-Yoroi"
+      } ,
+      {
+        "id": "15993" ,
+        "item": "Scale Mail"
+      } ,
+      {
+        "id": "16063" ,
+        "item": "Jay's First Gi"
+      } ,
+      {
+        "id": "16064" ,
+        "item": "Zane's First Gi"
+      } ,
+      {
+        "id": "16066" ,
+        "item": "Faded Gi"
+      } ,
+      {
+        "id": "16070" ,
+        "item": "Worn Gi"
+      } ,
+      {
+        "id": "16082" ,
+        "item": "Faded Kosode"
+      } ,
+      {
+        "id": "16083" ,
+        "item": "Dark Kosode"
+      } ,
+      {
+        "id": "16084" ,
+        "item": "Common Kosode"
+      } ,
+      {
+        "id": "16101" ,
+        "item": "Faded Gi Pants"
+      } ,
+      {
+        "id": "16119" ,
+        "item": "Dark Kosode Pants"
+      } ,
+      {
+        "id": "16179" ,
+        "item": "Valiant Knight's Cape"
+      } ,
+      {
+        "id": "16180" ,
+        "item": "Valiant Samurai's Cape"
+      } ,
+      {
+        "id": "16644" ,
+        "item": "Dragon Mask"
+      }
+    ]
+  } ,
+  "370": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "2" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "1890" ,
+        "item": "Black Pirate Scarf"
+      } ,
+      {
+        "id": "2632" ,
+        "item": "Brown Pirate Hat"
+      } ,
+      {
+        "id": "2633" ,
+        "item": "Black Pirate Hat"
+      } ,
+      {
+        "id": "2953" ,
+        "item": "White Pirate Ship Shirt"
+      } ,
+      {
+        "id": "2955" ,
+        "item": "No Ninjas Shirt"
+      } ,
+      {
+        "id": "2957" ,
+        "item": "White Ninja Gi"
+      } ,
+      {
+        "id": "2959" ,
+        "item": "Throwing Star Shirt"
+      } ,
+      {
+        "id": "2960" ,
+        "item": "No Pirates Shirt"
+      } ,
+      {
+        "id": "2979" ,
+        "item": "Red Pirate Scarf"
+      } ,
+      {
+        "id": "3861" ,
+        "item": "Diver Helmet"
+      } ,
+      {
+        "id": "3938" ,
+        "item": "Conductor's Shirt"
+      } ,
+      {
+        "id": "6746" ,
+        "item": "Blue Pirate Scarf"
+      } ,
+      {
+        "id": "6797" ,
+        "item": "Jack Knife's Treasure Map"
+      } ,
+      {
+        "id": "6802" ,
+        "item": "Blue Captain Shirt"
+      } ,
+      {
+        "id": "6855" ,
+        "item": "Yellow Shoulder Parrot"
+      } ,
+      {
+        "id": "6880" ,
+        "item": "Armored Viking Helmet"
+      } ,
+      {
+        "id": "6883" ,
+        "item": "Telescope"
+      } ,
+      {
+        "id": "6924" ,
+        "item": "Shield of Armor"
+      } ,
+      {
+        "id": "6927" ,
+        "item": "Creative Pants"
+      } ,
+      {
+        "id": "6929" ,
+        "item": "Armored Shirt"
+      } ,
+      {
+        "id": "6932" ,
+        "item": "Wizard's Hat of Whirlwind"
+      } ,
+      {
+        "id": "7044" ,
+        "item": "Pirate Hook"
+      } ,
+      {
+        "id": "7133" ,
+        "item": "Black Firefighter Helmet"
+      } ,
+      {
+        "id": "7368" ,
+        "item": "Knight Breastplate 2"
+      } ,
+      {
+        "id": "7369" ,
+        "item": "Knight Breastplate 3"
+      } ,
+      {
+        "id": "7372" ,
+        "item": "Engineer Shirt 3"
+      } ,
+      {
+        "id": "7374" ,
+        "item": "Sorcerer Breastplate 2"
+      } ,
+      {
+        "id": "7377" ,
+        "item": "Buccaneer Shirt 2"
+      } ,
+      {
+        "id": "7381" ,
+        "item": "Knight Leggings 3"
+      } ,
+      {
+        "id": "7382" ,
+        "item": "Engineer Pants 1"
+      } ,
+      {
+        "id": "7383" ,
+        "item": "Engineer Pants 2"
+      } ,
+      {
+        "id": "7384" ,
+        "item": "Engineer Pants 3"
+      } ,
+      {
+        "id": "7385" ,
+        "item": "Sorcerer Pants 1"
+      } ,
+      {
+        "id": "7386" ,
+        "item": "Sorcerer Pants 2"
+      } ,
+      {
+        "id": "7387" ,
+        "item": "Sorcerer Pants 3"
+      } ,
+      {
+        "id": "7389" ,
+        "item": "Buccaneer Pantaloons 2"
+      } ,
+      {
+        "id": "7396" ,
+        "item": "Engineer Wrench 3"
+      } ,
+      {
+        "id": "7406" ,
+        "item": "Engineer Controller 3"
+      } ,
+      {
+        "id": "7408" ,
+        "item": "Sorcerer Orb 3"
+      } ,
+      {
+        "id": "7415" ,
+        "item": "Sorcerer Shoulderpads 3"
+      } ,
+      {
+        "id": "7417" ,
+        "item": "Engineer Vest 3"
+      } ,
+      {
+        "id": "7459" ,
+        "item": "Summoner Hat 3"
+      } ,
+      {
+        "id": "7467" ,
+        "item": "Space Ranger Armor 2"
+      } ,
+      {
+        "id": "7468" ,
+        "item": "Space Ranger Armor 3"
+      } ,
+      {
+        "id": "7470" ,
+        "item": "Samurai Breastplate 2"
+      } ,
+      {
+        "id": "7471" ,
+        "item": "Samurai Breastplate 3"
+      } ,
+      {
+        "id": "7473" ,
+        "item": "Space Marauder Jacket 2"
+      } ,
+      {
+        "id": "7474" ,
+        "item": "Space Marauder Jacket 3"
+      } ,
+      {
+        "id": "7477" ,
+        "item": "Shinobi Gi 3"
+      } ,
+      {
+        "id": "7479" ,
+        "item": "Inventor Armor 2"
+      } ,
+      {
+        "id": "7481" ,
+        "item": "Summoner Robe 1"
+      } ,
+      {
+        "id": "7482" ,
+        "item": "Summoner Robe 2"
+      } ,
+      {
+        "id": "7483" ,
+        "item": "Summoner Robe 3"
+      } ,
+      {
+        "id": "7485" ,
+        "item": "Adventurer Coat 2"
+      } ,
+      {
+        "id": "7488" ,
+        "item": "Daredevil Jacket 2"
+      } ,
+      {
+        "id": "7491" ,
+        "item": "Space Ranger Pants 2"
+      } ,
+      {
+        "id": "7495" ,
+        "item": "Samurai Leggings 3"
+      } ,
+      {
+        "id": "7498" ,
+        "item": "Space Marauder Pants 3"
+      } ,
+      {
+        "id": "7501" ,
+        "item": "Shinobi Leggings 3"
+      } ,
+      {
+        "id": "7502" ,
+        "item": "Inventor Pants 1"
+      } ,
+      {
+        "id": "7504" ,
+        "item": "Inventor Pants 3"
+      } ,
+      {
+        "id": "7505" ,
+        "item": "Summoner Pants 1"
+      } ,
+      {
+        "id": "7507" ,
+        "item": "Summoner Pants 3"
+      } ,
+      {
+        "id": "7509" ,
+        "item": "Adventurer Pants 2"
+      } ,
+      {
+        "id": "7512" ,
+        "item": "Daredevil Pants 2"
+      } ,
+      {
+        "id": "7528" ,
+        "item": "Inventor Improved Launcher 3"
+      } ,
+      {
+        "id": "7531" ,
+        "item": "Summoner Staff 3"
+      } ,
+      {
+        "id": "7538" ,
+        "item": "Space Ranger Pack 3"
+      } ,
+      {
+        "id": "7540" ,
+        "item": "Space Marauder Shoulderpads 3"
+      } ,
+      {
+        "id": "7541" ,
+        "item": "Shinobi Shoulderpads 3"
+      } ,
+      {
+        "id": "7542" ,
+        "item": "Inventor Shoulderpads 3"
+      } ,
+      {
+        "id": "7543" ,
+        "item": "Daredevil Shoulderpads 3"
+      } ,
+      {
+        "id": "7550" ,
+        "item": "Space Marauder Launcher 3"
+      } ,
+      {
+        "id": "7555" ,
+        "item": "Summoner Shoulderpads 3"
+      } ,
+      {
+        "id": "7556" ,
+        "item": "Summoner Orb 2"
+      } ,
+      {
+        "id": "7557" ,
+        "item": "Summoner Orb 3"
+      } ,
+      {
+        "id": "7570" ,
+        "item": "Red Shoulder Parrot"
+      } ,
+      {
+        "id": "7592" ,
+        "item": "Red Ninja Gi"
+      } ,
+      {
+        "id": "7731" ,
+        "item": "Aussie Hat"
+      } ,
+      {
+        "id": "7784" ,
+        "item": "Mega Chest Armor"
+      } ,
+      {
+        "id": "7990" ,
+        "item": "Blue Kepi Hat"
+      } ,
+      {
+        "id": "8347" ,
+        "item": "Twin Dragons Kimono"
+      } ,
+      {
+        "id": "8351" ,
+        "item": "Green Dragon Shirt"
+      } ,
+      {
+        "id": "8357" ,
+        "item": "Gothic Paradox Shirt"
+      } ,
+      {
+        "id": "8358" ,
+        "item": "Pink Kimono"
+      } ,
+      {
+        "id": "8462" ,
+        "item": "Engineer Vest 2"
+      } ,
+      {
+        "id": "8464" ,
+        "item": "Summoner Shoulderpads 2"
+      } ,
+      {
+        "id": "8465" ,
+        "item": "Adventurer Backpack 2"
+      } ,
+      {
+        "id": "8466" ,
+        "item": "Daredevil Shoulderpads 2"
+      } ,
+      {
+        "id": "8467" ,
+        "item": "Buccaneer Bandolier 2"
+      } ,
+      {
+        "id": "8532" ,
+        "item": "Briefcase"
+      } ,
+      {
+        "id": "8540" ,
+        "item": "Fedora"
+      } ,
+      {
+        "id": "8545" ,
+        "item": "Trophy"
+      } ,
+      {
+        "id": "8607" ,
+        "item": "Ruffled and Striped Shirt"
+      } ,
+      {
+        "id": "8608" ,
+        "item": "Crown on Checks Shirt"
+      } ,
+      {
+        "id": "8614" ,
+        "item": "Race Ace Shirt"
+      } ,
+      {
+        "id": "8616" ,
+        "item": "Inmate Shirt"
+      } ,
+      {
+        "id": "8618" ,
+        "item": "Female Pirate Shirt"
+      } ,
+      {
+        "id": "8620" ,
+        "item": "Viking Barbarian Shirt"
+      } ,
+      {
+        "id": "8627" ,
+        "item": "Fancy Captain Shirt"
+      } ,
+      {
+        "id": "8636" ,
+        "item": "Squire's Helm"
+      } ,
+      {
+        "id": "8638" ,
+        "item": "Powered Armor"
+      } ,
+      {
+        "id": "8640" ,
+        "item": "Bell Bottoms"
+      } ,
+      {
+        "id": "8641" ,
+        "item": "Steel Legs"
+      } ,
+      {
+        "id": "8642" ,
+        "item": "Dungarees"
+      } ,
+      {
+        "id": "8644" ,
+        "item": "Gauchos"
+      } ,
+      {
+        "id": "8645" ,
+        "item": "Iron Legs"
+      } ,
+      {
+        "id": "8649" ,
+        "item": "Chaps"
+      } ,
+      {
+        "id": "8651" ,
+        "item": "Hammer Pants"
+      } ,
+      {
+        "id": "8673" ,
+        "item": "Kettle Helmet"
+      } ,
+      {
+        "id": "8678" ,
+        "item": "Dwarf Helmet"
+      } ,
+      {
+        "id": "8680" ,
+        "item": "Grease Can"
+      } ,
+      {
+        "id": "8683" ,
+        "item": "Epaulets of Authority"
+      } ,
+      {
+        "id": "9615" ,
+        "item": "Black Aussie Hat"
+      } ,
+      {
+        "id": "10121" ,
+        "item": "Red Double Breasted Uniform"
+      } ,
+      {
+        "id": "10313" ,
+        "item": "Brown Owl Backpack"
+      } ,
+      {
+        "id": "11207" ,
+        "item": "White Owl Backpack"
+      } ,
+      {
+        "id": "11291" ,
+        "item": "White Top Hat"
+      } ,
+      {
+        "id": "12094" ,
+        "item": "White Neckerchief"
+      } ,
+      {
+        "id": "12101" ,
+        "item": "Mosaic Shoulderpads"
+      } ,
+      {
+        "id": "12242" ,
+        "item": "Warm Cap"
+      } ,
+      {
+        "id": "12296" ,
+        "item": "Present Shield"
+      } ,
+      {
+        "id": "12312" ,
+        "item": "Tie Dye Shirt"
+      } ,
+      {
+        "id": "12426" ,
+        "item": "Explorien Bot Pants"
+      } ,
+      {
+        "id": "12546" ,
+        "item": "Howdy Cowboy Hat"
+      } ,
+      {
+        "id": "12593" ,
+        "item": "Rugby Shirt"
+      } ,
+      {
+        "id": "12613" ,
+        "item": "Riot Shield"
+      } ,
+      {
+        "id": "12642" ,
+        "item": "The Samuraizor"
+      } ,
+      {
+        "id": "12647" ,
+        "item": "The Rutcarver"
+      } ,
+      {
+        "id": "12667" ,
+        "item": "Handy Spanner"
+      } ,
+      {
+        "id": "12677" ,
+        "item": "Wolf Shield"
+      } ,
+      {
+        "id": "12681" ,
+        "item": "Ogre-Jaw Shield"
+      } ,
+      {
+        "id": "12682" ,
+        "item": "Baseball Jersey 1"
+      } ,
+      {
+        "id": "12688" ,
+        "item": "Cool Car Muscle Shirt"
+      } ,
+      {
+        "id": "12689" ,
+        "item": "Dashiki Shirt"
+      } ,
+      {
+        "id": "12690" ,
+        "item": "Explorien Bot Shirt"
+      } ,
+      {
+        "id": "12695" ,
+        "item": "Pit Stop Racing Shirt"
+      } ,
+      {
+        "id": "12700" ,
+        "item": "Denim Shirt"
+      } ,
+      {
+        "id": "12707" ,
+        "item": "Blacktron Shirt"
+      } ,
+      {
+        "id": "12711" ,
+        "item": "Blocks Shirt"
+      } ,
+      {
+        "id": "12743" ,
+        "item": "Mosaic Shield"
+      } ,
+      {
+        "id": "12749" ,
+        "item": "Cow Skull Shirt"
+      } ,
+      {
+        "id": "12753" ,
+        "item": "Safety Vest"
+      } ,
+      {
+        "id": "12758" ,
+        "item": "Bone Suit Shirt"
+      } ,
+      {
+        "id": "12770" ,
+        "item": "Cutoff Jeans"
+      } ,
+      {
+        "id": "12785" ,
+        "item": "Miners' Helm"
+      } ,
+      {
+        "id": "12789" ,
+        "item": "Flight Suit Legs"
+      } ,
+      {
+        "id": "12797" ,
+        "item": "Racing Legs"
+      } ,
+      {
+        "id": "12918" ,
+        "item": "Imagination Spinjitzu Hood"
+      } ,
+      {
+        "id": "12919" ,
+        "item": "Imagination Spinjitzu Shirt"
+      } ,
+      {
+        "id": "12920" ,
+        "item": "Imagination Spinjitzu Pants"
+      } ,
+      {
+        "id": "12921" ,
+        "item": "Summoner Staff 3"
+      } ,
+      {
+        "id": "12922" ,
+        "item": "Summoner Orb 3"
+      } ,
+      {
+        "id": "12923" ,
+        "item": "Summoner Shoulderpads 3"
+      } ,
+      {
+        "id": "12924" ,
+        "item": "Summoner Hat 3"
+      } ,
+      {
+        "id": "12945" ,
+        "item": "Summoner Robe 3"
+      } ,
+      {
+        "id": "12946" ,
+        "item": "Summoner Pants 3"
+      } ,
+      {
+        "id": "12947" ,
+        "item": "Engineer Shirt 3"
+      } ,
+      {
+        "id": "12949" ,
+        "item": "Engineer Pants 3"
+      } ,
+      {
+        "id": "12950" ,
+        "item": "Knight Breastplate 3"
+      } ,
+      {
+        "id": "12951" ,
+        "item": "Knight Leggings 3"
+      } ,
+      {
+        "id": "12952" ,
+        "item": "Samurai Breastplate 3"
+      } ,
+      {
+        "id": "12953" ,
+        "item": "Samurai Leggings 3"
+      } ,
+      {
+        "id": "12959" ,
+        "item": "Sorcerer Pants 3"
+      } ,
+      {
+        "id": "12960" ,
+        "item": "Space Marauder Jacket 3"
+      } ,
+      {
+        "id": "12961" ,
+        "item": "Space Marauder Pants 3"
+      } ,
+      {
+        "id": "12963" ,
+        "item": "Engineer Vest 3"
+      } ,
+      {
+        "id": "12964" ,
+        "item": "Engineer Wrench 3"
+      } ,
+      {
+        "id": "12965" ,
+        "item": "Engineer Controller 3"
+      } ,
+      {
+        "id": "12985" ,
+        "item": "Sorcerer Orb 3"
+      } ,
+      {
+        "id": "12988" ,
+        "item": "Space Marauder Launcher 3"
+      } ,
+      {
+        "id": "12989" ,
+        "item": "Sorcerer Shoulderpads 3"
+      } ,
+      {
+        "id": "12991" ,
+        "item": "Space Marauder Shoulderpads 3"
+      } ,
+      {
+        "id": "12995" ,
+        "item": "Daredevil Shoulderpads 3"
+      } ,
+      {
+        "id": "13527" ,
+        "item": "Nexus Tower Shirt"
+      } ,
+      {
+        "id": "13551" ,
+        "item": "Bone Daddy Hat"
+      } ,
+      {
+        "id": "13913" ,
+        "item": "Hat of the Adept"
+      } ,
+      {
+        "id": "14091" ,
+        "item": "Snazzy Pants"
+      } ,
+      {
+        "id": "14092" ,
+        "item": "Jazzy Pants"
+      } ,
+      {
+        "id": "14100" ,
+        "item": "Master Driver Helmet"
+      } ,
+      {
+        "id": "14103" ,
+        "item": "Paparazzi Shirt"
+      } ,
+      {
+        "id": "14106" ,
+        "item": "Stromling Shirt"
+      } ,
+      {
+        "id": "14115" ,
+        "item": "Peg-Leg's Shirt"
+      } ,
+      {
+        "id": "14118" ,
+        "item": "Murgle Blotch Shirt"
+      } ,
+      {
+        "id": "14120" ,
+        "item": "Nexus Force Shield MK II"
+      } ,
+      {
+        "id": "14173" ,
+        "item": "Gi of Quakes"
+      } ,
+      {
+        "id": "14805" ,
+        "item": "Red Cape"
+      } ,
+      {
+        "id": "14806" ,
+        "item": "Blue Cape"
+      } ,
+      {
+        "id": "14807" ,
+        "item": "White Cape"
+      } ,
+      {
+        "id": "14808" ,
+        "item": "Black Cape"
+      } ,
+      {
+        "id": "14809" ,
+        "item": "Pink Cape"
+      } ,
+      {
+        "id": "14810" ,
+        "item": "Green Cape"
+      } ,
+      {
+        "id": "14812" ,
+        "item": "Yellow Cape"
+      } ,
+      {
+        "id": "14813" ,
+        "item": "Orange Cape"
+      } ,
+      {
+        "id": "14814" ,
+        "item": "Purple Cape"
+      } ,
+      {
+        "id": "15843" ,
+        "item": "Kai's First Gi"
+      } ,
+      {
+        "id": "15844" ,
+        "item": "Cole's First Gi"
+      } ,
+      {
+        "id": "15916" ,
+        "item": "Tarnished Kabuto"
+      } ,
+      {
+        "id": "15917" ,
+        "item": "Practice Kabuto"
+      } ,
+      {
+        "id": "15992" ,
+        "item": "Dark Defense"
+      } ,
+      {
+        "id": "15994" ,
+        "item": "Shimmering O-Yoroi"
+      } ,
+      {
+        "id": "16067" ,
+        "item": "Haiiro Gi"
+      } ,
+      {
+        "id": "16068" ,
+        "item": "Midori Gi"
+      } ,
+      {
+        "id": "16069" ,
+        "item": "Daidaiiro Gi"
+      } ,
+      {
+        "id": "16086" ,
+        "item": "Nya's Casual Kimono"
+      } ,
+      {
+        "id": "16095" ,
+        "item": "Kai's First Gi Pants"
+      } ,
+      {
+        "id": "16096" ,
+        "item": "Cole's First Gi Pants"
+      } ,
+      {
+        "id": "16098" ,
+        "item": "Jay's First Gi Pants"
+      } ,
+      {
+        "id": "16099" ,
+        "item": "Zane's First Gi Pants"
+      } ,
+      {
+        "id": "16100" ,
+        "item": "Murasaki Pants"
+      } ,
+      {
+        "id": "16102" ,
+        "item": "Haiiro Gi Pants"
+      } ,
+      {
+        "id": "16103" ,
+        "item": "Midori Gi Pants"
+      } ,
+      {
+        "id": "16105" ,
+        "item": "Daidaiiro Gi Pants"
+      } ,
+      {
+        "id": "16106" ,
+        "item": "Worn Gi Pants"
+      } ,
+      {
+        "id": "16118" ,
+        "item": "Common Kosode Pants"
+      } ,
+      {
+        "id": "16120" ,
+        "item": "Faded Kosode Pants"
+      } ,
+      {
+        "id": "16121" ,
+        "item": "Kuro Hakama"
+      } ,
+      {
+        "id": "16122" ,
+        "item": "Kai's Loungy Pants"
+      } ,
+      {
+        "id": "16123" ,
+        "item": "Murasaki Hakama"
+      } ,
+      {
+        "id": "16181" ,
+        "item": "Valiant Space Ranger's Cape"
+      } ,
+      {
+        "id": "16182" ,
+        "item": "Valiant Engineer's Cape"
+      } ,
+      {
+        "id": "16183" ,
+        "item": "Valiant Summoner's Cape"
+      } ,
+      {
+        "id": "16184" ,
+        "item": "Valiant Inventor's Cape"
+      } ,
+      {
+        "id": "16185" ,
+        "item": "Valiant Daredevil's Cape"
+      } ,
+      {
+        "id": "16188" ,
+        "item": "Valiant Space Marauder's Cape"
+      } ,
+      {
+        "id": "16189" ,
+        "item": "Valiant Sorcerer's Cape"
+      } ,
+      {
+        "id": "16190" ,
+        "item": "Valiant Shinobi's Cape"
+      } ,
+      {
+        "id": "16266" ,
+        "item": "Gi of Storms"
+      } ,
+      {
+        "id": "16267" ,
+        "item": "Gi of Frost"
+      } ,
+      {
+        "id": "16268" ,
+        "item": "Gi of Flames"
+      } ,
+      {
+        "id": "16588" ,
+        "item": "NPC Red Wand"
+      } ,
+      {
+        "id": "16594" ,
+        "item": "NPC Red Bull horn"
+      }
+    ]
+  } ,
+  "371": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "3" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "2587" ,
+        "item": "White Baseball Cap"
+      } ,
+      {
+        "id": "2635" ,
+        "item": "Pirate Captain Hat"
+      } ,
+      {
+        "id": "2641" ,
+        "item": "Maelstrom-Infused White Ninja Hood"
+      } ,
+      {
+        "id": "2642" ,
+        "item": "Maelstrom-Infused Black Ninja Hood"
+      } ,
+      {
+        "id": "2648" ,
+        "item": "Black Hood"
+      } ,
+      {
+        "id": "3013" ,
+        "item": "Grey Knit Cap"
+      } ,
+      {
+        "id": "3066" ,
+        "item": "Yar Har Har Sextant"
+      } ,
+      {
+        "id": "5843" ,
+        "item": "Hawaiian Shirt"
+      } ,
+      {
+        "id": "5844" ,
+        "item": "Stromling Defeater Shirt"
+      } ,
+      {
+        "id": "6792" ,
+        "item": "Blue Shoulder Parrot"
+      } ,
+      {
+        "id": "6794" ,
+        "item": "Sideways Pirate Hat"
+      } ,
+      {
+        "id": "6795" ,
+        "item": "Admiral Hat"
+      } ,
+      {
+        "id": "6922" ,
+        "item": "Turban of Healing"
+      } ,
+      {
+        "id": "6926" ,
+        "item": "Shirt of Armor"
+      } ,
+      {
+        "id": "6933" ,
+        "item": "Hood of Healing"
+      } ,
+      {
+        "id": "7375" ,
+        "item": "Sorcerer Breastplate 3"
+      } ,
+      {
+        "id": "7378" ,
+        "item": "Buccaneer Shirt 3"
+      } ,
+      {
+        "id": "7390" ,
+        "item": "Buccaneer Pantaloons 3"
+      } ,
+      {
+        "id": "7416" ,
+        "item": "Buccaneer Bandolier 3"
+      } ,
+      {
+        "id": "7486" ,
+        "item": "Adventurer Coat 3"
+      } ,
+      {
+        "id": "7489" ,
+        "item": "Daredevil Jacket 3"
+      } ,
+      {
+        "id": "7492" ,
+        "item": "Space Ranger Pants 3"
+      } ,
+      {
+        "id": "7510" ,
+        "item": "Adventurer Pants 3"
+      } ,
+      {
+        "id": "7513" ,
+        "item": "Daredevil Pants 3"
+      } ,
+      {
+        "id": "7525" ,
+        "item": "Shinobi Katana 3"
+      } ,
+      {
+        "id": "7558" ,
+        "item": "Adventurer Backpack 3"
+      } ,
+      {
+        "id": "7783" ,
+        "item": "Retro Movie Camera"
+      } ,
+      {
+        "id": "8361" ,
+        "item": "Belted Ninja Shirt"
+      } ,
+      {
+        "id": "8425" ,
+        "item": "White Cowboy Hat"
+      } ,
+      {
+        "id": "8426" ,
+        "item": "Tan Cowboy Hat"
+      } ,
+      {
+        "id": "8533" ,
+        "item": "Quiver"
+      } ,
+      {
+        "id": "8536" ,
+        "item": "Dox Shoulderpads"
+      } ,
+      {
+        "id": "8539" ,
+        "item": "Messenger Bag"
+      } ,
+      {
+        "id": "8630" ,
+        "item": "Union Shirt"
+      } ,
+      {
+        "id": "8637" ,
+        "item": "Breastplate of Armored Inspiration"
+      } ,
+      {
+        "id": "8681" ,
+        "item": "Gem Scepter"
+      } ,
+      {
+        "id": "8685" ,
+        "item": "Sailor Hat"
+      } ,
+      {
+        "id": "9856" ,
+        "item": "Nexus Force Cape"
+      } ,
+      {
+        "id": "9883" ,
+        "item": "Kitty Cat Backpack"
+      } ,
+      {
+        "id": "10125" ,
+        "item": "Queen Shirt"
+      } ,
+      {
+        "id": "10295" ,
+        "item": "White Cat Backpack"
+      } ,
+      {
+        "id": "10296" ,
+        "item": "Black Cat Backpack"
+      } ,
+      {
+        "id": "11303" ,
+        "item": ""
+      } ,
+      {
+        "id": "11304" ,
+        "item": ""
+      } ,
+      {
+        "id": "12098" ,
+        "item": "Nexus Airtanks"
+      } ,
+      {
+        "id": "12289" ,
+        "item": "Winter Parka"
+      } ,
+      {
+        "id": "12297" ,
+        "item": "Winter Sweater"
+      } ,
+      {
+        "id": "12298" ,
+        "item": "Snowy Tree Shirt"
+      } ,
+      {
+        "id": "12308" ,
+        "item": "Banneret's Helm"
+      } ,
+      {
+        "id": "12310" ,
+        "item": "Ogre Buckler"
+      } ,
+      {
+        "id": "12471" ,
+        "item": "Overstuffed Briefcase"
+      } ,
+      {
+        "id": "12592" ,
+        "item": "Test Tak Camera"
+      } ,
+      {
+        "id": "12599" ,
+        "item": "Crux Planet Shield"
+      } ,
+      {
+        "id": "12603" ,
+        "item": "Cuirass Armor"
+      } ,
+      {
+        "id": "12627" ,
+        "item": "Ripsaw"
+      } ,
+      {
+        "id": "12637" ,
+        "item": "The Powerjouster"
+      } ,
+      {
+        "id": "12638" ,
+        "item": "The Broadsider"
+      } ,
+      {
+        "id": "12672" ,
+        "item": "Knotwork Shield"
+      } ,
+      {
+        "id": "12686" ,
+        "item": "Bat Lord Shirt"
+      } ,
+      {
+        "id": "12705" ,
+        "item": "Cool Car Euro Shirt"
+      } ,
+      {
+        "id": "12710" ,
+        "item": "Paisley Shirt"
+      } ,
+      {
+        "id": "12712" ,
+        "item": "Biking Jersey"
+      } ,
+      {
+        "id": "12714" ,
+        "item": "Futuron Shirt"
+      } ,
+      {
+        "id": "12726" ,
+        "item": "Little Friend"
+      } ,
+      {
+        "id": "12742" ,
+        "item": "Medic Shield"
+      } ,
+      {
+        "id": "12756" ,
+        "item": "Mosaic Shirt"
+      } ,
+      {
+        "id": "12769" ,
+        "item": "Visored Racing Helmet"
+      } ,
+      {
+        "id": "12771" ,
+        "item": "Trousers"
+      } ,
+      {
+        "id": "12781" ,
+        "item": "Bat Lord Helmet"
+      } ,
+      {
+        "id": "12782" ,
+        "item": "Eisenhut"
+      } ,
+      {
+        "id": "12792" ,
+        "item": "Harlequin Costume Legs"
+      } ,
+      {
+        "id": "12796" ,
+        "item": "Pinstripe Pant Legs"
+      } ,
+      {
+        "id": "12801" ,
+        "item": "Mosaic Pants"
+      } ,
+      {
+        "id": "12901" ,
+        "item": "Mosaic Jester Cap"
+      } ,
+      {
+        "id": "12954" ,
+        "item": "Buccaneer Shirt 3"
+      } ,
+      {
+        "id": "12955" ,
+        "item": "Buccaneer Pantaloons 3"
+      } ,
+      {
+        "id": "12956" ,
+        "item": "Daredevil Jacket 3"
+      } ,
+      {
+        "id": "12957" ,
+        "item": "Daredevil Pants 3"
+      } ,
+      {
+        "id": "12958" ,
+        "item": "Sorcerer Breastplate 3"
+      } ,
+      {
+        "id": "12990" ,
+        "item": "Buccaneer Bandolier 3"
+      } ,
+      {
+        "id": "12997" ,
+        "item": "Bone Suit Helm"
+      } ,
+      {
+        "id": "13000" ,
+        "item": "Bat Lord Pants"
+      } ,
+      {
+        "id": "13526" ,
+        "item": "Green Tiki Shirt"
+      } ,
+      {
+        "id": "13544" ,
+        "item": "Imagination Backpack"
+      } ,
+      {
+        "id": "13548" ,
+        "item": "Sentinel Box Disguise"
+      } ,
+      {
+        "id": "13617" ,
+        "item": "Shard Armor"
+      } ,
+      {
+        "id": "13741" ,
+        "item": "Dragon Disguise"
+      } ,
+      {
+        "id": "13814" ,
+        "item": "Golden Telescope"
+      } ,
+      {
+        "id": "13891" ,
+        "item": "Assembly Box Disguise"
+      } ,
+      {
+        "id": "13892" ,
+        "item": "Venture League Box Disguise"
+      } ,
+      {
+        "id": "13911" ,
+        "item": "Hat of Wizardry"
+      } ,
+      {
+        "id": "13914" ,
+        "item": "Helm of the Mountain King"
+      } ,
+      {
+        "id": "13916" ,
+        "item": "Hood of the Mystic"
+      } ,
+      {
+        "id": "14098" ,
+        "item": "Race Ace Helmet"
+      } ,
+      {
+        "id": "14099" ,
+        "item": "Racemaster Helmet"
+      } ,
+      {
+        "id": "14102" ,
+        "item": "Photojournalist Shirt"
+      } ,
+      {
+        "id": "14105" ,
+        "item": "Spiderling Shirt"
+      } ,
+      {
+        "id": "14114" ,
+        "item": "One-Eye's Shirt"
+      } ,
+      {
+        "id": "14117" ,
+        "item": "Kinga Hurl Shirt"
+      } ,
+      {
+        "id": "14119" ,
+        "item": "Nexus Force Shield MK III"
+      } ,
+      {
+        "id": "14172" ,
+        "item": "Pants of Quakes"
+      } ,
+      {
+        "id": "15907" ,
+        "item": "Scorpion Whip"
+      } ,
+      {
+        "id": "15909" ,
+        "item": "Stinger"
+      } ,
+      {
+        "id": "15914" ,
+        "item": "Crimson Kabuto"
+      } ,
+      {
+        "id": "15919" ,
+        "item": "Workman's Rice Hat"
+      } ,
+      {
+        "id": "15926" ,
+        "item": "Rice Hat"
+      } ,
+      {
+        "id": "15937" ,
+        "item": "Ki Filled Hood"
+      } ,
+      {
+        "id": "15974" ,
+        "item": "Turtle Pack"
+      } ,
+      {
+        "id": "15975" ,
+        "item": "Imaginite Pack"
+      } ,
+      {
+        "id": "16065" ,
+        "item": "Murasaki Gi"
+      } ,
+      {
+        "id": "16085" ,
+        "item": "Sakura's Festival Kimono"
+      } ,
+      {
+        "id": "16087" ,
+        "item": "Classy Kimono"
+      } ,
+      {
+        "id": "16186" ,
+        "item": "Valiant Buccaneer's Cape"
+      } ,
+      {
+        "id": "16187" ,
+        "item": "Valiant Adventurer's Cape"
+      } ,
+      {
+        "id": "16269" ,
+        "item": "Pants of Storms"
+      } ,
+      {
+        "id": "16270" ,
+        "item": "Pants of Frost"
+      } ,
+      {
+        "id": "16271" ,
+        "item": "Pants of Flames"
+      } ,
+      {
+        "id": "16606" ,
+        "item": "Cole's Gi of Quakes"
+      } ,
+      {
+        "id": "16607" ,
+        "item": "Cole's Pants of Quakes"
+      } ,
+      {
+        "id": "16609" ,
+        "item": "Jay's Gi of Storms"
+      } ,
+      {
+        "id": "16610" ,
+        "item": "Jay's Pants of Storms"
+      } ,
+      {
+        "id": "16612" ,
+        "item": "Zane's Gi of Frost"
+      } ,
+      {
+        "id": "16613" ,
+        "item": "Zane's Pants of Frost"
+      } ,
+      {
+        "id": "16615" ,
+        "item": "Kai's Gi of Flames"
+      } ,
+      {
+        "id": "16616" ,
+        "item": "Kai's Pants of Flames"
+      } ,
+      {
+        "id": "16633" ,
+        "item": "Kai's DX Pants of Flames"
+      } ,
+      {
+        "id": "16634" ,
+        "item": "Kai's DX Gi of Flames"
+      } ,
+      {
+        "id": "16635" ,
+        "item": "Zane's DX Gi of Frost"
+      } ,
+      {
+        "id": "16636" ,
+        "item": "Zane's DX Pants of Frost"
+      } ,
+      {
+        "id": "16637" ,
+        "item": "Jay's DX Gi of Storms"
+      } ,
+      {
+        "id": "16638" ,
+        "item": "Jay's DX Pants of Storms"
+      } ,
+      {
+        "id": "16639" ,
+        "item": "Cole's DX Gi of Quakes"
+      } ,
+      {
+        "id": "16640" ,
+        "item": "Cole's DX Pants of Quakes"
+      }
+    ]
+  } ,
+  "372": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "4" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "1889" ,
+        "item": "Red Ninja Hood - Maelstrom Infused"
+      } ,
+      {
+        "id": "7480" ,
+        "item": "Inventor Armor 3"
+      } ,
+      {
+        "id": "7740" ,
+        "item": "LEGO Dice Shirt"
+      } ,
+      {
+        "id": "7786" ,
+        "item": "Mega Helm"
+      } ,
+      {
+        "id": "7790" ,
+        "item": "Jester Hat"
+      } ,
+      {
+        "id": "8350" ,
+        "item": "Kung Fu Master Shirt"
+      } ,
+      {
+        "id": "8424" ,
+        "item": "Black Cowboy Hat"
+      } ,
+      {
+        "id": "8544" ,
+        "item": "King's Crown"
+      } ,
+      {
+        "id": "8598" ,
+        "item": "Zippered Leather Jacket"
+      } ,
+      {
+        "id": "8624" ,
+        "item": "Jester Shirt"
+      } ,
+      {
+        "id": "10482" ,
+        "item": "Used to consume the back neck slot of the player when the ninja hood is equipped"
+      } ,
+      {
+        "id": "12095" ,
+        "item": "Crux Prime Armor"
+      } ,
+      {
+        "id": "12472" ,
+        "item": "Explorien Bot Helm"
+      } ,
+      {
+        "id": "12530" ,
+        "item": "Headbash Helmet"
+      } ,
+      {
+        "id": "12562" ,
+        "item": "Evergiving Goblet"
+      } ,
+      {
+        "id": "12601" ,
+        "item": "Padded Toque of Healing"
+      } ,
+      {
+        "id": "12630" ,
+        "item": "T-Rex Shirt"
+      } ,
+      {
+        "id": "12675" ,
+        "item": "Fleur-de-Lis Shield"
+      } ,
+      {
+        "id": "12678" ,
+        "item": "Bat Lord Shield"
+      } ,
+      {
+        "id": "12691" ,
+        "item": "Flaming Tire Shirt"
+      } ,
+      {
+        "id": "12715" ,
+        "item": "Tiki Batik Shirt"
+      } ,
+      {
+        "id": "12732" ,
+        "item": "Massive Spear"
+      } ,
+      {
+        "id": "12737" ,
+        "item": "Visored Space Helm"
+      } ,
+      {
+        "id": "12740" ,
+        "item": "Plunger Hat"
+      } ,
+      {
+        "id": "12741" ,
+        "item": "Dragon Helm MK II"
+      } ,
+      {
+        "id": "12748" ,
+        "item": "Classic Astronaut Shirt"
+      } ,
+      {
+        "id": "12754" ,
+        "item": "Shark Shirt"
+      } ,
+      {
+        "id": "12755" ,
+        "item": "Tribal Shirt"
+      } ,
+      {
+        "id": "12779" ,
+        "item": "Dancin' Hat"
+      } ,
+      {
+        "id": "12783" ,
+        "item": "Forester's Hood"
+      } ,
+      {
+        "id": "12809" ,
+        "item": "The Wormholer"
+      } ,
+      {
+        "id": "12816" ,
+        "item": "The Doomslicer"
+      } ,
+      {
+        "id": "13525" ,
+        "item": "Scanning Helm"
+      } ,
+      {
+        "id": "13912" ,
+        "item": "Hat of Magecraft"
+      } ,
+      {
+        "id": "13917" ,
+        "item": "Hood of the Sage"
+      } ,
+      {
+        "id": "14101" ,
+        "item": "Bricksel Adams Shirt"
+      } ,
+      {
+        "id": "14104" ,
+        "item": "Survival Mech Shirt"
+      } ,
+      {
+        "id": "14113" ,
+        "item": "Skyme's Shirt"
+      } ,
+      {
+        "id": "14116" ,
+        "item": "4 Riders Shirt"
+      } ,
+      {
+        "id": "14136" ,
+        "item": "Hood of Quakes"
+      } ,
+      {
+        "id": "15918" ,
+        "item": "Athlete's Shade"
+      } ,
+      {
+        "id": "15920" ,
+        "item": "Scholar's Travel Hat"
+      } ,
+      {
+        "id": "16272" ,
+        "item": "Hood of Storms"
+      } ,
+      {
+        "id": "16276" ,
+        "item": "Hood of Frost"
+      } ,
+      {
+        "id": "16277" ,
+        "item": "Hood of Flames"
+      } ,
+      {
+        "id": "16605" ,
+        "item": "Cole's Hood of Quakes"
+      } ,
+      {
+        "id": "16608" ,
+        "item": "Jay's Hood of Storms"
+      } ,
+      {
+        "id": "16611" ,
+        "item": "Zane's Hood of Frost"
+      } ,
+      {
+        "id": "16614" ,
+        "item": "Kai's Hood of Flames"
+      }
+    ]
+  } ,
+  "374": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "6" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12733" ,
+        "item": "Heavy Staff"
+      } ,
+      {
+        "id": "12817" ,
+        "item": "The Wingreaper"
+      } ,
+      {
+        "id": "15947" ,
+        "item": "Kiro Swordsman's Hood"
+      } ,
+      {
+        "id": "15959" ,
+        "item": "Spearman's Healing Hood"
+      }
+    ]
+  } ,
+  "375": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "7" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "15954" ,
+        "item": "Slash and Stitch"
+      } ,
+      {
+        "id": "15960" ,
+        "item": "Piercing Patch Hood"
+      }
+    ]
+  } ,
+  "376": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "8" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "8348" ,
+        "item": "Dragon Style Gi"
+      } ,
+      {
+        "id": "8354" ,
+        "item": "Mantis Style Gi"
+      } ,
+      {
+        "id": "8356" ,
+        "item": "Panda Style Gi"
+      } ,
+      {
+        "id": "14315" ,
+        "item": "Trial Sentinel Gear"
+      }
+    ]
+  } ,
+  "378": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "1" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7378" ,
+        "item": "Buccaneer Shirt 3"
+      } ,
+      {
+        "id": "7415" ,
+        "item": "Sorcerer Shoulderpads 3"
+      } ,
+      {
+        "id": "7486" ,
+        "item": "Adventurer Coat 3"
+      } ,
+      {
+        "id": "7489" ,
+        "item": "Daredevil Jacket 3"
+      } ,
+      {
+        "id": "7540" ,
+        "item": "Space Marauder Shoulderpads 3"
+      } ,
+      {
+        "id": "7541" ,
+        "item": "Shinobi Shoulderpads 3"
+      } ,
+      {
+        "id": "9856" ,
+        "item": "Nexus Force Cape"
+      } ,
+      {
+        "id": "12678" ,
+        "item": "Bat Lord Shield"
+      } ,
+      {
+        "id": "12686" ,
+        "item": "Bat Lord Shirt"
+      } ,
+      {
+        "id": "12781" ,
+        "item": "Bat Lord Helmet"
+      } ,
+      {
+        "id": "12802" ,
+        "item": "Bat Lord Staff"
+      } ,
+      {
+        "id": "12954" ,
+        "item": "Buccaneer Shirt 3"
+      } ,
+      {
+        "id": "12956" ,
+        "item": "Daredevil Jacket 3"
+      } ,
+      {
+        "id": "12989" ,
+        "item": "Sorcerer Shoulderpads 3"
+      } ,
+      {
+        "id": "12991" ,
+        "item": "Space Marauder Shoulderpads 3"
+      } ,
+      {
+        "id": "13000" ,
+        "item": "Bat Lord Pants"
+      } ,
+      {
+        "id": "16188" ,
+        "item": "Valiant Space Marauder's Cape"
+      } ,
+      {
+        "id": "16189" ,
+        "item": "Valiant Sorcerer's Cape"
+      } ,
+      {
+        "id": "16190" ,
+        "item": "Valiant Shinobi's Cape"
+      }
+    ]
+  } ,
+  "381": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "4" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "14315" ,
+        "item": "Trial Sentinel Gear"
+      } ,
+      {
+        "id": "14321" ,
+        "item": "Trial Paradox Gear"
+      } ,
+      {
+        "id": "14353" ,
+        "item": "Trial Assembly Gear"
+      } ,
+      {
+        "id": "14359" ,
+        "item": "Trial Venture League Gear"
+      }
+    ]
+  } ,
+  "451": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7400" ,
+        "item": "Buccaneer Pistol & Cutlass 1"
+      }
+    ]
+  } ,
+  "476": {
+    "cooldown": "1.350000023841858" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7391" ,
+        "item": "Knight Greatsword 1"
+      }
+    ]
+  } ,
+  "477": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7392" ,
+        "item": "Knight Greatsword 2"
+      }
+    ]
+  } ,
+  "478": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7393" ,
+        "item": "Knight Greatsword 3"
+      } ,
+      {
+        "id": "10503" ,
+        "item": ""
+      } ,
+      {
+        "id": "10504" ,
+        "item": ""
+      } ,
+      {
+        "id": "12968" ,
+        "item": "Knight Greatsword 3"
+      }
+    ]
+  } ,
+  "572": {
+    "cooldown": "1" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7517" ,
+        "item": "Samurai Katana 1"
+      }
+    ]
+  } ,
+  "573": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7518" ,
+        "item": "Samurai Katana 2"
+      }
+    ]
+  } ,
+  "574": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7519" ,
+        "item": "Samurai Katana 3"
+      } ,
+      {
+        "id": "12977" ,
+        "item": "Samurai Katana 3"
+      }
+    ]
+  } ,
+  "595": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7401" ,
+        "item": "Buccaneer Pistol & Cutlass 2"
+      }
+    ]
+  } ,
+  "596": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7402" ,
+        "item": "Buccaneer Pistol & Cutlass 3"
+      } ,
+      {
+        "id": "12982" ,
+        "item": "Buccaneer Pistol & Cutlass 3"
+      }
+    ]
+  } ,
+  "604": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7535" ,
+        "item": "Daredevil Flareguns 1"
+      }
+    ]
+  } ,
+  "639": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7536" ,
+        "item": "Daredevil Flareguns 2"
+      }
+    ]
+  } ,
+  "640": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7537" ,
+        "item": "Daredevil Flareguns 3"
+      } ,
+      {
+        "id": "12994" ,
+        "item": "Daredevil Flareguns 3"
+      }
+    ]
+  } ,
+  "858": {
+    "cooldown": "0" ,
+    "cooldowngroup": "0" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "8356" ,
+        "item": "Panda Style Gi"
+      }
+    ]
+  } ,
+  "859": {
+    "cooldown": "0" ,
+    "cooldowngroup": "0" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "8348" ,
+        "item": "Dragon Style Gi"
+      }
+    ]
+  } ,
+  "860": {
+    "cooldown": "0" ,
+    "cooldowngroup": "0" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "8354" ,
+        "item": "Mantis Style Gi"
+      }
+    ]
+  } ,
+  "979": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12486" ,
+        "item": "Scarlet Scythe"
+      }
+    ]
+  } ,
+  "982": {
+    "cooldown": "5" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12489" ,
+        "item": "[DNL] Valiant Ship"
+      }
+    ]
+  } ,
+  "1009": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12636" ,
+        "item": "The Serratorizer"
+      }
+    ]
+  } ,
+  "1015": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12637" ,
+        "item": "The Powerjouster"
+      }
+    ]
+  } ,
+  "1019": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12638" ,
+        "item": "The Broadsider"
+      }
+    ]
+  } ,
+  "1021": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12642" ,
+        "item": "The Samuraizor"
+      }
+    ]
+  } ,
+  "1022": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12647" ,
+        "item": "The Rutcarver"
+      }
+    ]
+  } ,
+  "1032": {
+    "cooldown": "1" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12809" ,
+        "item": "The Wormholer"
+      }
+    ]
+  } ,
+  "1036": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12816" ,
+        "item": "The Doomslicer"
+      }
+    ]
+  } ,
+  "1037": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12817" ,
+        "item": "The Wingreaper"
+      }
+    ]
+  } ,
+  "1038": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7528" ,
+        "item": "Inventor Improved Launcher 3"
+      }
+    ]
+  } ,
+  "1042": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7527" ,
+        "item": "Inventor Improved Launcher 2"
+      }
+    ]
+  } ,
+  "1082": {
+    "cooldown": "1.25" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7524" ,
+        "item": "Shinobi Katana 2"
+      }
+    ]
+  } ,
+  "1083": {
+    "cooldown": "1.25" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7525" ,
+        "item": "Shinobi Katana 3"
+      }
+    ]
+  } ,
+  "1094": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7514" ,
+        "item": "Space Ranger Zipgun 1"
+      }
+    ]
+  } ,
+  "1099": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7515" ,
+        "item": "Space Ranger Zipgun 2"
+      }
+    ]
+  } ,
+  "1100": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "7516" ,
+        "item": "Space Ranger Zipgun 3"
+      }
+    ]
+  } ,
+  "1119": {
+    "cooldown": "0" ,
+    "cooldowngroup": "-1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12919" ,
+        "item": "Imagination Spinjitzu Shirt"
+      } ,
+      {
+        "id": "12920" ,
+        "item": "Imagination Spinjitzu Pants"
+      } ,
+      {
+        "id": "14172" ,
+        "item": "Pants of Quakes"
+      } ,
+      {
+        "id": "14173" ,
+        "item": "Gi of Quakes"
+      } ,
+      {
+        "id": "14499" ,
+        "item": "Dragon Mask"
+      } ,
+      {
+        "id": "15843" ,
+        "item": "Kai's First Gi"
+      } ,
+      {
+        "id": "15844" ,
+        "item": "Cole's First Gi"
+      } ,
+      {
+        "id": "15914" ,
+        "item": "Crimson Kabuto"
+      } ,
+      {
+        "id": "15916" ,
+        "item": "Tarnished Kabuto"
+      } ,
+      {
+        "id": "15917" ,
+        "item": "Practice Kabuto"
+      } ,
+      {
+        "id": "15918" ,
+        "item": "Athlete's Shade"
+      } ,
+      {
+        "id": "15919" ,
+        "item": "Workman's Rice Hat"
+      } ,
+      {
+        "id": "15920" ,
+        "item": "Scholar's Travel Hat"
+      } ,
+      {
+        "id": "15926" ,
+        "item": "Rice Hat"
+      } ,
+      {
+        "id": "15974" ,
+        "item": "Turtle Pack"
+      } ,
+      {
+        "id": "15975" ,
+        "item": "Imaginite Pack"
+      } ,
+      {
+        "id": "15990" ,
+        "item": "Crimson Guard"
+      } ,
+      {
+        "id": "15991" ,
+        "item": "Blue O-Yoroi"
+      } ,
+      {
+        "id": "15992" ,
+        "item": "Dark Defense"
+      } ,
+      {
+        "id": "15993" ,
+        "item": "Scale Mail"
+      } ,
+      {
+        "id": "15994" ,
+        "item": "Shimmering O-Yoroi"
+      } ,
+      {
+        "id": "16063" ,
+        "item": "Jay's First Gi"
+      } ,
+      {
+        "id": "16064" ,
+        "item": "Zane's First Gi"
+      } ,
+      {
+        "id": "16065" ,
+        "item": "Murasaki Gi"
+      } ,
+      {
+        "id": "16066" ,
+        "item": "Faded Gi"
+      } ,
+      {
+        "id": "16067" ,
+        "item": "Haiiro Gi"
+      } ,
+      {
+        "id": "16068" ,
+        "item": "Midori Gi"
+      } ,
+      {
+        "id": "16069" ,
+        "item": "Daidaiiro Gi"
+      } ,
+      {
+        "id": "16070" ,
+        "item": "Worn Gi"
+      } ,
+      {
+        "id": "16082" ,
+        "item": "Faded Kosode"
+      } ,
+      {
+        "id": "16083" ,
+        "item": "Dark Kosode"
+      } ,
+      {
+        "id": "16084" ,
+        "item": "Common Kosode"
+      } ,
+      {
+        "id": "16085" ,
+        "item": "Sakura's Festival Kimono"
+      } ,
+      {
+        "id": "16086" ,
+        "item": "Nya's Casual Kimono"
+      } ,
+      {
+        "id": "16087" ,
+        "item": "Classy Kimono"
+      } ,
+      {
+        "id": "16095" ,
+        "item": "Kai's First Gi Pants"
+      } ,
+      {
+        "id": "16096" ,
+        "item": "Cole's First Gi Pants"
+      } ,
+      {
+        "id": "16098" ,
+        "item": "Jay's First Gi Pants"
+      } ,
+      {
+        "id": "16099" ,
+        "item": "Zane's First Gi Pants"
+      } ,
+      {
+        "id": "16100" ,
+        "item": "Murasaki Pants"
+      } ,
+      {
+        "id": "16101" ,
+        "item": "Faded Gi Pants"
+      } ,
+      {
+        "id": "16102" ,
+        "item": "Haiiro Gi Pants"
+      } ,
+      {
+        "id": "16103" ,
+        "item": "Midori Gi Pants"
+      } ,
+      {
+        "id": "16105" ,
+        "item": "Daidaiiro Gi Pants"
+      } ,
+      {
+        "id": "16106" ,
+        "item": "Worn Gi Pants"
+      } ,
+      {
+        "id": "16118" ,
+        "item": "Common Kosode Pants"
+      } ,
+      {
+        "id": "16119" ,
+        "item": "Dark Kosode Pants"
+      } ,
+      {
+        "id": "16120" ,
+        "item": "Faded Kosode Pants"
+      } ,
+      {
+        "id": "16121" ,
+        "item": "Kuro Hakama"
+      } ,
+      {
+        "id": "16122" ,
+        "item": "Kai's Loungy Pants"
+      } ,
+      {
+        "id": "16123" ,
+        "item": "Murasaki Hakama"
+      } ,
+      {
+        "id": "16266" ,
+        "item": "Gi of Storms"
+      } ,
+      {
+        "id": "16267" ,
+        "item": "Gi of Frost"
+      } ,
+      {
+        "id": "16268" ,
+        "item": "Gi of Flames"
+      } ,
+      {
+        "id": "16269" ,
+        "item": "Pants of Storms"
+      } ,
+      {
+        "id": "16270" ,
+        "item": "Pants of Frost"
+      } ,
+      {
+        "id": "16271" ,
+        "item": "Pants of Flames"
+      } ,
+      {
+        "id": "16606" ,
+        "item": "Cole's Gi of Quakes"
+      } ,
+      {
+        "id": "16607" ,
+        "item": "Cole's Pants of Quakes"
+      } ,
+      {
+        "id": "16609" ,
+        "item": "Jay's Gi of Storms"
+      } ,
+      {
+        "id": "16610" ,
+        "item": "Jay's Pants of Storms"
+      } ,
+      {
+        "id": "16612" ,
+        "item": "Zane's Gi of Frost"
+      } ,
+      {
+        "id": "16613" ,
+        "item": "Zane's Pants of Frost"
+      } ,
+      {
+        "id": "16615" ,
+        "item": "Kai's Gi of Flames"
+      } ,
+      {
+        "id": "16616" ,
+        "item": "Kai's Pants of Flames"
+      } ,
+      {
+        "id": "16633" ,
+        "item": "Kai's DX Pants of Flames"
+      } ,
+      {
+        "id": "16634" ,
+        "item": "Kai's DX Gi of Flames"
+      } ,
+      {
+        "id": "16635" ,
+        "item": "Zane's DX Gi of Frost"
+      } ,
+      {
+        "id": "16636" ,
+        "item": "Zane's DX Pants of Frost"
+      } ,
+      {
+        "id": "16637" ,
+        "item": "Jay's DX Gi of Storms"
+      } ,
+      {
+        "id": "16638" ,
+        "item": "Jay's DX Pants of Storms"
+      } ,
+      {
+        "id": "16639" ,
+        "item": "Cole's DX Gi of Quakes"
+      } ,
+      {
+        "id": "16640" ,
+        "item": "Cole's DX Pants of Quakes"
+      } ,
+      {
+        "id": "16644" ,
+        "item": "Dragon Mask"
+      }
+    ]
+  } ,
+  "1233": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12726" ,
+        "item": "Little Friend"
+      } ,
+      {
+        "id": "12732" ,
+        "item": "Massive Spear"
+      }
+    ]
+  } ,
+  "1234": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12733" ,
+        "item": "Heavy Staff"
+      } ,
+      {
+        "id": "12734" ,
+        "item": "Zweihander"
+      }
+    ]
+  } ,
+  "1235": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "13582" ,
+        "item": "Mole Whacker"
+      }
+    ]
+  } ,
+  "1262": {
+    "cooldown": "-1" ,
+    "cooldowngroup": "9" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "13548" ,
+        "item": "Sentinel Box Disguise"
+      } ,
+      {
+        "id": "13891" ,
+        "item": "Assembly Box Disguise"
+      } ,
+      {
+        "id": "13892" ,
+        "item": "Venture League Box Disguise"
+      }
+    ]
+  } ,
+  "1310": {
+    "cooldown": "0.4000000059604645" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12656" ,
+        "item": "The Scythe of Quakes"
+      }
+    ]
+  } ,
+  "1331": {
+    "cooldown": "0" ,
+    "cooldowngroup": "0" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "13544" ,
+        "item": "Imagination Backpack"
+      }
+    ]
+  } ,
+  "1332": {
+    "cooldown": "0" ,
+    "cooldowngroup": "0" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "13544" ,
+        "item": "Imagination Backpack"
+      }
+    ]
+  } ,
+  "1371": {
+    "cooldown": "10" ,
+    "cooldowngroup": "20" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "2" ,
+    "list": [
+      {
+        "id": "14136" ,
+        "item": "Hood of Quakes"
+      } ,
+      {
+        "id": "16605" ,
+        "item": "Cole's Hood of Quakes"
+      }
+    ]
+  } ,
+  "1456": {
+    "cooldown": "0" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "14829" ,
+        "item": "Training Bo Staff"
+      } ,
+      {
+        "id": "14840" ,
+        "item": "Spinning Yari"
+      } ,
+      {
+        "id": "16601" ,
+        "item": "Bright Lance"
+      } ,
+      {
+        "id": "16602" ,
+        "item": "Rage"
+      }
+    ]
+  } ,
+  "1461": {
+    "cooldown": "10" ,
+    "cooldowngroup": "5" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "2" ,
+    "list": [
+      {
+        "id": "15918" ,
+        "item": "Athlete's Shade"
+      } ,
+      {
+        "id": "15935" ,
+        "item": "Apothecary's Hood"
+      } ,
+      {
+        "id": "15947" ,
+        "item": "Kiro Swordsman's Hood"
+      } ,
+      {
+        "id": "15959" ,
+        "item": "Spearman's Healing Hood"
+      }
+    ]
+  } ,
+  "1463": {
+    "cooldown": "10" ,
+    "cooldowngroup": "5" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "2" ,
+    "list": [
+      {
+        "id": "15919" ,
+        "item": "Workman's Rice Hat"
+      } ,
+      {
+        "id": "15936" ,
+        "item": "Hobby Hood"
+      } ,
+      {
+        "id": "15954" ,
+        "item": "Slash and Stitch"
+      } ,
+      {
+        "id": "15960" ,
+        "item": "Piercing Patch Hood"
+      }
+    ]
+  } ,
+  "1464": {
+    "cooldown": "10" ,
+    "cooldowngroup": "5" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "3" ,
+    "list": [
+      {
+        "id": "15920" ,
+        "item": "Scholar's Travel Hat"
+      } ,
+      {
+        "id": "15937" ,
+        "item": "Ki Filled Hood"
+      } ,
+      {
+        "id": "15955" ,
+        "item": "Thought Blade"
+      } ,
+      {
+        "id": "15961" ,
+        "item": "Think and Throw"
+      }
+    ]
+  } ,
+  "1497": {
+    "cooldown": "-1" ,
+    "cooldowngroup": "-1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "14472" ,
+        "item": "Maelstrom Dagger"
+      } ,
+      {
+        "id": "16012" ,
+        "item": "Frakjaw's Maelstrom Battle Mace"
+      } ,
+      {
+        "id": "16060" ,
+        "item": "Maelstrom Bone Axe"
+      } ,
+      {
+        "id": "16146" ,
+        "item": "Maelstrom Double-Axe"
+      } ,
+      {
+        "id": "16147" ,
+        "item": "Chopov's Maelstrom Dark Blade"
+      } ,
+      {
+        "id": "16148" ,
+        "item": "Maelstrom Bone Dagger"
+      } ,
+      {
+        "id": "16149" ,
+        "item": "Krazi's Maelstrom Bone"
+      } ,
+      {
+        "id": "16150" ,
+        "item": "Maelstrom Blacksmith's Hammer"
+      } ,
+      {
+        "id": "16632" ,
+        "item": "Maelstrom Dagger"
+      }
+    ]
+  } ,
+  "1537": {
+    "cooldown": "0" ,
+    "cooldowngroup": "-1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12918" ,
+        "item": "Imagination Spinjitzu Hood"
+      } ,
+      {
+        "id": "14136" ,
+        "item": "Hood of Quakes"
+      } ,
+      {
+        "id": "15935" ,
+        "item": "Apothecary's Hood"
+      } ,
+      {
+        "id": "15936" ,
+        "item": "Hobby Hood"
+      } ,
+      {
+        "id": "15937" ,
+        "item": "Ki Filled Hood"
+      } ,
+      {
+        "id": "15947" ,
+        "item": "Kiro Swordsman's Hood"
+      } ,
+      {
+        "id": "15954" ,
+        "item": "Slash and Stitch"
+      } ,
+      {
+        "id": "15955" ,
+        "item": "Thought Blade"
+      } ,
+      {
+        "id": "15959" ,
+        "item": "Spearman's Healing Hood"
+      } ,
+      {
+        "id": "15960" ,
+        "item": "Piercing Patch Hood"
+      } ,
+      {
+        "id": "15961" ,
+        "item": "Think and Throw"
+      } ,
+      {
+        "id": "16272" ,
+        "item": "Hood of Storms"
+      } ,
+      {
+        "id": "16276" ,
+        "item": "Hood of Frost"
+      } ,
+      {
+        "id": "16277" ,
+        "item": "Hood of Flames"
+      } ,
+      {
+        "id": "16605" ,
+        "item": "Cole's Hood of Quakes"
+      } ,
+      {
+        "id": "16608" ,
+        "item": "Jay's Hood of Storms"
+      } ,
+      {
+        "id": "16611" ,
+        "item": "Zane's Hood of Frost"
+      } ,
+      {
+        "id": "16614" ,
+        "item": "Kai's Hood of Flames"
+      }
+    ]
+  } ,
+  "1560": {
+    "cooldown": "0.4000000059604645" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12658" ,
+        "item": "The Nunchuks of Lightning"
+      }
+    ]
+  } ,
+  "1565": {
+    "cooldown": "0.4000000059604645" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12659" ,
+        "item": "The Shurikens of Ice"
+      }
+    ]
+  } ,
+  "1567": {
+    "cooldown": "0.4000000059604645" ,
+    "cooldowngroup": "1" ,
+    "armorBonusUI": "null" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "12657" ,
+        "item": "The Sword of Fire"
+      }
+    ]
+  } ,
+  "1590": {
+    "cooldown": "0" ,
+    "cooldowngroup": "16" ,
+    "armorBonusUI": "10" ,
+    "lifeBonusUI": "null" ,
+    "imBonusUI": "null" ,
+    "imaginationcost": "0" ,
+    "list": [
+      {
+        "id": "14321" ,
+        "item": "Trial Paradox Gear"
+      } ,
+      {
+        "id": "14359" ,
+        "item": "Trial Venture League Gear"
+      }
+    ]
+  }
+}
