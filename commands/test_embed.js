@@ -35,7 +35,7 @@ module.exports = {
         var renderComponent = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/RenderComponent/${renderFolder}/${renderID}.json`)
         console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/RenderComponent/${renderFolder}/${renderID}.json`)
         var iconID = renderComponent.IconID
-        var icons = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
+        //var icons = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
         console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
         //var iconPath = icons.IconPath
         var iconPath = renderComponent.icon_asset
