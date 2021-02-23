@@ -8,6 +8,11 @@ module.exports = {
         var item_loc = id
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
         var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/objects/0/${folder_loc}/${item_loc}.json`);
+        if(item.type != "Loot"){
+            message.channel.send("Soldier that's not an item!")
+            return;
+        }
+
         console.log(`${item.name}`)
         var isWeapon = false
         var Armor = 0
@@ -24,6 +29,16 @@ module.exports = {
         var internalNotes = item._internalNotes
         var description = item.description
         var extra_desc = ''
+        var renderID = item.components["2"]
+        console.log(`renderID: ${renderID}`)
+        var renderFolder = Math.floor(renderID/256)
+        var renderComponent = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/RenderComponent/${renderFolder}/${renderID}.json`)
+        console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/RenderComponent/${renderFolder}/${renderID}.json`)
+        var iconID = renderComponent.IconID
+        var icons = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
+        console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
+        //var iconPath = icons.IconPath
+        var iconPath = renderComponent.icon_asset
         for (var i = 0; i < item.skills.length; i++) {
 
             var skillID = (item.skills[i].skillID)
@@ -111,10 +126,25 @@ module.exports = {
         var url = `https://lu-explorer.web.app/objects/${id}/2`;
         const img = `https://i.pinimg.com/originals/17/e3/70/17e370ff54f49281f212e8a9d34e2996.png`;
         var displayNameClean = item.displayName.replace(/\s/g, '_')
-        var thumbnail = `https://static.wikia.nocookie.net/legouniverse/images/5/5f/${displayNameClean}.png`
-        console.log(`thumbnail ${thumbnail}`)
+        //var thumbnail = `https://static.wikia.nocookie.net/legouniverse/images/5/5f/${displayNameClean}.png`
+        //console.log(`thumbnail ${thumbnail}`)
         var maudeLink = `https://cdn.discordapp.com/attachments/641133444746838016/813618015320408074/200.png`
-        var iconURL = `https://media.discordapp.net/attachments/641133444746838016/812137478139543552/lego_universe_hand.png?width=676&height=676`
+        iconPath = iconPath.replace('DDS', 'png')
+        iconPath = iconPath.replace('dds', 'png')
+        iconPath = iconPath.replace(/\\/g, "/");
+        iconPath = iconPath.replace(` `, "%20");
+        iconPath = iconPath.toLowerCase()
+        var iconURL = `https://xiphoseer.github.io/lu-res/${iconPath.substring(6)}`
+/*
+https://xiphoseer.github.io/lu-res/textures/ui/../../textures/auramar/ui/inventory/Hands/KiteShield_Bat.png
+https://xiphoseer.github.io/lu-res/textures/ui/amar/ui/inventory/Hands/KiteShield_Bat.png
+https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshield_bat.png
+ */
+
+        console.log(iconURL)
+        //console.log(`https://xiphoseer.github.io/lu-res/textures/ui/..\\..\\textures\\ui\\inventory\\faction kits\\sorcerer_shoulder_3.png`.replace('\\', '/'))
+            //https://xiphoseer.github.io/lu-res/textures/ui/inventory/faction%20kits/sorcerer_shoulder_3.png
+
         var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
         if(cooldown==undefined){
             cooldown= "None"
@@ -141,7 +171,7 @@ module.exports = {
             .setAuthor(`Nexus Force`, nexusLink, url)
             .setDescription(item_description)
 
-            .setThumbnail(thumbnail)
+            .setThumbnail(iconURL)
             .addFields(
                 { name: 'Display Name', value: displayName, inline: true },
                 { name: 'Internal Notes', value: internalNotes, inline: true },
@@ -150,7 +180,7 @@ module.exports = {
             )
             .addFields(
                 { name: 'ChargeUp', value: chargeUp, inline: true },
-                { name: 'Cooldown Time', value: cooldown, inline: true },
+                { name: 'Cooldown Time', value: `${cooldown} Seconds`, inline: true },
                 { name: 'Cooldown Group', value: cooldowngroup, inline: true },
             )
             .addFields(
