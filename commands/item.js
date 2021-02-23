@@ -7,9 +7,15 @@ module.exports = {
         var folder_loc = Math.floor(id / 256)
         var item_loc = id
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
-        var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/objects/0/${folder_loc}/${item_loc}.json`);
+        try{
+            var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/objects/0/${folder_loc}/${item_loc}.json`);
+        }
+        catch{
+            message.channel.send("An object for this ID does not even exist.")
+            return
+        }
         if(item.type != "Loot"){
-            message.channel.send("Soldier that's not an item!")
+            message.channel.send(`Soldier that's not an item!\nObject ${id} Type: ${item.type}`)
             return;
         }
 
@@ -57,7 +63,7 @@ module.exports = {
                 var description = skillBehavior[skillID].descriptionUI.substring(descriptionLoc);
                 extra_desc = `${extra_desc}\n${abilityName}: ${description}`
             } else if(skillBehavior[skillID].descriptionUI.includes(`+`)==false){
-                extra_desc = `${extra_desc}\n${skillBehavior[skillID].descriptionUI}`
+                extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${skillBehavior[skillID].descriptionUI}`
             }
             if(item.name.includes(`Wand`)){
                 var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
@@ -149,22 +155,22 @@ https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshiel
             //https://xiphoseer.github.io/lu-res/textures/ui/inventory/faction%20kits/sorcerer_shoulder_3.png
 
         var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
-        if(cooldown==undefined){
+        if(cooldown==undefined || cooldown==null || cooldown==``){
             cooldown= "None"
-        }if(cooldowngroup==undefined){
+        }if(cooldowngroup==undefined || cooldowngroup==null || cooldowngroup==``){
             cooldowngroup= "None"
-        }if(dmg_combo==undefined){
+        }if(dmg_combo==undefined || dmg_combo==null || dmg_combo==``){
             dmg_combo= "None"
-        }if(displayName==undefined){
+        }if(displayName==undefined || displayName==null || displayName==``){
             displayName= "None"
-        }if(internalNotes==undefined){
+        }if(internalNotes==undefined || internalNotes==null || internalNotes==``){
             internalNotes= "None"
-        }if(description==undefined){
+        }if(description==undefined || description==null || description==``){
             description= "None"
-        }if(chargeUp==undefined){
+        }if(chargeUp==undefined || chargeUp==null || chargeUp==``){
             chargeUp= "None"
         }
-
+        console.log(`displayName: ${displayName}`)
         var item_description = `**Description**${extra_desc}`
 
         const devoEmbed = new Discord.MessageEmbed()
