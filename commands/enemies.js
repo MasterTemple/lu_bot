@@ -61,6 +61,8 @@ module.exports = {
                 enemyCooldown = skillBehavior.cooldown
                 behaviorID = skillBehavior.behaviorID
                 var behavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/behaviors/${Math.floor(behaviorID/1204)}/${behaviorID}.json`)
+                console.log(behavior)
+
                 console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/behaviors/${Math.floor(behaviorID/1204)}/${behaviorID}.json`)
                 //var skillTime = "npc skill time"
                 var npcskilltime = behavior.parameters["npc skill time"]
