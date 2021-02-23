@@ -20,14 +20,21 @@ module.exports = {
         var dmg_combo
         var title = item.name
         console.log(item)
-        var item_description = `${item.displayName}\n${item.description}`
+        var displayName = item.displayName
+        var internalNotes = item._internalNotes
+        var description = item.description
         for (var i = 0; i < item.skills.length; i++) {
 
             var skillID = (item.skills[i].skillID)
             var behav_folder_loc = Math.floor(skillID / 256)
             var skillBehavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/SkillBehavior/${behav_folder_loc}.json`)
-            dmg = skillBehavior[skillID].descriptionUI.substring(15, 20);
-            console.log(dmg)
+            console.log(skillBehavior[skillID])
+            //dmg = skillBehavior[skillID].descriptionUI.substring(15, 20);
+            var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`))+9
+            console.log(`chargeUpLoc ${chargeUpLoc}`)
+            var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
+
+            console.log(`chargeUp: ${chargeUp}`)
             var cooldownFile = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/SkillBehavior/${skillID}.json`)
             //console.log(`cool: ${cooldownFile.cooldown}`)
             if(cooldownFile.cooldown != 0) {
@@ -53,11 +60,15 @@ module.exports = {
                 console.log(`Health: ${Health}`)
                 console.log(`Imagination: ${Imagination}`)
             }
-
-            if (dmg[1] == '+') {
-                dmg_combo = dmg
-                dmg_component = `Damage Combo: ${dmg}`
-                isWeapon = true
+            console.log(`dmg: ${skillBehavior[skillID].descriptionUI[16]},${skillBehavior[skillID].descriptionUI[18]},${skillBehavior[skillID].descriptionUI[20]}`)
+            if(skillBehavior[skillID].descriptionUI[16]==`+` && skillBehavior[skillID].descriptionUI[18] == `+`&& skillBehavior[skillID].descriptionUI[20] == `+`){
+                dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 22);
+            }else if(skillBehavior[skillID].descriptionUI[16]==`+` && skillBehavior[skillID].descriptionUI[18] == `+`){
+                dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 20);
+            }else if(skillBehavior[skillID].descriptionUI[16]==`+`){
+                dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 18);
+            }else if(skillBehavior[skillID].descriptionUI[15]>= '0' && skillBehavior[skillID].descriptionUI[15]<= '9'){
+                dmg_combo = skillBehavior[skillID].descriptionUI[15];
             }
 
         }
@@ -89,7 +100,16 @@ module.exports = {
             cooldowngroup= "None"
         }if(dmg_combo==undefined){
             dmg_combo= "None"
+        }if(displayName==undefined){
+            displayName= "None"
+        }if(internalNotes==undefined){
+            internalNotes= "None"
+        }if(description==undefined){
+            description= "None"
         }
+
+        var item_description = `**Damage Combo**\n${dmg_combo}`
+
         const devoEmbed = new Discord.MessageEmbed()
             .setColor('#00ffff')
             .setTitle(title)
@@ -99,7 +119,13 @@ module.exports = {
 
             .setThumbnail(thumbnail)
             .addFields(
-                { name: 'Damage Combo', value: dmg_combo, inline: true },
+                { name: 'Display Name', value: displayName, inline: true },
+                { name: 'Internal Notes', value: internalNotes, inline: true },
+                { name: 'Description', value: description, inline: true },
+
+            )
+            .addFields(
+                { name: 'ChargeUp', value: chargeUp, inline: true },
                 { name: 'Cooldown Time', value: cooldown, inline: true },
                 { name: 'Cooldown Group', value: cooldowngroup, inline: true },
             )
