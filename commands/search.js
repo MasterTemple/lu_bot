@@ -4,6 +4,11 @@ module.exports = {
     args: true,
     execute(message, args) {
         var id
+        var search
+        for(var i of args){
+            search = `${search} ${args[i]}`
+        }
+        console.log(args[0])
         for(var l=0;l<256*66;l++){
             var folder_loc = Math.floor(l / 256)
             var item_loc = l
@@ -14,9 +19,12 @@ module.exports = {
                     if(item.type != "Loot" || item.skills.length < 0){
                         k = item.skills.length
                     }
-                    if(item.id != null && item.displayName != null && item.id != undefined && item.displayName != undefined && item.displayName.includes(args[0])) {
+                    console.log(item.displayName, args[0])
+                    if(item.id != null && item.displayName != null && item.id != undefined && item.displayName != undefined && item.displayName.toString().toLowerCase().includes(args[0].toString().toLowerCase())) {
                         console.log(`"id": "${item.id}", "item": "${item.displayName}",`)
                         id = item.id
+                        const command = client.commands.get(`./item.js`);
+                        command.execute(message, id);
                         return
                     }
                     //var skillID = (item.skills[i].skillID)

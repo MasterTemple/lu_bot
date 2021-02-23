@@ -41,13 +41,16 @@ for(const i of skillIDArray){
                 if(item.id != null && item.displayName != null && item.id != undefined && item.displayName != undefined && id == item.skills[k].skillID) {
                     console.log(`"id": "${item.id}", "item": "${item.displayName}",`)
                 }
+                // if(item.id != null && item.displayName != null && item.id != undefined && item.displayName != undefined && id == item.skills[k].skillID) {
+                //     console.log(`"id": "${item.id}", "item": "${item.displayName}",`)
+                // }
             //var skillID = (item.skills[i].skillID)
             //console.log(`"${i}":{"item":${id}, "skillID":${item.skills[k].skillID}},`)
             //skillz.push(item.skills[k].skillID)
             }
-            if(item.id != null && item.displayName != null && item.id != undefined && item.displayName != undefined && id == item.skills[item.skills.length].skillID) {
-                console.log(`"id": "${item.id}", "item": "${item.displayName}"`)
-            }
+            // if(item.id != null && item.displayName != null && item.id != undefined && item.displayName != undefined && id == item.skills[item.skills.length].skillID) {
+            //     console.log(`"id": "${item.id}", "item": "${item.displayName}"`)
+            // }
 
 
         } catch {
@@ -55,7 +58,7 @@ for(const i of skillIDArray){
 
         }
     }
-    console.log(`},`)
+    console.log(`}`)
 
 
 }
@@ -65,8 +68,11 @@ for(const i of skillIDArray){
 // skillz.forEach(function(v) { file.write(skillz.join(', ') + '\n'); });
 // file.end();
 
-
-
+// const all = require(`C:/Users/Blake The Great/Desktop/iis.json`)
+// console.log(all.length)
+// for(var i=0; i< 870;i++){
+//     console.log(all['skillID']);
+// }
 
 //console.log(`array: ${array}`)
 /*
