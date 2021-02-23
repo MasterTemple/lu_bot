@@ -48,10 +48,11 @@ module.exports = {
         var iconPath = renderComponent.icon_asset
         var enemyCooldown
         var behaviorID
+        var allSkills =`**Skills:**\n`
         if(item.skills != undefined || item.skills != null) {
             for (var i = 0; i < item.skills.length; i++) {
-
                 var skillID = (item.skills[i].skillID)
+                allSkills = `${allSkills} ${skillID}`
                 console.log(skillID)
                 var behav_folder_loc = Math.floor(parseInt(skillID) / 256)
                 //var skillBehavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/SkillBehavior/${behav_folder_loc}.json`)
@@ -60,10 +61,10 @@ module.exports = {
                 console.log(skillBehavior)
                 enemyCooldown = skillBehavior.cooldown
                 behaviorID = skillBehavior.behaviorID
-                var behavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/behaviors/${Math.floor(behaviorID/1204)}/${behaviorID}.json`)
+                var behavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/behaviors/${Math.floor(behaviorID/1024)}/${behaviorID}.json`)
                 console.log(behavior)
 
-                console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/behaviors/${Math.floor(behaviorID/1204)}/${behaviorID}.json`)
+                console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/behaviors/${Math.floor(behaviorID/1024)}/${behaviorID}.json`)
                 //var skillTime = "npc skill time"
                 var npcskilltime = behavior.parameters["npc skill time"]
                 var max_range = behavior.parameters["max range"]
@@ -145,7 +146,7 @@ module.exports = {
             .setTitle(title)
             .setURL(url)
             .setAuthor(`Nexus Force`, nexusLink, url)
-            .setDescription(behaviorID)
+            .setDescription(allSkills)
 
             .setThumbnail(iconURL)
             .addFields(
@@ -161,14 +162,13 @@ module.exports = {
             //     { name: 'Cooldown Time', value: `${cooldown} Seconds`, inline: true },
             //     { name: 'Cooldown Group', value: cooldowngroup, inline: true },
             // )
-            .addFields(
-                {name: 'Melee Attack', value: Imagination, inline: true},
-                {name: 'Cool Down', value: `${enemyCooldown} Seconds`, inline: true},
-                {name: 'Ranged Attack', value: Imagination, inline: true},
-                {name: 'Armor', value: Armor, inline: true},
-                {name: 'Health', value: Health, inline: true},
-
-            )
+            //.addFields(
+            //    {name: 'Melee Attack', value: Imagination, inline: true},
+            //    {name: 'Cool Down', value: `${enemyCooldown} Seconds`, inline: true},
+            //    {name: 'Ranged Attack', value: Imagination, inline: true},
+            //    {name: 'Armor', value: Armor, inline: true},
+            //    {name: 'Health', value: Health, inline: true},
+            //)
             //.setImage(thumbnail)
             .setTimestamp()
             .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
