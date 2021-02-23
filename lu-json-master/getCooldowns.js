@@ -72,14 +72,45 @@ for(const i of skillIDArraySorted){
 // file.on('error', function(err) { /* error handling */ });
 // skillz.forEach(function(v) { file.write(skillz.join(', ') + '\n'); });
 // file.end();
+const cooldowngroup = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/cooldowngroupwithid.json`)
 
+//console.log(cooldowngroup[1].skillID)
+var skillID = 298
 const cooldownbyid = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/cooldownbyid.json`)
-console.log(cooldownbyid["298"].list[0])
+//console.log(cooldownbyid[skillID].list[0])
 
-for (var i = 0; i < cooldownbyid["298"].length; i++) {
-    console.log(i)
-    console.log(cooldownbyid["298"])
+for (var k = 0; k < (Object.keys(cooldowngroup["null"].skillID).length);k++) {
+    console.log(`"null" ${cooldowngroup["null"].skillID[k]-1}`)
 }
+console.log(`},`)
+
+for (var i = 0; i<=103;i++){
+    console.log(`"${i}":{`)
+
+    for (var k = 0; k < (Object.keys(cooldowngroup[i].skillID).length);k++) {
+
+        var tempSkillID = (cooldowngroup[i].skillID[k])-1
+        //console.log(tempSkillID)
+        //try{
+            //console.log(``)
+        if(cooldownbyid[tempSkillID]!=undefined){
+            for (var j = 0; j < ((cooldownbyid[tempSkillID].list).length - 1); j++) {
+                console.log(`${tempSkillID}:${cooldownbyid[tempSkillID].list[j].id}`)
+            }
+        }
+        //} catch{//console.log(``);
+            //}
+        //console.log(`"${i}": ${tempSkillID} ${cooldownbyid[tempSkillID]}`)
+    }
+    console.log(`},`)
+
+}
+tempSkillID = "98"
+console.log(cooldownbyid[1537].list[0].id)
+console.log(cooldownbyid[1537].list.length)
+
+
+
 
 // const all = require(`C:/Users/Blake The Great/Desktop/iis.json`)
 // console.log(all.length)
