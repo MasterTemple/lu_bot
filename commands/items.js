@@ -103,10 +103,12 @@ module.exports = {
                     dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 18);
                 } else if ((skillBehavior[skillID].descriptionUI[15] >= '0' && skillBehavior[skillID].descriptionUI[15] <= '9') && item.name.includes('Wand')) {
                     dmg_combo = skillBehavior[skillID].descriptionUI[15];
-
-                    //dmg_combo=`None`
+                }else if ((skillBehavior[skillID].descriptionUI.includes('DamageCombo'))) {
+                    var dmg_combo_num = skillBehavior[skillID].descriptionUI.search(`Description`);
+                    console.log(dmg_combo_num)
+                    dmg_combo = skillBehavior[skillID].descriptionUI.substring(`%(DamageCombo) `.length, dmg_combo_num-3)
+                    console.log(`DMG: ${dmg_combo}`)
                 } else if ((skillBehavior[skillID].descriptionUI[15] >= '0' && skillBehavior[skillID].descriptionUI[15] <= '9')) {
-                    //dmg_combo  = skillBehavior[skillID].descriptionUI[15];
                     dmg_combo = `None`
                 }
 
