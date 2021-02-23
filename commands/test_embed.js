@@ -23,19 +23,36 @@ module.exports = {
         var displayName = item.displayName
         var internalNotes = item._internalNotes
         var description = item.description
+        var extra_desc = ''
         for (var i = 0; i < item.skills.length; i++) {
 
             var skillID = (item.skills[i].skillID)
             var behav_folder_loc = Math.floor(skillID / 256)
             var skillBehavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/SkillBehavior/${behav_folder_loc}.json`)
             console.log(skillBehavior[skillID])
+            var abilityName = skillBehavior[skillID].name
             //dmg = skillBehavior[skillID].descriptionUI.substring(15, 20);
-            var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`))+9
-            console.log(`chargeUpLoc ${chargeUpLoc}`)
-            var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
-
+            if(skillBehavior[skillID].descriptionUI.includes(`(ChargeUp)`)) {
+                var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
+                console.log(`chargeUpLoc ${chargeUpLoc}`)
+                var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
+            } else if(skillBehavior[skillID].descriptionUI.includes(`(Description)`)){
+                var descriptionLoc = (skillBehavior[skillID].descriptionUI.search(`(Description)`)) + `(Description)`.length-1
+                console.log(`desc ${descriptionLoc}`)
+                var description = skillBehavior[skillID].descriptionUI.substring(descriptionLoc);
+                extra_desc = `${extra_desc}\n${abilityName}: ${description}`
+            } else if(skillBehavior[skillID].descriptionUI.includes(`+`)==false){
+                extra_desc = `${extra_desc}\n${skillBehavior[skillID].descriptionUI}`
+            }
+            if(item.name.includes(`Wand`)){
+                var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
+                var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
+                extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${chargeUp}`
+                console.log(`I AM A WAND`)
+            }
             console.log(`chargeUp: ${chargeUp}`)
             var cooldownFile = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/SkillBehavior/${skillID}.json`)
+            console.log(cooldownFile)
             //console.log(`cool: ${cooldownFile.cooldown}`)
             if(cooldownFile.cooldown != 0) {
                 cooldowngroup = cooldownFile.cooldowngroup
@@ -67,8 +84,13 @@ module.exports = {
                 dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 20);
             }else if(skillBehavior[skillID].descriptionUI[16]==`+`){
                 dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 18);
-            }else if(skillBehavior[skillID].descriptionUI[15]>= '0' && skillBehavior[skillID].descriptionUI[15]<= '9'){
-                dmg_combo = skillBehavior[skillID].descriptionUI[15];
+            }else if((skillBehavior[skillID].descriptionUI[15]>= '0' && skillBehavior[skillID].descriptionUI[15]<= '9')&&item.name.includes('Wand')){
+                dmg_combo  = skillBehavior[skillID].descriptionUI[15];
+
+                //dmg_combo=`None`
+            }else if((skillBehavior[skillID].descriptionUI[15]>= '0' && skillBehavior[skillID].descriptionUI[15]<= '9')){
+                //dmg_combo  = skillBehavior[skillID].descriptionUI[15];
+                dmg_combo=`None`
             }
 
         }
@@ -106,9 +128,11 @@ module.exports = {
             internalNotes= "None"
         }if(description==undefined){
             description= "None"
+        }if(chargeUp==undefined){
+            chargeUp= "None"
         }
 
-        var item_description = `**Damage Combo**\n${dmg_combo}`
+        var item_description = `**Description**${extra_desc}`
 
         const devoEmbed = new Discord.MessageEmbed()
             .setColor('#00ffff')
@@ -121,7 +145,7 @@ module.exports = {
             .addFields(
                 { name: 'Display Name', value: displayName, inline: true },
                 { name: 'Internal Notes', value: internalNotes, inline: true },
-                { name: 'Description', value: description, inline: true },
+                { name: 'Damage Combo', value: dmg_combo, inline: true },
 
             )
             .addFields(
