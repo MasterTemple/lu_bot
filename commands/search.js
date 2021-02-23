@@ -3,33 +3,36 @@ module.exports = {
     description: 'Info about the arguments',
     args: true,
     execute(message, args) {
+        //const client = message.client;
+        //
+        const arg = message.content.slice(1).trim().split(/ +/); //each space is a new argument
+
         var id
-        var search
-        for(var i of args){
-            search = `${search} ${args[i]}`
+        var search = ``
+        console.log(args.length)
+        console.log(args[0],args[1],args[2],args[3])
+
+        for(var i of arg){
+            search = `${search} ${arg[i]}`
         }
+        search = args[0],args[1],args[2],args[3]
+        console.log(search)
+
         console.log(args[0])
-        for(var l=0;l<256*66;l++){
-            var folder_loc = Math.floor(l / 256)
+        for(var l=0;l<66;l++){
+            var folder_loc = l
             var item_loc = l
 
             try {
-                var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/objects/0/${folder_loc}/${item_loc}.json`);
-                for (var k = 0; k < item.skills.length; k++) {
-                    if(item.type != "Loot" || item.skills.length < 0){
-                        k = item.skills.length
-                    }
-                    console.log(item.displayName, args[0])
-                    if(item.id != null && item.displayName != null && item.id != undefined && item.displayName != undefined && item.displayName.toString().toLowerCase().includes(args[0].toString().toLowerCase())) {
-                        console.log(`"id": "${item.id}", "item": "${item.displayName}",`)
-                        id = item.id
-                        const command = client.commands.get(`./item.js`);
-                        command.execute(message, id);
-                        return
-                    }
-                    //var skillID = (item.skills[i].skillID)
-                    //console.log(`"${i}":{"item":${id}, "skillID":${item.skills[k].skillID}},`)
-                    //skillz.push(item.skills[k].skillID)
+                //C:\Users\Blake The Great\Downloads\lubot\lu-json-master\locale\Objects\29.json
+                var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/Objects/${folder_loc}.json`);
+
+                if(item.description.toString().toLowerCase()==(search.toString().toLowerCase()) || item.name.toString().toLowerCase()==(search.toString().toLowerCase())) {
+                    //console.log(`"id": "${item.id}", "item": "${item.displayName}",`)
+                    id = item.id
+                    const command = client.commands.get(`./item.js`);
+                    command.execute(message, id);
+                    return
                 }
 
 
