@@ -10,16 +10,17 @@ module.exports = {
 
         try{
             var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/LevelProgressionLookup/index.json`);
+            console.log(item._embedded.LevelProgressionLookup[id-1].requiredUScore)
+            var required = item._embedded.LevelProgressionLookup[id-1].requiredUScore
+            var this_level = item._embedded.LevelProgressionLookup[id-1].requiredUScore - item._embedded.LevelProgressionLookup[id-2].requiredUScore
+            required = required.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            this_level = this_level.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         }
         catch{
             message.channel.send(`${id} is not an available level.`)
             return
         }
-        console.log(item._embedded.LevelProgressionLookup[id].requiredUScore)
-        var required = item._embedded.LevelProgressionLookup[id].requiredUScore
-        var this_level = item._embedded.LevelProgressionLookup[id].requiredUScore - item._embedded.LevelProgressionLookup[id-1].requiredUScore
-        required = required.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-        this_level = this_level.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
         if(isNaN(id)){
             message.channel.send(`Soldier that's not an Enemy!\nObject ${id} Type: ${item.type}`)
             return;
