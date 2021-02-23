@@ -45,78 +45,80 @@ module.exports = {
         console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
         //var iconPath = icons.IconPath
         var iconPath = renderComponent.icon_asset
-        for (var i = 0; i < item.skills.length; i++) {
+        if(item.skills != undefined) {
+            for (var i = 0; i < item.skills.length; i++) {
 
-            var skillID = (item.skills[i].skillID)
-            var behav_folder_loc = Math.floor(skillID / 256)
-            var skillBehavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/SkillBehavior/${behav_folder_loc}.json`)
-            console.log(skillBehavior[skillID])
-            var abilityName = skillBehavior[skillID].name
-            //dmg = skillBehavior[skillID].descriptionUI.substring(15, 20);
-            if(skillBehavior[skillID].descriptionUI.includes(`(ChargeUp)`)) {
-                var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
-                console.log(`chargeUpLoc ${chargeUpLoc}`)
-                var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
-            } else if(skillBehavior[skillID].descriptionUI.includes(`(Description)`)){
-                var descriptionLoc = (skillBehavior[skillID].descriptionUI.search(`(Description)`)) + `(Description)`.length-1
-                console.log(`desc ${descriptionLoc}`)
-                var description = skillBehavior[skillID].descriptionUI.substring(descriptionLoc);
-                extra_desc = `${extra_desc}\n${abilityName}: ${description}`
-            } else if(skillBehavior[skillID].descriptionUI.includes(`+`)==false){
-                extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${skillBehavior[skillID].descriptionUI}`
-            }
-            if(item.name.includes(`Wand`)){
-                var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
-                var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
-                extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${chargeUp}`
-                console.log(`I AM A WAND`)
-            }
-            console.log(`chargeUp: ${chargeUp}`)
-            var cooldownFile = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/SkillBehavior/${skillID}.json`)
-            console.log(cooldownFile)
-            //console.log(`cool: ${cooldownFile.cooldown}`)
-            if(cooldownFile.cooldown != 0) {
-                cooldowngroup = cooldownFile.cooldowngroup
-                cooldown = cooldownFile.cooldown
-                console.log(`Cooldown Group: ${cooldownFile.cooldowngroup}\nItem Cooldown: ${cooldownFile.cooldown} seconds`)
-            }
+                var skillID = (item.skills[i].skillID)
+                var behav_folder_loc = Math.floor(skillID / 256)
+                var skillBehavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/SkillBehavior/${behav_folder_loc}.json`)
+                console.log(skillBehavior[skillID])
+                var abilityName = skillBehavior[skillID].name
+                //dmg = skillBehavior[skillID].descriptionUI.substring(15, 20);
+                if (skillBehavior[skillID].descriptionUI.includes(`(ChargeUp)`)) {
+                    var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
+                    console.log(`chargeUpLoc ${chargeUpLoc}`)
+                    var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
+                } else if (skillBehavior[skillID].descriptionUI.includes(`(Description)`)) {
+                    var descriptionLoc = (skillBehavior[skillID].descriptionUI.search(`(Description)`)) + `(Description)`.length - 1
+                    console.log(`desc ${descriptionLoc}`)
+                    var description = skillBehavior[skillID].descriptionUI.substring(descriptionLoc);
+                    extra_desc = `${extra_desc}\n${abilityName}: ${description}`
+                } else if (skillBehavior[skillID].descriptionUI.includes(`+`) == false) {
+                    extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${skillBehavior[skillID].descriptionUI}`
+                }
+                if (item.name.includes(`Wand`)) {
+                    var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
+                    var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
+                    extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${chargeUp}`
+                    console.log(`I AM A WAND`)
+                }
+                console.log(`chargeUp: ${chargeUp}`)
+                var cooldownFile = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/SkillBehavior/${skillID}.json`)
+                console.log(cooldownFile)
+                //console.log(`cool: ${cooldownFile.cooldown}`)
+                if (cooldownFile.cooldown != 0) {
+                    cooldowngroup = cooldownFile.cooldowngroup
+                    cooldown = cooldownFile.cooldown
+                    console.log(`Cooldown Group: ${cooldownFile.cooldowngroup}\nItem Cooldown: ${cooldownFile.cooldown} seconds`)
+                }
 
 
-            if(cooldownFile.armorBonusUI != null){
-                Armor = cooldownFile.armorBonusUI
-            }
-            if(cooldownFile.lifeBonusUI != null){
-                Health = cooldownFile.lifeBonusUI
-            }
-            if(cooldownFile.imBonusUI != null){
-                Imagination = cooldownFile.imBonusUI
-            }
+                if (cooldownFile.armorBonusUI != null) {
+                    Armor = cooldownFile.armorBonusUI
+                }
+                if (cooldownFile.lifeBonusUI != null) {
+                    Health = cooldownFile.lifeBonusUI
+                }
+                if (cooldownFile.imBonusUI != null) {
+                    Imagination = cooldownFile.imBonusUI
+                }
 
-            if(i == item.skills.length-1) {
-                console.log(`Bonuses:`)
-                console.log(`Armor: ${Armor}`)
-                console.log(`Health: ${Health}`)
-                console.log(`Imagination: ${Imagination}`)
-            }
-            console.log(`dmg: ${skillBehavior[skillID].descriptionUI[16]},${skillBehavior[skillID].descriptionUI[18]},${skillBehavior[skillID].descriptionUI[20]}`)
-            if(skillBehavior[skillID].descriptionUI[16]==`+` && skillBehavior[skillID].descriptionUI[18] == `+`&& skillBehavior[skillID].descriptionUI[20] == `+`){
-                dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 22);
-            }else if(skillBehavior[skillID].descriptionUI[16]==`+` && skillBehavior[skillID].descriptionUI[18] == `+`){
-                dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 20);
-            }else if(skillBehavior[skillID].descriptionUI[16]==`+`){
-                dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 18);
-            }else if((skillBehavior[skillID].descriptionUI[15]>= '0' && skillBehavior[skillID].descriptionUI[15]<= '9')&&item.name.includes('Wand')){
-                dmg_combo  = skillBehavior[skillID].descriptionUI[15];
-            }else if ((skillBehavior[skillID].descriptionUI.includes('DamageCombo'))) {
-                var dmg_combo_num = skillBehavior[skillID].descriptionUI.search(`Description`);
-                console.log(dmg_combo_num)
-                dmg_combo = skillBehavior[skillID].descriptionUI.substring(`%(DamageCombo) `.length, dmg_combo_num-3)
-                console.log(`DMG: ${dmg_combo}`)
-            }else if((skillBehavior[skillID].descriptionUI[15]>= '0' && skillBehavior[skillID].descriptionUI[15]<= '9')){
-                //dmg_combo  = skillBehavior[skillID].descriptionUI[15];
-                dmg_combo=`None`
-            }
+                if (i == item.skills.length - 1) {
+                    console.log(`Bonuses:`)
+                    console.log(`Armor: ${Armor}`)
+                    console.log(`Health: ${Health}`)
+                    console.log(`Imagination: ${Imagination}`)
+                }
+                console.log(`dmg: ${skillBehavior[skillID].descriptionUI[16]},${skillBehavior[skillID].descriptionUI[18]},${skillBehavior[skillID].descriptionUI[20]}`)
+                if (skillBehavior[skillID].descriptionUI[16] == `+` && skillBehavior[skillID].descriptionUI[18] == `+` && skillBehavior[skillID].descriptionUI[20] == `+`) {
+                    dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 22);
+                } else if (skillBehavior[skillID].descriptionUI[16] == `+` && skillBehavior[skillID].descriptionUI[18] == `+`) {
+                    dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 20);
+                } else if (skillBehavior[skillID].descriptionUI[16] == `+`) {
+                    dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 18);
+                } else if ((skillBehavior[skillID].descriptionUI[15] >= '0' && skillBehavior[skillID].descriptionUI[15] <= '9') && item.name.includes('Wand')) {
+                    dmg_combo = skillBehavior[skillID].descriptionUI[15];
+                } else if ((skillBehavior[skillID].descriptionUI.includes('DamageCombo'))) {
+                    var dmg_combo_num = skillBehavior[skillID].descriptionUI.search(`Description`);
+                    console.log(dmg_combo_num)
+                    dmg_combo = skillBehavior[skillID].descriptionUI.substring(`%(DamageCombo) `.length, dmg_combo_num - 3)
+                    console.log(`DMG: ${dmg_combo}`)
+                } else if ((skillBehavior[skillID].descriptionUI[15] >= '0' && skillBehavior[skillID].descriptionUI[15] <= '9')) {
+                    //dmg_combo  = skillBehavior[skillID].descriptionUI[15];
+                    dmg_combo = `None`
+                }
 
+            }
         }
 
         if(isWeapon){

@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'npc',
+    name: 'e',
     description: 'Info about the arguments',
     args: true,
     execute(message, args) {
@@ -14,27 +14,11 @@ module.exports = {
             message.channel.send("An object for this ID does not even exist.")
             return
         }
-        if(item.type != "NPC" && item.type != "UserGeneratedNPCs"){
-            message.channel.send(`Soldier that's not an NPC!\nObject ${id} Type: ${item.type}`)
+        if(item.type != "Enemies"){
+            message.channel.send(`Soldier that's not an Enemy!\nObject ${id} Type: ${item.type}`)
             return;
         }
-        var quest = item.components["73"]
-        console.log(quest)
-        if (quest != undefined){
-            var missions = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/MissionNPCComponent/0/${quest}.json`)
-            var missionsFromNPC = []
-            var missionNames = []
-            for (var i = 0; i < missions.missions.length; i++) {
-                missionsFromNPC.push(missions.missions[i].missionID)
-                var missionName = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
-                console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
-                missionNames.push(missionName[missions.missions[i].missionID].name)
-                console.log(missionName)
-            }
 
-            console.log(missionsFromNPC)
-            console.log(`MISSIONS ${missions.missions[0].missionID}`)
-        }
         console.log(`${item.name}`)
 
         var isWeapon = false
@@ -62,7 +46,35 @@ module.exports = {
         console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
         //var iconPath = icons.IconPath
         var iconPath = renderComponent.icon_asset
+        var enemyCooldown
+        var behaviorID
+        if(item.skills != undefined || item.skills != null) {
+            for (var i = 0; i < item.skills.length; i++) {
 
+                var skillID = (item.skills[i].skillID)
+                console.log(skillID)
+                var behav_folder_loc = Math.floor(parseInt(skillID) / 256)
+                //var skillBehavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/SkillBehavior/${behav_folder_loc}.json`)
+                var skillBehavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/SkillBehavior/${skillID}.json`)
+                console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/SkillBehavior/${skillID}.json`)
+                console.log(skillBehavior)
+                enemyCooldown = skillBehavior.cooldown
+                behaviorID = skillBehavior.behaviorID
+                var behavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/behaviors/${Math.floor(behaviorID/1204)}/${behaviorID}.json`)
+                console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/behaviors/${Math.floor(behaviorID/1204)}/${behaviorID}.json`)
+                //var skillTime = "npc skill time"
+                var npcskilltime = behavior.parameters["npc skill time"]
+                var max_range = behavior.parameters["max range"]
+                var min_range = behavior.parameters["min range"]
+                console.log(npcskilltime, max_range, min_range)
+                //var abilityName = skillBehavior[skillID]
+                ////dmg = skillBehavior[skillID].descriptionUI.substring(15, 20);
+                //console.log(`abilityName: ${abilityName}`)
+                //console.log(`cool: ${cooldownFile.cooldown}`)
+
+
+            }
+        }
 
 
         const client = message.client;
@@ -124,17 +136,14 @@ module.exports = {
         }else{
             description = "None"
         }
-        console.log(missionNames)
-        if(quest == undefined){
-           var missionNames = `None`
-        }
+
 
         const devoEmbed = new Discord.MessageEmbed()
             .setColor('#00ffff')
             .setTitle(title)
             .setURL(url)
             .setAuthor(`Nexus Force`, nexusLink, url)
-            //.setDescription(item_description)
+            .setDescription(behaviorID)
 
             .setThumbnail(iconURL)
             .addFields(
@@ -143,22 +152,21 @@ module.exports = {
                 { name: 'Description', value: description, inline: true },
 
             )
-            .addFields(
-                { name: 'Quests', value: missionNames, inline: false },
-                { name: 'Sells', value: "IDK YET", inline: false },
 
-            )
 
             // .addFields(
             //     { name: 'ChargeUp', value: chargeUp, inline: true },
             //     { name: 'Cooldown Time', value: `${cooldown} Seconds`, inline: true },
             //     { name: 'Cooldown Group', value: cooldowngroup, inline: true },
             // )
-            // .addFields(
-            //     {name: 'Armor', value: Armor, inline: true},
-            //     {name: 'Health', value: Health, inline: true},
-            //     {name: 'Imagination', value: Imagination, inline: true},
-            // )
+            .addFields(
+                {name: 'Melee Attack', value: Imagination, inline: true},
+                {name: 'Cool Down', value: `${enemyCooldown} Seconds`, inline: true},
+                {name: 'Ranged Attack', value: Imagination, inline: true},
+                {name: 'Armor', value: Armor, inline: true},
+                {name: 'Health', value: Health, inline: true},
+
+            )
             //.setImage(thumbnail)
             .setTimestamp()
             .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
