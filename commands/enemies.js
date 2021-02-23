@@ -96,7 +96,7 @@ module.exports = {
             iconPath = iconPath.replace(` `, "%20");
             iconPath = iconPath.toLowerCase()
             var iconURL = `https://xiphoseer.github.io/lu-res/${iconPath.substring(6)}`
-        } else if(quest == undefined) {
+        } else if(false) {
             var iconURL = `https://xiphoseer.github.io//lu-res/mesh//overhead_indicators//icon_vendor.png`
         }
         else{
@@ -123,7 +123,7 @@ module.exports = {
             displayName= "None"
         }if(internalNotes==undefined || internalNotes==null || internalNotes==``){
             internalNotes= "None"
-        }if((description==undefined || description==null || description==``) && (quest != null || quest != undefined)){
+        }if((description==undefined || description==null || description==``)){
             description= "None"
         }
         var chargeUp= "None"
