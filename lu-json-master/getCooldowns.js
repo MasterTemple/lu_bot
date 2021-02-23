@@ -1,4 +1,3 @@
-const path = require('path')
 
 var id = 7516
 var folder_loc = Math.floor(id / 256)
