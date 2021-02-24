@@ -67,7 +67,7 @@ module.exports = {
 
             .setThumbnail(iconURL)
             .addFields(
-                { name: `Requirements:`, value: `Level ${id}`, inline: true },
+                { name: `Requirements`, value: `**For Level ${id}:**`, inline: true },
                 { name: `From Level ${id-1}`, value: `${this_level} Experience `, inline: true },
                 { name: `Total`, value: `${required} Experience`, inline: true },
 
