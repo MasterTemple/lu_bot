@@ -1,12 +1,12 @@
 module.exports = {
-    name: 'searchitem',
-    description: 'Search only items',
+    name: 'supersearch',
+    description: 'Search all objects',
     args: true,
     execute(message, args) {
         //const client = message.client;
         //
-        const arg = message.content.slice(11).trim().split(", "); //each space is a new argument
-        console.log(arg)
+        const arg = message.content.slice(7).trim().split(", "); //each space is a new argument
+        //console.log(allARGS)
         var id
         var search = arg[0]
         console.log(arg.length)
@@ -26,25 +26,38 @@ module.exports = {
 
         //console.log(args[0])
 
+        //console.log(args)
 
         try {
             var allARGS = message.content.trim().split(/ +/);
             allARGS.shift()
+            var sorted = [];
+            for (var i = 0; i < allARGS.length; i++) {
+                sorted.push(allARGS[i].toLowerCase());
+            }
+            sorted.sort();
+            console.log(allARGS)
             //C:\Users\Blake The Great\Downloads\lubot\lu-json-master\locale\Objects\29.json
-            var item = require(`./../search/id-name-type-displayName.json`);
+            var item = require(`./../search/Objects.json`);
             var num = '2'
             var desc = ''
             console.log("ok",(Object.keys(item["Sheet1"]).length))
             for (var j = 0; j < (Object.keys(item["Sheet1"]).length);j++) {
                 //console.log(item["Sheet1"][j].name)
                 try{
+                    //if ((item["Sheet1"][j].displayName.toLowerCase().includes(search) || item["Sheet1"][j].name.toLowerCase().includes(search)) && (item["Sheet1"][j].displayName.toLowerCase().includes(searchExtra) || item["Sheet1"][j].name.toLowerCase().includes(searchExtra))) {
+                    //var args = ["0","1","2","3","4"]
 
-                    var allMatch = allARGS.every(function (e) {
-                        console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)}`)
 
-                        return item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e)
+                    var allMatch = sorted.every(function (e) {
+                        //console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)} + ${item["Sheet1"][j].type.toLowerCase().includes(e)} + ${item["Sheet1"][j].description.toLowerCase().includes(e)} + ${item["Sheet1"][j]._internalNotes.toLowerCase().includes(e)}`)
+                        return (item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e) + item["Sheet1"][j].type.toLowerCase().includes(e) + item["Sheet1"][j].description.toLowerCase().includes(e) + item["Sheet1"][j]._internalNotes.toLowerCase().includes(e))
                     });
-                    if (allMatch && item["Sheet1"][j].type == "Loot") {
+                    //console.log(allMatch)
+
+                    //console.log(allMatch);
+                    if (allMatch) {
+                        console.log(true)
                         //console.log(`found ${j} DisplayName ${item["Sheet1"][j].displayName} name ${item["Sheet1"][j].name}`)
                         //console.log(`**ID:** ${j} **DisplayName:** ${item["Sheet1"][j].displayName} name ${item["Sheet1"][j].name}`)
                         //console.log(`**ID:** ${item["Sheet1"][j].id} **Type** ${item["Sheet1"][j].type} **Names:** ${item["Sheet1"][j].displayName} / ${item["Sheet1"][j].name}`)
