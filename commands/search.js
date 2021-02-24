@@ -33,17 +33,22 @@ module.exports = {
             var item = require(`./../search/id-name-type-displayName.json`);
             var num = '2'
             var desc = ''
+            var allARGS = message.content.trim().split(/ +/);
+            allARGS.shift()
+            var sorted = [];
+            for (var i = 0; i < allARGS.length; i++) {
+                sorted.push(allARGS[i].toLowerCase());
+            }
+            sorted.sort();
+
             console.log("ok",(Object.keys(item["Sheet1"]).length))
             for (var j = 0; j < (Object.keys(item["Sheet1"]).length);j++) {
                 //console.log(item["Sheet1"][j].name)
                 try{
                     //if ((item["Sheet1"][j].displayName.toLowerCase().includes(search) || item["Sheet1"][j].name.toLowerCase().includes(search)) && (item["Sheet1"][j].displayName.toLowerCase().includes(searchExtra) || item["Sheet1"][j].name.toLowerCase().includes(searchExtra))) {
                     //var args = ["0","1","2","3","4"]
-                var allARGS = message.content.trim().split(/ +/);
-                allARGS.shift()
 
-
-                var allMatch = allARGS.every(function (e) {
+                var allMatch = sorted.every(function (e) {
                     return item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e)
                 });
                 //console.log(allMatch)
@@ -80,7 +85,9 @@ module.exports = {
             var client = message.client
             var channel = message.channel.toString()
             channel = channel.substring(2, channel.length-1);
-
+            if(desc == ''){
+                desc = "**0 Results**"
+            }
             const Discord = require('discord.js');
             var title = "Nexus Force"
             const Embed = new Discord.MessageEmbed()

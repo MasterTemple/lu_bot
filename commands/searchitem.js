@@ -30,6 +30,11 @@ module.exports = {
         try {
             var allARGS = message.content.trim().split(/ +/);
             allARGS.shift()
+            var sorted = [];
+            for (var i = 0; i < allARGS.length; i++) {
+                sorted.push(allARGS[i].toLowerCase());
+            }
+            sorted.sort();
             //C:\Users\Blake The Great\Downloads\lubot\lu-json-master\locale\Objects\29.json
             var item = require(`./../search/id-name-type-displayName.json`);
             var num = '2'
@@ -39,7 +44,7 @@ module.exports = {
                 //console.log(item["Sheet1"][j].name)
                 try{
 
-                    var allMatch = allARGS.every(function (e) {
+                    var allMatch = sorted.every(function (e) {
                         console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)}`)
 
                         return item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e)
@@ -74,7 +79,9 @@ module.exports = {
             var client = message.client
             var channel = message.channel.toString()
             channel = channel.substring(2, channel.length-1);
-
+            if(desc == ''){
+                desc = "**0 Results**"
+            }
             const Discord = require('discord.js');
             var title = "Nexus Force"
             const Embed = new Discord.MessageEmbed()

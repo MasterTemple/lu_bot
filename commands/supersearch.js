@@ -90,6 +90,9 @@ module.exports = {
 
             const Discord = require('discord.js');
             var title = "Nexus Force"
+            if(desc == ''){
+                desc = "**0 Results**"
+            }
             const Embed = new Discord.MessageEmbed()
                 .setColor('#00ffff')
                 .setTitle(title)
