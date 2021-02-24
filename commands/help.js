@@ -8,7 +8,7 @@ module.exports = {
         var url = `https://discord.com/api/oauth2/authorize?client_id=813618765685456916&permissions=52288&scope=bot`
         var channel = message.channel.toString()
         channel = channel.substring(2, channel.length-1);
-
+        const {prefix} = require('./../config.json');
         const fs = require('fs');
 
         const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
@@ -18,7 +18,7 @@ module.exports = {
         for (const file of commandFiles) {
             const command = require(`./${file}`);
             if(!exclude.includes(command.name)){
-                desc = (`${desc}**!${command.name}**\n${command.description}\n`)
+                desc = (`${desc}**${prefix}${command.name}**\n${command.description}\n`)
             }
         }
 

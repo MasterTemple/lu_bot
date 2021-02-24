@@ -3,7 +3,7 @@ const fs = require('fs');
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-const {prefix, token, bot_age, words_devotional, bot_info, owner} = require('./config.json');
+const {prefix, token, bot_age, startupStatus, bot_info, owner} = require('./config.json');
 
 for (const file of commandFiles) {
     const command = require(`./commands/${file}`);
@@ -13,6 +13,8 @@ for (const file of commandFiles) {
 client.once('ready', () => {
     console.log(bot_info.name);
     console.log('My bot is online! ');
+    client.user.setPresence({activity: {name: startupStatus}});
+
 })
 
 client.on('message', message => {
