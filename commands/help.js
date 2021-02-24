@@ -1,6 +1,6 @@
 module.exports = {
     name: ['help'],
-    description: 'This is the help command :)',
+    description: 'Displays public commands and what each one does',
     args: true,
     use: `help optional:[commandName]`,
     example:[`help`, `help type`],
@@ -11,12 +11,12 @@ module.exports = {
         var url = `https://discord.com/api/oauth2/authorize?client_id=813618765685456916&permissions=52288&scope=bot`
         var channel = message.channel.toString()
         channel = channel.substring(2, channel.length-1);
-        const {prefix} = require('./../config.json');
+        const {prefix, exclude} = require('./../config.json');
         const fs = require('fs');
 
         const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
         var desc = ``
-        const exclude = ["help", "items", "setpfp", "status", "play"]
+        //const exclude = ["help", "items", "setpfp", "status", "play"]
 
         if(args.length == 0){
             for (const file of commandFiles) {
