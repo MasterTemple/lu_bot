@@ -1,5 +1,5 @@
 module.exports = {
-    name: ['searchitem'],
+    name: ['searchitem',`sitem`],
     description: 'Search only items by key word(s), order does not matter',
     args: true,
     use: `searchitem [args]`,

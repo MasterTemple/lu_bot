@@ -1,5 +1,5 @@
 module.exports = {
-    name: ['type','id'],
+    name: ['type','id', 'object', 'obj'],
     description: 'Gives type from ID',
     args: true,
     use: `type [id]`,
@@ -12,10 +12,14 @@ module.exports = {
             const client = message.client
             var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
             //message.channel.send(`Object [${id}] Type: **${item.type}**`)
-            message.channel.send(`Object [${id}] Type: **${item.type}**`)
-
             var type = item.type
-            if (type == `NPC` || type == `UserGeneratedNPCs`) {
+            console.log(`Type: ${type}`)
+            if(type == (undefined || null || ``)){
+                type = 'undefined'
+            }
+
+
+            if (type == (`NPC` || `UserGeneratedNPCs`)) {
                 const func = require(`./npc.js`);
                 try {
                     func.execute(message, args);
@@ -41,6 +45,7 @@ module.exports = {
                 }
                 return
             } else {
+                message.channel.send(`Object [${id}] Type: **${type}**`)
                 message.channel.send("This datatype is not currently supported.")
             }
         } catch {

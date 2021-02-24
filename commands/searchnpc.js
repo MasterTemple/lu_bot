@@ -1,5 +1,5 @@
 module.exports = {
-    name: ['searchnpc'],
+    name: ['searchnpc',`snpc`],
     description: 'Search only NPCs by key word(s), order does not matter',
     args: true,
     use: `searchnpc [args]`,

@@ -1,5 +1,5 @@
 module.exports = {
-    name: ['supersearch', 's'],
+    name: ['supersearch', 'ss'],
     description: 'Search any object with all related content',
     args: true,
     use: `supersearch [args]`,
@@ -58,10 +58,17 @@ module.exports = {
                         });
                     }
                     catch{
-                        var allMatch = sorted.every(function (e) {
-                            //console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)} + ${item["Sheet1"][j].type.toLowerCase().includes(e)} + ${item["Sheet1"][j].description.toLowerCase().includes(e)} + ${item["Sheet1"][j]._internalNotes.toLowerCase().includes(e)}`)
-                            return (item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e) + item["Sheet1"][j].type.toLowerCase().includes(e) + item["Sheet1"][j].description.toLowerCase().includes(e))
-                        });
+                        try {
+                            var allMatch = sorted.every(function (e) {
+                                //console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)} + ${item["Sheet1"][j].type.toLowerCase().includes(e)} + ${item["Sheet1"][j].description.toLowerCase().includes(e)} + ${item["Sheet1"][j]._internalNotes.toLowerCase().includes(e)}`)
+                                return (item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e) + item["Sheet1"][j].type.toLowerCase().includes(e) + item["Sheet1"][j].description.toLowerCase().includes(e))
+                            });
+                        }catch{
+                            var allMatch = sorted.every(function (e) {
+                                //console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)} + ${item["Sheet1"][j].type.toLowerCase().includes(e)} + ${item["Sheet1"][j].description.toLowerCase().includes(e)} + ${item["Sheet1"][j]._internalNotes.toLowerCase().includes(e)}`)
+                                return (item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e) + item["Sheet1"][j].type.toLowerCase().includes(e))
+                            });
+                        }
                     }
 
                     //console.log(allMatch)

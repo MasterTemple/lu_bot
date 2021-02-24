@@ -1,5 +1,5 @@
 module.exports = {
-    name: ['search'],
+    name: ['search',`s`],
     description: 'Search all objects by key word(s), order does not matter',
     args: true,
     use: `search [args]`,
