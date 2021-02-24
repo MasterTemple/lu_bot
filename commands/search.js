@@ -23,8 +23,8 @@ module.exports = {
         }else {
             var searchExtra = arg[1].toLowerCase()
         }//search = args[0],args[1],args[2],args[3]
-        console.log(`search: ${search}`)
-        console.log(`searchExtra: ${searchExtra}`)
+        //console.log(`search: ${search}`)
+        //console.log(`searchExtra: ${searchExtra}`)
 
         //console.log(args[0])
 

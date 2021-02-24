@@ -11,7 +11,7 @@ module.exports = {
         //console.log(allARGS)
         var id
         var search = arg[0]
-        console.log(arg.length)
+        console.log(args.length)
         //console.log(args[0],args[1],args[2],args[3])
 
         for(var i=1; i<arg.length;i++){
@@ -23,8 +23,8 @@ module.exports = {
         }else {
             var searchExtra = arg[1].toLowerCase()
         }//search = args[0],args[1],args[2],args[3]
-        console.log(`search: ${search}`)
-        console.log(`searchExtra: ${searchExtra}`)
+        //console.log(`search: ${search}`)
+        //console.log(`searchExtra: ${searchExtra}`)
 
         //console.log(args[0])
 
@@ -51,10 +51,19 @@ module.exports = {
                     //var args = ["0","1","2","3","4"]
 
 
-                    var allMatch = sorted.every(function (e) {
-                        //console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)} + ${item["Sheet1"][j].type.toLowerCase().includes(e)} + ${item["Sheet1"][j].description.toLowerCase().includes(e)} + ${item["Sheet1"][j]._internalNotes.toLowerCase().includes(e)}`)
-                        return (item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e) + item["Sheet1"][j].type.toLowerCase().includes(e) + item["Sheet1"][j].description.toLowerCase().includes(e) + item["Sheet1"][j]._internalNotes.toLowerCase().includes(e))
-                    });
+                    try{
+                        var allMatch = sorted.every(function (e) {
+                            //console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)} + ${item["Sheet1"][j].type.toLowerCase().includes(e)} + ${item["Sheet1"][j].description.toLowerCase().includes(e)} + ${item["Sheet1"][j]._internalNotes.toLowerCase().includes(e)}`)
+                            return (item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e) + item["Sheet1"][j].type.toLowerCase().includes(e) + item["Sheet1"][j].description.toLowerCase().includes(e) + item["Sheet1"][j]._internalNotes.toLowerCase().includes(e))
+                        });
+                    }
+                    catch{
+                        var allMatch = sorted.every(function (e) {
+                            //console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)} + ${item["Sheet1"][j].type.toLowerCase().includes(e)} + ${item["Sheet1"][j].description.toLowerCase().includes(e)} + ${item["Sheet1"][j]._internalNotes.toLowerCase().includes(e)}`)
+                            return (item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e) + item["Sheet1"][j].type.toLowerCase().includes(e) + item["Sheet1"][j].description.toLowerCase().includes(e))
+                        });
+                    }
+
                     //console.log(allMatch)
 
                     //console.log(allMatch);

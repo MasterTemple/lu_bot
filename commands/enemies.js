@@ -9,6 +9,10 @@ module.exports = {
         var folder_loc = Math.floor(id / 256)
         var item_loc = id
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
+        if(args.length == 0){
+            message.channel.send("Please provide an ID.")
+            return
+        }
         try{
             //console.log(`./../objects/0/${folder_loc}/${item_loc}.json`)
             var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
@@ -52,22 +56,30 @@ module.exports = {
         var iconPath = renderComponent.icon_asset
         var enemyCooldown
         var behaviorID
-        var allSkills =`**Skills:**\n`
+        var allSkills =`**Skills:**`
         if(item.skills != undefined || item.skills != null) {
             for (var i = 0; i < item.skills.length; i++) {
                 var skillID = (item.skills[i].skillID)
-                allSkills = `${allSkills} ${skillID}`
                 console.log(skillID)
                 var behav_folder_loc = Math.floor(parseInt(skillID) / 256)
                 //var skillBehavior = require(`./../locale/SkillBehavior/${behav_folder_loc}.json`)
                 var skillBehavior = require(`./../tables/SkillBehavior/${skillID}.json`)
+                var skillBehaviorName = require(`./../Search/BehaviorTemplateName.json`)
+
+
                 console.log(`./../tables/SkillBehavior/${skillID}.json`)
                 console.log(skillBehavior)
                 enemyCooldown = skillBehavior.cooldown
                 behaviorID = skillBehavior.behaviorID
+
+
                 var behavior = require(`./../behaviors/${Math.floor(behaviorID/1024)}/${behaviorID}.json`)
                 console.log(behavior)
-
+                var templateID = behavior.templateID
+                var data = skillBehaviorName.Sheet1.find(a => a.templateID == templateID)
+                var behaviorName = data.name
+                console.log(behaviorName)
+                allSkills = `${allSkills}\n__**name:**__ ${behaviorName}\n**skillID:** ${skillID}\n**templateID:** ${templateID}\n**behaviorID:** ${behaviorID}`
                 console.log(`./../behaviors/${Math.floor(behaviorID/1024)}/${behaviorID}.json`)
                 //var skillTime = "npc skill time"
                 var npcskilltime = behavior.parameters["npc skill time"]

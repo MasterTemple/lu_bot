@@ -7,8 +7,8 @@ module.exports = {
     execute(message, args) {
         var item = require(`./../search/Objects.json`);
         var id = args[0]
-        var ok = item.Sheet1.find(a => a.id == id)
-        var info = `id: ${ok.id}\nname: ${ok.name}\nplaceable: ${ok.placeable}\ntype: ${ok.type}\ndescription: ${ok.description}\nlocalize: ${ok.localize}\ninteractionDistance: ${ok.interactionDistance}\nnametag: ${ok.nametag}\nlocStatus: ${ok.locStatus}\n_internalNotes: ${ok._internalNotes}\nHQ_valid: ${ok.HQ_valid}\nundefined: ${ok.undefined}`
+        var data = item.Sheet1.find(a => a.id == id)
+        var info = `id: ${data.id}\nname: ${data.name}\nplaceable: ${data.placeable}\ntype: ${data.type}\ndescription: ${data.description}\nlocalize: ${data.localize}\ninteractionDistance: ${data.interactionDistance}\nnametag: ${data.nametag}\nlocStatus: ${data.locStatus}\n_internalNotes: ${data._internalNotes}\nHQ_valid: ${data.HQ_valid}\nundefined: ${data.undefined}`
         message.channel.send(`\`\`\`${info}\`\`\``)
 
     }
