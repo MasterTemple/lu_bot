@@ -64,7 +64,10 @@ module.exports = {
                         id = item["Sheet1"][j].id
                         var type = item["Sheet1"][j].type
                         //console.log(id,type)
-
+                        if(desc.length>1920){
+                            desc = `__**Too Many Results for One Message**__\n${desc}`
+                            break;
+                        }
 
 
 

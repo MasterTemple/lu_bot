@@ -66,6 +66,10 @@ module.exports = {
                         }else{
                             desc = `${desc}ID: **${item["Sheet1"][j].id}** Type **${item["Sheet1"][j].type}**\nNames: **${item["Sheet1"][j].displayName}**\n`
                         }
+                        if(desc.length>1920){
+                            desc = `__**Too Many Results for One Message**__\n${desc}`
+                            break;
+                        }
                         //console.log(`"id": "${item.id}", "item": "${item.displayName}",`)
                         id = item["Sheet1"][j].id
                         var type = item["Sheet1"][j].type
