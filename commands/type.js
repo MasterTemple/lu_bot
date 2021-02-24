@@ -44,6 +44,15 @@ module.exports = {
                     console.error(error);
                 }
                 return
+            } else if (type == 'LEGO brick') {
+                const func = require(`./brick.js`);
+                //func.execute()
+                try {
+                    func.execute(message, args);
+                } catch (error) {
+                    console.error(error);
+                }
+                return
             } else {
                 message.channel.send(`Object [${id}] Type: **${type}**`)
                 message.channel.send("This datatype is not currently supported.")
