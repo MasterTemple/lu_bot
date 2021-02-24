@@ -5,241 +5,73 @@ module.exports = {
     execute(message, args) {
         //const client = message.client;
         //
-        const arg = message.content.slice(1).trim().split(/ +/); //each space is a new argument
-
+        const arg = message.content.slice(7).trim().split(", "); //each space is a new argument
+        console.log(arg)
         var id
-        var search = ``
-        console.log(args.length)
-        console.log(args[0],args[1],args[2],args[3])
+        var search = arg[0]
+        console.log(arg.length)
+        //console.log(args[0],args[1],args[2],args[3])
 
-        for(var i of arg){
+        for(var i=1; i<arg.length;i++){
             search = `${search} ${arg[i]}`
         }
-        search = args[0],args[1],args[2],args[3]
-        console.log(search)
+        search=arg[0]
+        var searchExtra=arg[1]
+        //search = args[0],args[1],args[2],args[3]
+        console.log(`search: ${search}`)
+        console.log(`searchExtra: ${searchExtra}`)
 
-        console.log(args[0])
-        for(var l=0;l<66;l++){
-            var folder_loc = l
-            var item_loc = l
+        //console.log(args[0])
 
-            try {
-                //C:\Users\Blake The Great\Downloads\lubot\lu-json-master\locale\Objects\29.json
-                var item = require(`./../locale/Objects/${folder_loc}.json`);
 
-                if(item.description.toString().toLowerCase()==(search.toString().toLowerCase()) || item.name.toString().toLowerCase()==(search.toString().toLowerCase())) {
-                    //console.log(`"id": "${item.id}", "item": "${item.displayName}",`)
-                    id = item.id
-                    const command = client.commands.get(`./item.js`);
-                    command.execute(message, id);
-                    return
+        try {
+            //C:\Users\Blake The Great\Downloads\lubot\lu-json-master\locale\Objects\29.json
+            var item = require(`./../search/id-name-type-displayName.json`);
+            var num = '2'
+            console.log("ok",(Object.keys(item["Sheet1"]).length))
+            for (var j = 0; j < (Object.keys(item["Sheet1"]).length);j++) {
+                //console.log(item["Sheet1"][j].name)
+                try{
+                    if ((item["Sheet1"][j].displayName.includes(search) || item["Sheet1"][j].name.includes(search)) && (item["Sheet1"][j].displayName.includes(searchExtra) || item["Sheet1"][j].name.includes(searchExtra))) {
+                        //console.log(`found ${j} DisplayName ${item["Sheet1"][j].displayName} name ${item["Sheet1"][j].name}`)
+                        //console.log(`**ID:** ${j} **DisplayName:** ${item["Sheet1"][j].displayName} name ${item["Sheet1"][j].name}`)
+                        console.log(`**ID:** ${item["Sheet1"][j].id} **Type** ${item["Sheet1"][j].type} **Names:** ${item["Sheet1"][j].displayName} / ${item["Sheet1"][j].name}`)
+
+                        //console.log(`"id": "${item.id}", "item": "${item.displayName}",`)
+                        id = item["Sheet1"][j].id
+                        var type = item["Sheet1"][j].type
+                        //console.log(id,type)
+
+
+
+                        if (type == `NPC` || type == `UserGeneratedNPCs`) {
+                            const command = client.commands.get(`./npc.js`);
+                            command.execute(message, id);
+                            return
+                        } else if (type == 'Loot') {
+                            const command = client.commands.get(`./item.js`);
+                            command.execute(message, id);
+                            return
+                        } else if (type == 'Enemies') {
+                            const command = client.commands.get(`./enemies.js`);
+                            command.execute(message, id);
+                            return
+                        } else {
+                            message.channel.send("This datatype is not currently supported.")
+                        }
+                    }
                 }
-
-
-
-            } catch {
-                //console.log(`Object ${id} DNE`)
-
+                catch (error){
+                    //console.log(error)
+                }
             }
-        }
-        //var id;
-        var folder_loc = Math.floor(id / 256)
-        var item_loc = id
-        //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
-        try{
-            var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
-        }
-        catch{
+
+        } catch (error){
+            console.log(error)
             message.channel.send("An object for this ID does not even exist.")
             return
         }
-        if(item.type != "Loot"){
-            message.channel.send(`Soldier that's not an item!\nObject ${id} Type: ${item.type}`)
-            return;
-        }
-
-        console.log(`${item.name}`)
-        var isWeapon = false
-        var Armor = 0
-        var Health = 0
-        var Imagination = 0
-        var dmg = ``
-        var dmg_component = ``
-        var cooldowngroup
-        var cooldown
-        var dmg_combo
-        var title = item.name
-        console.log(item)
-        var displayName = item.displayName
-        var internalNotes = item._internalNotes
-        var description = item.description
-        var extra_desc = ''
-        var renderID = item.components["2"]
-        console.log(`renderID: ${renderID}`)
-        var renderFolder = Math.floor(renderID/256)
-        var renderComponent = require(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
-        console.log(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
-        var iconID = renderComponent.IconID
-        //var icons = require(`./../tables/Icons/${iconID}.json`)
-        console.log(`./../tables/Icons/${iconID}.json`)
-        //var iconPath = icons.IconPath
-        var iconPath = renderComponent.icon_asset
-        for (var i = 0; i < item.skills.length; i++) {
-
-            var skillID = (item.skills[i].skillID)
-            var behav_folder_loc = Math.floor(skillID / 256)
-            var skillBehavior = require(`./../locale/SkillBehavior/${behav_folder_loc}.json`)
-            console.log(skillBehavior[skillID])
-            var abilityName = skillBehavior[skillID].name
-            //dmg = skillBehavior[skillID].descriptionUI.substring(15, 20);
-            if(skillBehavior[skillID].descriptionUI.includes(`(ChargeUp)`)) {
-                var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
-                console.log(`chargeUpLoc ${chargeUpLoc}`)
-                var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
-            } else if(skillBehavior[skillID].descriptionUI.includes(`(Description)`)){
-                var descriptionLoc = (skillBehavior[skillID].descriptionUI.search(`(Description)`)) + `(Description)`.length-1
-                console.log(`desc ${descriptionLoc}`)
-                var description = skillBehavior[skillID].descriptionUI.substring(descriptionLoc);
-                extra_desc = `${extra_desc}\n${abilityName}: ${description}`
-            } else if(skillBehavior[skillID].descriptionUI.includes(`+`)==false){
-                extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${skillBehavior[skillID].descriptionUI}`
-            }
-            if(item.name.includes(`Wand`)){
-                var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
-                var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
-                extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${chargeUp}`
-                console.log(`I AM A WAND`)
-            }
-            console.log(`chargeUp: ${chargeUp}`)
-            var cooldownFile = require(`./../tables/SkillBehavior/${skillID}.json`)
-            console.log(cooldownFile)
-            //console.log(`cool: ${cooldownFile.cooldown}`)
-            if(cooldownFile.cooldown != 0) {
-                cooldowngroup = cooldownFile.cooldowngroup
-                cooldown = cooldownFile.cooldown
-                console.log(`Cooldown Group: ${cooldownFile.cooldowngroup}\nItem Cooldown: ${cooldownFile.cooldown} seconds`)
-            }
 
 
-            if(cooldownFile.armorBonusUI != null){
-                Armor = cooldownFile.armorBonusUI
-            }
-            if(cooldownFile.lifeBonusUI != null){
-                Health = cooldownFile.lifeBonusUI
-            }
-            if(cooldownFile.imBonusUI != null){
-                Imagination = cooldownFile.imBonusUI
-            }
-
-            if(i == item.skills.length-1) {
-                console.log(`Bonuses:`)
-                console.log(`Armor: ${Armor}`)
-                console.log(`Health: ${Health}`)
-                console.log(`Imagination: ${Imagination}`)
-            }
-            console.log(`dmg: ${skillBehavior[skillID].descriptionUI[16]},${skillBehavior[skillID].descriptionUI[18]},${skillBehavior[skillID].descriptionUI[20]}`)
-            if(skillBehavior[skillID].descriptionUI[16]==`+` && skillBehavior[skillID].descriptionUI[18] == `+`&& skillBehavior[skillID].descriptionUI[20] == `+`){
-                dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 22);
-            }else if(skillBehavior[skillID].descriptionUI[16]==`+` && skillBehavior[skillID].descriptionUI[18] == `+`){
-                dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 20);
-            }else if(skillBehavior[skillID].descriptionUI[16]==`+`){
-                dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 18);
-            }else if((skillBehavior[skillID].descriptionUI[15]>= '0' && skillBehavior[skillID].descriptionUI[15]<= '9')&&item.name.includes('Wand')){
-                dmg_combo  = skillBehavior[skillID].descriptionUI[15];
-            }else if ((skillBehavior[skillID].descriptionUI.includes('DamageCombo'))) {
-                var dmg_combo_num = skillBehavior[skillID].descriptionUI.search(`Description`);
-                console.log(dmg_combo_num)
-                dmg_combo = skillBehavior[skillID].descriptionUI.substring(`%(DamageCombo) `.length, dmg_combo_num-3)
-                console.log(`DMG: ${dmg_combo}`)
-            }else if((skillBehavior[skillID].descriptionUI[15]>= '0' && skillBehavior[skillID].descriptionUI[15]<= '9')){
-                //dmg_combo  = skillBehavior[skillID].descriptionUI[15];
-                dmg_combo=`None`
-            }
-
-        }
-
-        if(isWeapon){
-            var desc = `${dmg_component}\nBonuses:\nArmor: ${Armor}\nHealth: ${Health}\nImagination: ${Imagination}`
-        }else{
-            var desc = `Bonuses:\nArmor: ${Armor}\nHealth: ${Health}\nImagination: ${Imagination}`
-
-        }
-
-        const client = message.client;
-        var channel = message.channel.toString();
-        channel = channel.substring(2, channel.length-1);
-
-        console.log(`chan: ${channel}`)
-        const Discord = require('discord.js');
-        var url = `https://lu-explorer.web.app/objects/${id}/2`;
-        const img = `https://i.pinimg.com/originals/17/e3/70/17e370ff54f49281f212e8a9d34e2996.png`;
-        var displayNameClean = item.displayName.replace(/\s/g, '_')
-        //var thumbnail = `https://static.wikia.nocookie.net/legouniverse/images/5/5f/${displayNameClean}.png`
-        //console.log(`thumbnail ${thumbnail}`)
-        var maudeLink = `https://cdn.discordapp.com/attachments/641133444746838016/813618015320408074/200.png`
-        iconPath = iconPath.replace('DDS', 'png')
-        iconPath = iconPath.replace('dds', 'png')
-        iconPath = iconPath.replace(/\\/g, "/");
-        iconPath = iconPath.replace(` `, "%20");
-        iconPath = iconPath.toLowerCase()
-        var iconURL = `https://xiphoseer.github.io/lu-res/${iconPath.substring(6)}`
-        /*
-        https://xiphoseer.github.io/lu-res/textures/ui/../../textures/auramar/ui/inventory/Hands/KiteShield_Bat.png
-        https://xiphoseer.github.io/lu-res/textures/ui/amar/ui/inventory/Hands/KiteShield_Bat.png
-        https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshield_bat.png
-         */
-
-        console.log(iconURL)
-        //console.log(`https://xiphoseer.github.io/lu-res/textures/ui/..\\..\\textures\\ui\\inventory\\faction kits\\sorcerer_shoulder_3.png`.replace('\\', '/'))
-        //https://xiphoseer.github.io/lu-res/textures/ui/inventory/faction%20kits/sorcerer_shoulder_3.png
-
-        var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
-        if(cooldown==undefined || cooldown==null || cooldown==``){
-            cooldown= "None"
-        }if(cooldowngroup==undefined || cooldowngroup==null || cooldowngroup==``){
-            cooldowngroup= "None"
-        }if(dmg_combo==undefined || dmg_combo==null || dmg_combo==``){
-            dmg_combo= "None"
-        }if(displayName==undefined || displayName==null || displayName==``){
-            displayName= "None"
-        }if(internalNotes==undefined || internalNotes==null || internalNotes==``){
-            internalNotes= "None"
-        }if(description==undefined || description==null || description==``){
-            description= "None"
-        }if(chargeUp==undefined || chargeUp==null || chargeUp==``){
-            chargeUp= "None"
-        }
-        console.log(`displayName: ${displayName}`)
-        var item_description = `**Description**${extra_desc}`
-
-        const devoEmbed = new Discord.MessageEmbed()
-            .setColor('#00ffff')
-            .setTitle(title)
-            .setURL(url)
-            .setAuthor(`Nexus Force`, nexusLink, url)
-            .setDescription(item_description)
-
-            .setThumbnail(iconURL)
-            .addFields(
-                { name: 'Display Name', value: displayName, inline: true },
-                { name: 'Internal Notes', value: internalNotes, inline: true },
-                { name: 'Damage Combo', value: dmg_combo, inline: true },
-
-            )
-            .addFields(
-                { name: 'ChargeUp', value: chargeUp, inline: true },
-                { name: 'Cooldown Time', value: `${cooldown} Seconds`, inline: true },
-                { name: 'Cooldown Group', value: cooldowngroup, inline: true },
-            )
-            .addFields(
-                {name: 'Armor', value: Armor, inline: true},
-                {name: 'Health', value: Health, inline: true},
-                {name: 'Imagination', value: Imagination, inline: true},
-            )
-            //.setImage(thumbnail)
-            .setTimestamp()
-            .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
-
-        client.channels.cache.get(channel).send(devoEmbed);
     }
 }
