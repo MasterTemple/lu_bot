@@ -1,0 +1,264 @@
+﻿{
+    "Sheet1": [
+        {
+            "templateID": "1",
+            "name": "BasicAttack"
+        },
+        {
+            "templateID": "2",
+            "name": "TacArc"
+        },
+        {
+            "templateID": "3",
+            "name": "And"
+        },
+        {
+            "templateID": "4",
+            "name": "ProjectileAttack"
+        },
+        {
+            "templateID": "5",
+            "name": "Heal"
+        },
+        {
+            "templateID": "6",
+            "name": "Movement Switch"
+        },
+        {
+            "templateID": "7",
+            "name": "AoE"
+        },
+        {
+            "templateID": "8",
+            "name": "PlayEffect"
+        },
+        {
+            "templateID": "9",
+            "name": "Immunity"
+        },
+        {
+            "templateID": "10",
+            "name": "DamageBuff"
+        },
+        {
+            "templateID": "11",
+            "name": "Damage Absorption"
+        },
+        {
+            "templateID": "12",
+            "name": "Over Time"
+        },
+        {
+            "templateID": "13",
+            "name": "Imagination"
+        },
+        {
+            "templateID": "14",
+            "name": "Target Caster"
+        },
+        {
+            "templateID": "15",
+            "name": "Stun"
+        },
+        {
+            "templateID": "16",
+            "name": "Duration"
+        },
+        {
+            "templateID": "17",
+            "name": "Knockback"
+        },
+        {
+            "templateID": "18",
+            "name": "AttackDelay"
+        },
+        {
+            "templateID": "19",
+            "name": "Car Boost"
+        },
+        {
+            "templateID": "20",
+            "name": "FallSpeed"
+        },
+        {
+            "templateID": "21",
+            "name": "Shield"
+        },
+        {
+            "templateID": "22",
+            "name": "RepairArmor"
+        },
+        {
+            "templateID": "23",
+            "name": "Speed"
+        },
+        {
+            "templateID": "24",
+            "name": "DarkInspiration"
+        },
+        {
+            "templateID": "25",
+            "name": "LootBuff"
+        },
+        {
+            "templateID": "26",
+            "name": "VentureVision"
+        },
+        {
+            "templateID": "27",
+            "name": "Spawn Object"
+        },
+        {
+            "templateID": "28",
+            "name": "LayBrick"
+        },
+        {
+            "templateID": "29",
+            "name": "Switch"
+        },
+        {
+            "templateID": "30",
+            "name": "Buff"
+        },
+        {
+            "templateID": "31",
+            "name": "Jetpack"
+        },
+        {
+            "templateID": "32",
+            "name": "Skill Event"
+        },
+        {
+            "templateID": "33",
+            "name": "Consume Item"
+        },
+        {
+            "templateID": "34",
+            "name": "SkillCastFailed"
+        },
+        {
+            "templateID": "35",
+            "name": "ImitationSkunkStink"
+        },
+        {
+            "templateID": "36",
+            "name": "ChangeIdleFlags"
+        },
+        {
+            "templateID": "37",
+            "name": "ApplyBuff"
+        },
+        {
+            "templateID": "38",
+            "name": "Chain"
+        },
+        {
+            "templateID": "39",
+            "name": "ChangeOrientation"
+        },
+        {
+            "templateID": "40",
+            "name": "ForceMovement"
+        },
+        {
+            "templateID": "41",
+            "name": "Interrupt"
+        },
+        {
+            "templateID": "42",
+            "name": "AlterCooldown"
+        },
+        {
+            "templateID": "43",
+            "name": "ChargeUp"
+        },
+        {
+            "templateID": "44",
+            "name": "SwitchMultiple"
+        },
+        {
+            "templateID": "45",
+            "name": "Start"
+        },
+        {
+            "templateID": "46",
+            "name": "End"
+        },
+        {
+            "templateID": "47",
+            "name": "AlterChainDelay"
+        },
+        {
+            "templateID": "48",
+            "name": "Camera"
+        },
+        {
+            "templateID": "49",
+            "name": "RemoveBuff"
+        },
+        {
+            "templateID": "50",
+            "name": "Grab"
+        },
+        {
+            "templateID": "51",
+            "name": "ModularBuild"
+        },
+        {
+            "templateID": "52",
+            "name": "NPC Combat Skill"
+        },
+        {
+            "templateID": "53",
+            "name": "Block"
+        },
+        {
+            "templateID": "54",
+            "name": "Verify"
+        },
+        {
+            "templateID": "55",
+            "name": "Taunt"
+        },
+        {
+            "templateID": "56",
+            "name": "AirMovement"
+        },
+        {
+            "templateID": "57",
+            "name": "SpawnQuickbuild"
+        },
+        {
+            "templateID": "58",
+            "name": "PullToPoint"
+        },
+        {
+            "templateID": "59",
+            "name": "PropertyRotate"
+        },
+        {
+            "templateID": "60",
+            "name": "DamageReduction"
+        },
+        {
+            "templateID": "61",
+            "name": "PropertyTeleport"
+        },
+        {
+            "templateID": "62",
+            "name": "ClearTarget"
+        },
+        {
+            "templateID": "63",
+            "name": "TakePicture"
+        },
+        {
+            "templateID": "64",
+            "name": "Mount"
+        },
+        {
+            "templateID": "65",
+            "name": "SkillSet"
+        }
+    ]
+}
