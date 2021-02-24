@@ -2,7 +2,8 @@ module.exports = {
     name: ['npc'],
     description: 'Info about an NPC in LEGO Universe',
     args: true,
-    use: `npc [id]`,example:[`npc 12261`],
+    use: `npc [id]`,
+    example:[`npc 12261`],
     execute(message, args) {
         var id = args[0]
         var folder_loc = Math.floor(id / 256)
@@ -34,7 +35,9 @@ module.exports = {
                     console.log(`./../locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
                     missionNames.push(missionName[missions.missions[i].missionID].name)
                     console.log(missionName)
+
                 }
+                missionNames = missionNames.join(", ")
                 missionNamesString = ``
                 for(var i=0; i<missionNames.length; i++){
                     missionNamesString= `${missionNamesString}, ${missionNames[i]}`
@@ -140,13 +143,16 @@ module.exports = {
         if(quest == undefined){
            missionNamesString = `None`
         }
+        if(missionNames==undefined){
+            missionNames="None"
+        }
         console.log(missionNamesString)
         const devoEmbed = new Discord.MessageEmbed()
             .setColor('#00ffff')
             .setTitle(title)
             .setURL(url)
             .setAuthor(`Nexus Force`, nexusLink, url)
-            .setDescription(`**Quests**\n${missionNames.join(", ")}`)
+            .setDescription(`**Quests**\n${missionNames}`)
 
             .setThumbnail(iconURL)
             .addFields(

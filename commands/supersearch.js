@@ -1,8 +1,9 @@
 module.exports = {
     name: ['supersearch', 's'],
-    description: 'Search with all related content',
+    description: 'Search any object with all related content',
     args: true,
-    use: ``,example:[``],
+    use: `supersearch [args]`,
+    example:[`supersearch Sorcerer Neck/Back 3 Rank 3 Specialty Kit Item Loot Sorcerer Shoulderpads 3 Rank 3 Specialty Kit Item`, `s wormholer`],
     execute(message, args) {
         //const client = message.client;
         //

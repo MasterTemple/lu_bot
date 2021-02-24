@@ -1,8 +1,9 @@
 module.exports = {
     name: ['searchnpc'],
-    description: 'Search only NPCs',
+    description: 'Search only NPCs by key word(s), order does not matter',
     args: true,
-    use: `searchnpc [args]`,example:[`searchnpc`],
+    use: `searchnpc [args]`,
+    example:[`searchnpc vanda darkflame`, `search mr. ree`],
     execute(message, args) {
         //const client = message.client;
         //

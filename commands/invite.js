@@ -2,7 +2,8 @@ module.exports = {
     name: ['invite'],
     description: 'Link to invite this bot to another server',
     args: true,
-    use: ``,example:[``],
+    use: `invite`,
+    example:[`invite`],
     execute(message, args) {
 
         const client = message.client

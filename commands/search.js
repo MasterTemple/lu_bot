@@ -1,8 +1,9 @@
 module.exports = {
     name: ['search'],
-    description: 'Search all objects',
+    description: 'Search all objects by key word(s), order does not matter',
     args: true,
-    use: ``,example:[``],
+    use: `search [args]`,
+    example:[`search Dr. Overbuild`, `search samurai weapon 3`, `search dark ronin`],
     execute(message, args) {
         //const client = message.client;
         //

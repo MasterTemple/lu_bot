@@ -1,8 +1,9 @@
 module.exports = {
     name: ['searchitem'],
-    description: 'Search only items',
+    description: 'Search only items by key word(s), order does not matter',
     args: true,
-    use: ``,example:[``],
+    use: `searchitem [args]`,
+    example:[`searchitem space marauder blaster 3 variant`, `searchitem mosaic jester cap`],
     execute(message, args) {
         //const client = message.client;
         //
@@ -46,7 +47,7 @@ module.exports = {
                 try{
 
                     var allMatch = sorted.every(function (e) {
-                        console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)}`)
+                        //console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)}`)
 
                         return item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e)
                     });

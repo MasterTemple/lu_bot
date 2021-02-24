@@ -2,7 +2,8 @@ module.exports = {
     name: ['enemies'],
     description: 'Info about the Maelstrom in LEGO Universe',
     args: true,
-    use: ``,example:[``],
+    use: `enemies [id]`,
+    example:[`enemies 4712`],
     execute(message, args) {
         var id = args[0]
         var folder_loc = Math.floor(id / 256)

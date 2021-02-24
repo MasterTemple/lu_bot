@@ -2,7 +2,8 @@ module.exports = {
     name: ['item'],
     description: 'Info about an item in LEGO Universe',
     args: true,
-    use: ``,example:[``],
+    use: `item [id]`,
+    example:[`item 7415`],
     execute(message, args) {
         var id = args[0]
         var folder_loc = Math.floor(id / 256)

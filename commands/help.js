@@ -2,8 +2,8 @@ module.exports = {
     name: ['help'],
     description: 'This is the help command :)',
     args: true,
-    use: ``,
-    example:[``],
+    use: `help optional:[commandName]`,
+    example:[`help`, `help type`],
     execute(message, args) {
 
         const client = message.client

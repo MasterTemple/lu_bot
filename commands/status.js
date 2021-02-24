@@ -2,7 +2,8 @@ module.exports = {
     name: ['status'],
     description: 'Sets the status',
     args: true,
-    use: `status [presence]`,example:[`status online`, `status idle`, `status dnd`],
+    use: `status [presence]`,
+    example:[`status online`, `status idle`, `status dnd`],
     execute(message, args) {
         const {owner} = require('./../config.json');if(!owner.includes(message.author.id)) {return;}
         const client = message.client
