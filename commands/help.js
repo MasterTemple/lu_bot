@@ -13,7 +13,7 @@ module.exports = {
 
         const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
         var desc = ``
-        const exclude = ["help", "items", "setpfp"]
+        const exclude = ["help", "items", "setpfp", "status", "play"]
 
         for (const file of commandFiles) {
             const command = require(`./${file}`);
