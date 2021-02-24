@@ -1,6 +1,6 @@
 module.exports = {
     name: 'search',
-    description: 'Info about the arguments',
+    description: 'This command is broken lol',
     args: true,
     execute(message, args) {
         //const client = message.client;

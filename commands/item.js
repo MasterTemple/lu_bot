@@ -1,6 +1,6 @@
 module.exports = {
     name: 'item',
-    description: 'Info about the arguments',
+    description: 'Info about an item in LEGO Universe',
     args: true,
     execute(message, args) {
         var id = args[0]

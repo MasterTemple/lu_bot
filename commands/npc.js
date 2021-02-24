@@ -1,6 +1,6 @@
 module.exports = {
     name: 'npc',
-    description: 'Info about the arguments',
+    description: 'Info about an NPC in LEGO Universe',
     args: true,
     execute(message, args) {
         var id = args[0]

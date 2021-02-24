@@ -1,6 +1,6 @@
 module.exports = {
     name: 'setpfp',
-    description: 'Info about the arguments',
+    description: 'Changes the bot\'s pfp',
     args: true,
     execute(message, args) {
         const client = message.client
