@@ -10,9 +10,11 @@ module.exports = {
         var item_loc = id
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
         try{
+            //console.log(`./../objects/0/${folder_loc}/${item_loc}.json`)
             var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
         }
-        catch{
+        catch(error){
+            console.log(error)
             message.channel.send("An object for this ID does not even exist.")
             return
         }
