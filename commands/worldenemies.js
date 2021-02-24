@@ -1,10 +1,23 @@
 module.exports = {
-    name: ['list'],
+    name: ['worldenemies'],
     description: 'List enemies by plant',
     args: true,
-    use: `list [map]`,
-    example:[`list AG`, 'list FV'],
+    use: `worldenemies [map]`,
+    example:[`worldenemies AG`, 'worldenemies 1000'],
     execute(message, args) {
+        function err(){
+            const func = require(`./embed.js`);
+            try {
+                var totalMessage = `Enter **AG** or **1000** for **Avant Gardens**\nEnter **RVE** or **1001** for **Return to Venture Explorer**\nEnter **GF** or **1300** for **Gnarled Forest**\nEnter **FV** or **1400** for **Forbidden Valley**\nEnter **AM** or **1800** for **Crux Prime**\nEnter **NJ** or **2000**  for **Ninjago**`
+                func.execute(message, "ZoneIDs", totalMessage, "https://lu-explorer.web.app/zones", "https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png");
+            } catch (error) {
+                console.error(error);
+            }
+        }
+        if(args.length == 0){
+            err()
+            return
+        }
         var map_id = args[0]
         map_id = map_id.toLowerCase()
         console.log(map_id)
@@ -13,40 +26,12 @@ module.exports = {
             var data
             const client = message.client
             var item = require(`./../search/enemies.json`);
-            //var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
-            //message.channel.send(`Object [${id}] Type: **${item.type}**`)
-            //var type = data.type
-            //console.log(item)
-            // try{
-            //     //data = item.Enemies.find(a => (a.map).toLowerCase() == map_id)
-            //     console.log(data)
-            // } catch(e){
-            //     try{
-            //         console.log(e)
-            //         //data = item.Enemies.find(a => (a.zoneID) == map_id)
-            //         console.log(data)
-            //
-            //     }catch(e){
-            //         try{
-            //             console.log(e)
-            //             data = item.Enemies.find(b => (b.mapName).toLowerCase() == map_id)
-            //             console.log(data)
-            //
-            //         }catch(e){
-            //             console.log(e)
-            //             console.log(`didnt match`)
-            //             return
-            //         }
-            //     }
-            // }
 
             if(args[0].length == (2 || 3)){
                 data = item.Enemies.find(a => (a.map).toLowerCase() == map_id)
             }else if(!isNaN(args[0])){
                 data = item.Enemies.find(a => (a.zoneID) == map_id)
-            }else{
-                data = item.Enemies.find(a => (a.mapName).toLowerCase() == map_id)
-            }
+            }else{return}
             console.log(data)
 
             //console.log(data)
@@ -72,8 +57,11 @@ module.exports = {
                 console.error(error);
             }
         }catch (error){
+            err()
             console.log(error)
-            message.channel.send(`Enter **AG** or **1000** for **Avant Gardens**\nEnter **RVE** or **1001** for **Return to Venture Explorer**\nEnter **GF** or **1300** for **Gnarled Forest**\nEnter **FV** or **1400** for **Forbidden Valley**\nEnter **AM** or **1800** for **Crux Prime**\nEnter **NJ** or **2000**  for **Ninjago**`)
+
+
+            //message.channel.send(`Enter **AG** or **1000** for **Avant Gardens**\nEnter **RVE** or **1001** for **Return to Venture Explorer**\nEnter **GF** or **1300** for **Gnarled Forest**\nEnter **FV** or **1400** for **Forbidden Valley**\nEnter **AM** or **1800** for **Crux Prime**\nEnter **NJ** or **2000**  for **Ninjago**`)
         }
     }
 }
