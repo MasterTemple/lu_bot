@@ -8,7 +8,7 @@ module.exports = {
         var item_loc = id
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
         try{
-            var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/objects/0/${folder_loc}/${item_loc}.json`);
+            var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
         }
         catch{
             message.channel.send("An object for this ID does not even exist.")
@@ -39,11 +39,11 @@ module.exports = {
         var renderID = item.components["2"]
         console.log(`renderID: ${renderID}`)
         var renderFolder = Math.floor(renderID/256)
-        var renderComponent = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/RenderComponent/${renderFolder}/${renderID}.json`)
-        console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/RenderComponent/${renderFolder}/${renderID}.json`)
+        var renderComponent = require(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
+        console.log(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
         var iconID = renderComponent.IconID
-        //var icons = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
-        console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
+        //var icons = require(`./../tables/Icons/${iconID}.json`)
+        console.log(`./../tables/Icons/${iconID}.json`)
         //var iconPath = icons.IconPath
         var iconPath = renderComponent.icon_asset
         var enemyCooldown
@@ -55,16 +55,16 @@ module.exports = {
                 allSkills = `${allSkills} ${skillID}`
                 console.log(skillID)
                 var behav_folder_loc = Math.floor(parseInt(skillID) / 256)
-                //var skillBehavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/SkillBehavior/${behav_folder_loc}.json`)
-                var skillBehavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/SkillBehavior/${skillID}.json`)
-                console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/SkillBehavior/${skillID}.json`)
+                //var skillBehavior = require(`./../locale/SkillBehavior/${behav_folder_loc}.json`)
+                var skillBehavior = require(`./../tables/SkillBehavior/${skillID}.json`)
+                console.log(`./../tables/SkillBehavior/${skillID}.json`)
                 console.log(skillBehavior)
                 enemyCooldown = skillBehavior.cooldown
                 behaviorID = skillBehavior.behaviorID
-                var behavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/behaviors/${Math.floor(behaviorID/1024)}/${behaviorID}.json`)
+                var behavior = require(`./../behaviors/${Math.floor(behaviorID/1024)}/${behaviorID}.json`)
                 console.log(behavior)
 
-                console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/behaviors/${Math.floor(behaviorID/1024)}/${behaviorID}.json`)
+                console.log(`./../behaviors/${Math.floor(behaviorID/1024)}/${behaviorID}.json`)
                 //var skillTime = "npc skill time"
                 var npcskilltime = behavior.parameters["npc skill time"]
                 var max_range = behavior.parameters["max range"]

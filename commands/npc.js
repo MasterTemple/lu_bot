@@ -8,7 +8,7 @@ module.exports = {
         var item_loc = id
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
         try{
-            var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/objects/0/${folder_loc}/${item_loc}.json`);
+            var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
         }
         catch{
             message.channel.send("An object for this ID does not even exist.")
@@ -21,13 +21,13 @@ module.exports = {
         var quest = item.components["73"]
         console.log(quest)
         if (quest != undefined){
-            var missions = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/MissionNPCComponent/0/${quest}.json`)
+            var missions = require(`./../tables/MissionNPCComponent/0/${quest}.json`)
             var missionsFromNPC = []
             var missionNames = []
             for (var i = 0; i < missions.missions.length; i++) {
                 missionsFromNPC.push(missions.missions[i].missionID)
-                var missionName = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
-                console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
+                var missionName = require(`./../locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
+                console.log(`./../locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
                 missionNames.push(missionName[missions.missions[i].missionID].name)
                 console.log(missionName)
             }
@@ -55,11 +55,11 @@ module.exports = {
         var renderID = item.components["2"]
         console.log(`renderID: ${renderID}`)
         var renderFolder = Math.floor(renderID/256)
-        var renderComponent = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/RenderComponent/${renderFolder}/${renderID}.json`)
-        console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/RenderComponent/${renderFolder}/${renderID}.json`)
+        var renderComponent = require(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
+        console.log(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
         var iconID = renderComponent.IconID
-        //var icons = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
-        console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
+        //var icons = require(`./../tables/Icons/${iconID}.json`)
+        console.log(`./../tables/Icons/${iconID}.json`)
         //var iconPath = icons.IconPath
         var iconPath = renderComponent.icon_asset
 

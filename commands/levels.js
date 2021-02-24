@@ -9,7 +9,7 @@ module.exports = {
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
 
         try{
-            var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/LevelProgressionLookup/index.json`);
+            var item = require(`./../tables/LevelProgressionLookup/index.json`);
             console.log(item._embedded.LevelProgressionLookup[id-1].requiredUScore)
             var required = item._embedded.LevelProgressionLookup[id-1].requiredUScore
             var this_level = item._embedded.LevelProgressionLookup[id-1].requiredUScore - item._embedded.LevelProgressionLookup[id-2].requiredUScore

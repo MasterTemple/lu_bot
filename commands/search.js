@@ -25,7 +25,7 @@ module.exports = {
 
             try {
                 //C:\Users\Blake The Great\Downloads\lubot\lu-json-master\locale\Objects\29.json
-                var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/Objects/${folder_loc}.json`);
+                var item = require(`./../locale/Objects/${folder_loc}.json`);
 
                 if(item.description.toString().toLowerCase()==(search.toString().toLowerCase()) || item.name.toString().toLowerCase()==(search.toString().toLowerCase())) {
                     //console.log(`"id": "${item.id}", "item": "${item.displayName}",`)
@@ -47,7 +47,7 @@ module.exports = {
         var item_loc = id
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
         try{
-            var item = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/objects/0/${folder_loc}/${item_loc}.json`);
+            var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
         }
         catch{
             message.channel.send("An object for this ID does not even exist.")
@@ -77,18 +77,18 @@ module.exports = {
         var renderID = item.components["2"]
         console.log(`renderID: ${renderID}`)
         var renderFolder = Math.floor(renderID/256)
-        var renderComponent = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/RenderComponent/${renderFolder}/${renderID}.json`)
-        console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/RenderComponent/${renderFolder}/${renderID}.json`)
+        var renderComponent = require(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
+        console.log(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
         var iconID = renderComponent.IconID
-        //var icons = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
-        console.log(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/Icons/${iconID}.json`)
+        //var icons = require(`./../tables/Icons/${iconID}.json`)
+        console.log(`./../tables/Icons/${iconID}.json`)
         //var iconPath = icons.IconPath
         var iconPath = renderComponent.icon_asset
         for (var i = 0; i < item.skills.length; i++) {
 
             var skillID = (item.skills[i].skillID)
             var behav_folder_loc = Math.floor(skillID / 256)
-            var skillBehavior = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/locale/SkillBehavior/${behav_folder_loc}.json`)
+            var skillBehavior = require(`./../locale/SkillBehavior/${behav_folder_loc}.json`)
             console.log(skillBehavior[skillID])
             var abilityName = skillBehavior[skillID].name
             //dmg = skillBehavior[skillID].descriptionUI.substring(15, 20);
@@ -111,7 +111,7 @@ module.exports = {
                 console.log(`I AM A WAND`)
             }
             console.log(`chargeUp: ${chargeUp}`)
-            var cooldownFile = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/tables/SkillBehavior/${skillID}.json`)
+            var cooldownFile = require(`./../tables/SkillBehavior/${skillID}.json`)
             console.log(cooldownFile)
             //console.log(`cool: ${cooldownFile.cooldown}`)
             if(cooldownFile.cooldown != 0) {
