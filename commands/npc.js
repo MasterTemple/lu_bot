@@ -2,10 +2,13 @@ module.exports = {
     name: ['npc'],
     description: 'Info about an NPC in LEGO Universe',
     args: true,
+    use: `npc [id]`,example:[`npc 12261`],
     execute(message, args) {
         var id = args[0]
         var folder_loc = Math.floor(id / 256)
         var item_loc = id
+        var missionNamesString
+
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
         try{
             var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
@@ -24,12 +27,21 @@ module.exports = {
             var missions = require(`./../tables/MissionNPCComponent/0/${quest}.json`)
             var missionsFromNPC = []
             var missionNames = []
-            for (var i = 0; i < missions.missions.length; i++) {
-                missionsFromNPC.push(missions.missions[i].missionID)
-                var missionName = require(`./../locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
-                console.log(`./../locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
-                missionNames.push(missionName[missions.missions[i].missionID].name)
-                console.log(missionName)
+            try{
+                for (var i = 0; i < missions.missions.length; i++) {
+                    missionsFromNPC.push(missions.missions[i].missionID)
+                    var missionName = require(`./../locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
+                    console.log(`./../locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
+                    missionNames.push(missionName[missions.missions[i].missionID].name)
+                    console.log(missionName)
+                }
+                missionNamesString = ``
+                for(var i=0; i<missionNames.length; i++){
+                    missionNamesString= `${missionNamesString}, ${missionNames[i]}`
+                }
+            }
+            catch{
+
             }
 
             console.log(missionsFromNPC)
@@ -126,15 +138,15 @@ module.exports = {
         }
         console.log(missionNames)
         if(quest == undefined){
-           var missionNames = `None`
+           missionNamesString = `None`
         }
-
+        console.log(missionNamesString)
         const devoEmbed = new Discord.MessageEmbed()
             .setColor('#00ffff')
             .setTitle(title)
             .setURL(url)
             .setAuthor(`Nexus Force`, nexusLink, url)
-            //.setDescription(item_description)
+            .setDescription(`**Quests**\n${missionNames.join(", ")}`)
 
             .setThumbnail(iconURL)
             .addFields(
@@ -144,8 +156,8 @@ module.exports = {
 
             )
             .addFields(
-                { name: 'Quests', value: missionNames, inline: false },
-                { name: 'Sells', value: "IDK YET", inline: false },
+                //{ name: 'Quests', value: missionNames, inline: false },
+                //{ name: 'Sells', value: "IDK YET", inline: false },
 
             )
 

@@ -2,6 +2,7 @@ module.exports = {
     name: ['searchitem'],
     description: 'Search only items',
     args: true,
+    use: ``,example:[``],
     execute(message, args) {
         //const client = message.client;
         //

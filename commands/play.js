@@ -2,6 +2,7 @@ module.exports = {
     name: ['play'],
     description: 'Set what the bot is playing',
     args: true,
+    use: ``,example:[``],
     execute(message, args) {
         const {owner} = require('./../config.json');if(!owner.includes(message.author.id)) {return;}
 

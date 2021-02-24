@@ -2,6 +2,7 @@ module.exports = {
     name: ['items'],
     description: 'Info about several items in LEGO Universe',
     args: true,
+    use: ``,example:[``],
     execute(message, args) {
         for(var k=0;k<args.length;k++){
             var id = args[k]

@@ -1,7 +1,8 @@
 module.exports = {
     name: ['searchnpc'],
-    description: 'Search only npcs',
+    description: 'Search only NPCs',
     args: true,
+    use: `searchnpc [args]`,example:[`searchnpc`],
     execute(message, args) {
         //const client = message.client;
         //

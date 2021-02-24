@@ -2,6 +2,7 @@ module.exports = {
     name: ['supersearch', 's'],
     description: 'Search with all related content',
     args: true,
+    use: ``,example:[``],
     execute(message, args) {
         //const client = message.client;
         //

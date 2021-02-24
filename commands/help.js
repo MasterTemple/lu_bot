@@ -2,7 +2,10 @@ module.exports = {
     name: ['help'],
     description: 'This is the help command :)',
     args: true,
+    use: ``,
+    example:[``],
     execute(message, args) {
+
         const client = message.client
         var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
         var url = `https://discord.com/api/oauth2/authorize?client_id=813618765685456916&permissions=52288&scope=bot`
@@ -15,20 +18,47 @@ module.exports = {
         var desc = ``
         const exclude = ["help", "items", "setpfp", "status", "play", "setpfp"]
 
-        for (const file of commandFiles) {
-            const command = require(`./${file}`);
-            if(!exclude.includes(command.name)){
+        if(args.length == 0){
+            for (const file of commandFiles) {
+                const command = require(`./${file}`);
+                if (!exclude.includes(command.name)) {
+                    desc = (`${desc}**`)
+
+                    for (var i = 0; i < command.name.length; i++) {
+                        desc = (`${desc}${prefix}${command.name[i]} `)
+                    }
+                    //if(i == command.name.length) {
+                    desc = (`${desc}**${command.description}\n`)
+                    //}
+
+                }
+            }
+        }else{
+            try{
+                const command = require(`./${args[0]}`);
                 desc = (`${desc}**`)
 
-                for(var i=0; i < command.name.length; i++) {
+                for (var i = 0; i < command.name.length; i++) {
                     desc = (`${desc}${prefix}${command.name[i]} `)
                 }
-                //if(i == command.name.length) {
-                    desc = (`${desc}**${command.description}\n`)
-                //}
+                desc = (`${desc}**${command.description}\n`)
+                if(command.example.length == 1){
+                    desc = `${desc}**Example:**\n`
+                }else{
+                    desc = `${desc}**Examples:**\n`
+                }
+
+                for (var i = 0; i < command.example.length; i++) {
+                    desc = `${desc}${prefix}${command.example[i]}\n`
+                }
+                desc = `${desc}**Use:**\n${prefix}${command.use}`
 
             }
+            catch(error){
+                console.log(error)
+            }
         }
+
 
         const Discord = require('discord.js');
         var title = "Nexus Force"
@@ -45,5 +75,7 @@ module.exports = {
             .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
 
         client.channels.cache.get(channel).send(devoEmbed);
+
+
     }
 }
