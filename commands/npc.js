@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'npc',
+    name: ['npc'],
     description: 'Info about an NPC in LEGO Universe',
     args: true,
     execute(message, args) {

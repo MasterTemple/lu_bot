@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'supersearch',
-    description: 'Search all objects',
+    name: ['supersearch', 's'],
+    description: 'Search with all related content',
     args: true,
     execute(message, args) {
         //const client = message.client;

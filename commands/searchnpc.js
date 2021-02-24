@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'searchnpc',
+    name: ['searchnpc'],
     description: 'Search only npcs',
     args: true,
     execute(message, args) {

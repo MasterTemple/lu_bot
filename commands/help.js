@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'help',
+    name: ['help'],
     description: 'This is the help command :)',
     args: true,
     execute(message, args) {
@@ -13,12 +13,20 @@ module.exports = {
 
         const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
         var desc = ``
-        const exclude = ["help", "items", "setpfp", "status", "play"]
+        const exclude = ["help", "items", "setpfp", "status", "play", "setpfp"]
 
         for (const file of commandFiles) {
             const command = require(`./${file}`);
             if(!exclude.includes(command.name)){
-                desc = (`${desc}**${prefix}${command.name}**\n${command.description}\n`)
+                desc = (`${desc}**`)
+
+                for(var i=0; i < command.name.length; i++) {
+                    desc = (`${desc}${prefix}${command.name[i]} `)
+                }
+                //if(i == command.name.length) {
+                    desc = (`${desc}**${command.description}\n`)
+                //}
+
             }
         }
 

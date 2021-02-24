@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'play',
+    name: ['play'],
     description: 'Set what the bot is playing',
     args: true,
     execute(message, args) {

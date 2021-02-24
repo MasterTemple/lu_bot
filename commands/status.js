@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'status',
+    name: ['status'],
     description: 'Sets the status',
     args: true,
     execute(message, args) {

@@ -7,7 +7,9 @@ const {prefix, token, bot_age, startupStatus, bot_info, owner} = require('./conf
 
 for (const file of commandFiles) {
     const command = require(`./commands/${file}`);
-    client.commands.set(command.name, command);
+    for(var i=0; i < command.name.length; i++) {
+        client.commands.set(command.name[i], command);
+    }
 }
 
 client.once('ready', () => {

@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'search',
+    name: ['search'],
     description: 'Search all objects',
     args: true,
     execute(message, args) {

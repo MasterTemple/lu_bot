@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'type',
+    name: ['type'],
     description: 'Gives type from ID',
     args: true,
     execute(message, args) {

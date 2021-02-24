@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'level',
+    name: ['level'],
     description: 'Info about the levels in LEGO Universe',
     args: true,
     execute(message, args) {
