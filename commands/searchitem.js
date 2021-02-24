@@ -1,11 +1,11 @@
 module.exports = {
-    name: 'search',
-    description: 'Search all objects',
+    name: 'searchitem',
+    description: 'Search only items',
     args: true,
     execute(message, args) {
         //const client = message.client;
         //
-        const arg = message.content.slice(7).trim().split(", "); //each space is a new argument
+        const arg = message.content.slice(11).trim().split(", "); //each space is a new argument
         console.log(arg)
         var id
         var search = arg[0]
@@ -36,7 +36,7 @@ module.exports = {
             for (var j = 0; j < (Object.keys(item["Sheet1"]).length);j++) {
                 //console.log(item["Sheet1"][j].name)
                 try{
-                    if ((item["Sheet1"][j].displayName.toLowerCase().includes(search) || item["Sheet1"][j].name.toLowerCase().includes(search)) && (item["Sheet1"][j].displayName.toLowerCase().includes(searchExtra) || item["Sheet1"][j].name.toLowerCase().includes(searchExtra))) {
+                    if ((item["Sheet1"][j].displayName.toLowerCase().includes(search) || item["Sheet1"][j].name.toLowerCase().includes(search)) && (item["Sheet1"][j].displayName.toLowerCase().includes(searchExtra) || item["Sheet1"][j].name.toLowerCase().includes(searchExtra)) && (item["Sheet1"][j].type == "Loot")) {
                         //console.log(`found ${j} DisplayName ${item["Sheet1"][j].displayName} name ${item["Sheet1"][j].name}`)
                         //console.log(`**ID:** ${j} **DisplayName:** ${item["Sheet1"][j].displayName} name ${item["Sheet1"][j].name}`)
                         //console.log(`**ID:** ${item["Sheet1"][j].id} **Type** ${item["Sheet1"][j].type} **Names:** ${item["Sheet1"][j].displayName} / ${item["Sheet1"][j].name}`)
