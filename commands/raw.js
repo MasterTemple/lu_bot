@@ -1,6 +1,6 @@
 module.exports = {
     name: ['raw'],
-    description: 'Search any object with all related content',
+    description: 'Search any object by id, displays raw content',
     args: true,
     use: `raw [id]`,
     example:[`raw 13843`],
