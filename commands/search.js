@@ -28,6 +28,7 @@ module.exports = {
             //C:\Users\Blake The Great\Downloads\lubot\lu-json-master\locale\Objects\29.json
             var item = require(`./../search/id-name-type-displayName.json`);
             var num = '2'
+            var desc = ''
             console.log("ok",(Object.keys(item["Sheet1"]).length))
             for (var j = 0; j < (Object.keys(item["Sheet1"]).length);j++) {
                 //console.log(item["Sheet1"][j].name)
@@ -35,7 +36,8 @@ module.exports = {
                     if ((item["Sheet1"][j].displayName.includes(search) || item["Sheet1"][j].name.includes(search)) && (item["Sheet1"][j].displayName.includes(searchExtra) || item["Sheet1"][j].name.includes(searchExtra))) {
                         //console.log(`found ${j} DisplayName ${item["Sheet1"][j].displayName} name ${item["Sheet1"][j].name}`)
                         //console.log(`**ID:** ${j} **DisplayName:** ${item["Sheet1"][j].displayName} name ${item["Sheet1"][j].name}`)
-                        console.log(`**ID:** ${item["Sheet1"][j].id} **Type** ${item["Sheet1"][j].type} **Names:** ${item["Sheet1"][j].displayName} / ${item["Sheet1"][j].name}`)
+                        //console.log(`**ID:** ${item["Sheet1"][j].id} **Type** ${item["Sheet1"][j].type} **Names:** ${item["Sheet1"][j].displayName} / ${item["Sheet1"][j].name}`)
+                        desc = `${desc}**ID:** ${item["Sheet1"][j].id} **Type** ${item["Sheet1"][j].type} **Names:** ${item["Sheet1"][j].displayName} / ${item["Sheet1"][j].name}\n`
 
                         //console.log(`"id": "${item.id}", "item": "${item.displayName}",`)
                         id = item["Sheet1"][j].id
@@ -44,27 +46,36 @@ module.exports = {
 
 
 
-                        if (type == `NPC` || type == `UserGeneratedNPCs`) {
-                            const command = client.commands.get(`./npc.js`);
-                            command.execute(message, id);
-                            return
-                        } else if (type == 'Loot') {
-                            const command = client.commands.get(`./item.js`);
-                            command.execute(message, id);
-                            return
-                        } else if (type == 'Enemies') {
-                            const command = client.commands.get(`./enemies.js`);
-                            command.execute(message, id);
-                            return
-                        } else {
-                            message.channel.send("This datatype is not currently supported.")
-                        }
+
+
                     }
                 }
                 catch (error){
                     //console.log(error)
                 }
             }
+
+            var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
+            var url = `https://discord.com/api/oauth2/authorize?client_id=813618765685456916&permissions=52288&scope=bot`
+            var client = message.client
+            var channel = message.channel.toString()
+            channel = channel.substring(2, channel.length-1);
+
+            const Discord = require('discord.js');
+            var title = "Nexus Force"
+            const Embed = new Discord.MessageEmbed()
+                .setColor('#00ffff')
+                .setTitle(title)
+                .setURL(url)
+                .setAuthor(`Nexus Force`, nexusLink, url)
+                .setDescription(desc)
+
+                .setThumbnail(nexusLink)
+
+                .setTimestamp()
+                .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
+
+            client.channels.cache.get(channel).send(Embed);
 
         } catch (error){
             console.log(error)
