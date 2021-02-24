@@ -16,21 +16,24 @@ module.exports = {
 
         const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
         var desc = ``
-        const exclude = ["help", "items", "setpfp", "status", "play", "setpfp"]
+        const exclude = ["help", "items", "setpfp", "status", "play"]
 
         if(args.length == 0){
             for (const file of commandFiles) {
                 const command = require(`./${file}`);
-                if (!exclude.includes(command.name)) {
-                    desc = (`${desc}**`)
 
-                    for (var i = 0; i < command.name.length; i++) {
-                        desc = (`${desc}${prefix}${command.name[i]} `)
+                for (var i = 0; i < command.name.length; i++){
+                    if (!exclude.includes(command.name[i])) {
+                        desc = (`${desc}**`)
+
+                        for (var i = 0; i < command.name.length; i++) {
+                            desc = (`${desc}${prefix}${command.name[i]} `)
+                        }
+                        //if(i == command.name.length) {
+                        desc = (`${desc}**${command.description}\n`)
+                        //}
+
                     }
-                    //if(i == command.name.length) {
-                    desc = (`${desc}**${command.description}\n`)
-                    //}
-
                 }
             }
         }else{
@@ -55,7 +58,20 @@ module.exports = {
 
             }
             catch(error){
-                console.log(error)
+                for (const file of commandFiles) {
+                    const command = require(`./${file}`);
+                    if (!exclude.includes(command.name)) {
+                        desc = (`${desc}**`)
+
+                        for (var i = 0; i < command.name.length; i++) {
+                            desc = (`${desc}${prefix}${command.name[i]} `)
+                        }
+                        //if(i == command.name.length) {
+                        desc = (`${desc}**${command.description}\n`)
+                        //}
+
+                    }
+                }
             }
         }
 
