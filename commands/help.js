@@ -1,14 +1,26 @@
 module.exports = {
-    name: 'invite',
-    description: 'Link to invite this bot to another server',
+    name: 'help',
+    description: 'This is the help command :)',
     args: true,
     execute(message, args) {
-
         const client = message.client
         var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
         var url = `https://discord.com/api/oauth2/authorize?client_id=813618765685456916&permissions=52288&scope=bot`
         var channel = message.channel.toString()
         channel = channel.substring(2, channel.length-1);
+
+        const fs = require('fs');
+
+        const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+        var desc = ``
+        const exclude = ["help", "items", "setpfp"]
+
+        for (const file of commandFiles) {
+            const command = require(`./${file}`);
+            if(!exclude.includes(command.name)){
+                desc = (`${desc}**!${command.name}**\n${command.description}\n`)
+            }
+        }
 
         const Discord = require('discord.js');
         var title = "Nexus Force"
@@ -17,9 +29,9 @@ module.exports = {
             .setTitle(title)
             .setURL(url)
             .setAuthor(`Nexus Force`, nexusLink, url)
-            .setDescription(`**Click the Following Link to Add to a Server!**\nhttps://discord.com/api/oauth2/authorize?client_id=813618765685456916&permissions=52288&scope=bot`)
+            .setDescription(desc)
 
-            //.setThumbnail(iconURL)
+            .setThumbnail(nexusLink)
 
             .setTimestamp()
             .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
