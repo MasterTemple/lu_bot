@@ -2,18 +2,27 @@
   "Enemies": [
     {
       "map": "AG",
+      "mapName": "Avant Gardens",
+      "mapURL": "https://xiphoseer.github.io/lu-res/textures/ui/signage/1000.gif",
+      "zoneID": 1000,
       "enemies": [
         "4712", "6253", "6359"
       ],
       "minibosses": []
     },{
       "map": "RVE",
+      "mapName": "Return to Venture Explorer",
+      "mapURL": "https://xiphoseer.github.io/lu-res/textures/ui/signage/1001.gif",
+      "zoneID": 1001,
       "enemies": [
         "8238","8433","12387"
       ],
       "minibosses": []
     },{
       "map": "GF",
+      "mapName": "Gnarled Forest",
+      "mapURL": "https://xiphoseer.github.io/lu-res/textures/ui/signage/1300.gif",
+      "zoneID": 1300,
       "enemies": [
         "6550 ", "6789 "
       ],
@@ -22,6 +31,9 @@
       ]
     },{
       "map": "FV",
+      "mapName": "Forbidden Valley",
+      "mapURL": "https://xiphoseer.github.io/lu-res/textures/ui/signage/1400.gif",
+      "zoneID": 1400,
       "enemies": [
         "7815", "7816", "6359"
       ],
@@ -30,6 +42,9 @@
       ]
     },{
       "map": "AM",
+      "mapName": "Crux Prime",
+      "mapURL": "https://xiphoseer.github.io/lu-res/textures/ui/signage/1800.gif",
+      "zoneID": 1800,
       "enemies": [
         "11212", "11213", "11214", "11215", "11216", "11217", "11218", "11219", "12000", "12002", "12004", "13068"
       ],
@@ -38,6 +53,9 @@
       ]
     },{
       "map": "NJ",
+      "mapName": "Ninjago",
+      "mapURL": "https://xiphoseer.github.io/lu-res/textures/ui/signage/2000.gif",
+      "zoneID": 2000,
       "enemies": [
         "14024", "14025", "14026", "14027", "14028", "14029", "14491"
       ],
