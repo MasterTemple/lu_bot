@@ -36,7 +36,12 @@ module.exports = {
             for (var j = 0; j < (Object.keys(item["Sheet1"]).length);j++) {
                 //console.log(item["Sheet1"][j].name)
                 try{
-                    if ((item["Sheet1"][j].displayName.toLowerCase().includes(search) || item["Sheet1"][j].name.toLowerCase().includes(search)) && (item["Sheet1"][j].displayName.toLowerCase().includes(searchExtra) || item["Sheet1"][j].name.toLowerCase().includes(searchExtra)) && (item["Sheet1"][j].type == "Loot")) {
+                    var allARGS = message.content.trim().split(/ +/);
+                    allARGS.shift()
+                    var allMatch = allARGS.every(function (e) {
+                        return item["Sheet1"][j].name.toLowerCase().includes(e) + item["Sheet1"][j].displayName.toLowerCase().includes(e)
+                    });
+                    if (allMatch && item["Sheet1"][j].type == "Loot") {
                         //console.log(`found ${j} DisplayName ${item["Sheet1"][j].displayName} name ${item["Sheet1"][j].name}`)
                         //console.log(`**ID:** ${j} **DisplayName:** ${item["Sheet1"][j].displayName} name ${item["Sheet1"][j].name}`)
                         //console.log(`**ID:** ${item["Sheet1"][j].id} **Type** ${item["Sheet1"][j].type} **Names:** ${item["Sheet1"][j].displayName} / ${item["Sheet1"][j].name}`)
