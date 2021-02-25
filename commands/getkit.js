@@ -1,5 +1,5 @@
 module.exports = {
-    name: ['getkit','kit'],
+    name: ['getkit', 'kitpiece'],
     description: 'Gets kit from an item',
     args: true,
     use: `getkit [id]`,
