@@ -7,14 +7,17 @@ for(let id = 0; id <= len; id++) {
 
     try{
         let item = require(`./objects/0/${folder_loc}/${id}.json`);
-        var obj = {
-            id: id,
-            skillIDs: {
-                skillID: item.skills,
-                name: item.name
-            },
+
+        for(let skill=0; skill < item.skills.length;skill++){
+            var obj = {
+                itemID: item.id,
+                skillID: item.skills[skill].skillID,
+                name: item.name,
+                displayName: item.displayName
+            }
+            data.table.push(obj)
         }
-        data.table.push(obj)
+
     }catch{
         //console.log(e)
     }
