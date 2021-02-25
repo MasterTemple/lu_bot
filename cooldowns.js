@@ -21,8 +21,11 @@ for(var i=0;i<=13;i++){
         arr.push(cool["Cooldowns"][0][i][j])
     }
     var obj = {
-        id: i,
-        arr: arr,
+        cooldowngroup: i,
+        skillIDs: {
+            skillID: arr,
+            name:
+        },
         square: i * i
     }
     data.table.push(obj)
