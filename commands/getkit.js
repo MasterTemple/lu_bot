@@ -58,7 +58,7 @@ module.exports = {
             try {
                 var url = `https://lu-explorer.web.app/zones/`
                 var pass = `https://lu-explorer.web.app/zones/`
-                func.execute(message, data.setName, totalMessage, url, pass);
+                func.execute(message, data.setName, totalMessage, url, data.setImageURL);
             } catch (error) {
                 console.error(error);
             }
