@@ -1,10 +1,13 @@
 module.exports = {
-    name: ['allkits', 'kits',],
+    name: ['allkits', 'kits'],
     description: 'Displays all the kits',
     args: true,
     use: `allkits`,
-    example:[`allkits`],
+    example:[`allkits`, 'kits'],
     execute(message, args) {
+        if(args.length > 0){
+            return;
+        }
         const client = message.client;
         var channel = message.channel.toString();
         channel = channel.substring(2, channel.length-1);

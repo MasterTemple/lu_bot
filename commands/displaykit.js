@@ -5,11 +5,12 @@ module.exports = {
     use: `getkit [id]`,
     example:[`getkit 7415`],
     execute(message, args) {
+        const {iconURL, nexusLink} = require('./../config.json');
         function err(){
             const func = require(`./embed.js`);
             try {
                 var totalMessage = `None`
-                func.execute(message, "ZoneIDs", totalMessage, "https://lu-explorer.web.app/zones", "https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png");
+                func.execute(message, "ZoneIDs", totalMessage, nexusLink, "https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png");
             } catch (error) {
                 console.error(error);
             }
@@ -70,7 +71,7 @@ module.exports = {
             try {
                 var url = `https://lu-explorer.web.app/zones/`
                 var pass = `https://lu-explorer.web.app/zones/`
-                func.execute(message, `SetID: ${data.setID}`, totalMessage, url, pass);
+                func.execute(message, `SetID: ${data.setID}`, totalMessage, url, iconURL);
             } catch (error) {
                 console.error(error);
             }
