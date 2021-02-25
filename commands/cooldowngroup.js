@@ -1,5 +1,5 @@
 module.exports = {
-    name: ['cooldowngroup'],
+    name: ['cooldowngroup',"cooldown", "group"],
     description: 'Info about an item in LEGO Universe',
     args: true,
     use: `cooldowngroup [id]`,
