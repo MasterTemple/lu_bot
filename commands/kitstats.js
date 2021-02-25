@@ -1,9 +1,9 @@
 module.exports = {
-    name: ['kit'],
+    name: ['kitstats'],
     description: 'Get all items in a kit',
     args: true,
-    use: `kit [name]`,
-    example:[`kit engineer rank 3`],
+    use: `kitstats [name]`,
+    example:[`kitstats daredevil rank 3 variant`],
     execute(message, args) {
         console.log(`me`)
         function err(){
@@ -69,12 +69,59 @@ module.exports = {
             var pieces = `**Pieces:**\n`
             //var minibossesString = `**MiniBosses:**\n`
             console.log(data)
+            var totalArmor = 0
+            var totalHealth = 0
+            var totalImagination = 0
             for (var i = 0; i < (Object.keys(data.itemIDs).length); i++) {
-                //console.log(data.enemies[i])
-                let lootdata = loot.Sheet1.find(a => (a.id) == data.itemIDs[i])
 
-                pieces = `${pieces}${data.itemIDs[i]}: **${lootdata.name}**\n`
+                var folder_loc = Math.floor(data.itemIDs[i] / 256)
+                var stat = require(`./../objects/0/${folder_loc}/${data.itemIDs[i]}.json`);
+                console.log(`./../objects/0/${folder_loc}/${data.itemIDs[i]}.json`)
+                if (stat.skills != undefined) {
+                    //console.log(stat.skills)
+                    var Armor = 0
+                    var Health = 0
+                    var Imagination = 0
+                    for (var j = 0; j < stat.skills.length; j++) {
+
+
+                        var skillID = (stat.skills[j].skillID)
+                        //var behav_folder_loc = Math.floor(skillID / 256)
+                        //var skillBehavior = require(`./../locale/SkillBehavior/${behav_folder_loc}.json`)
+                        var cooldownFile = require(`./../tables/SkillBehavior/${skillID}.json`)
+                        console.log(cooldownFile)
+                        //console.log(data.enemies[i])
+
+                        if (cooldownFile.armorBonusUI != null) {
+                            Armor = cooldownFile.armorBonusUI
+                        }
+                        if (cooldownFile.lifeBonusUI != null) {
+                            Health = cooldownFile.lifeBonusUI
+                        }
+                        if (cooldownFile.imBonusUI != null) {
+                            Imagination = cooldownFile.imBonusUI
+                        }
+                        if (cooldownFile.armorBonusUI != null) {
+                            totalArmor += parseInt(cooldownFile.armorBonusUI)
+                        }
+                        if (cooldownFile.lifeBonusUI != null) {
+                            totalHealth += parseInt(cooldownFile.lifeBonusUI)
+                        }
+                        if (cooldownFile.imBonusUI != null) {
+                            totalImagination += parseInt(cooldownFile.imBonusUI)
+                        }
+
+                    }
+
+
+                    let lootdata = loot.Sheet1.find(a => (a.id) == data.itemIDs[i])
+                    pieces = `${pieces}${data.itemIDs[i]}: **${lootdata.name}**\nArmor: **${Armor}** Health: **${Health}** Imagination: **${Imagination}**\n`
+
+                }
+
             }
+            pieces = `${pieces}\n**Total**\nArmor: **${totalArmor}** Health: **${totalHealth}** Imagination: **${totalImagination}**\n`
+
 
             var totalMessage = `${pieces}`
             //message.channel.send(totalMessage)
