@@ -7,7 +7,7 @@ data.table = []
 
 //console.log(cool["Cooldowns"])
 //console.log(Object.keys(cool["Cooldowns"]))
-console.log(Object.keys(cool["Cooldowns"][0]))
+//console.log(Object.keys(cool["Cooldowns"][0]))
 //console.log(Object.keys(cool["Cooldowns"][0][0]))
 // //console.log(cool["Cooldowns"][0].length)
 // console.log(cool["Cooldowns"][0][96].length)
@@ -21,31 +21,36 @@ console.log(Object.keys(cool["Cooldowns"][0]))
 var desc = ``
 for(var i=0;i<=103;i++){
     desc =`${desc}\nCooldownGroup:${i}\n`
-    //var arr =[]
+    var arr =[]
 
     //console.log(cool["Cooldowns"][0][i])
     for(var j=0;j<cool["Cooldowns"][0][i].length;j++){
         var coolSkillID = cool["Cooldowns"][0][i][j]
         var info = item.table.find(a => (a.skillID == coolSkillID))
+        //console.log(info)
         if(info != undefined) {
-        var obj = {
+            var obj = {
+                itemID: info.itemID,
+                skillID: info.skillID,
+                name: info.name,
+                displayName: info.displayName
+            }
+            arr.push(obj)
+        }
+        var newobj = {
             cooldowngroup: i,
-            itemID: info.id,
-            skillID: info.skillID,
-            name: info.name,
-            displayName: info.displayName
+            objects: arr
         }
-
-            data.table.push(obj)
+            data.table.push(newobj)
         }
-    }
+    //}
 
 }
 
 //console.log(desc)
 
 //
-fs.writeFile ("sortbycooldown.json", JSON.stringify(data), function(err) {
+fs.writeFile (`sortbycooldown5.json`, JSON.stringify(data), function(err) {
         if (err) throw err;
         console.log('complete');
     }
