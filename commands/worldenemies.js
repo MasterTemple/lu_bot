@@ -1,6 +1,6 @@
 module.exports = {
     name: ['worldenemies'],
-    description: 'List enemies by plant',
+    description: 'List enemies by planet',
     args: true,
     use: `worldenemies [map]`,
     example:[`worldenemies AG`, 'worldenemies 1000'],
@@ -43,7 +43,12 @@ module.exports = {
             }
             for (var j = 0; j < (Object.keys(data.enemies).length);j++) {
                 //console.log(data.minibosses[j])
-                minibossesString = `${minibossesString}${data.minibosses[j]} `
+                if(data.minibosses[j] == undefined){
+                    minibossesString = `${minibossesString}None`
+                    break
+                }else {
+                    minibossesString = `${minibossesString}${data.minibosses[j]} `
+                }
             }
             var totalMessage = `${enemiesString}\n${minibossesString}`
             //message.channel.send(totalMessage)

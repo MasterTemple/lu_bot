@@ -1,6 +1,6 @@
 module.exports = {
     name: ['kitstats'],
-    description: 'Get all items in a kit',
+    description: 'Get all items in a kit and their stats',
     args: true,
     use: `kitstats [name]`,
     example:[`kitstats daredevil rank 3 variant`],

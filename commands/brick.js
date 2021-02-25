@@ -1,6 +1,6 @@
 module.exports = {
     name: ['brick'],
-    description: 'Info about an item in LEGO Universe',
+    description: 'Info about a LEGO Brick in LEGO Universe',
     args: true,
     use: `brick [id]`,
     example:[`brick 16`],

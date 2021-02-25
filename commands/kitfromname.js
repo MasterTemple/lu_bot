@@ -1,6 +1,6 @@
 module.exports = {
     name: ['kit'],
-    description: 'Get all items in a kit',
+    description: 'Get all items in a known kit',
     args: true,
     use: `kit [name]`,
     example:[`kit engineer rank 3`],
@@ -9,7 +9,7 @@ module.exports = {
         function err(){
             const func = require(`./embed.js`);
             try {
-                var totalMessage = `None`
+                var totalMessage = `!help kit`
                 func.execute(message, "Kits", totalMessage, "https://lu-explorer.web.app/zones", "https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png");
             } catch (error) {
                 console.error(error);

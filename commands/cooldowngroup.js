@@ -1,9 +1,9 @@
 module.exports = {
     name: ['cooldowngroup',"cooldown", "group"],
-    description: 'Info about an item in LEGO Universe',
+    description: 'See other cooldowns that an item impacts',
     args: true,
     use: `cooldowngroup [id]`,
-    example:[`cooldowngroup 1`],
+    example:[`cooldowngroup 51`],
     execute(message, args) {
         var id = args[0]
         var item = require(`./../search/cooldownsWithTimer.json`);
