@@ -18,7 +18,7 @@ module.exports = {
         }
         //console.log(info)
         for(var i=0;i<info.objects.length;i++) {
-            desc=`${desc}**${info.objects[i].name}** [${info.objects[i].itemID})]\n**${info.objects[i].cooldownTime}** Seconds\n`
+            desc=`${desc}**${info.objects[i].name}** [${info.objects[i].itemID}]\n**${info.objects[i].cooldownTime}** Seconds\n`
         }
         //console.log(info.objects[0])
         //console.log(info.objects[0][0])
