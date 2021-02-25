@@ -1,13 +1,5 @@
-const fs = require('fs');
-const commandFiles = fs.readdirSync('./tables/SkillBehavior').filter(file => file.endsWith('.json'));
-var array = []
-for (const file of commandFiles) {
-    //const command = require(`C:/Users/Blake The Great/Downloads/lubot//lu-json-master/tables/SkillBehavior/${file}`);
-    //console.log(`{"cooldowngroup": "${command.cooldowngroup}", "skillID": "${command.skillID}"},`)
-    array.push(file.substring(0,file.length-5))
-}
-console.log(array)
+const cool = require(`./cooldown4.json`)
 
-const cool = require(`./cooldown.json`)
 
-cool.
+//console.log(cool["Cooldowns"])
+console.log(cool["Cooldowns"][0][96][0])
