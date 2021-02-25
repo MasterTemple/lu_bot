@@ -1,5 +1,5 @@
 module.exports = {
-    name: ['getkit'],
+    name: ['displaykit','fullkit'],
     description: 'Gets kit from an item',
     args: true,
     use: `getkit [id]`,
@@ -43,11 +43,23 @@ module.exports = {
 
             //console.log(data)
             var pieces = `**Pieces:**\n`
+            var itemsArray = []
             //var minibossesString = `**MiniBosses:**\n`
             for (var i = 0; i < (Object.keys(data.itemIDs).length);i++) {
                 //console.log(data.enemies[i])
+                var cargs = [args[0]]
+
                 pieces = `${pieces}${data.itemIDs[i]} `
+                itemsArray.push(data.itemIDs[i])
             }
+
+                var funcItem = require(`./items.js`);
+                try {
+                    funcItem.execute(message, itemsArray);
+                } catch (error) {
+                    console.error(error);
+                }
+
 
             var totalMessage = `${pieces}`
             //message.channel.send(totalMessage)
