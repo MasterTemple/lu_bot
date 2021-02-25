@@ -5,6 +5,7 @@ module.exports = {
     use: `Don't call this function`,
     example:[`Internal use only`],
     execute(message, title, description, url, iconURL) {
+        const {nexusLink} = require('./../config.json');
 
         const client = message.client;
         var channel = message.channel.toString();
@@ -13,7 +14,7 @@ module.exports = {
         const Discord = require('discord.js');
         //var url = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`;
 
-        var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
+        //var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
 
         //console.log(`displayName: ${displayName}`)
         //var item_description = `**Description**${extra_desc}`

@@ -1,5 +1,5 @@
 module.exports = {
-    name: ['getkit'],
+    name: ['getkit','kit'],
     description: 'Gets kit from an item',
     args: true,
     use: `getkit [id]`,
@@ -9,13 +9,28 @@ module.exports = {
             const func = require(`./embed.js`);
             try {
                 var totalMessage = `None`
-                func.execute(message, "ZoneIDs", totalMessage, "https://lu-explorer.web.app/zones", "https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png");
+                func.execute(message, "Kits", totalMessage, "https://lu-explorer.web.app/zones", "https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png");
             } catch (error) {
                 console.error(error);
             }
         }
         if(args.length == 0){
             err()
+            return
+        }
+        if(args[0] = "all"){
+            var item = require(`./../search/itemSets.json`);
+            const func = require(`./embed.js`);
+            var totalMessage = `None`
+            var url = `https://lu-explorer.web.app/`
+            var pass = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
+            var pieces = ``
+            for (var i = 0; i < (Object.keys(item.Sets).length);i++) {
+                //console.log(data.enemies[i])
+
+                pieces = `${pieces}**${item.Sets[i].setName}**\n`
+            }
+            func.execute(message, "All kits:", pieces, url, pass);
             return
         }
         var map_id = args[0]
@@ -42,11 +57,16 @@ module.exports = {
             //console.log(arrFound)
 
             //console.log(data)
+            var loot = require(`./../search/allLoot.json`);
+            //data = item.Enemies.find(a => (a.map).toLowerCase() == map_id)
+
             var pieces = `**Pieces:**\n`
             //var minibossesString = `**MiniBosses:**\n`
             for (var i = 0; i < (Object.keys(data.itemIDs).length);i++) {
                 //console.log(data.enemies[i])
-                pieces = `${pieces}${data.itemIDs[i]} `
+                let lootdata = loot.Sheet1.find(a => (a.id) == data.itemIDs[i])
+
+                pieces = `${pieces}${data.itemIDs[i]}: **${lootdata.name}**\n`
             }
 
             var totalMessage = `${pieces}`
@@ -58,7 +78,7 @@ module.exports = {
             try {
                 var url = `https://lu-explorer.web.app/zones/`
                 var pass = `https://lu-explorer.web.app/zones/`
-                func.execute(message, data.setName, totalMessage, url, data.setImageURL);
+                func.execute(message, data.setName, totalMessage, data.setImageURL, data.setImageURL);
             } catch (error) {
                 console.error(error);
             }
