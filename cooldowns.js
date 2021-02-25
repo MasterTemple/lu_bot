@@ -23,8 +23,7 @@ for(var i=0;i<=13;i++){
     var obj = {
         cooldowngroup: i,
         skillIDs: {
-            skillID: arr,
-            name:
+            skillID: arr
         },
         square: i * i
     }
