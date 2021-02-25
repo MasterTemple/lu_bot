@@ -1,6 +1,6 @@
 
 const fs = require('fs');
-const commandFiles = fs.readdirSync('./lu-json-master/tables/SkillBehavior').filter(file => file.endsWith('.json'));
+const commandFiles = fs.readdirSync('./tables/SkillBehavior').filter(file => file.endsWith('.json'));
 var array = []
 for (const file of commandFiles) {
     //const command = require(`C:/Users/Blake The Great/Downloads/lubot//lu-json-master/tables/SkillBehavior/${file}`);
@@ -72,11 +72,11 @@ for(const i of skillIDArraySorted){
 // file.on('error', function(err) { /* error handling */ });
 // skillz.forEach(function(v) { file.write(skillz.join(', ') + '\n'); });
 // file.end();
-const cooldowngroup = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/cooldowngroupwithid.json`)
+const cooldowngroup = require(`./cooldowngroupwithid.json`)
 
 //console.log(cooldowngroup[1].skillID)
 var skillID = 298
-const cooldownbyid = require(`C:/Users/Blake The Great/Downloads/lubot/lu-json-master/cooldownbyid.json`)
+const cooldownbyid = require(`./cooldownbyid.json`)
 //console.log(cooldownbyid[skillID].list[0])
 
 for (var k = 0; k < (Object.keys(cooldowngroup["null"].skillID).length);k++) {
