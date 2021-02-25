@@ -649,7 +649,7 @@
     {
       "index": "40",
       "setID": "43",
-      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Mosaic_Jester.png?raw=true",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Prismatic_Suit.png?raw=true",
       "Faction": "None",
       "className": "Mosaic Jester",
       "setName": "Mosaic Jester Suit",
@@ -667,7 +667,7 @@
     {
       "index": "41",
       "setID": "44",
-      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Explorien_Bot.png?raw=true",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Experien_Droid.png?raw=true",
       "Faction": "None",
       "className": "Explorien Bot",
       "setName": "Explorien Bot Suit",
