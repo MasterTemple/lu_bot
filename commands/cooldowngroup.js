@@ -6,8 +6,9 @@ module.exports = {
     example:[`cooldowngroup 1`],
     execute(message, args) {
         var id = args[0]
-        var item = require(`./../search/cooldowns.json`);
-        var info = item.table.objects.find(a => (a.itemID == id))
+        var item = require(`./../search/cooldownsWithTimer.json`);
+        var info = item.table.find(a => (a.cooldowngroup == id))
+        var desc = ``
         //var details = info.objects.find(a => a.item)
         //console.log(info)
         //console.log(info.cooldowngroup)
@@ -17,14 +18,23 @@ module.exports = {
         }
         //console.log(info)
         for(var i=0;i<info.objects.length;i++) {
-            console.log(info.objects[i].name)
-            console.log(info.objects[i].itemID)
+            desc=`${desc}**${info.objects[i].name}** [${info.objects[i].itemID})]\n**${info.objects[i].cooldownTime}** Seconds\n`
         }
         //console.log(info.objects[0])
         //console.log(info.objects[0][0])
 
-
-
+        //message.channel.send(desc)
+        var title =`**Cooldown Group: ${info.cooldowngroup}**\n`
+        var totalMessage = desc
+        const {iconURL, nexusLink} = require('./../config.json');
+        const func = require(`./embed.js`);
+        try {
+            var url = `https://lu-explorer.web.app/zones/`
+            var pass = `https://lu-explorer.web.app/zones/`
+            func.execute(message, title, totalMessage, nexusLink, iconURL);
+        } catch (error) {
+            console.error(error);
+        }
 
 
 

@@ -28,12 +28,26 @@ for(var i=0;i<=103;i++){
         var coolSkillID = cool["Cooldowns"][0][i][j]
         var info = item.table.find(a => (a.skillID == coolSkillID))
         //console.log(info)
+
+
         if(info != undefined) {
+            var time
+            try{
+                var cooldownFile = require(`./tables/SkillBehavior/${info.skillID}.json`)
+                time = cooldownFile.cooldown
+                //console.log(time)
+            }
+            catch(err){
+                //console.log(err)
+                time = null
+            }
+
             var obj = {
                 itemID: info.itemID,
                 skillID: info.skillID,
                 name: info.name,
-                displayName: info.displayName
+                displayName: info.displayName,
+                cooldownTime: time
             }
             arr.push(obj)
         }
