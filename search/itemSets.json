@@ -9,6 +9,21 @@
       "setName": "Engineer Rank 1",
       "locStatus": "2",
       "itemIDs": ["7356", "7370", "7382", "7394"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "2",
       "kitRank": "1",
       "kitImage": "3442",
@@ -24,6 +39,21 @@
       "setName": "Engineer Rank 2",
       "locStatus": "2",
       "itemIDs": ["7363", "7371", "7383", "7395", "7405", "8462"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "2",
       "kitRank": "2",
       "kitImage": "3443",
@@ -41,6 +71,21 @@
       "setName": "Engineer Rank 3",
       "locStatus": "2" ,
       "itemIDs": ["7364", "7372", "7384", "7396", "7406", "7417", "12636", "13279", "16182"] ,
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "2" ,
       "kitRank": "3" ,
       "kitImage": "3444" ,
@@ -58,6 +103,21 @@
       "setName": "Engineer Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12947", "12949", "12962", "12963", "12964", "12965", "12636", "13279","16182"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "2",
       "kitRank": "3",
       "kitImage": "3444",
@@ -75,6 +135,21 @@
       "setName": "Knight Rank 1",
       "locStatus": "2",
       "itemIDs": ["7355", "7367", "7379", "7391"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "1",
       "kitRank": "1",
       "kitImage": "3445",
@@ -90,6 +165,21 @@
       "setName": "Knight Rank 2",
       "locStatus": "2",
       "itemIDs": ["7359", "7368", "7380", "7392", "7403", "8456"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "1",
       "kitRank": "2",
       "kitImage": "3446",
@@ -107,6 +197,21 @@
       "setName": "Knight Rank 3",
       "locStatus": "2",
       "itemIDs": ["7360", "7369", "7381", "7393", "7404", "7409",  "12637", "13282","16179"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "1",
       "kitRank": "3",
       "kitImage": "3447",
@@ -123,6 +228,21 @@
       "setName": "Knight Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12950", "12951", "12966", "12967", "12968", "12969", "12637", "13282","16179"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "1",
       "kitRank": "3",
       "kitImage": "3447",
@@ -140,6 +260,21 @@
       "setName": "Space Ranger Rank 1",
       "locStatus": "2",
       "itemIDs": ["7442", "7466", "7490", "7514"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "1",
       "kitRank": "1",
       "kitImage": "4363",
@@ -156,6 +291,21 @@
       "setName": "Space Ranger Rank 2",
       "locStatus": "2",
       "itemIDs": ["7443", "7467", "7491", "7515", "7544", "8457"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "1",
       "kitRank": "2",
       "kitImage": "4362",
@@ -189,6 +339,21 @@
       "setName": "Samurai Rank 1",
       "locStatus": "2",
       "itemIDs": ["7445", "7469", "7493", "7517"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "1",
       "kitRank": "1",
       "kitImage": "3451",
@@ -204,6 +369,21 @@
       "setName": "Samurai Rank 2",
       "locStatus": "2",
       "itemIDs": ["7446", "7470", "7494", "7518", "7546", "8458"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "1",
       "kitRank": "2",
       "kitImage": "3452",
@@ -221,6 +401,21 @@
       "setName": "Samurai Rank 3",
       "locStatus": "2",
       "itemIDs": ["7447", "7471", "7495", "7519", "7547", "7539",  "12642", "13283","16180"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "1",
       "kitRank": "3",
       "kitImage": "3453",
@@ -237,6 +432,21 @@
       "setName": "Samurai Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12952", "12953", "12976", "12977", "12978", "12992", "12642", "13283","16180"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "1",
       "kitRank": "3",
       "kitImage": "3453",
@@ -254,6 +464,21 @@
       "setName": "Sorcerer Rank 1",
       "locStatus": "2",
       "itemIDs": ["7357", "7373", "7385", "7397"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "3",
       "kitRank": "1",
       "kitImage": "3454",
@@ -269,6 +494,21 @@
       "setName": "Sorcerer Rank 2",
       "locStatus": "2",
       "itemIDs": ["7361", "7374", "7386", "7398", "7407", "8459"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "3",
       "kitRank": "2",
       "kitImage": "3455",
@@ -286,6 +526,21 @@
       "setName": "Sorcerer Rank 3",
       "locStatus": "2",
       "itemIDs": ["7362", "7375", "7387", "7399", "7408", "7415",  "12816", "13286","16189"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "3",
       "kitRank": "3",
       "kitImage": "3456",
@@ -302,6 +557,21 @@
       "setName": "Sorcerer Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12958", "12959", "12983", "12984", "12985", "12989", "12816", "13286","16189"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "3",
       "kitRank": "3",
       "kitImage": "3456",
@@ -319,6 +589,21 @@
       "setName": "Space Marauder Rank 1",
       "locStatus": "2",
       "itemIDs": ["7448", "7472", "7496", "7520"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "3",
       "kitRank": "1",
       "kitImage": "3448",
@@ -334,6 +619,21 @@
       "setName": "Space Marauder Rank 2",
       "locStatus": "2",
       "itemIDs": ["7449", "7473", "7497", "7521", "7548", "8460"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "3",
       "kitRank": "2",
       "kitImage": "3449",
@@ -351,6 +651,21 @@
       "setName": "Space Marauder Rank 3",
       "locStatus": "2",
       "itemIDs": ["7450", "7474", "7498", "7522", "7550", "7540",  "12809", "13285","16188"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "3",
       "kitRank": "3",
       "kitImage": "3450",
@@ -367,6 +682,21 @@
       "setName": "Space Marauder Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12960", "12961", "12986", "12987", "12988", "12991", "12809", "13285","16188"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "3",
       "kitRank": "3",
       "kitImage": "3450",
@@ -384,6 +714,21 @@
       "setName": "Shinobi Rank 1",
       "locStatus": "2",
       "itemIDs": ["7451", "7475", "7499", "7523"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "3",
       "kitRank": "1",
       "kitImage": "3812",
@@ -400,6 +745,21 @@
       "setName": "Shinobi Rank 2",
       "locStatus": "2",
       "itemIDs": ["7452", "7476", "7500", "7524", "11462", "8461"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "3",
       "kitRank": "2",
       "kitImage": "3813",
@@ -433,6 +793,21 @@
       "setName": "Inventor Rank 1",
       "locStatus": "2",
       "itemIDs": ["7454", "7478", "7502", "7526"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "2",
       "kitRank": "1",
       "kitImage": "4378",
@@ -449,6 +824,21 @@
       "setName": "Inventor Rank 2",
       "locStatus": "2",
       "itemIDs": ["7455", "7479", "7503", "7527", "11460", "8463"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "2",
       "kitRank": "2",
       "kitImage": "3810",
@@ -482,6 +872,21 @@
       "setName": "Summoner Rank 1",
       "locStatus": "2",
       "itemIDs": ["7457", "7481", "7505", "7529"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "2",
       "kitRank": "1",
       "kitImage": "3457",
@@ -497,6 +902,21 @@
       "setName": "Summoner Rank 2",
       "locStatus": "2",
       "itemIDs": ["7458", "7482", "7506", "7530", "7556", "8464"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "2",
       "kitRank": "2",
       "kitImage": "3458",
@@ -514,6 +934,21 @@
       "setName": "Summoner Rank 3",
       "locStatus": "2",
       "itemIDs": ["7459", "7483", "7507", "7531", "7557", "7555", "12817", "13287","16183"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "2",
       "kitRank": "3",
       "kitImage": "3459",
@@ -530,6 +965,21 @@
       "setName": "Summoner Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12921", "12922", "12923", "12924", "12945", "12946", "12817", "13287","16183"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "2",
       "kitRank": "3",
       "kitImage": "3459",
@@ -547,6 +997,21 @@
       "setName": "Adventurer Rank 1",
       "locStatus": "2",
       "itemIDs": ["7460", "7484", "7508", "7532"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "4",
       "kitRank": "1",
       "kitImage": "3807",
@@ -563,6 +1028,21 @@
       "setName": "Adventurer Rank 2",
       "locStatus": "2",
       "itemIDs": ["7461", "7485", "7509", "7533", "8465", "11458", "13276", "13289"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "4",
       "kitRank": "2",
       "kitImage": "3808",
@@ -596,6 +1076,21 @@
       "setName": "Daredevil Rank 1",
       "locStatus": "2",
       "itemIDs": ["7463", "7487", "7511", "7535", "9818"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "4",
       "kitRank": "1",
       "kitImage": "3439",
@@ -611,6 +1106,21 @@
       "setName": "Daredevil Rank 2",
       "locStatus": "2",
       "itemIDs": ["7464", "7488", "7512", "7536", "8466", "9819"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "4",
       "kitRank": "2",
       "kitImage": "3440",
@@ -627,6 +1137,21 @@
       "setName": "Daredevil Rank 3",
       "locStatus": "2",
       "itemIDs": ["7465", "7489", "7513", "7537", "7543", "9820",  "12647", "13284","16185"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "4",
       "kitRank": "3",
       "kitImage": "3441",
@@ -643,6 +1168,21 @@
       "setName": "Daredevil Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12956", "12957", "12993", "12994", "12995", "13311", "12647", "13284","16185"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "4",
       "kitRank": "3",
       "kitImage": "3441",
@@ -659,6 +1199,21 @@
       "setName": "Buccaneer Rank 1",
       "locStatus": "2",
       "itemIDs": ["7358", "7376", "7388", "7400","9815"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "4",
       "kitRank": "1",
       "kitImage": "3435",
@@ -674,6 +1229,21 @@
       "setName": "Buccaneer Rank 2",
       "locStatus": "2",
       "itemIDs": ["7365", "7377", "7389", "7401", "8467","9816"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "4",
       "kitRank": "2",
       "kitImage": "3437",
@@ -690,6 +1260,21 @@
       "setName": "Buccaneer Rank 3",
       "locStatus": "2",
       "itemIDs": ["7366", "7378", "7390", "7402", "7416", "9817", "12638","13281","16186"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "4",
       "kitRank": "3",
       "kitImage": "3438",
@@ -706,6 +1291,21 @@
       "setName": "Buccaneer Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12954", "12955", "12981", "12982", "12990", "13310","12638","13281","16186"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "4",
       "kitRank": "3",
       "kitImage": "3438",
@@ -722,6 +1322,31 @@
       "setName": "Skeleton Suit",
       "locStatus": "2",
       "itemIDs": ["12997", "12758", "12798"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "5",
       "kitRank": "0",
       "kitImage": "4045",
@@ -738,6 +1363,31 @@
       "setName": "NJ SJ Imagination",
       "locStatus": "2",
       "itemIDs": ["12918", "12919", "12920","16134"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "5",
       "kitRank": "0",
       "kitImage": "4104",
@@ -755,6 +1405,31 @@
       "setName": "Bat Lord Suit",
       "locStatus": "2",
       "itemIDs": ["12781", "12686", "13000", "12802", "12678"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "5",
       "kitRank": "0",
       "kitImage": "4037",
@@ -772,6 +1447,31 @@
       "setName": "Mosaic Jester Suit",
       "locStatus": "2",
       "itemIDs": ["12901", "12756", "12801", "12927", "12743", "12101"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "5",
       "kitRank": "0",
       "kitImage": "4044",
@@ -790,6 +1490,31 @@
       "setName": "Explorien Bot Suit",
       "locStatus": "2",
       "itemIDs": ["12472", "12690", "12426"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "5",
       "kitRank": "0",
       "kitImage": "4036",
@@ -806,6 +1531,31 @@
       "setName": "Test Rank 1",
       "locStatus": "0",
       "itemIDs": ["13975", "13977", "13981", "13979"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "5",
       "skillSetWith4": "10",
       "localize": "1"
@@ -819,6 +1569,31 @@
       "setName": "Test Rank 2",
       "locStatus": "0",
       "itemIDs": ["13978", "13982", "13983", "13980", "13986", "13976"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "5",
       "skillSetWith4": "11",
       "skillSetWith5": "12",
@@ -834,6 +1609,31 @@
       "setName": "Test Rank 3",
       "locStatus": "0",
       "itemIDs": ["13993", "13992", "13991", "13989", "13988", "13987"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "5",
       "skillSetWith4": "13",
       "skillSetWith5": "14",
@@ -849,6 +1649,21 @@
       "setName": "Earth Spinjitzu Gi",
       "locStatus": "2",
       "itemIDs": ["14136", "14173", "14172", "14140", "14135", "14170", "14171", "14185","16605","16606","16607","16639","16640"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "0",
       "kitRank": "0",
       "kitImage": "4104",
@@ -865,6 +1680,31 @@
       "setName": "Ninjago Gis",
       "locStatus": "0",
       "itemIDs": ["14499","15843","15844","16063","16064","16065","16066","16067","16068","16069","16070","16071","16072","16073","16074","16075","1677","16078","16079","16080","16081","16082","16083","16084","16085","16086","16087","16089","16090","16091","16092","16095","16096","16098","16099","16100","16101","16102","16103","16105","16106","16108","16109","16110","16111","16112","16113","16114","16115","16116","16117","16118","16119","16120","16121","16122","16123","16124","16125","16126","16127","16128","16129","16130","15914","15916","15918","15935","15947","15948","15959","15956","15919","15936","15954","15960","15920","15937","15955","15961","15921","15964","15963","15967","15965","15923","15938","14490","15970","15969","15973","15972","15925","15939","15986","15985","15989","15988","15926","15917","15928","15930","15931","15932","15933","15934","15974","15975","15990","15991","15992","15993","15994","15996","15998","15999","15997","16000","16001","16002","16003","16004","16005","16007","16008","16009","16010","16011","14136","14185","14173","14172","14140","14135","14170","14171","12920","12919","12918","16134","16134","16270","16268","16271","16277","16276","16272","16273","16274","16275","16266","16269","16267","16605","16606","16607","16608","16609","16610","16611","16612","16613","16614","16615","16616","16639","16640","16637","16638","16635","16636","16634","16633"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "0",
       "skillSetWith2": "107",
       "skillSetWith3": "108",
@@ -881,6 +1721,31 @@
       "setName": "Fire Spinjitzu Gi",
       "locStatus": "2",
       "itemIDs": ["16277","16275","16268","16271","16614","16615","16616","16634","16633"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "0",
       "kitRank": "0",
       "kitImage": "4104",
@@ -897,6 +1762,31 @@
       "setName": "Ice Spinjitzu Gi",
       "locStatus": "2",
       "itemIDs": ["16276","16274","16267","16270","16611","16612","16613","16636","16635"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "0",
       "kitRank": "0",
       "kitImage": "4104",
@@ -913,6 +1803,31 @@
       "setName": "Lightning Spinjitzu Gi",
       "locStatus": "2",
       "itemIDs": ["16272","16273","16266","16269","16608","16609","16610","16637","16638"],
+      "piecebonus2": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus3": {
+      "armor": 0,
+      "health": 0,
+      "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
       "kitType": "0",
       "kitRank": "0",
       "kitImage": "4104",
