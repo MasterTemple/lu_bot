@@ -14,16 +14,6 @@
         "health": 0,
         "imagination": 0
       },
-      "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
       "kitType": "2",
       "kitRank": "1",
       "kitImage": "3442",
@@ -136,16 +126,6 @@
       "locStatus": "2",
       "itemIDs": ["7355", "7367", "7379", "7391"],
       "piecebonus4": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
         "armor": 0,
         "health": 0,
         "imagination": 0
@@ -265,16 +245,6 @@
         "health": 0,
         "imagination": 0
       },
-      "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
       "kitType": "1",
       "kitRank": "1",
       "kitImage": "4363",
@@ -340,16 +310,6 @@
       "locStatus": "2",
       "itemIDs": ["7445", "7469", "7493", "7517"],
       "piecebonus4": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
         "armor": 0,
         "health": 0,
         "imagination": 0
@@ -469,16 +429,6 @@
         "health": 0,
         "imagination": 0
       },
-      "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
       "kitType": "3",
       "kitRank": "1",
       "kitImage": "3454",
@@ -590,16 +540,6 @@
       "locStatus": "2",
       "itemIDs": ["7448", "7472", "7496", "7520"],
       "piecebonus4": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
         "armor": 0,
         "health": 0,
         "imagination": 0
@@ -719,16 +659,6 @@
         "health": 0,
         "imagination": 0
       },
-      "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
       "kitType": "3",
       "kitRank": "1",
       "kitImage": "3812",
@@ -798,16 +728,6 @@
         "health": 0,
         "imagination": 0
       },
-      "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
       "kitType": "2",
       "kitRank": "1",
       "kitImage": "4378",
@@ -873,16 +793,6 @@
       "locStatus": "2",
       "itemIDs": ["7457", "7481", "7505", "7529"],
       "piecebonus4": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
         "armor": 0,
         "health": 0,
         "imagination": 0
@@ -1002,16 +912,6 @@
         "health": 0,
         "imagination": 0
       },
-      "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
       "kitType": "4",
       "kitRank": "1",
       "kitImage": "3807",
@@ -1082,11 +982,6 @@
         "imagination": 0
       },
       "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
         "armor": 0,
         "health": 0,
         "imagination": 0
@@ -1205,11 +1100,6 @@
         "imagination": 0
       },
       "piecebonus5": {
-        "armor": 0,
-        "health": 0,
-        "imagination": 0
-      },
-      "piecebonus6": {
         "armor": 0,
         "health": 0,
         "imagination": 0
@@ -1527,7 +1417,7 @@
       "setID": "45",
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Test_Rank_1.png?raw=true",
       "Faction": "None",
-      "className": "Test Rank 1",
+      "className": "Test Rank one",
       "setName": "Test Rank 1",
       "locStatus": "0",
       "itemIDs": ["13975", "13977", "13981", "13979"],
