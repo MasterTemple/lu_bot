@@ -103,6 +103,8 @@ module.exports = {
                     console.log(`Imagination: ${Imagination}`)
                 }
                 console.log(`dmg: ${skillBehavior[skillID].descriptionUI[16]},${skillBehavior[skillID].descriptionUI[18]},${skillBehavior[skillID].descriptionUI[20]}`)
+                console.log(`dmg: ${skillBehavior[skillID].descriptionUI}`)
+
                 if(dmg_combo==undefined || dmg_combo==null){
                     if (skillBehavior[skillID].descriptionUI[16] == `+` && skillBehavior[skillID].descriptionUI[18] == `+` && skillBehavior[skillID].descriptionUI[20] == `+`) {
                         dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 22);
@@ -110,7 +112,7 @@ module.exports = {
                         dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 20);
                     } else if (skillBehavior[skillID].descriptionUI[16] == `+`) {
                         dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 18);
-                    } else if ((skillBehavior[skillID].descriptionUI[15] >= '0' && skillBehavior[skillID].descriptionUI[15] <= '9') && item.name.includes('Wand')) {
+                    } else if ((skillBehavior[skillID].descriptionUI[15] >= '0' && skillBehavior[skillID].descriptionUI[15] <= '9') && (item.name.includes('Wand') || item.name.includes("Space Marauder Valiant Weapon"))) {
                         dmg_combo = skillBehavior[skillID].descriptionUI[15];
                     } else if ((skillBehavior[skillID].descriptionUI.includes('DamageCombo'))) {
                         var dmg_combo_num = skillBehavior[skillID].descriptionUI.search(`Description`);
