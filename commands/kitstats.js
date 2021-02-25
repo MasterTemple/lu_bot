@@ -120,7 +120,7 @@ module.exports = {
 
 
                     let lootdata = loot.Sheet1.find(a => (a.id) == data.itemIDs[i])
-                    pieces = `${pieces}${data.itemIDs[i]}: **${lootdata.name}**\n**+**Armor: **${Armor}** Health: **${Health}** Imagination: **${Imagination}**\n`
+                    pieces = `${pieces}__${lootdata.name}__ [${data.itemIDs[i]}]\nArmor: **${Armor}** Health: **${Health}** Imagination: **${Imagination}**\n`
 
                 }
 
@@ -131,37 +131,37 @@ module.exports = {
                 totalArmor += parseInt(data.piecebonus2["armor"])
                 totalHealth += parseInt(data.piecebonus2["health"])
                 totalImagination += parseInt(data.piecebonus2["imagination"])
-                pieces = `${pieces}**2 Piece Bonus**\n**+**Armor: **${data.piecebonus2["armor"]}** Health: **${data.piecebonus2["health"]}** Imagination: **${data.piecebonus2["imagination"]}**\n`
+                pieces = `${pieces}__2 Piece Bonus__:\nArmor: **${data.piecebonus2["armor"]}** Health: **${data.piecebonus2["health"]}** Imagination: **${data.piecebonus2["imagination"]}**\n`
             }
             if(data.piecebonus3!=undefined){
                 console.log(data.piecebonus3)
                 totalArmor += parseInt(data.piecebonus3["armor"])
                 totalHealth += parseInt(data.piecebonus3["health"])
                 totalImagination += parseInt(data.piecebonus3["imagination"])
-                pieces = `${pieces}**3 Piece Bonus**\n**+**Armor: **${data.piecebonus3["armor"]}** Health: **${data.piecebonus3["health"]}** Imagination: **${data.piecebonus3["imagination"]}**\n`
+                pieces = `${pieces}__3 Piece Bonus__:\nArmor: **${data.piecebonus3["armor"]}** Health: **${data.piecebonus3["health"]}** Imagination: **${data.piecebonus3["imagination"]}**\n`
             }
             if(data.piecebonus4!=undefined){
                 console.log(data.piecebonus4)
                 totalArmor += parseInt(data.piecebonus4["armor"])
                 totalHealth += parseInt(data.piecebonus4["health"])
                 totalImagination += parseInt(data.piecebonus4["imagination"])
-                pieces = `${pieces}**4 Piece Bonus**\n**+**Armor: **${data.piecebonus4["armor"]}** Health: **${data.piecebonus4["health"]}** Imagination: **${data.piecebonus4["imagination"]}**\n`
+                pieces = `${pieces}__4 Piece Bonus__:\nArmor: **${data.piecebonus4["armor"]}** Health: **${data.piecebonus4["health"]}** Imagination: **${data.piecebonus4["imagination"]}**\n`
             }
             if(data.piecebonus5!=undefined){
                 console.log(data.piecebonus5)
                 totalArmor += parseInt(data.piecebonus5["armor"])
                 totalHealth += parseInt(data.piecebonus5["health"])
                 totalImagination += parseInt(data.piecebonus5["imagination"])
-                pieces = `${pieces}**5 Piece Bonus**\n**+**Armor: **${data.piecebonus5["armor"]}** Health: **${data.piecebonus5["health"]}** Imagination: **${data.piecebonus5["imagination"]}**\n`
+                pieces = `${pieces}__5 Piece Bonus__:\nArmor: **${data.piecebonus5["armor"]}** Health: **${data.piecebonus5["health"]}** Imagination: **${data.piecebonus5["imagination"]}**\n`
             }
             if(data.piecebonus6!=undefined){
                 console.log(data.piecebonus6)
                 totalArmor += parseInt(data.piecebonus6["armor"])
                 totalHealth += parseInt(data.piecebonus6["health"])
                 totalImagination += parseInt(data.piecebonus6["imagination"])
-                pieces = `${pieces}**6 Piece Bonus**\n**+**Armor: **${data.piecebonus6["armor"]}** Health: **${data.piecebonus6["health"]}** Imagination: **${data.piecebonus6["imagination"]}**\n`
+                pieces = `${pieces}__6 Piece Bonus__:\nArmor: **${data.piecebonus6["armor"]}** Health: **${data.piecebonus6["health"]}** Imagination: **${data.piecebonus6["imagination"]}**\n`
             }
-            pieces = `${pieces}\n**Total**\nArmor: **${totalArmor}** Health: **${totalHealth}** Imagination: **${totalImagination}**\n`
+            pieces = `${pieces}**Total**\nArmor: **${totalArmor}** Health: **${totalHealth}** Imagination: **${totalImagination}**\n`
 
 
             var totalMessage = `${pieces}`
