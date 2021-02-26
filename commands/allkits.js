@@ -65,10 +65,10 @@ module.exports = {
                 { name: 'Bat Lord', value: "Bat Lord Suit", inline: true },
                 { name: 'Explorien Bot', value: "Explorien Bot Suit", inline: true },
                 { name: 'Skeleton Suit', value: "Skeleton Suit", inline: true },
-                { name: 'Earth Spinjitzu Gi', value: "Cole's Earth Spinjitzu Gi", inline: true },
-                { name: 'Ice Spinjitzu Gi', value: "Zane's Ice Spinjitzu Gi", inline: true },
-                { name: 'Fire Spinjitzu Gi', value: "Kai's Fire Spinjitzu Gi", inline: true },
-                { name: 'Lightning Spinjitzu Gi', value: "Jay's Lightning Spinjitzu Gi", inline: true },
+                //{ name: 'Earth Spinjitzu Gi', value: "Cole's Earth Spinjitzu Gi", inline: true },
+                //{ name: 'Ice Spinjitzu Gi', value: "Zane's Ice Spinjitzu Gi", inline: true },
+                //{ name: 'Fire Spinjitzu Gi', value: "Kai's Fire Spinjitzu Gi", inline: true },
+                //{ name: 'Lightning Spinjitzu Gi', value: "Jay's Lightning Spinjitzu Gi", inline: true },
             )
 
             /*

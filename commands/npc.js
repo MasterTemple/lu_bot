@@ -9,6 +9,8 @@ module.exports = {
         var folder_loc = Math.floor(id / 256)
         var item_loc = id
         var missionNamesString
+        var missionNamesStr = ``
+
 
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
         try{
@@ -23,7 +25,7 @@ module.exports = {
             return;
         }
         var quest = item.components["73"]
-        console.log(quest)
+        //console.log(quest)
         if (quest != undefined){
             var missions = require(`./../tables/MissionNPCComponent/0/${quest}.json`)
             var missionsFromNPC = []
@@ -32,23 +34,25 @@ module.exports = {
                 for (var i = 0; i < missions.missions.length; i++) {
                     missionsFromNPC.push(missions.missions[i].missionID)
                     var missionName = require(`./../locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
-                    console.log(`./../locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
+                    //console.log(`./../locale/Missions/${Math.floor(missions.missions[i].missionID / 256)}.json`)
                     missionNames.push(missionName[missions.missions[i].missionID].name)
-                    console.log(missionName)
+                    //console.log(missionName)
 
                 }
+                //`${missionNamesStr},`
                 missionNames = missionNames.join(", ")
                 missionNamesString = ``
-                for(var i=0; i<missionNames.length; i++){
-                    missionNamesString= `${missionNamesString}, ${missionNames[i]}`
+                for(var j=0; j<missionNames.length; j++){
+                    missionNamesString= `${missionNamesString}, ${missionNames[j]}`
                 }
+                //console.log(`MN:${missionNames}`)
             }
             catch{
 
             }
 
-            console.log(missionsFromNPC)
-            console.log(`MISSIONS ${missions.missions[0].missionID}`)
+            //console.log(missionsFromNPC)
+            //console.log(`MISSIONS ${missions.missions[0].missionID}`)
         }
         console.log(`${item.name}`)
 
@@ -140,6 +144,14 @@ module.exports = {
             description = "None"
         }
         console.log(missionNames)
+        for(var j=0; j<missionNames.length; j++){
+            if(j==missionNames.length-1){
+                missionNamesStr= `${missionNamesStr}${missionNames[j]}`
+            }else{
+                missionNamesStr= `${missionNamesStr}${missionNames[j]}, `
+
+            }
+        }
         if(quest == undefined){
            missionNamesString = `None`
         }
@@ -152,7 +164,7 @@ module.exports = {
             .setTitle(title)
             .setURL(url)
             .setAuthor(`Nexus Force`, nexusLink, url)
-            .setDescription(`**Quests**\n${missionNames}`)
+            .setDescription(`**Quests**\n${missionNamesStr}`)
 
             .setThumbnail(iconURL)
             .addFields(
