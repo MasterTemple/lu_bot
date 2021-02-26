@@ -38,7 +38,18 @@ module.exports = {
             }
         }else{
             try{
-                const command = require(`./${args[0]}`);
+                var command
+                dance:
+                for (const file of commandFiles) {
+                    command = require(`./../commands/${file}`);
+                    for(var i=0; i < command.name.length; i++) {
+                        if(command.name[i]==args[0]){
+                            break dance
+                        }
+                    }
+                }
+
+                //command = require(`./${args[0]}`);
                 desc = (`${desc}**`)
 
                 for (var i = 0; i < command.name.length; i++) {
@@ -58,6 +69,7 @@ module.exports = {
 
             }
             catch(error){
+                console.log(error)
                 for (const file of commandFiles) {
                     const command = require(`./${file}`);
                     if (!exclude.includes(command.name)) {

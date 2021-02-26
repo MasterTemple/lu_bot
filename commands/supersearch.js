@@ -3,7 +3,7 @@ module.exports = {
     description: 'Search any object with all related content',
     args: true,
     use: `supersearch [args]`,
-    example:[`supersearch Sorcerer Neck/Back 3 Rank 3 Specialty Kit Item Loot Sorcerer Shoulderpads 3 Rank 3 Specialty Kit Item`, `s wormholer`],
+    example:[`supersearch Sorcerer Neck/Back 3 Rank 3 Specialty Kit Item Loot Sorcerer Shoulderpads 3 Rank 3 Specialty Kit Item`, `ss wormholer`],
     execute(message, args) {
         //const client = message.client;
         //
