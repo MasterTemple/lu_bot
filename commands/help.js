@@ -5,7 +5,7 @@ module.exports = {
     use: `help optional:[commandName]`,
     example:[`help`, `help type`],
     execute(message, args) {
-
+        //console.log(args.length, args)
         const client = message.client
         var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
         var url = `https://discord.com/api/oauth2/authorize?client_id=813618765685456916&permissions=52288&scope=bot`

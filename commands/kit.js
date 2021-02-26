@@ -5,12 +5,12 @@ module.exports = {
     use: `kit [name]`,
     example:[`kit engineer rank 3`],
     execute(message, args) {
-        console.log(`me`)
+        //console.log(module.exports.name)
         function err(){
-            const func = require(`./embed.js`);
             try {
-                var totalMessage = `!help kit`
-                func.execute(message, "Kits", totalMessage, "https://lu-explorer.web.app/zones", "https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png");
+                const help = require(`./help.js`);
+                help.execute(message, module.exports.name)
+                return
             } catch (error) {
                 console.error(error);
             }
@@ -69,6 +69,9 @@ module.exports = {
             var pieces = `**Pieces:**\n`
             //var minibossesString = `**MiniBosses:**\n`
             console.log(data)
+            if((data || Object.keys(data)) == undefined){
+                err()
+            }
             for (var i = 0; i < (Object.keys(data.itemIDs).length); i++) {
                 //console.log(data.enemies[i])
                 let lootdata = loot.Sheet1.find(a => (a.id) == data.itemIDs[i])
@@ -88,6 +91,7 @@ module.exports = {
                 func.execute(message, data.setName, totalMessage, data.setImageURL, data.setImageURL);
             } catch (error) {
                 console.error(error);
+                err()
             }
         } catch (error) {
             err()
