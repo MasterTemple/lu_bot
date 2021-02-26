@@ -26,6 +26,7 @@ module.exports = {
         var Armor = 0
         var Health = 0
         var Imagination = 0
+        var imaginationCost = 0
         var dmg = ``
         var dmg_component = ``
         var cooldowngroup
@@ -84,6 +85,7 @@ module.exports = {
 
                     console.log(`Cooldown Group: ${cooldownFile.cooldowngroup}\nItem Cooldown: ${cooldownFile.cooldown} seconds`)
                 }
+                imaginationCost = cooldownFile.imaginationcost
 
 
                 if (cooldownFile.armorBonusUI != null) {
@@ -179,6 +181,10 @@ https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshiel
         }if(chargeUp==undefined || chargeUp==null || chargeUp==``){
             chargeUp= "None"
         }
+        if(imaginationCost==undefined || imaginationCost==null || imaginationCost==``){
+            imaginationCost= "None"
+        }
+
         console.log(`displayName: ${displayName}`)
         var item_description = `**Description**${extra_desc}`
 
@@ -193,18 +199,20 @@ https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshiel
             .addFields(
                 { name: 'Display Name', value: displayName, inline: true },
                 { name: 'Internal Notes', value: internalNotes, inline: true },
-                { name: 'Damage Combo', value: dmg_combo, inline: true },
+                { name: 'ChargeUp', value: chargeUp, inline: true },
 
             )
             .addFields(
-                { name: 'ChargeUp', value: chargeUp, inline: true },
+                { name: 'Damage Combo', value: dmg_combo, inline: true },
+                { name: 'Imagination Cost', value: imaginationCost, inline: true },
                 { name: 'Cooldown Time', value: cooldown, inline: true },
-                { name: 'Cooldown Group', value: cooldowngroup, inline: true },
             )
             .addFields(
                 {name: 'Armor', value: Armor, inline: true},
                 {name: 'Health', value: Health, inline: true},
                 {name: 'Imagination', value: Imagination, inline: true},
+                { name: 'Cooldown Group', value: cooldowngroup, inline: true },
+
             )
             //.setImage(thumbnail)
             .setTimestamp()
