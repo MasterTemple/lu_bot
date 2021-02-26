@@ -1233,9 +1233,9 @@
       "locStatus": "2",
       "itemIDs": ["12997", "12758", "12798"],
       "piecebonus3": {
-      "armor": 1,
-      "health": 0,
-      "imagination": 3
+        "armor": 1,
+        "health": 0,
+        "imagination": 3
       },
       "kitType": "5",
       "kitRank": "0",
@@ -1254,14 +1254,14 @@
       "locStatus": "2",
       "itemIDs": ["12918", "12919", "12920","16134"],
       "piecebonus2": {
-      "armor": 1,
-      "health": 0,
-      "imagination": 1
+        "armor": 1,
+        "health": 0,
+        "imagination": 1
       },
       "piecebonus3": {
-      "armor": 1,
-      "health": 1,
-      "imagination": 1
+        "armor": 1,
+        "health": 1,
+        "imagination": 1
       },
       "kitType": "5",
       "kitRank": "0",
@@ -1341,9 +1341,9 @@
       "locStatus": "2",
       "itemIDs": ["12472", "12690", "12426"],
       "piecebonus3": {
-      "armor": 0,
-      "health": 0,
-      "imagination": 4
+        "armor": 0,
+        "health": 0,
+        "imagination": 4
       },
       "kitType": "5",
       "kitRank": "0",
@@ -1351,6 +1351,319 @@
       "skillSetWith3": "105",
       "localize": "1",
       "gate_version": "auramar"
+    },
+    {
+      "index": "42",
+      "setID": "45",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Test_Rank_1.png?raw=true",
+      "Faction": "None",
+      "className": "Test Rank one",
+      "setName": "Test Rank 1",
+      "locStatus": "0",
+      "itemIDs": ["13975", "13977", "13981", "13979"],
+      "piecebonus2": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus3": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "kitType": "5",
+      "skillSetWith4": "10",
+      "localize": "1"
+    },
+    {
+      "index": "43",
+      "setID": "46",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Test_Rank_2.png?raw=true",
+      "Faction": "None",
+      "className": "Test Rank 2",
+      "setName": "Test Rank 2",
+      "locStatus": "0",
+      "itemIDs": ["13978", "13982", "13983", "13980", "13986", "13976"],
+      "piecebonus2": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus3": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "kitType": "5",
+      "skillSetWith4": "11",
+      "skillSetWith5": "12",
+      "skillSetWith6": "89",
+      "localize": "1"
+    },
+    {
+      "index": "44",
+      "setID": "47",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Test_Rank_3.png?raw=true",
+      "Faction": "None",
+      "className": "Test Rank 3",
+      "setName": "Test Rank 3",
+      "locStatus": "0",
+      "itemIDs": ["13993", "13992", "13991", "13989", "13988", "13987"],
+      "piecebonus2": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus3": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "kitType": "5",
+      "skillSetWith4": "13",
+      "skillSetWith5": "14",
+      "skillSetWith6": "15",
+      "localize": "1"
+    },
+    {
+      "index": "45",
+      "setID": "48",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Earth_Spinjitzu_Gi.png?raw=true",
+      "Faction": "",
+      "className": "Earth Spinjitzu Gi",
+      "setName": "Earth Spinjitzu Gi",
+      "locStatus": "2",
+      "itemIDs": ["14136", "14173", "14172", "14140", "14135", "14170", "14171", "14185","16605","16606","16607","16639","16640"],
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "kitType": "0",
+      "kitRank": "0",
+      "kitImage": "4104",
+      "skillSetWith4": "112",
+      "localize": "1",
+      "gate_version": "njhub"
+    },
+    {
+      "index": "46",
+      "setID": "49",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Ninjago_Gis.png?raw=true",
+      "Faction": "None",
+      "className": "Ninjago Gis",
+      "setName": "Ninjago Gis",
+      "locStatus": "0",
+      "itemIDs": ["14499","15843","15844","16063","16064","16065","16066","16067","16068","16069","16070","16071","16072","16073","16074","16075","1677","16078","16079","16080","16081","16082","16083","16084","16085","16086","16087","16089","16090","16091","16092","16095","16096","16098","16099","16100","16101","16102","16103","16105","16106","16108","16109","16110","16111","16112","16113","16114","16115","16116","16117","16118","16119","16120","16121","16122","16123","16124","16125","16126","16127","16128","16129","16130","15914","15916","15918","15935","15947","15948","15959","15956","15919","15936","15954","15960","15920","15937","15955","15961","15921","15964","15963","15967","15965","15923","15938","14490","15970","15969","15973","15972","15925","15939","15986","15985","15989","15988","15926","15917","15928","15930","15931","15932","15933","15934","15974","15975","15990","15991","15992","15993","15994","15996","15998","15999","15997","16000","16001","16002","16003","16004","16005","16007","16008","16009","16010","16011","14136","14185","14173","14172","14140","14135","14170","14171","12920","12919","12918","16134","16134","16270","16268","16271","16277","16276","16272","16273","16274","16275","16266","16269","16267","16605","16606","16607","16608","16609","16610","16611","16612","16613","16614","16615","16616","16639","16640","16637","16638","16635","16636","16634","16633"],
+      "piecebonus2": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus3": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "kitType": "0",
+      "skillSetWith2": "107",
+      "skillSetWith3": "108",
+      "skillSetWith4": "111",
+      "localize": "0",
+      "gate_version": "auramar"
+    },
+    {
+      "index": "47",
+      "setID": "50",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Fire_Spinjitzu_Gi.png?raw=true",
+      "Faction": "None",
+      "className": "Fire Spinjitzu Gi",
+      "setName": "Fire Spinjitzu Gi",
+      "locStatus": "2",
+      "itemIDs": ["16277","16275","16268","16271","16614","16615","16616","16634","16633"],
+      "piecebonus2": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus3": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "kitType": "0",
+      "kitRank": "0",
+      "kitImage": "4104",
+      "skillSetWith4": "113",
+      "localize": "1",
+      "gate_version": "njhub"
+    },
+    {
+      "index": "48",
+      "setID": "51",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Ice_Spinjitzu_Gi.png?raw=true",
+      "Faction": "None",
+      "className": "Ice Spinjitzu Gi",
+      "setName": "Ice Spinjitzu Gi",
+      "locStatus": "2",
+      "itemIDs": ["16276","16274","16267","16270","16611","16612","16613","16636","16635"],
+      "piecebonus2": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus3": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "kitType": "0",
+      "kitRank": "0",
+      "kitImage": "4104",
+      "skillSetWith4": "114",
+      "localize": "1",
+      "gate_version": "njhub"
+    },
+    {
+      "index": "49",
+      "setID": "52",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Lightning_Spinjitzu_Gi.png?raw=true",
+      "Faction": "None",
+      "className": "Lightning Spinjitzu Gi",
+      "setName": "Lightning Spinjitzu Gi",
+      "locStatus": "2",
+      "itemIDs": ["16272","16273","16266","16269","16608","16609","16610","16637","16638"],
+      "piecebonus2": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus3": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus4": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus5": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "piecebonus6": {
+        "armor": 0,
+        "health": 0,
+        "imagination": 0
+      },
+      "kitType": "0",
+      "kitRank": "0",
+      "kitImage": "4104",
+      "skillSetWith4": "115",
+      "localize": "1",
+      "gate_version": "njhub"
     }
   ]
 }

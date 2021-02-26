@@ -4,8 +4,8 @@ module.exports = {
     args: true,
     use: `Don't call this function`,
     example:[`Internal use only`],
-    execute(message, title, description, url, iconURL) {
-        const {nexusLink} = require('./../config.json');
+    execute(message, title, description, url, imgURL) {
+        const {nexusLink, iconURL} = require('./../config.json');
 
         const client = message.client;
         var channel = message.channel.toString();
@@ -23,10 +23,10 @@ module.exports = {
             .setColor('#00ffff')
             .setTitle(title)
             .setURL(url)
-            .setAuthor(`Nexus Force`, nexusLink, url)
+            .setAuthor(`Nexus Force`, iconURL, url)
             .setDescription(description)
 
-            .setThumbnail(iconURL)
+            .setThumbnail(imgURL)
             //.addFields(
             //    { name: 'Display Name', value: displayName, inline: true },
             //    { name: 'Internal Notes', value: internalNotes, inline: true },
@@ -35,7 +35,7 @@ module.exports = {
 
             //.setImage(thumbnail)
             .setTimestamp()
-            .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
+            .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', iconURL);
 
         client.channels.cache.get(channel).send(devoEmbed);
     }
