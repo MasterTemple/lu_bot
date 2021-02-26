@@ -6,7 +6,7 @@
       "setImageURL":"https://github.com/MasterTemple/lu_bot/blob/master/src/Engineer_Rank_1.png?raw=true",
       "Faction":"Assembly",
       "className": "Engineer",
-      "setName": "Engineer Rank 1",
+      "kitName": "Engineer Rank 1",
       "locStatus": "2",
       "itemIDs": ["7356", "7370", "7382", "7394"],
       "piecebonus4": {
@@ -26,7 +26,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Engineer_Rank_2.png?raw=true",
       "Faction":"Assembly",
       "className": "Engineer",
-      "setName": "Engineer Rank 2",
+      "kitName": "Engineer Rank 2",
       "locStatus": "2",
       "itemIDs": ["7363", "7371", "7383", "7395", "7405", "8462"],
       "piecebonus4": {
@@ -58,7 +58,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Engineer_Rank_3.png?raw=true" ,
       "Faction": "Assembly" ,
       "className": "Engineer" ,
-      "setName": "Engineer Rank 3",
+      "kitName": "Engineer Rank 3",
       "locStatus": "2" ,
       "itemIDs": ["7364", "7372", "7384", "7396", "7406", "7417", "12636", "13279", "16182"] ,
       "piecebonus4": {
@@ -90,7 +90,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/engineer_3_var.png?raw=true",
       "Faction":"Assembly",
       "className": "Engineer",
-      "setName": "Engineer Rank 3 Variant",
+      "kitName": "Engineer Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12947", "12949", "12962", "12963", "12964", "12965", "12636", "13279","16182"],
       "piecebonus4": {
@@ -122,7 +122,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Knight_Rank_1.png?raw=true",
       "Faction": "Sentinels",
       "className": "Knight",
-      "setName": "Knight Rank 1",
+      "kitName": "Knight Rank 1",
       "locStatus": "2",
       "itemIDs": ["7355", "7367", "7379", "7391"],
       "piecebonus4": {
@@ -142,7 +142,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Knight_Rank_2.png?raw=true",
       "Faction": "Sentinels",
       "className": "Knight",
-      "setName": "Knight Rank 2",
+      "kitName": "Knight Rank 2",
       "locStatus": "2",
       "itemIDs": ["7359", "7368", "7380", "7392", "7403", "8456"],
       "piecebonus4": {
@@ -174,7 +174,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Knight_Rank_3.png?raw=true",
       "Faction": "Sentinels",
       "className": "Knight",
-      "setName": "Knight Rank 3",
+      "kitName": "Knight Rank 3",
       "locStatus": "2",
       "itemIDs": ["7360", "7369", "7381", "7393", "7404", "7409",  "12637", "13282","16179"],
       "piecebonus4": {
@@ -205,7 +205,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/knight_3_var.png?raw=true",
       "Faction": "Sentinels",
       "className": "Knight",
-      "setName": "Knight Rank 3 Variant",
+      "kitName": "Knight Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12950", "12951", "12966", "12967", "12968", "12969", "12637", "13282","16179"],
       "piecebonus4": {
@@ -237,7 +237,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/SpaceRanger_Rank_1.png?raw=true",
       "Faction": "Sentinels",
       "className": "Space Ranger",
-      "setName": "Space Ranger Rank 1",
+      "kitName": "Space Ranger Rank 1",
       "locStatus": "2",
       "itemIDs": ["7442", "7466", "7490", "7514"],
       "piecebonus4": {
@@ -258,7 +258,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/SpaceRanger_Rank_2.png?raw=true",
       "Faction": "Sentinels",
       "className": "Space Ranger",
-      "setName": "Space Ranger Rank 2",
+      "kitName": "Space Ranger Rank 2",
       "locStatus": "2",
       "itemIDs": ["7443", "7467", "7491", "7515", "7544", "8457"],
       "piecebonus4": {
@@ -291,7 +291,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/SpaceRanger_Rank_3.png?raw=true",
       "Faction": "Sentinels",
       "className": "Space Ranger",
-      "setName": "Space Ranger Rank 3",
+      "kitName": "Space Ranger Rank 3",
       "locStatus": "2",
       "itemIDs": ["7444", "7468", "7492", "7516", "7545", "7538"],
       "piecebonus4": {
@@ -321,7 +321,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Samurai_Rank_1.png?raw=true",
       "Faction": "Sentinels",
       "className": "Samurai",
-      "setName": "Samurai Rank 1",
+      "kitName": "Samurai Rank 1",
       "locStatus": "2",
       "itemIDs": ["7445", "7469", "7493", "7517"],
       "piecebonus4": {
@@ -341,7 +341,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Samurai_Rank_2.png?raw=true",
       "Faction": "Sentinels",
       "className": "Samurai",
-      "setName": "Samurai Rank 2",
+      "kitName": "Samurai Rank 2",
       "locStatus": "2",
       "itemIDs": ["7446", "7470", "7494", "7518", "7546", "8458"],
       "piecebonus4": {
@@ -373,7 +373,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Samurai_Rank_3.png?raw=true",
       "Faction": "Sentinels",
       "className": "Samurai",
-      "setName": "Samurai Rank 3",
+      "kitName": "Samurai Rank 3",
       "locStatus": "2",
       "itemIDs": ["7447", "7471", "7495", "7519", "7547", "7539",  "12642", "13283","16180"],
       "piecebonus4": {
@@ -404,7 +404,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/samurai_3_var.png?raw=true",
       "Faction": "Sentinels",
       "className": "Samurai",
-      "setName": "Samurai Rank 3 Variant",
+      "kitName": "Samurai Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12952", "12953", "12976", "12977", "12978", "12992", "12642", "13283","16180"],
       "piecebonus4": {
@@ -436,7 +436,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Sorcerer_Rank_1.png?raw=true",
       "Faction": "Paradox",
       "className": "Sorcerer",
-      "setName": "Sorcerer Rank 1",
+      "kitName": "Sorcerer Rank 1",
       "locStatus": "2",
       "itemIDs": ["7357", "7373", "7385", "7397"],
       "piecebonus4": {
@@ -456,7 +456,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Sorcerer_Rank_2.png?raw=true",
       "Faction": "Paradox",
       "className": "Sorcerer",
-      "setName": "Sorcerer Rank 2",
+      "kitName": "Sorcerer Rank 2",
       "locStatus": "2",
       "itemIDs": ["7361", "7374", "7386", "7398", "7407", "8459"],
       "piecebonus4": {
@@ -488,7 +488,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Sorcerer_Rank_3.png?raw=true",
       "Faction": "Paradox",
       "className": "Sorcerer",
-      "setName": "Sorcerer Rank 3",
+      "kitName": "Sorcerer Rank 3",
       "locStatus": "2",
       "itemIDs": ["7362", "7375", "7387", "7399", "7408", "7415",  "12816", "13286","16189"],
       "piecebonus4": {
@@ -519,7 +519,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/sorcerer_3_var.png?raw=true",
       "Faction": "Paradox",
       "className": "Sorcerer",
-      "setName": "Sorcerer Rank 3 Variant",
+      "kitName": "Sorcerer Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12958", "12959", "12983", "12984", "12985", "12989", "12816", "13286","16189"],
       "piecebonus4": {
@@ -548,10 +548,10 @@
     {
       "index": "16",
       "setID": "19",
-      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/SpaceMarauder_Rank_1.png?raw=true",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Marauder_Rank_1.png?raw=true",
       "Faction": "Paradox",
       "className": "Space Marauder",
-      "setName": "Space Marauder Rank 1",
+      "kitName": "Space Marauder Rank 1",
       "locStatus": "2",
       "itemIDs": ["7448", "7472", "7496", "7520"],
       "piecebonus4": {
@@ -568,10 +568,10 @@
     {
       "index": "17",
       "setID": "20",
-      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/SpaceMarauder_Rank_2.png?raw=true",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Marauder_Rank_2.png?raw=true",
       "Faction": "Paradox",
       "className": "Space Marauder",
-      "setName": "Space Marauder Rank 2",
+      "kitName": "Space Marauder Rank 2",
       "locStatus": "2",
       "itemIDs": ["7449", "7473", "7497", "7521", "7548", "8460"],
       "piecebonus4": {
@@ -600,10 +600,10 @@
     {
       "index": "18",
       "setID": "21",
-      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/SpaceMarauder_Rank_3.png?raw=true",
+      "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Marauder_Rank_3.png?raw=true",
       "Faction": "Paradox",
       "className": "Space Marauder",
-      "setName": "Space Marauder Rank 3",
+      "kitName": "Space Marauder Rank 3",
       "locStatus": "2",
       "itemIDs": ["7450", "7474", "7498", "7522", "7550", "7540",  "12809", "13285","16188"],
       "piecebonus4": {
@@ -634,7 +634,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/space_marauder_3_var.png?raw=true",
       "Faction": "Paradox",
       "className": "Space Marauder",
-      "setName": "Space Marauder Rank 3 Variant",
+      "kitName": "Space Marauder Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12960", "12961", "12986", "12987", "12988", "12991", "12809", "13285","16188"],
       "piecebonus4": {
@@ -666,7 +666,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Shinobi_Rank_1.png?raw=true",
       "Faction": "Paradox",
       "className": "Shinobi",
-      "setName": "Shinobi Rank 1",
+      "kitName": "Shinobi Rank 1",
       "locStatus": "2",
       "itemIDs": ["7451", "7475", "7499", "7523"],
       "piecebonus4": {
@@ -687,7 +687,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Shinobi_Rank_2.png?raw=true",
       "Faction": "Paradox",
       "className": "Shinobi",
-      "setName": "Shinobi Rank 2",
+      "kitName": "Shinobi Rank 2",
       "locStatus": "2",
       "itemIDs": ["7452", "7476", "7500", "7524", "11462", "8461"],
       "piecebonus4": {
@@ -720,7 +720,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Shinobi_Rank_3.png?raw=true",
       "Faction": "Paradox",
       "className": "Shinobi",
-      "setName": "Shinobi Rank 3",
+      "kitName": "Shinobi Rank 3",
       "locStatus": "2",
       "itemIDs": ["7453", "7477", "7501", "7525", "11463", "7541"],
       "piecebonus4": {
@@ -750,7 +750,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Inventor_Rank_1.png?raw=true",
       "Faction": "Assembly",
       "className": "Inventor",
-      "setName": "Inventor Rank 1",
+      "kitName": "Inventor Rank 1",
       "locStatus": "2",
       "itemIDs": ["7454", "7478", "7502", "7526"],
       "piecebonus4": {
@@ -771,7 +771,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Inventor_Rank_2.png?raw=true",
       "Faction": "Assembly",
       "className": "Inventor",
-      "setName": "Inventor Rank 2",
+      "kitName": "Inventor Rank 2",
       "locStatus": "2",
       "itemIDs": ["7455", "7479", "7503", "7527", "11460", "8463"],
       "piecebonus4": {
@@ -804,7 +804,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Inventor_Rank_3.png?raw=true",
       "Faction": "Assembly",
       "className": "Inventor",
-      "setName": "Inventor Rank 3",
+      "kitName": "Inventor Rank 3",
       "locStatus": "2",
       "itemIDs": ["7456", "7480", "7504", "7528", "11461", "7542"],
       "piecebonus4": {
@@ -834,7 +834,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Summoner_Rank_1.png?raw=true",
       "Faction": "Assembly",
       "className": "Summoner",
-      "setName": "Summoner Rank 1",
+      "kitName": "Summoner Rank 1",
       "locStatus": "2",
       "itemIDs": ["7457", "7481", "7505", "7529"],
       "piecebonus4": {
@@ -854,7 +854,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Summoner_Rank_2.png?raw=true",
       "Faction": "Assembly",
       "className": "Summoner",
-      "setName": "Summoner Rank 2",
+      "kitName": "Summoner Rank 2",
       "locStatus": "2",
       "itemIDs": ["7458", "7482", "7506", "7530", "7556", "8464"],
       "piecebonus4": {
@@ -886,7 +886,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Summoner_Rank_3.png?raw=true",
       "Faction": "Assembly",
       "className": "Summoner",
-      "setName": "Summoner Rank 3",
+      "kitName": "Summoner Rank 3",
       "locStatus": "2",
       "itemIDs": ["7459", "7483", "7507", "7531", "7557", "7555", "12817", "13287","16183"],
       "piecebonus4": {
@@ -917,7 +917,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/summoner_3_var.png?raw=true",
       "Faction": "Assembly",
       "className": "Summoner",
-      "setName": "Summoner Rank 3 Variant",
+      "kitName": "Summoner Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12921", "12922", "12923", "12924", "12945", "12946", "12817", "13287","16183"],
       "piecebonus4": {
@@ -949,7 +949,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Adventurer_Rank_1.png?raw=true",
       "Faction": "Venture League",
       "className": "Adventurer",
-      "setName": "Adventurer Rank 1",
+      "kitName": "Adventurer Rank 1",
       "locStatus": "2",
       "itemIDs": ["7460", "7484", "7508", "7532"],
       "piecebonus4": {
@@ -970,7 +970,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Adventurer_Rank_2.png?raw=true",
       "Faction": "Venture League",
       "className": "Adventurer",
-      "setName": "Adventurer Rank 2",
+      "kitName": "Adventurer Rank 2",
       "locStatus": "2",
       "itemIDs": ["7461", "7485", "7509", "7533", "8465", "11458", "13276", "13289"],
       "piecebonus4": {
@@ -1003,7 +1003,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Adventurer_Rank_3.png?raw=true",
       "Faction": "Venture League",
       "className": "Adventurer",
-      "setName": "Adventurer Rank 3",
+      "kitName": "Adventurer Rank 3",
       "locStatus": "2",
       "itemIDs": ["7462", "7486", "7510", "7534", "7558", "11459"],
       "piecebonus4": {
@@ -1033,7 +1033,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Daredevil_Rank_1.png?raw=true",
       "Faction": "Venture League",
       "className": "Daredevil",
-      "setName": "Daredevil Rank 1",
+      "kitName": "Daredevil Rank 1",
       "locStatus": "2",
       "itemIDs": ["7463", "7487", "7511", "7535", "9818"],
       "piecebonus5": {
@@ -1053,7 +1053,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Daredevil_Rank_2.png?raw=true",
       "Faction": "Venture League",
       "className": "Daredevil",
-      "setName": "Daredevil Rank 2",
+      "kitName": "Daredevil Rank 2",
       "locStatus": "2",
       "itemIDs": ["7464", "7488", "7512", "7536", "8466", "9819"],
       "piecebonus5": {
@@ -1079,7 +1079,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Daredevil_Rank_3.png?raw=true",
       "Faction": "Venture League",
       "className": "Daredevil",
-      "setName": "Daredevil Rank 3",
+      "kitName": "Daredevil Rank 3",
       "locStatus": "2",
       "itemIDs": ["7465", "7489", "7513", "7537", "7543", "9820",  "12647", "13284","16185"],
       "piecebonus5": {
@@ -1105,7 +1105,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/daredevil_3_var.png?raw=true",
       "Faction": "Venture League",
       "className": "Daredevil",
-      "setName": "Daredevil Rank 3 Variant",
+      "kitName": "Daredevil Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12956", "12957", "12993", "12994", "12995", "13311", "12647", "13284","16185"],
       "piecebonus5": {
@@ -1131,7 +1131,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Buccaneer_Rank_1.png?raw=true",
       "Faction": "Venture League",
       "className": "Buccaneer",
-      "setName": "Buccaneer Rank 1",
+      "kitName": "Buccaneer Rank 1",
       "locStatus": "2",
       "itemIDs": ["7358", "7376", "7388", "7400","9815"],
       "piecebonus5": {
@@ -1151,7 +1151,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Buccaneer_Rank_2.png?raw=true",
       "Faction": "Venture League",
       "className": "Buccaneer",
-      "setName": "Buccaneer Rank 2",
+      "kitName": "Buccaneer Rank 2",
       "locStatus": "2",
       "itemIDs": ["7365", "7377", "7389", "7401", "8467","9816"],
       "piecebonus5": {
@@ -1177,7 +1177,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Buccaneer_Rank_3.png?raw=true",
       "Faction": "Venture League",
       "className": "Buccaneer",
-      "setName": "Buccaneer Rank 3",
+      "kitName": "Buccaneer Rank 3",
       "locStatus": "2",
       "itemIDs": ["7366", "7378", "7390", "7402", "7416", "9817", "12638","13281","16186"],
       "piecebonus5": {
@@ -1203,7 +1203,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/buccaneer_3_var.png?raw=true",
       "Faction": "Venture League",
       "className": "Buccaneer",
-      "setName": "Buccaneer Rank 3 Variant",
+      "kitName": "Buccaneer Rank 3 Variant",
       "locStatus": "2",
       "itemIDs": ["12954", "12955", "12981", "12982", "12990", "13310","12638","13281","16186"],
       "piecebonus5": {
@@ -1229,7 +1229,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Skeleton_Suit.png?raw=true",
       "Faction": "None",
       "className": "Skeleton Suit",
-      "setName": "Skeleton Suit",
+      "kitName": "Skeleton Suit",
       "locStatus": "2",
       "itemIDs": ["12997", "12758", "12798"],
       "piecebonus3": {
@@ -1250,7 +1250,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/imagination_spinjitzu.png?raw=true",
       "Faction": "None",
       "className": "Imagination Spinjitzu",
-      "setName": "NJ SJ Imagination",
+      "kitName": "NJ SJ Imagination",
       "locStatus": "2",
       "itemIDs": ["12918", "12919", "12920","16134"],
       "piecebonus2": {
@@ -1277,7 +1277,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Bat_Lord.png?raw=true",
       "Faction": "None",
       "className": "Bat Lord",
-      "setName": "Bat Lord Suit",
+      "kitName": "Bat Lord Suit",
       "locStatus": "2",
       "itemIDs": ["12781", "12686", "13000", "12802", "12678"],
       "piecebonus4": {
@@ -1304,7 +1304,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Prismatic_Suit.png?raw=true",
       "Faction": "None",
       "className": "Mosaic Jester",
-      "setName": "Mosaic Jester Suit",
+      "kitName": "Mosaic Jester Suit",
       "locStatus": "2",
       "itemIDs": ["12901", "12756", "12801", "12927", "12743", "12101"],
       "piecebonus4": {
@@ -1337,7 +1337,7 @@
       "setImageURL": "https://github.com/MasterTemple/lu_bot/blob/master/src/Experien_Droid.png?raw=true",
       "Faction": "None",
       "className": "Explorien Bot",
-      "setName": "Explorien Bot Suit",
+      "kitName": "Explorien Bot Suit",
       "locStatus": "2",
       "itemIDs": ["12472", "12690", "12426"],
       "piecebonus3": {

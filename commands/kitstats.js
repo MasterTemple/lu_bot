@@ -49,7 +49,37 @@ module.exports = {
             var id = args[0]
 
             //var data = item.Sets.find(a => (a.itemIDs.includes(args[0])))
-            var data = item.Sets.find(a => (a.setName.toLowerCase().includes(search)))
+            var allARGS = message.content.trim().split(/ +/);
+            allARGS.shift()
+            var sorted = [];
+            for (var i = 0; i < allARGS.length; i++) {
+                sorted.push(allARGS[i].toLowerCase());
+            }
+            sorted.sort();
+            for (var j = 0; j < (Object.keys(item["Sets"]).length);j++) {
+                //console.log(Object.keys(item["Sets"]).length)
+                //console.log(item["Sheet1"][j].name)
+                try {
+                    //if ((item["Sheet1"][j].displayName.toLowerCase().includes(search) || item["Sheet1"][j].name.toLowerCase().includes(search)) && (item["Sheet1"][j].displayName.toLowerCase().includes(searchExtra) || item["Sheet1"][j].name.toLowerCase().includes(searchExtra))) {
+                    //var args = ["0","1","2","3","4"]
+
+                    var allMatch = sorted.every(function (e) {
+                        return item["Sets"][j].kitName.toLowerCase().includes(e) + item["Sets"][j].className.toLowerCase().includes(e)
+                    });
+                    if(allMatch){
+                        console.log(item["Sets"][j].kitName)
+                        search = item["Sets"][j].kitName
+                        break
+                    }
+                    //console.log(`allMatch: ${allMatch}`)
+                }catch(errr){
+                    console.log(item["Sets"][j].className)
+                    console.log(item["Sets"][j].kitName)
+                    console.log(errr)
+                    return
+                }
+            }
+            var data = item.Sets.find(a => (a.kitName == search))
             //var test = require(`./../search/itemSets.json/Sets/55/piecebonus3/armor`);
 
 
@@ -173,7 +203,7 @@ module.exports = {
             try {
                 var url = `https://lu-explorer.web.app/zones/`
                 var pass = `https://lu-explorer.web.app/zones/`
-                func.execute(message, data.setName, totalMessage, data.setImageURL, data.setImageURL);
+                func.execute(message, data.kitName, totalMessage, data.setImageURL, data.setImageURL);
             } catch (error) {
                 console.error(error);
             }
