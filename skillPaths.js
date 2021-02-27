@@ -1,6 +1,7 @@
 
 var fs = require('fs');
 const behaviorParameters = require(`./search/BehaviorParameter.json`)
+//this was importing the old file
 var data = {}
 data.table = []
 
