@@ -4,18 +4,21 @@ function getKids(behaviorID){
     var tempArray = behaviorParameters.table.filter(function (el) {
         return el.behaviorID == behaviorID
     });
-    //console.log(tempArray)
-    if(tempArray[0]["behavior 1"] != undefined){
-        console.log(`I HAVE KIDS`)
-        getKids(tempArray[0]["behavior 1"])
+    console.log(tempArray)
+    for(var n=0;n<9;n++) {
+        if (tempArray[0][`behavior ${n}`] != undefined) {
+            //console.log(`I HAVE KIDS`)
+            getKids(tempArray[0][`behavior ${n}`])
+        }
     }
+
     return tempArray
 
 }
 
 
 try{
-    console.log(getKids(1957))
+    (getKids(469))
     //console.log()
 }catch(e){
     console.log(e)
