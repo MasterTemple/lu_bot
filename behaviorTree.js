@@ -1,4 +1,5 @@
-const behaviorParameters = require(`./search/BehaviorParameter.json`)
+//const behaviorParameters = require(`./search/BehaviorParameter.json`)
+const behaviorParameters = require(`./search/fullSortedBehaviorParameter.json`)
 
 function getKids(behaviorID){
     var tempArray = behaviorParameters.table.filter(function (el) {
@@ -7,7 +8,7 @@ function getKids(behaviorID){
     console.log(tempArray)
     for(var n=0;n<9;n++) {
         if (tempArray[0][`behavior ${n}`] != undefined) {
-            //console.log(`I HAVE KIDS`)
+            console.log(`I HAVE KIDS`)
             getKids(tempArray[0][`behavior ${n}`])
         }
     }
@@ -18,7 +19,7 @@ function getKids(behaviorID){
 
 
 try{
-    (getKids(469))
+    (getKids(4314))
     //console.log()
 }catch(e){
     console.log(e)
