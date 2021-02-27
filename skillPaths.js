@@ -8,6 +8,7 @@ var tempBehaviorID = 0
 var desc = ``
 var arr =[]
 
+
 //console.log(behaviorParameters["Sheet1"])
 const skillPaths = require(`./skillPaths.json`)
 //console.log(skillPaths["table"][0])
@@ -91,7 +92,30 @@ var dir_angle_xz = undefined
 var dir_angle_y = undefined
 
 console.log(`len ${behaviorParameters["Sheet1"].length}`)
-for(var i=0;i<21.9782;i++){
+var ok = behaviorParameters["Sheet1"].filter(function (i,n){
+    return n.behaviorID==='8';
+});
+var tempArray = behaviorParameters.Sheet1.filter(function (el) {
+    return el.behaviorID == "7"
+});
+
+// ok = behaviorParameters["Sheet1"].find(e => {
+//     return e.behaviorID === '7'
+// });
+// var tempArray = behaviorParameters["Sheet1"].filter(behaviorParameters["Sheet1"], function(stuff) {
+//     return stuff.behaviorID == 7;
+// });
+// var allMatch = sorted.every(function (e) {
+//     //console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)} + ${item["Sheet1"][j].type.toLowerCase().includes(e)} + ${item["Sheet1"][j].description.toLowerCase().includes(e)} + ${item["Sheet1"][j]._internalNotes.toLowerCase().includes(e)}`)
+//     return (behaviorParameters["Sheet1"][0].behaviorID == 7)
+// });
+// console.log(ok)
+for(var n=0;n<tempArray.length;n++){
+    console.log(tempArray[n].parameterID)
+}
+
+
+for(var i=0;i<0;i++){
     desc =`${desc}\nCooldownGroup:${i}\n`
         var info = behaviorParameters["Sheet1"][i]
         // var info = behaviorParameters["Sheet1"].find(a => a.behaviorID == i)
