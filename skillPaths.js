@@ -105,7 +105,7 @@ var object = {
 for(var n=0;n<tempArray.length;n++){
     //console.log(tempArray[n].parameterID)
     //console.log(tempArray[n].value)
-    object.set(`${tempArray[n].parameterID}`, `${tempArray[n].value}`)
+    object[tempArray[n].parameterID] =tempArray[n].value
 
 
 }
