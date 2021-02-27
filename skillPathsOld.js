@@ -99,32 +99,35 @@ var tempArray = behaviorParameters.Sheet1.filter(function (el) {
     return el.behaviorID == "7"
 });
 
-var object = {
-    behaviorID: 7
-}
+// ok = behaviorParameters["Sheet1"].find(e => {
+//     return e.behaviorID === '7'
+// });
+// var tempArray = behaviorParameters["Sheet1"].filter(behaviorParameters["Sheet1"], function(stuff) {
+//     return stuff.behaviorID == 7;
+// });
+// var allMatch = sorted.every(function (e) {
+//     //console.log(`${j} ${item["Sheet1"][j].name.toLowerCase().includes(e)} + ${item["Sheet1"][j].displayName.toLowerCase().includes(e)} + ${item["Sheet1"][j].type.toLowerCase().includes(e)} + ${item["Sheet1"][j].description.toLowerCase().includes(e)} + ${item["Sheet1"][j]._internalNotes.toLowerCase().includes(e)}`)
+//     return (behaviorParameters["Sheet1"][0].behaviorID == 7)
+// });
+// console.log(ok)
 for(var n=0;n<tempArray.length;n++){
-    //console.log(tempArray[n].parameterID)
-    //console.log(tempArray[n].value)
-    object.set(`${tempArray[n].parameterID}`, `${tempArray[n].value}`)
-
+    console.log(tempArray[n].parameterID)
+    console.log(tempArray[n].value)
 
 }
-console.log(object)
-
-
 
 
 for(var i=0;i<0;i++){
     desc =`${desc}\nCooldownGroup:${i}\n`
-        var info = behaviorParameters["Sheet1"][i]
-        // var info = behaviorParameters["Sheet1"].find(a => a.behaviorID == i)
+    var info = behaviorParameters["Sheet1"][i]
+    // var info = behaviorParameters["Sheet1"].find(a => a.behaviorID == i)
 
     //console.log(info)
 
-            // var obj = {
-            //     parameterIDs: info.parameterID,
-            //     value: info.value
-            // }
+    // var obj = {
+    //     parameterIDs: info.parameterID,
+    //     value: info.value
+    // }
 
     {
         try {
@@ -766,15 +769,15 @@ for(var i=0;i<0;i++){
         tempBehaviorID++
     }
 
-        // if(tempBehaviorID != info.behaviorID){
-        //     var newobj = {
-        //         behaviorID: behaviorParameters["Sheet1"][i].behaviorID,
-        //         parameterIDs: arr
-        //     }
-        //     tempBehaviorID = behaviorParameters["Sheet1"][i].behaviorID
-        //     data.table.push(newobj)
-        //     arr=[]
-        // }
+    // if(tempBehaviorID != info.behaviorID){
+    //     var newobj = {
+    //         behaviorID: behaviorParameters["Sheet1"][i].behaviorID,
+    //         parameterIDs: arr
+    //     }
+    //     tempBehaviorID = behaviorParameters["Sheet1"][i].behaviorID
+    //     data.table.push(newobj)
+    //     arr=[]
+    // }
 
 
     //}
