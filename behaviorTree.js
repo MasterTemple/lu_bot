@@ -1,6 +1,6 @@
 //const behaviorParameters = require(`./search/BehaviorParameter.json`)
 const behaviorParameters = require(`./search/fullSortedBehaviorParameter.json`)
-
+var actions = ["action", "miss action", "blocked action", "action_false", "action_true", "start_action", "chain_action", "break_action", "double_jump_action", "ground_action", "jump_action", "hit_action", "hit_action_enemy", "timeout_action", "air_action", "falling_action", "jetpack_action", "spawn_fail_action", "action_failed", "action_consumed", "blocked_action", "moving_action", "on_success", "behavior","behavior 0","behavior 1","behavior 2","behavior 3","behavior 4","behavior 5","behavior 6","behavior 7","behavior 8","behavior 9","bahavior 2"]
 function getKids(behaviorID){
     var tempArray = behaviorParameters.table.filter(function (el) {
         return el.behaviorID == behaviorID
@@ -14,6 +14,10 @@ function getKids(behaviorID){
         for (var i = 0; i < Object.keys(tempArray[0]).length; i++) {
             //console.log(`I HAVE KIDS`)
             console.log((Object.keys(tempArray[0])[i]),(Object.values(tempArray[0])[i]))
+            if(actions.includes(Object.keys(tempArray[0])[i])){
+                console.log(Object.keys(tempArray[0])[i],"is an action!")
+                getKids((Object.values(tempArray[0])[i]))
+            }
             //getKids((Object.values(tempArray[0])[i]))
         }
         //getKids((Object.values(tempArray[0])[i]))
