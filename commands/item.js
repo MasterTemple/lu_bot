@@ -149,12 +149,17 @@ module.exports = {
         //var thumbnail = `https://static.wikia.nocookie.net/legouniverse/images/5/5f/${displayNameClean}.png`
         //console.log(`thumbnail ${thumbnail}`)
         var maudeLink = `https://cdn.discordapp.com/attachments/641133444746838016/813618015320408074/200.png`
-        iconPath = iconPath.replace('DDS', 'png')
-        iconPath = iconPath.replace('dds', 'png')
-        iconPath = iconPath.replace(/\\/g, "/");
-        iconPath = iconPath.replace(` `, "%20");
-        iconPath = iconPath.toLowerCase()
-        var iconURL = `https://xiphoseer.github.io/lu-res/${iconPath.substring(6)}`
+        var iconURL
+        if(iconPath != null) {
+            iconPath = iconPath.replace('DDS', 'png')
+            iconPath = iconPath.replace('dds', 'png')
+            iconPath = iconPath.replace(/\\/g, "/");
+            iconPath = iconPath.replace(` `, "%20");
+            iconPath = iconPath.toLowerCase()
+            iconURL = `https://xiphoseer.github.io/lu-res/${iconPath.substring(6)}`
+        }else{
+            iconURL = `https://static.wikia.nocookie.net/legomessageboards/images/c/ce/LU2.png/revision/latest?cb=20121121213649`
+        }
 /*
 https://xiphoseer.github.io/lu-res/textures/ui/../../textures/auramar/ui/inventory/Hands/KiteShield_Bat.png
 https://xiphoseer.github.io/lu-res/textures/ui/amar/ui/inventory/Hands/KiteShield_Bat.png
