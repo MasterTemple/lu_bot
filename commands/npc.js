@@ -107,7 +107,7 @@ module.exports = {
             var iconURL = `https://xiphoseer.github.io//lu-res/mesh//overhead_indicators//icon_vendor.png`
         }
         else{
-            var iconURL = `https://cdn.discordapp.com/attachments/717825273604603944/813874900476493844/bob_mag.png`
+            var iconURL = `https://github.com/MasterTemple/lu_bot/blob/master/src/unknown.png?raw=true`
         }
         /*
         https://xiphoseer.github.io/lu-res/textures/ui/../../textures/auramar/ui/inventory/Hands/KiteShield_Bat.png

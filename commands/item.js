@@ -55,20 +55,32 @@ module.exports = {
                 var behav_folder_loc = Math.floor(skillID / 256)
                 var skillBehavior = require(`./../locale/SkillBehavior/${behav_folder_loc}.json`)
                 console.log(skillBehavior[skillID])
-                var abilityName = skillBehavior[skillID].name
-                //dmg = skillBehavior[skillID].descriptionUI.substring(15, 20);
-                if (skillBehavior[skillID].descriptionUI.includes(`(ChargeUp)`)) {
-                    var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
-                    console.log(`chargeUpLoc ${chargeUpLoc}`)
-                    var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
-                } else if (skillBehavior[skillID].descriptionUI.includes(`(Description)`)) {
-                    var descriptionLoc = (skillBehavior[skillID].descriptionUI.search(`(Description)`)) + `(Description)`.length - 1
-                    console.log(`desc ${descriptionLoc}`)
-                    var description = skillBehavior[skillID].descriptionUI.substring(descriptionLoc);
-                    extra_desc = `${extra_desc}\n${abilityName}: ${description}`
-                } else if (skillBehavior[skillID].descriptionUI.includes(`+`) == false) {
-                    extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${skillBehavior[skillID].descriptionUI}`
+                var abilityName;
+                if (skillBehavior[skillID] == undefined){
+                    //return
                 }
+                try{
+                    abilityName = skillBehavior[skillID].name;
+                }catch{
+                    abilityName = `None`
+                }
+                //dmg = skillBehavior[skillID].descriptionUI.substring(15, 20);
+
+                if(skillBehavior[skillID] != undefined){
+                    if (skillBehavior[skillID].descriptionUI.includes(`(ChargeUp)`)) {
+                        var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
+                        console.log(`chargeUpLoc ${chargeUpLoc}`)
+                        var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
+                    } else if (skillBehavior[skillID].descriptionUI.includes(`(Description)`)) {
+                        var descriptionLoc = (skillBehavior[skillID].descriptionUI.search(`(Description)`)) + `(Description)`.length - 1
+                        console.log(`desc ${descriptionLoc}`)
+                        var description = skillBehavior[skillID].descriptionUI.substring(descriptionLoc);
+                        extra_desc = `${extra_desc}\n${abilityName}: ${description}`
+                    } else if (skillBehavior[skillID].descriptionUI.includes(`+`) == false) {
+                        extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${skillBehavior[skillID].descriptionUI}`
+                    }
+                }
+
                 if (item.name.includes(`Wand`)) {
                     var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
                     var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
@@ -104,9 +116,12 @@ module.exports = {
                     console.log(`Health: ${Health}`)
                     console.log(`Imagination: ${Imagination}`)
                 }
-                console.log(`dmg: ${skillBehavior[skillID].descriptionUI[16]},${skillBehavior[skillID].descriptionUI[18]},${skillBehavior[skillID].descriptionUI[20]}`)
-                console.log(`dmg: ${skillBehavior[skillID].descriptionUI}`)
-
+                try{
+                    console.log(`dmg: ${skillBehavior[skillID].descriptionUI[16]},${skillBehavior[skillID].descriptionUI[18]},${skillBehavior[skillID].descriptionUI[20]}`)
+                    console.log(`dmg: ${skillBehavior[skillID].descriptionUI}`)
+                }catch{
+                    console.log(`dmg log fail`)
+                }
                 if(dmg_combo==undefined || dmg_combo==null){
                     if (skillBehavior[skillID].descriptionUI[16] == `+` && skillBehavior[skillID].descriptionUI[18] == `+` && skillBehavior[skillID].descriptionUI[20] == `+`) {
                         dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 22);
@@ -158,7 +173,8 @@ module.exports = {
             iconPath = iconPath.toLowerCase()
             iconURL = `https://xiphoseer.github.io/lu-res/${iconPath.substring(6)}`
         }else{
-            iconURL = `https://static.wikia.nocookie.net/legomessageboards/images/c/ce/LU2.png/revision/latest?cb=20121121213649`
+            iconURL = `https://github.com/MasterTemple/lu_bot/blob/master/src/unknown.png?raw=true`
+            //question mark
         }
 /*
 https://xiphoseer.github.io/lu-res/textures/ui/../../textures/auramar/ui/inventory/Hands/KiteShield_Bat.png
