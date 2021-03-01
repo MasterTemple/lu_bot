@@ -97,7 +97,11 @@ module.exports = {
 
                     console.log(`Cooldown Group: ${cooldownFile.cooldowngroup}\nItem Cooldown: ${cooldownFile.cooldown} seconds`)
                 }
-                imaginationCost = cooldownFile.imaginationcost
+                if(imaginationCost > 0){
+                    console.log(`already got imagination`)
+                }else{
+                    imaginationCost = cooldownFile.imaginationcost
+                }
 
 
                 if (cooldownFile.armorBonusUI != null) {
