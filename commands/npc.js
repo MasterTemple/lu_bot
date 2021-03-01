@@ -40,7 +40,7 @@ module.exports = {
 
                 }
                 //`${missionNamesStr},`
-                missionNames = missionNames.join(", ")
+                //missionNames = missionNames.join(", ")
                 missionNamesString = ``
                 for(var j=0; j<missionNames.length; j++){
                     missionNamesString= `${missionNamesString}, ${missionNames[j]}`
