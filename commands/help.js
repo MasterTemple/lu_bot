@@ -13,6 +13,9 @@ module.exports = {
         channel = channel.substring(2, channel.length-1);
         const {prefix, exclude} = require('./../config.json');
         const fs = require('fs');
+        const Discord = require('discord.js');
+
+        const helpEmbed = new Discord.MessageEmbed()
 
         const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
         var desc = ``
@@ -24,13 +27,16 @@ module.exports = {
 
                 for (var i = 0; i < command.name.length; i++){
                     if (!exclude.includes(command.name[i])) {
-                        desc = (`${desc}**`)
-
+                        //desc = (`${desc}**`)
+                        //helpEmbed.addFields({ name: 'Display Name', value: displayName, inline: true },)
+                        var cmdNames = ``
                         for (var i = 0; i < command.name.length; i++) {
-                            desc = (`${desc}${prefix}${command.name[i]} `)
+                            cmdNames = (`${cmdNames}${prefix}${command.name[i]} `)
                         }
+                        helpEmbed.addFields({ name: cmdNames, value: command.description, inline: true },)
+
                         //if(i == command.name.length) {
-                        desc = (`${desc}**${command.description}\n`)
+                        //desc = (`${desc}**${command.description}\n`)
                         //}
 
                     }
@@ -66,6 +72,7 @@ module.exports = {
                     desc = `${desc}${prefix}${command.example[i]}\n`
                 }
                 desc = `${desc}**Use:**\n${prefix}${command.use}`
+                helpEmbed.setDescription(desc)
 
             }
             catch(error){
@@ -84,25 +91,24 @@ module.exports = {
 
                     }
                 }
+                helpEmbed.setDescription(desc)
+
+
             }
         }
 
 
-        const Discord = require('discord.js');
         var title = "Nexus Force"
-        const devoEmbed = new Discord.MessageEmbed()
-            .setColor('#00ffff')
-            .setTitle(title)
-            .setURL(url)
-            .setAuthor(`Nexus Force`, nexusLink, url)
-            .setDescription(desc)
 
-            .setThumbnail(nexusLink)
+        helpEmbed.setColor('#00ffff')
+        helpEmbed.setTitle(title)
+        helpEmbed.setURL(url)
+        helpEmbed.setAuthor(`Nexus Force`, nexusLink, url)
+        helpEmbed.setThumbnail(nexusLink)
+        helpEmbed.setTimestamp()
+        helpEmbed.setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
 
-            .setTimestamp()
-            .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
-
-        client.channels.cache.get(channel).send(devoEmbed);
+        client.channels.cache.get(channel).send(helpEmbed);
 
 
     }
