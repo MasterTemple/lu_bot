@@ -1,0 +1,2328 @@
+﻿{
+    "table": [
+        {
+            "LootMatrixIndex": "29",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "34",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "35",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "36",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "40",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "41",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "42",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "44",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "51",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "52",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "53",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "54",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "59",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "63",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "64",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "65",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "105",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "115",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "117",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "118",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "123",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "126",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "127",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "129",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "132",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "135",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "137",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "139",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "143",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "145",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "147",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "148",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "149",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "150",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "152",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "153",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "154",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "157",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "160",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "162",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "164",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "170",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "171",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "172",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "184",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "185",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "187",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "188",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "189",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "190",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "192",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "193",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "196",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "197",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "198",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "199",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "200",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "201",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "202",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "207",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "209",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "210",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "211",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "212",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "213",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "214",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "216",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "217",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "218",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "227",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "230",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "231",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "232",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "235",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "236",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "237",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "239",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "240",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "241",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "242",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "244",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "246",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "248",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "249",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "250",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "253",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "256",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "257",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "259",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "262",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "266",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "267",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "268",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "269",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "271",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "272",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "273",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "275",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "277",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "279",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "280",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "281",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "282",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "283",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "285",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "293",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "294",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "295",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "296",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "297",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "299",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "305",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "307",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "308",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "309",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "310",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "312",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "314",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "321",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "323",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "324",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "325",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "326",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "327",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "328",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "329",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "330",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "332",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "335",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "337",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "340",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "343",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "346",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "347",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "348",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "350",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "351",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "352",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "353",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "354",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "355",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "356",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "357",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "359",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "360",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "362",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "363",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "364",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "365",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "366",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "367",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "369",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "370",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "371",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "372",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "373",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "374",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "375",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "376",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "381",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "382",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "383",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "384",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "385",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "386",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "387",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "389",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "390",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "391",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "392",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "393",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "394",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "395",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "396",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "397",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "398",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "399",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "400",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "401",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "402",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "403",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "404",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "405",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "406",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "407",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "408",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "409",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "411",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "412",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "413",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "414",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "415",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "416",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "417",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "419",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "420",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "421",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "422",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "423",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "425",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "426",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "427",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "428",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "429",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "430",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "431",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "432",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "433",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "437",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "438",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "439",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "441",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "442",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "443",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "445",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "447",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "449",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "451",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "452",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "453",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "454",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "455",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "456",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "457",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "458",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "459",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "460",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "461",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "462",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "463",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "465",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "469",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "472",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "473",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "474",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "475",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "476",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "477",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "478",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "479",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "480",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "481",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "482",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "483",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "484",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "485",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "486",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "487",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "488",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "489",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "490",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "491",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "492",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "493",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "494",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "495",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "496",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "497",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "498",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "499",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "500",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "501",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "502",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "504",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "505",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "506",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "507",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "508",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "509",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "510",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "511",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "512",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "513",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "514",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "515",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "516",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "517",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "518",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "519",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "520",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "521",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "522",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "523",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "524",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "525",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "526",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "527",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "528",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "529",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "530",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "531",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "532",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "533",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "534",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "535",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "536",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "537",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "538",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "539",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "540",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "566",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "567",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "568",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "569",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "570",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "571",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "572",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "573",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "574",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "575",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "576",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "577",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "578",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "579",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "580",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "581",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "582",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "583",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "584",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "585",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "586",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "587",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "588",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "589",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "590",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "591",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "593",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "594",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "595",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "596",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "597",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "598",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "599",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "600",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "601",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "602",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "603",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "604",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "605",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "606",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "607",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "608",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "609",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "610",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "611",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "612",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "613",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "614",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "615",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "616",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "617",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "620",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "621",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "622",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "623",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "624",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "625",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "626",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "627",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "628",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "629",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "630",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "631",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "633",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "634",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "635",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "637",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "638",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "639",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "640",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "641",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "642",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "643",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "644",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "645",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "646",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "647",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "648",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "649",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "650",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "651",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "652",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "654",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "655",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "656",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "657",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "662",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "664",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "665",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "666",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "667",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "668",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "669",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "671",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "672",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "673",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "674",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "675",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "676",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "677",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "678",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "679",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "680",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "681",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "682",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "683",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "686",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "689",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "690",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "691",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "692",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "693",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "694",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "695",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "696",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "697",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "698",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "699",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "700",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "701",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "703",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "705",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "706",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "708",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "709",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "711",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "713",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "715",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "718",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "719",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "720",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "721",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "722",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "723",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "724",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "725",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "726",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "727",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "728",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "729",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "730",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "731",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "732",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "733",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "734",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "735",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "737",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "740",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "742",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "748",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "749",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "750",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "751",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "752",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "753",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "754",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "755",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "756",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "757",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "758",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "759",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "760",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "761",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "762",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "763",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "764",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "765",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "766",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "769",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "770",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "771",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "772",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "773",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "774",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "775",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "776",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "777",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "778",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "779",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "780",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "781",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "783",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "788",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "789",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "790",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "791",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "792",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "793",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "794",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "796",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "797",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "798",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "799",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "800",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "803",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "804",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "808",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "809",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "810",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "811",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "812",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "813",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "814",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "815",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "816",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "817",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "818",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "819",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "820",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "821",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "822",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "823",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "824",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "825",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "826",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "827",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "828",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "829",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "830",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "831",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "832",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "833",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "834",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "835",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "836",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "837",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "838",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "839",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "840",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "841",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "842",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "843",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "844",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "845",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "846",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "847",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "850",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "851",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "852",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "853",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "854",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "855",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "856",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "857",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "858",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "859",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "860",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "861",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "862",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "864",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "865",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "866",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "867",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "869",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "870",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "871",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "872",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "873",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "874",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "875",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "876",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "877",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "879",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "880",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "881",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "882",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "883",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "884",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "886",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "888",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "890",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "891",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "892",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "893",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "894",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "895",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "896",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "897",
+            "inNPCEditor": "1"
+        },
+        {
+            "LootMatrixIndex": "898",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "899",
+            "inNPCEditor": "0"
+        },
+        {
+            "LootMatrixIndex": "924",
+            "inNPCEditor": "0"
+        }
+    ]
+}

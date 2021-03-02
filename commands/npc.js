@@ -64,18 +64,19 @@ module.exports = {
             var lootMatrixTable = require(`./../tables/LootMatrix/${Math.floor(lootMatrixIndex/256)}/${lootMatrixIndex}.json`)
             var lootTableIndex = lootMatrixTable["elements"][0].LootTableIndex
             var lootTable = require(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(lootTableIndex/256)}/${lootTableIndex}.json`)
+            console.log(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(lootTableIndex/256)}/${lootTableIndex}.json`)
             //console.log(lootTable["elements"].length)
-            for(var k=0;k<lootTable["elements"].length/2;k++){
+            for(let k=0;k<lootTable["elements"].length/2;k++){
                 //console.log(lootTable["elements"][k].itemid)
                 var soldItemName = require(`./../objects/0/${Math.floor(lootTable["elements"][k].itemid/256)}/${lootTable["elements"][k].itemid}.json`);
                 var itemName = soldItemName.name
                 sell1 = `${sell1}\n${itemName} [${lootTable["elements"][k].itemid}]`
             }
-            for(var k=lootTable["elements"].length/2;k<lootTable["elements"].length;k++){
+            for(let l=parseInt(lootTable["elements"].length/2);l<lootTable["elements"].length;l++){
                 //console.log(lootTable["elements"][k].itemid)
-                var soldItemName = require(`./../objects/0/${Math.floor(lootTable["elements"][k].itemid/256)}/${lootTable["elements"][k].itemid}.json`);
+                var soldItemName = require(`./../objects/0/${Math.floor(lootTable["elements"][l].itemid/256)}/${lootTable["elements"][l].itemid}.json`);
                 var itemName = soldItemName.name
-                sell2 = `${sell2}\n${itemName} [${lootTable["elements"][k].itemid}]`
+                sell2 = `${sell2}\n${itemName} [${lootTable["elements"][l].itemid}]`
             }
         }
         console.log(`${item.name}`)
@@ -167,13 +168,16 @@ module.exports = {
         }else{
             description = "None"
         }
-        console.log(missionNames)
-        for(var j=0; j<missionNames.length; j++){
-            if(j==missionNames.length-1){
-                missionNamesStr= `${missionNamesStr}${missionNames[j]}`
-            }else{
-                missionNamesStr= `${missionNamesStr}${missionNames[j]}, `
+        //console.log(missionNames)
 
+        if(missionNames != undefined){
+            for (var j = 0; j < missionNames.length; j++) {
+                if (j == missionNames.length - 1) {
+                    missionNamesStr = `${missionNamesStr}${missionNames[j]}`
+                } else {
+                    missionNamesStr = `${missionNamesStr}${missionNames[j]}, `
+
+                }
             }
         }
         if(quest == undefined){
@@ -193,8 +197,9 @@ module.exports = {
             .setThumbnail(iconURL)
             .addFields(
                 { name: 'Display Name', value: displayName, inline: true },
-                { name: 'Internal Notes', value: internalNotes, inline: true },
                 { name: 'Description', value: description, inline: true },
+                { name: 'Internal Notes', value: internalNotes, inline: true },
+
 
             )
             .addFields(
