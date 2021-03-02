@@ -163,12 +163,22 @@ const ComponentRegistry = require(`./../search/ComponentRegistry.json`)
             }catch{}
 
         }
-        message.channel.send(msg)
+        //message.channel.send(msg)
 
         var msg2 = ``
         for(var i =0;i<maybeThisOne.length;i++){
             msg2=`${msg2}\n${vendorsNames[i]}: [${vendorsIDs[i]}]`
         }
+
+        const func = require(`./item.js`);
+        var newARG = [itemID, "FROMBUYITEM",msg,vendorsIDs.length]
+
+        func.execute(message, newARG);
+
+
+
+
+
         //console.log(msg2)
         //message.channel.send(msg2)
 

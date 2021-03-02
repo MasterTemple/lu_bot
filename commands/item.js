@@ -5,7 +5,11 @@ module.exports = {
     use: `item [id]`,
     example:[`item 7415`],
     execute(message, args) {
+        const Discord = require('discord.js');
+        const devoEmbed = new Discord.MessageEmbed()
+
         var id = args[0]
+
         var folder_loc = Math.floor(id / 256)
         var item_loc = id
         //`C:/Users/Blake The Great/Downloads/lubot/lu-json-master`
@@ -172,7 +176,6 @@ module.exports = {
         channel = channel.substring(2, channel.length-1);
 
         console.log(`chan: ${channel}`)
-        const Discord = require('discord.js');
         var url = `https://lu-explorer.web.app/objects/${id}/2`;
         const img = `https://i.pinimg.com/originals/17/e3/70/17e370ff54f49281f212e8a9d34e2996.png`;
 
@@ -232,36 +235,87 @@ https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshiel
         console.log(`displayName: ${displayName}`)
         var item_description = `**Description**${extra_desc}`
 
-        const devoEmbed = new Discord.MessageEmbed()
-            .setColor('#00ffff')
-            .setTitle(title)
-            .setURL(url)
-            .setAuthor(`Nexus Force`, nexusLink, url)
-            .setDescription(item_description)
+            devoEmbed.setColor('#00ffff')
+            devoEmbed.setTitle(title)
+            devoEmbed.setURL(url)
+            devoEmbed.setAuthor(`Nexus Force`, nexusLink, url)
 
-            .setThumbnail(iconURL)
-            .addFields(
+            devoEmbed.setThumbnail(iconURL)
+            // .addFields(
+            //     { name: 'Display Name', value: displayName, inline: true },
+            //     { name: 'Internal Notes', value: internalNotes, inline: true },
+            //     { name: 'ChargeUp', value: chargeUp, inline: true },
+            //
+            // )
+            // .addFields(
+            //     { name: 'Damage Combo', value: dmg_combo, inline: true },
+            //     { name: 'Imagination Cost', value: imaginationCost, inline: true },
+            //     { name: 'Cooldown Time', value: cooldown, inline: true },
+            // )
+            // .addFields(
+            //     {name: 'Armor', value: Armor, inline: true},
+            //     {name: 'Health', value: Health, inline: true},
+            //     {name: 'Imagination', value: Imagination, inline: true},
+            //     { name: 'Cooldown Group', value: cooldowngroup, inline: true },
+            //
+            // )
+            //.setImage(thumbnail)
+            devoEmbed.setTimestamp()
+            devoEmbed.setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
+
+        var priceComponentID = item.components["11"]
+        var priceFile = require(`./../tables/ItemComponent/${Math.floor(priceComponentID/256)}/${priceComponentID}.json`)
+        var stackSize = priceFile.stackSize
+        var price = priceFile.baseValue
+        if(args[1] == `FROMBUYITEM`){
+
+
+
+            devoEmbed.addFields({ name: 'Offered By', value: args[2], inline: true })
+                // { name: '឵឵ ឵Cost', value: price, inline: true },
+                // { name: '឵឵ Stack', value: stackSize, inline: true },
+            if(args[3] == 1 || args[3] == 2) {
+                devoEmbed.addFields({ name: '឵឵ ឵Cost', value: price, inline: true },)
+                devoEmbed.addFields({ name: '឵឵ Stack', value: stackSize, inline: true },)
+            }
+            else if(args[3] >= 4) {
+                devoEmbed.addFields({name: '឵឵ ឵Cost', value: `${price}\n\n**Stack**\n${stackSize}`, inline: true})
+            }else{
+                devoEmbed.addFields({name: '឵឵ ឵Cost', value: `${price}\n**Stack**\n${stackSize}`, inline: true})
+            }
+                //{ name: '឵឵ Stack', value: stackSize, inline: true },
+
+
+
+            client.channels.cache.get(channel).send(devoEmbed);
+
+        }
+        else{
+
+            devoEmbed.setDescription(item_description)
+
+            devoEmbed.addFields(
                 { name: 'Display Name', value: displayName, inline: true },
                 { name: 'Internal Notes', value: internalNotes, inline: true },
                 { name: 'ChargeUp', value: chargeUp, inline: true },
 
             )
-            .addFields(
-                { name: 'Damage Combo', value: dmg_combo, inline: true },
-                { name: 'Imagination Cost', value: imaginationCost, inline: true },
-                { name: 'Cooldown Time', value: cooldown, inline: true },
+            devoEmbed.addFields(
+                    { name: 'Damage Combo', value: dmg_combo, inline: true },
+                    { name: 'Imagination Cost', value: imaginationCost, inline: true },
+                    { name: 'Cooldown Time', value: cooldown, inline: true },
             )
-            .addFields(
-                {name: 'Armor', value: Armor, inline: true},
-                {name: 'Health', value: Health, inline: true},
-                {name: 'Imagination', value: Imagination, inline: true},
-                { name: 'Cooldown Group', value: cooldowngroup, inline: true },
+            devoEmbed.addFields(
+                    {name: 'Armor', value: Armor, inline: true},
+                    {name: 'Health', value: Health, inline: true},
+                    {name: 'Imagination', value: Imagination, inline: true},
+                    { name: 'Cooldown Group', value: cooldowngroup, inline: true },
+                    { name: '឵឵ Stack', value: stackSize, inline: true },
+                { name: '឵឵ ឵Cost', value: price, inline: true },
+
 
             )
-            //.setImage(thumbnail)
-            .setTimestamp()
-            .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
-
-        client.channels.cache.get(channel).send(devoEmbed);
+            client.channels.cache.get(channel).send(devoEmbed);
+        }
     }
 }
