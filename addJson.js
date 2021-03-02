@@ -96,7 +96,7 @@
 var fs = require(`fs`)
 var data = {}
 data.table = []
-var jsonData = require(`./search/VendorComponent.json`)
+var jsonData = require(`./search/VendorComponentRepeating.json`)
 var arr = []
 for(var i =0;i<jsonData.table.length;i++) {
     arr.push(jsonData.table[i].LootMatrixIndex)
@@ -108,7 +108,8 @@ function uniq(arr) {
     return Array.from(new Set(arr));
 }
 var newarr = uniq(arr)
-//console.log(newarr)
+
+console.log(newarr)
 
 for(var i =0;i<newarr.length;i++){
     try{
@@ -122,12 +123,12 @@ for(var i =0;i<newarr.length;i++){
 
         var matched = jsonData.table.filter(num => num.LootMatrixIndex == newarr[i]);
         var matchedarr = jsonData.table.filter(num => num.LootMatrixIndex == arr[i]);
-        console.log(matchedarr.length)
+        //console.log(matchedarr.length)
         //console.log(matched);
 
         for (var k = 0; k < matchedarr.length; k++) {
             //var LootTableIndexes = LootMatrixIndex.LootTableIndexes[k]
-            array.push(matched[k].id)
+            array.push(matchedarr[k].id)
         }
 
         var object = {
@@ -142,7 +143,7 @@ for(var i =0;i<newarr.length;i++){
 
 }
 
-fs.writeFile (`vendorComp1.json`, JSON.stringify(data), function(err) {
+fs.writeFile (`vendorComp2.json`, JSON.stringify(data), function(err) {
         if (err) throw err;
         console.log('complete');
     }

@@ -77,7 +77,7 @@ module.exports = {
         }
         console.log(`soldByVendor`)
         console.log(soldByVendor)
-
+var maybeThisOne = []
 
         for(let i =0; i < soldByVendor.length;i++){
             //var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(value/256)}/${value}.json`)
@@ -85,11 +85,17 @@ module.exports = {
             //console.log(i)
 
             try{
-                console.log(VendorComponent.table.find(a => a.LootMatrixIndex == soldByVendor[i]))
+                var matched = (VendorComponent.table.find(a => a.LootMatrixIndex == soldByVendor[i]))
+
+                console.log(matched.ids.length)
+                for(var h=0;h<matched.ids.length;h++){
+                    console.log(matched.ids[h])
+                    maybeThisOne.push(matched.ids[h])
+                }
                 //vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
                 //vendorsNames.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).name)
             }catch(e){
-                console.log(e)
+                //console.log(e)
                 //console.log(`${soldByVendor[i]} failed`)
             }
 
@@ -103,16 +109,19 @@ module.exports = {
             //var ans = getKeyByValue(objectComponent, )
             //console.log(i)
             try{
-                console.log(objectComponent.table.find(a => a.comp_val == soldByVendor[i]))
-                vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
-                vendorsNames.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).name)
+                // console.log(objectComponent.table.find(a => a.comp_val == soldByVendor[i]))
+                // vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
+                // vendorsNames.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).name)
+                console.log(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]))
+                vendorsIDs.push(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]).id)
+                vendorsNames.push(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]).name)
             }catch(e){
                 //console.log(e)
                     //console.log(`${soldByVendor[i]} failed`)
             }
 
         }
-
+        console.log(maybeThisOne)
         console.log(`vendorsIDs`)
         console.log(vendorsIDs)
         console.log(`vendorsNames`)
