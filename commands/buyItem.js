@@ -13,20 +13,52 @@ module.exports = {
         var soldByVendor = []
         var vendorsIDs = []
         var vendorsNames = []
+        var lootTableIndexes = []
+        var lootMatrixIndexes = []
 
-        console.log(LootMatrixIndex["table"])
-        // for(let i=0;i<LootTable["elements"].length;i++){
-        for(let i=0;i<LootMatrixIndex["table"].length;i++){
 
-            var value = (LootTable["elements"][i].LootTableIndex)
+        //for(let i=0;i<)
 
-            if(LootMatrixIndex["table"][i].inNPCEditor == 1){
-                //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 1)
-                soldByVendor.push(LootMatrixIndex["table"][i].LootMatrixIndex)
-            } else{
-                //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 0)
-            }
+        //console.log(LootMatrixIndex["table"])
+         for(let i=0;i<LootTable["elements"].length;i++) {
+             lootTableIndexes.push(LootTable["elements"][i].LootTableIndex)
+         }
+             //for(let i=0;i<LootMatrixIndex["table"].length;i++){
+
+        console.log(lootTableIndexes)
+
+
+        //I NEED TO CONVERT LOOTTABLEINDEX T0 LOOTMATRIXINDEX
+
+
+        for(let i =0; i < lootTableIndexes.length;i++){
+            var value = lootTableIndexes[i]
+
+            var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(value/256)}/${value}.json`)
+            //var ans = getKeyByValue(objectComponent, )
+            //console.log(i)
+
+            lootMatrixIndexes.push(LootMatrix.find(a => a.comp_val == lootTableIndexes[i]).name)
+
+
         }
+
+         //I NEED TO CONVERT LOOTTABLEINDEX T0 LOOTMATRIXINDEX
+
+
+
+        // for(let i=0;i<lootTableIndexes.length;i++) {
+        //
+        //     //[lootTableIndexes[i]]
+        //     //if(LootMatrixIndex["table"].inNPCEditor == 1){
+        //     if(LootMatrixIndex.table.find(a => a.LootMatrixIndex == `${lootTableIndexes[i]}`)){
+        //
+        //         //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 1)
+        //         soldByVendor.push(lootTableIndexes[i])
+        //     } else{
+        //         //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 0)
+        //     }
+        // }
         console.log(soldByVendor)
 
 
