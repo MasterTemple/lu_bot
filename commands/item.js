@@ -175,7 +175,15 @@ module.exports = {
         const Discord = require('discord.js');
         var url = `https://lu-explorer.web.app/objects/${id}/2`;
         const img = `https://i.pinimg.com/originals/17/e3/70/17e370ff54f49281f212e8a9d34e2996.png`;
-        var displayNameClean = item.displayName.replace(/\s/g, '_')
+
+        var displayNameClean
+
+        if(item.displayName != null){
+            displayNameClean = item.displayName.replace(/\s/g, '_')
+        }
+        else{
+            displayNameClean = `None`
+        }
         //var thumbnail = `https://static.wikia.nocookie.net/legouniverse/images/5/5f/${displayNameClean}.png`
         //console.log(`thumbnail ${thumbnail}`)
         var maudeLink = `https://cdn.discordapp.com/attachments/641133444746838016/813618015320408074/200.png`
