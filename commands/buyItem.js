@@ -41,6 +41,7 @@ module.exports = {
             lootMatrixIndexes.push(LootMatrix.find(a => a.comp_val == lootTableIndexes[i]).name)
 
 
+
         }
 
          //I NEED TO CONVERT LOOTTABLEINDEX T0 LOOTMATRIXINDEX
