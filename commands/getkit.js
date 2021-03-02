@@ -29,7 +29,7 @@ module.exports = {
             for (var i = 0; i < (Object.keys(item.Sets).length);i++) {
                 //console.log(data.enemies[i])
 
-                pieces = `${pieces}**${item.Sets[i].setName}**\n`
+                pieces = `${pieces}**${item.Sets[i].kitName}**\n`
             }
             func.execute(message, "All kits:", pieces, url, pass);
             return
@@ -80,7 +80,7 @@ module.exports = {
                 try {
                     var url = `https://lu-explorer.web.app/zones/`
                     var pass = `https://lu-explorer.web.app/zones/`
-                    func.execute(message, data.setName, totalMessage, data.setImageURL, data.setImageURL);
+                    func.execute(message, data.kitName, totalMessage, data.setImageURL, data.setImageURL);
                 } catch (error) {
                     console.error(error);
                 }

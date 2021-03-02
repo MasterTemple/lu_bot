@@ -81,11 +81,18 @@ module.exports = {
                     }
                 }
 
-                if (item.name.includes(`Wand`)) {
+                if (item.name.includes(`Wand`) && skillBehavior[skillID].descriptionUI.includes(`ChargeUp`)) {
                     var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
                     var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
                     extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${chargeUp}`
                     console.log(`I AM A WAND`)
+                }
+                else {
+                    // var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(DamageCombo)`)) + 9
+                    // console.log(chargeUpLoc)
+                    // var chargeUp = skillBehavior[skillID].descriptionUI.substring(12);
+                    // //extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${chargeUp}`
+                    // console.log(`I AM A WAND`)
                 }
                 console.log(`chargeUp: ${chargeUp}`)
                 var cooldownFile = require(`./../tables/SkillBehavior/${skillID}.json`)
@@ -127,23 +134,27 @@ module.exports = {
                     console.log(`dmg log fail`)
                 }
                 if(dmg_combo==undefined || dmg_combo==null){
-                    if (skillBehavior[skillID].descriptionUI[16] == `+` && skillBehavior[skillID].descriptionUI[18] == `+` && skillBehavior[skillID].descriptionUI[20] == `+`) {
-                        dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 22);
-                    } else if (skillBehavior[skillID].descriptionUI[16] == `+` && skillBehavior[skillID].descriptionUI[18] == `+`) {
-                        dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 20);
-                    } else if (skillBehavior[skillID].descriptionUI[16] == `+`) {
-                        dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 18);
-                    } else if ((skillBehavior[skillID].descriptionUI[15] >= '0' && skillBehavior[skillID].descriptionUI[15] <= '9') && (item.name.includes('Wand') || item.name.includes("Space Marauder Valiant Weapon"))) {
-                        dmg_combo = skillBehavior[skillID].descriptionUI[15];
-                    } else if ((skillBehavior[skillID].descriptionUI.includes('DamageCombo'))) {
-                        var dmg_combo_num = skillBehavior[skillID].descriptionUI.search(`Description`);
-                        console.log(dmg_combo_num)
-                        dmg_combo = skillBehavior[skillID].descriptionUI.substring(`%(DamageCombo) `.length, dmg_combo_num - 3)
-                        console.log(`DMG: ${dmg_combo}`)
-                    } else if ((skillBehavior[skillID].descriptionUI[15] >= '0' && skillBehavior[skillID].descriptionUI[15] <= '9')) {
-                        //dmg_combo  = skillBehavior[skillID].descriptionUI[15];
-                        dmg_combo = `None`
+
+                    try{
+                        if (skillBehavior[skillID].descriptionUI[16] == `+` && skillBehavior[skillID].descriptionUI[18] == `+` && skillBehavior[skillID].descriptionUI[20] == `+`) {
+                            dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 22);
+                        } else if (skillBehavior[skillID].descriptionUI[16] == `+` && skillBehavior[skillID].descriptionUI[18] == `+`) {
+                            dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 20);
+                        } else if (skillBehavior[skillID].descriptionUI[16] == `+`) {
+                            dmg_combo = skillBehavior[skillID].descriptionUI.substring(15, 18);
+                        } else if ((skillBehavior[skillID].descriptionUI[15] >= '0' && skillBehavior[skillID].descriptionUI[15] <= '9') && (item.name.includes('Wand') || item.name.includes("Space Marauder Valiant Weapon"))) {
+                            dmg_combo = skillBehavior[skillID].descriptionUI[15];
+                        } else if ((skillBehavior[skillID].descriptionUI.includes('DamageCombo'))) {
+                            var dmg_combo_num = skillBehavior[skillID].descriptionUI.search(`Description`);
+                            console.log(dmg_combo_num)
+                            dmg_combo = skillBehavior[skillID].descriptionUI.substring(`%(DamageCombo) `.length, dmg_combo_num - 3)
+                            console.log(`DMG: ${dmg_combo}`)
+                        } else if ((skillBehavior[skillID].descriptionUI[15] >= '0' && skillBehavior[skillID].descriptionUI[15] <= '9')) {
+                            //dmg_combo  = skillBehavior[skillID].descriptionUI[15];
+                            dmg_combo = `None`
+                        }
                     }
+                    catch{}
                 }
 
             }
