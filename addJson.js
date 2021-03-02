@@ -60,32 +60,89 @@
 //     }
 // );
 
+//
+// var fs = require(`fs`)
+// var data = {}
+// data.table = []
+// var jsonData = require(`./lootmatrix1.json`)
+//
+// for(var i =0;i<924;i++){
+//     try{
+//         var LootMatrixIndex = (jsonData.table.find(a => a.LootMatrixIndex == i))
+//
+//
+//         for (var k = 0; k < jsonData["table"][i].LootTableIndexes.length; k++) {
+//             var LootTableIndexes = LootMatrixIndex.LootTableIndexes[k]
+//
+//             var object = {
+//                 LootMatrixIndex: LootMatrixIndex.LootMatrixIndex,
+//                 LootTableIndexes: LootTableIndexes
+//             }
+//             data.table.push(object)
+//         }
+//
+//     }catch{}
+//
+// }
+//
+// fs.writeFile (`lootmatrixedit3.json`, JSON.stringify(data), function(err) {
+//         if (err) throw err;
+//         console.log('complete');
+//     }
+// );
+
+
 
 var fs = require(`fs`)
 var data = {}
 data.table = []
-var jsonData = require(`./lootmatrix1.json`)
+var jsonData = require(`./search/VendorComponent.json`)
+var arr = []
+for(var i =0;i<jsonData.table.length;i++) {
+    arr.push(jsonData.table[i].LootMatrixIndex)
+    //console.log(jsonData.table[i].LootMatrixIndex)
 
-for(var i =0;i<924;i++){
+}
+//console.log(arr)
+function uniq(arr) {
+    return Array.from(new Set(arr));
+}
+var newarr = uniq(arr)
+//console.log(newarr)
+
+for(var i =0;i<newarr.length;i++){
     try{
-        var LootMatrixIndex = (jsonData.table.find(a => a.LootMatrixIndex == i))
+        var array = []
+        //var LootMatrixIndex = (jsonData.table.find(a => a.LootMatrixIndex == i))
+        //console.log(jsonData.table.find(a => a.LootMatrixIndex == [i]))
+        // var matched = jsonData.table.filter(function(key) {
+        //     return jsonData.table[key] == i;
+        // });
+        var value = jsonData.table
 
+        var matched = jsonData.table.filter(num => num.LootMatrixIndex == newarr[i]);
+        var matchedarr = jsonData.table.filter(num => num.LootMatrixIndex == arr[i]);
+        console.log(matchedarr.length)
+        //console.log(matched);
 
-        for (var k = 0; k < jsonData["table"][i].LootTableIndexes.length; k++) {
-            var LootTableIndexes = LootMatrixIndex.LootTableIndexes[k]
-
-            var object = {
-                LootMatrixIndex: LootMatrixIndex.LootMatrixIndex,
-                LootTableIndexes: LootTableIndexes
-            }
-            data.table.push(object)
+        for (var k = 0; k < matchedarr.length; k++) {
+            //var LootTableIndexes = LootMatrixIndex.LootTableIndexes[k]
+            array.push(matched[k].id)
         }
+
+        var object = {
+            LootMatrixIndex: newarr[i],
+            ids: array
+        }
+
+        data.table.push(object)
+
 
     }catch{}
 
 }
 
-fs.writeFile (`lootmatrixedit3.json`, JSON.stringify(data), function(err) {
+fs.writeFile (`vendorComp1.json`, JSON.stringify(data), function(err) {
         if (err) throw err;
         console.log('complete');
     }

@@ -10,6 +10,7 @@ module.exports = {
         const LootTable = require(`./../tables/LootTable/groupBy/itemid/${Math.floor(itemID/256)}/${itemID}.json`)
         const LootMatrix = require(`./../search/LootMatrix.json`)
         const objectComponent = require(`./../objects/groupBy/component/16.json`)
+        const VendorComponent = require(`./../search/VendorComponent.json`)
         //console.log(`len ${LootTable["elements"].length}`)
         var soldByVendor = []
         var vendorsIDs = []
@@ -78,6 +79,22 @@ module.exports = {
         console.log(soldByVendor)
 
 
+        for(let i =0; i < soldByVendor.length;i++){
+            //var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(value/256)}/${value}.json`)
+            //var ans = getKeyByValue(objectComponent, )
+            //console.log(i)
+
+            try{
+                console.log(VendorComponent.table.find(a => a.LootMatrixIndex == soldByVendor[i]))
+                //vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
+                //vendorsNames.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).name)
+            }catch(e){
+                console.log(e)
+                //console.log(`${soldByVendor[i]} failed`)
+            }
+
+        }
+
 
 
 
@@ -86,8 +103,9 @@ module.exports = {
             //var ans = getKeyByValue(objectComponent, )
             //console.log(i)
             try{
-                vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).name)
-                vendorsNames.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
+                console.log(objectComponent.table.find(a => a.comp_val == soldByVendor[i]))
+                vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
+                vendorsNames.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).name)
             }catch(e){
                 //console.log(e)
                     //console.log(`${soldByVendor[i]} failed`)
@@ -99,6 +117,11 @@ module.exports = {
         console.log(vendorsIDs)
         console.log(`vendorsNames`)
         console.log(vendorsNames)
+        var msg = ``
+        for(var i =0;i<vendorsIDs.length;i++){
+            msg=`${msg}\n${vendorsNames[i]}: [${vendorsIDs[i]}]`
+        }
+        message.channel.send(msg)
         //console.log(objectComponent)
 
         //console.log(soldByVendor)

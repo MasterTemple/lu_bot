@@ -1,0 +1,372 @@
+﻿{
+    "table": [
+        {
+            "id": "4",
+            "LootMatrixIndex": "40"
+        },
+        {
+            "id": "7",
+            "LootMatrixIndex": "42"
+        },
+        {
+            "id": "9",
+            "LootMatrixIndex": "44"
+        },
+        {
+            "id": "89",
+            "LootMatrixIndex": "44"
+        },
+        {
+            "id": "99",
+            "LootMatrixIndex": "44"
+        },
+        {
+            "id": "101",
+            "LootMatrixIndex": "44"
+        },
+        {
+            "id": "112",
+            "LootMatrixIndex": "44"
+        },
+        {
+            "id": "113",
+            "LootMatrixIndex": "44"
+        },
+        {
+            "id": "114",
+            "LootMatrixIndex": "44"
+        },
+        {
+            "id": "12",
+            "LootMatrixIndex": "59"
+        },
+        {
+            "id": "16",
+            "LootMatrixIndex": "115"
+        },
+        {
+            "id": "72",
+            "LootMatrixIndex": "115"
+        },
+        {
+            "id": "83",
+            "LootMatrixIndex": "115"
+        },
+        {
+            "id": "94",
+            "LootMatrixIndex": "115"
+        },
+        {
+            "id": "96",
+            "LootMatrixIndex": "115"
+        },
+        {
+            "id": "28",
+            "LootMatrixIndex": "117"
+        },
+        {
+            "id": "70",
+            "LootMatrixIndex": "117"
+        },
+        {
+            "id": "23",
+            "LootMatrixIndex": "118"
+        },
+        {
+            "id": "71",
+            "LootMatrixIndex": "118"
+        },
+        {
+            "id": "51",
+            "LootMatrixIndex": "123"
+        },
+        {
+            "id": "84",
+            "LootMatrixIndex": "123"
+        },
+        {
+            "id": "42",
+            "LootMatrixIndex": "135"
+        },
+        {
+            "id": "91",
+            "LootMatrixIndex": "137"
+        },
+        {
+            "id": "46",
+            "LootMatrixIndex": "143"
+        },
+        {
+            "id": "97",
+            "LootMatrixIndex": "143"
+        },
+        {
+            "id": "45",
+            "LootMatrixIndex": "150"
+        },
+        {
+            "id": "48",
+            "LootMatrixIndex": "162"
+        },
+        {
+            "id": "52",
+            "LootMatrixIndex": "235"
+        },
+        {
+            "id": "53",
+            "LootMatrixIndex": "275"
+        },
+        {
+            "id": "74",
+            "LootMatrixIndex": "275"
+        },
+        {
+            "id": "54",
+            "LootMatrixIndex": "293"
+        },
+        {
+            "id": "87",
+            "LootMatrixIndex": "293"
+        },
+        {
+            "id": "55",
+            "LootMatrixIndex": "294"
+        },
+        {
+            "id": "85",
+            "LootMatrixIndex": "294"
+        },
+        {
+            "id": "56",
+            "LootMatrixIndex": "295"
+        },
+        {
+            "id": "86",
+            "LootMatrixIndex": "295"
+        },
+        {
+            "id": "57",
+            "LootMatrixIndex": "296"
+        },
+        {
+            "id": "88",
+            "LootMatrixIndex": "296"
+        },
+        {
+            "id": "58",
+            "LootMatrixIndex": "299"
+        },
+        {
+            "id": "81",
+            "LootMatrixIndex": "299"
+        },
+        {
+            "id": "59",
+            "LootMatrixIndex": "332"
+        },
+        {
+            "id": "73",
+            "LootMatrixIndex": "332"
+        },
+        {
+            "id": "75",
+            "LootMatrixIndex": "332"
+        },
+        {
+            "id": "76",
+            "LootMatrixIndex": "332"
+        },
+        {
+            "id": "77",
+            "LootMatrixIndex": "332"
+        },
+        {
+            "id": "78",
+            "LootMatrixIndex": "332"
+        },
+        {
+            "id": "60",
+            "LootMatrixIndex": "369"
+        },
+        {
+            "id": "63",
+            "LootMatrixIndex": "370"
+        },
+        {
+            "id": "64",
+            "LootMatrixIndex": "371"
+        },
+        {
+            "id": "82",
+            "LootMatrixIndex": "371"
+        },
+        {
+            "id": "61",
+            "LootMatrixIndex": "372"
+        },
+        {
+            "id": "79",
+            "LootMatrixIndex": "372"
+        },
+        {
+            "id": "62",
+            "LootMatrixIndex": "373"
+        },
+        {
+            "id": "80",
+            "LootMatrixIndex": "387"
+        },
+        {
+            "id": "65",
+            "LootMatrixIndex": "404"
+        },
+        {
+            "id": "66",
+            "LootMatrixIndex": "405"
+        },
+        {
+            "id": "67",
+            "LootMatrixIndex": "406"
+        },
+        {
+            "id": "69",
+            "LootMatrixIndex": "407"
+        },
+        {
+            "id": "68",
+            "LootMatrixIndex": "408"
+        },
+        {
+            "id": "92",
+            "LootMatrixIndex": "500"
+        },
+        {
+            "id": "90",
+            "LootMatrixIndex": "505"
+        },
+        {
+            "id": "98",
+            "LootMatrixIndex": "528"
+        },
+        {
+            "id": "93",
+            "LootMatrixIndex": "599"
+        },
+        {
+            "id": "95",
+            "LootMatrixIndex": "612"
+        },
+        {
+            "id": "118",
+            "LootMatrixIndex": "612"
+        },
+        {
+            "id": "102",
+            "LootMatrixIndex": "691"
+        },
+        {
+            "id": "108",
+            "LootMatrixIndex": "692"
+        },
+        {
+            "id": "103",
+            "LootMatrixIndex": "693"
+        },
+        {
+            "id": "107",
+            "LootMatrixIndex": "694"
+        },
+        {
+            "id": "100",
+            "LootMatrixIndex": "695"
+        },
+        {
+            "id": "106",
+            "LootMatrixIndex": "696"
+        },
+        {
+            "id": "109",
+            "LootMatrixIndex": "697"
+        },
+        {
+            "id": "104",
+            "LootMatrixIndex": "698"
+        },
+        {
+            "id": "105",
+            "LootMatrixIndex": "699"
+        },
+        {
+            "id": "110",
+            "LootMatrixIndex": "700"
+        },
+        {
+            "id": "116",
+            "LootMatrixIndex": "700"
+        },
+        {
+            "id": "111",
+            "LootMatrixIndex": "701"
+        },
+        {
+            "id": "117",
+            "LootMatrixIndex": "701"
+        },
+        {
+            "id": "115",
+            "LootMatrixIndex": "703"
+        },
+        {
+            "id": "119",
+            "LootMatrixIndex": "758"
+        },
+        {
+            "id": "121",
+            "LootMatrixIndex": "788"
+        },
+        {
+            "id": "122",
+            "LootMatrixIndex": "789"
+        },
+        {
+            "id": "123",
+            "LootMatrixIndex": "790"
+        },
+        {
+            "id": "128",
+            "LootMatrixIndex": "822"
+        },
+        {
+            "id": "130",
+            "LootMatrixIndex": "823"
+        },
+        {
+            "id": "126",
+            "LootMatrixIndex": "824"
+        },
+        {
+            "id": "125",
+            "LootMatrixIndex": "825"
+        },
+        {
+            "id": "129",
+            "LootMatrixIndex": "826"
+        },
+        {
+            "id": "127",
+            "LootMatrixIndex": "827"
+        },
+        {
+            "id": "124",
+            "LootMatrixIndex": "828"
+        },
+        {
+            "id": "131",
+            "LootMatrixIndex": "894"
+        },
+        {
+            "id": "134",
+            "LootMatrixIndex": "924"
+        }
+    ]
+}

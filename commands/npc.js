@@ -186,6 +186,10 @@ module.exports = {
         if(missionNames==undefined){
             missionNames="None"
         }
+        console.log(`[${missionNamesStr}]`)
+        if(missionNamesStr == `` ){
+            missionNamesStr = `None`
+        }
         console.log(missionNamesString)
         const devoEmbed = new Discord.MessageEmbed()
             .setColor('#00ffff')
