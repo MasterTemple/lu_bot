@@ -30,24 +30,26 @@ module.exports = {
         desc = `${desc}\n**Objective:**\n${text[args[0]].in_progress}`
         //desc = `${desc}\n**On Completion:**\n${text[args[0]].completion_succeed_tip}`
 
-        if(info.reward_item1 != -1) {
+        if(info.reward_item1 != -1 && info.reward_item2 == -1) {
             var reward = require(`./../objects/0/${Math.floor(info.reward_item1/256)}/${info.reward_item1}.json`);
             desc = `${desc}\n**Reward:**\n${reward.name} [${info.reward_item1}] x ${info.reward_item1_count}`
         }
         if(info.reward_item2 != -1 && info.isChoiceReward == true){
-            var reward = require(`./../objects/0/${Math.floor(info.reward_item1/256)}/${info.reward_item1}.json`);
-            desc = `${desc}\n**Rewards (Choose One):**\n${reward.name} [${info.reward_item1}] x ${info.reward_item1_count}\n${reward.name} [${info.reward_item2}] x ${info.reward_item2_count}`
+            var reward1 = require(`./../objects/0/${Math.floor(info.reward_item1/256)}/${info.reward_item1}.json`);
+            var reward2 = require(`./../objects/0/${Math.floor(info.reward_item2/256)}/${info.reward_item2}.json`);
+            desc = `${desc}\n**Rewards (Choose One):**\n${reward1.name} [${info.reward_item1}] x ${info.reward_item1_count}\n${reward2.name} [${info.reward_item2}] x ${info.reward_item2_count}`
         }else if(info.reward_item2 != -1){
-            var reward = require(`./../objects/0/${Math.floor(info.reward_item1/256)}/${info.reward_item1}.json`);
-            desc = `${desc}\n**Rewards:**\n${reward.name} [${info.reward_item1}] x ${info.reward_item1_count}\n${reward.name} [${info.reward_item2}] x ${info.reward_item2_count}`
+            var reward1 = require(`./../objects/0/${Math.floor(info.reward_item1/256)}/${info.reward_item1}.json`);
+            var reward2 = require(`./../objects/0/${Math.floor(info.reward_item2/256)}/${info.reward_item2}.json`);
+            desc = `${desc}\n**Rewards:**\n${reward1.name} [${info.reward_item1}] x ${info.reward_item1_count}\n${reward2.name} [${info.reward_item2}] x ${info.reward_item2_count}`
         }
         if(info.reward_item3 != -1){
-            var reward = require(`./../objects/0/${Math.floor(info.reward_item1/256)}/${info.reward_item1}.json`);
-            desc = `${desc}\n${reward.name} [${info.reward_item1}] x ${info.reward_item1_count}`
+            var reward = require(`./../objects/0/${Math.floor(info.reward_item3/256)}/${info.reward_item3}.json`);
+            desc = `${desc}\n${reward.name} [${info.reward_item3}] x ${info.reward_item3_count}`
         }
         if(info.reward_item4 != -1){
-            var reward = require(`./../objects/0/${Math.floor(info.reward_item1/256)}/${info.reward_item1}.json`);
-            desc = `${desc}\n${reward.name} [${info.reward_item1}] x ${info.reward_item1_count}`
+            var reward = require(`./../objects/0/${Math.floor(info.reward_item4/256)}/${info.reward_item4}.json`);
+            desc = `${desc}\n${reward.name} [${info.reward_item4}] x ${info.reward_item4_count}`
         }
 
         desc = `${desc}\n**Universe Score:**\n${info.LegoScore} Points`

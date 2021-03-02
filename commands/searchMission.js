@@ -2,8 +2,8 @@ module.exports = {
     name: ['searchmission',`sm`],
     description: 'Search for mission',
     args: true,
-    use: `missionid [id]`,
-    example:[`missionid 1665`, `mid 228`],
+    use: `searchmission [id]`,
+    example:[`searchmission Ooh Ooh Eee Eee!`, `sm Scrubby Bubbles`],
     execute(message, args) {
         //const client = message.client;
         //
