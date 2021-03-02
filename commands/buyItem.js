@@ -33,11 +33,13 @@ module.exports = {
 
         //I NEED TO CONVERT LOOTTABLEINDEX T0 LOOTMATRIXINDEX
 
+
         //console.log(lootTableIndexes.length)
         //console.log(LootMatrix.table)
+        //console.log(LootMatrix.table.find(a => a.ids.includes("691")))
 
         for(let i =0; i < lootTableIndexes.length;i++){
-            var value = parseInt(lootTableIndexes[i])
+            var value = lootTableIndexes[i]
             //console.log(value)
 
             //var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(value/256)}/${value}.json`)
@@ -46,7 +48,10 @@ module.exports = {
 
             try{
                 //console.log(LootMatrix.table.find(a => a.LootTableIndexes == value))
-                lootMatrixIndexes.push(LootMatrix.table.find(a => a.ids == value).LootMatrixIndex)
+                //lootMatrixIndexes.push(LootMatrix.table.find(a => a.ids.includes(value)).LootMatrixIndex)
+                //console.log(value)
+                //console.log(LootMatrix.table.find(a => a.ids.includes(`${value}`)))
+                lootMatrixIndexes.push(LootMatrix.table.find(a => a.ids.includes(`${value}`)).LootMatrixIndex)
             }catch(e){
                 //console.log(e)
                 //console.log(lootTableIndexes[i])
