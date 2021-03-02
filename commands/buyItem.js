@@ -46,7 +46,7 @@ module.exports = {
 
             try{
                 //console.log(LootMatrix.table.find(a => a.LootTableIndexes == value))
-                lootMatrixIndexes.push(LootMatrix.table.find(a => a.LootTableIndexes == value).LootMatrixIndex)
+                lootMatrixIndexes.push(LootMatrix.table.find(a => a.ids == value).LootMatrixIndex)
             }catch(e){
                 //console.log(e)
                 //console.log(lootTableIndexes[i])

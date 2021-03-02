@@ -96,7 +96,7 @@
 var fs = require(`fs`)
 var data = {}
 data.table = []
-var jsonData = require(`./search/VendorComponentRepeating.json`)
+var jsonData = require(`./search/VendorComponentRepeating2.json`)
 var arr = []
 for(var i =0;i<jsonData.table.length;i++) {
     arr.push(jsonData.table[i].LootMatrixIndex)
@@ -128,7 +128,7 @@ for(var i =0;i<newarr.length;i++){
 
         for (var k = 0; k < matched.length; k++) {
             //var LootTableIndexes = LootMatrixIndex.LootTableIndexes[k]
-            array.push(matched[k].id)
+            array.push(matched[k].LootTableIndex)
         }
 
         var object = {
