@@ -1,8 +1,8 @@
 module.exports = {
     name: ['missionid',`mid`],
-    description: 'Search mission by key word(s), order does not matter',
+    description: 'Get mission by ID',
     args: true,
-    use: `missionid [args]`,
+    use: `missionid [id]`,
     example:[`missionid 1665`, `mid 228`],
     execute(message, args) {
         //const client = message.client;
