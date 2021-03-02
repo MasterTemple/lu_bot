@@ -25,6 +25,10 @@ module.exports = {
             return;
         }
         var quest = item.components["73"]
+        var vendor = item.components["16"]
+        var sell1 = ``
+        var sell2 = ``
+
         //console.log(quest)
         if (quest != undefined){
             var missions = require(`./../tables/MissionNPCComponent/0/${quest}.json`)
@@ -53,6 +57,26 @@ module.exports = {
 
             //console.log(missionsFromNPC)
             //console.log(`MISSIONS ${missions.missions[0].missionID}`)
+        }
+        if(vendor != undefined){
+            var soldObjects = require(`./../tables/VendorComponent/0/${vendor}.json`)
+            var lootMatrixIndex = soldObjects.LootMatrixIndex
+            var lootMatrixTable = require(`./../tables/LootMatrix/${Math.floor(lootMatrixIndex/256)}/${lootMatrixIndex}.json`)
+            var lootTableIndex = lootMatrixTable["elements"][0].LootTableIndex
+            var lootTable = require(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(lootTableIndex/256)}/${lootTableIndex}.json`)
+            //console.log(lootTable["elements"].length)
+            for(var k=0;k<lootTable["elements"].length/2;k++){
+                //console.log(lootTable["elements"][k].itemid)
+                var soldItemName = require(`./../objects/0/${Math.floor(lootTable["elements"][k].itemid/256)}/${lootTable["elements"][k].itemid}.json`);
+                var itemName = soldItemName.name
+                sell1 = `${sell1}\n${itemName} [${lootTable["elements"][k].itemid}]`
+            }
+            for(var k=lootTable["elements"].length/2;k<lootTable["elements"].length;k++){
+                //console.log(lootTable["elements"][k].itemid)
+                var soldItemName = require(`./../objects/0/${Math.floor(lootTable["elements"][k].itemid/256)}/${lootTable["elements"][k].itemid}.json`);
+                var itemName = soldItemName.name
+                sell2 = `${sell2}\n${itemName} [${lootTable["elements"][k].itemid}]`
+            }
         }
         console.log(`${item.name}`)
 
@@ -175,7 +199,9 @@ module.exports = {
             )
             .addFields(
                 //{ name: 'Quests', value: missionNames, inline: false },
-                //{ name: 'Sells', value: "IDK YET", inline: false },
+                { name: 'Sells:', value: sell1, inline: true },
+                { name: '឵឵ ឵឵ ឵឵ ', value: sell2, inline: true },
+
 
             )
 
