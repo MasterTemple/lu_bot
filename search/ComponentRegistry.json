@@ -1,0 +1,312 @@
+{
+  "table": [
+    {
+      "id": "1867",
+      "component_id": "4"
+    },
+    {
+      "id": "2419",
+      "component_id": "7"
+    },
+    {
+      "id": "2418",
+      "component_id": "9"
+    },
+    {
+      "id": "2420",
+      "component_id": "9"
+    },
+    {
+      "id": "2529",
+      "component_id": "9"
+    },
+    {
+      "id": "2530",
+      "component_id": "9"
+    },
+    {
+      "id": "2655",
+      "component_id": "9"
+    },
+    {
+      "id": "2656",
+      "component_id": "9"
+    },
+    {
+      "id": "3058",
+      "component_id": "9"
+    },
+    {
+      "id": "3755",
+      "component_id": "9"
+    },
+    {
+      "id": "6324",
+      "component_id": "9"
+    },
+    {
+      "id": "6875",
+      "component_id": "9"
+    },
+    {
+      "id": "7430",
+      "component_id": "9"
+    },
+    {
+      "id": "2414",
+      "component_id": "12"
+    },
+    {
+      "id": "4676",
+      "component_id": "29"
+    },
+    {
+      "id": "9708",
+      "component_id": "42"
+    },
+    {
+      "id": "6338",
+      "component_id": "48"
+    },
+    {
+      "id": "6793",
+      "component_id": "53"
+    },
+    {
+      "id": "11223",
+      "component_id": "55"
+    },
+    {
+      "id": "9706",
+      "component_id": "60"
+    },
+    {
+      "id": "7429",
+      "component_id": "62"
+    },
+    {
+      "id": "2264",
+      "component_id": "63"
+    },
+    {
+      "id": "16469",
+      "component_id": "64"
+    },
+    {
+      "id": "10023",
+      "component_id": "65"
+    },
+    {
+      "id": "10026",
+      "component_id": "66"
+    },
+    {
+      "id": "10027",
+      "component_id": "67"
+    },
+    {
+      "id": "10028",
+      "component_id": "68"
+    },
+    {
+      "id": "10029",
+      "component_id": "69"
+    },
+    {
+      "id": "3925",
+      "component_id": "70"
+    },
+    {
+      "id": "3917",
+      "component_id": "71"
+    },
+    {
+      "id": "6739",
+      "component_id": "74"
+    },
+    {
+      "id": "9502",
+      "component_id": "78"
+    },
+    {
+      "id": "9705",
+      "component_id": "79"
+    },
+    {
+      "id": "9749",
+      "component_id": "80"
+    },
+    {
+      "id": "8212",
+      "component_id": "81"
+    },
+    {
+      "id": "9707",
+      "component_id": "82"
+    },
+    {
+      "id": "3918",
+      "component_id": "83"
+    },
+    {
+      "id": "3921",
+      "component_id": "84"
+    },
+    {
+      "id": "6632",
+      "component_id": "85"
+    },
+    {
+      "id": "6631",
+      "component_id": "86"
+    },
+    {
+      "id": "6633",
+      "component_id": "87"
+    },
+    {
+      "id": "6634",
+      "component_id": "88"
+    },
+    {
+      "id": "12121",
+      "component_id": "90"
+    },
+    {
+      "id": "12159",
+      "component_id": "91"
+    },
+    {
+      "id": "12215",
+      "component_id": "92"
+    },
+    {
+      "id": "11177",
+      "component_id": "93"
+    },
+    {
+      "id": "12538",
+      "component_id": "94"
+    },
+    {
+      "id": "12550",
+      "component_id": "95"
+    },
+    {
+      "id": "12911",
+      "component_id": "96"
+    },
+    {
+      "id": "4968",
+      "component_id": "97"
+    },
+    {
+      "id": "4769",
+      "component_id": "98"
+    },
+    {
+      "id": "12214",
+      "component_id": "98"
+    },
+    {
+      "id": "13300",
+      "component_id": "100"
+    },
+    {
+      "id": "13376",
+      "component_id": "102"
+    },
+    {
+      "id": "13378",
+      "component_id": "103"
+    },
+    {
+      "id": "13381",
+      "component_id": "104"
+    },
+    {
+      "id": "13382",
+      "component_id": "105"
+    },
+    {
+      "id": "13377",
+      "component_id": "106"
+    },
+    {
+      "id": "13380",
+      "component_id": "107"
+    },
+    {
+      "id": "13384",
+      "component_id": "108"
+    },
+    {
+      "id": "13379",
+      "component_id": "109"
+    },
+    {
+      "id": "13569",
+      "component_id": "115"
+    },
+    {
+      "id": "13383",
+      "component_id": "116"
+    },
+    {
+      "id": "13392",
+      "component_id": "117"
+    },
+    {
+      "id": "13776",
+      "component_id": "118"
+    },
+    {
+      "id": "14464",
+      "component_id": "119"
+    },
+    {
+      "id": "13801",
+      "component_id": "121"
+    },
+    {
+      "id": "13799",
+      "component_id": "122"
+    },
+    {
+      "id": "13800",
+      "component_id": "123"
+    },
+    {
+      "id": "15940",
+      "component_id": "124"
+    },
+    {
+      "id": "3724",
+      "component_id": "125"
+    },
+    {
+      "id": "3723",
+      "component_id": "126"
+    },
+    {
+      "id": "5009",
+      "component_id": "127"
+    },
+    {
+      "id": "5010",
+      "component_id": "128"
+    },
+    {
+      "id": "4746",
+      "component_id": "129"
+    },
+    {
+      "id": "5004",
+      "component_id": "130"
+    },
+    {
+      "id": "16499",
+      "component_id": "131"
+    }
+  ]
+}

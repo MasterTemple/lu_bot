@@ -77,7 +77,13 @@ module.exports = {
         }
         console.log(`soldByVendor`)
         console.log(soldByVendor)
+
 var maybeThisOne = []
+
+        //for(let i=0; i < soldByVendor.length;i++){
+        //    maybeThisOne.push(soldByVendor[i])
+        //}
+        //adds burky who belongs but also adds mr ree
 
         for(let i =0; i < soldByVendor.length;i++){
             //var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(value/256)}/${value}.json`)
@@ -87,9 +93,9 @@ var maybeThisOne = []
             try{
                 var matched = (VendorComponent.table.find(a => a.LootMatrixIndex == soldByVendor[i]))
 
-                console.log(matched.ids.length)
+                //console.log(matched.ids.length)
                 for(var h=0;h<matched.ids.length;h++){
-                    console.log(matched.ids[h])
+                    //console.log(matched.ids[h])
                     maybeThisOne.push(matched.ids[h])
                 }
                 //vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
@@ -103,8 +109,8 @@ var maybeThisOne = []
 
 
 
-
-        for(let i =0; i < soldByVendor.length;i++){
+const ComponentRegistry = require(`./../search/ComponentRegistry.json`)
+        for(let i =0; i < maybeThisOne.length;i++){
             //var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(value/256)}/${value}.json`)
             //var ans = getKeyByValue(objectComponent, )
             //console.log(i)
@@ -112,15 +118,26 @@ var maybeThisOne = []
                 // console.log(objectComponent.table.find(a => a.comp_val == soldByVendor[i]))
                 // vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
                 // vendorsNames.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).name)
-                console.log(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]))
-                vendorsIDs.push(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]).id)
-                vendorsNames.push(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]).name)
+
+                //console.log(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]))
+                //vendorsIDs.push(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]).id)
+                //vendorsNames.push(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]).name)
+
+                //console.log(ComponentRegistry.table.find(a => a.component_id == maybeThisOne[i]))
+                vendorsIDs.push(ComponentRegistry.table.find(a => a.component_id == maybeThisOne[i]).id)
+
+                //console.log(ComponentRegistry.table.find(a => a.component_id == soldByVendor[i]))
+                vendorsIDs.push(ComponentRegistry.table.find(a => a.component_id == soldByVendor[i]).id)
+
+
+                //vendorsNames.push(ComponentRegistry.table.find(a => a.component_id == maybeThisOne[i]))
             }catch(e){
                 //console.log(e)
                     //console.log(`${soldByVendor[i]} failed`)
             }
 
         }
+        console.log(`maybeThisOne`)
         console.log(maybeThisOne)
         console.log(`vendorsIDs`)
         console.log(vendorsIDs)
@@ -128,9 +145,25 @@ var maybeThisOne = []
         console.log(vendorsNames)
         var msg = ``
         for(var i =0;i<vendorsIDs.length;i++){
-            msg=`${msg}\n${vendorsNames[i]}: [${vendorsIDs[i]}]`
+
+            try{
+                var item = require(`./../objects/0/${Math.floor(vendorsIDs[i] / 256)}/${vendorsIDs[i]}.json`);
+                var itemName = item.displayName
+                //msg=`${msg}\n${vendorsNames[i]}: [${vendorsIDs[i]}]`
+                if (itemName != null) {
+                    msg = `${msg}\n${itemName}: [${vendorsIDs[i]}]`
+                }
+            }catch{}
+
         }
         message.channel.send(msg)
+
+        var msg2 = ``
+        for(var i =0;i<maybeThisOne.length;i++){
+            msg2=`${msg2}\n${vendorsNames[i]}: [${vendorsIDs[i]}]`
+        }
+        //message.channel.send(msg2)
+
         //console.log(objectComponent)
 
         //console.log(soldByVendor)
