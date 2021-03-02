@@ -101,13 +101,13 @@ var maybeThisOne = []
                 //vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
                 //vendorsNames.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).name)
             }catch(e){
-                //console.log(e)
+                console.log(e)
                 //console.log(`${soldByVendor[i]} failed`)
             }
 
         }
 
-
+console.log(`right before component registry ${maybeThisOne}`)
 
 const ComponentRegistry = require(`./../search/ComponentRegistry.json`)
         for(let i =0; i < maybeThisOne.length;i++){
@@ -127,7 +127,9 @@ const ComponentRegistry = require(`./../search/ComponentRegistry.json`)
                 vendorsIDs.push(ComponentRegistry.table.find(a => a.component_id == maybeThisOne[i]).id)
 
                 //console.log(ComponentRegistry.table.find(a => a.component_id == soldByVendor[i]))
-                vendorsIDs.push(ComponentRegistry.table.find(a => a.component_id == soldByVendor[i]).id)
+                vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
+
+                //vendorsIDs.push(ComponentRegistry.table.find(a => a.component_id == soldByVendor[i]).id)
 
 
                 //vendorsNames.push(ComponentRegistry.table.find(a => a.component_id == maybeThisOne[i]))
@@ -162,6 +164,7 @@ const ComponentRegistry = require(`./../search/ComponentRegistry.json`)
         for(var i =0;i<maybeThisOne.length;i++){
             msg2=`${msg2}\n${vendorsNames[i]}: [${vendorsIDs[i]}]`
         }
+        //console.log(msg2)
         //message.channel.send(msg2)
 
         //console.log(objectComponent)

@@ -126,9 +126,9 @@ for(var i =0;i<newarr.length;i++){
         //console.log(matchedarr.length)
         //console.log(matched);
 
-        for (var k = 0; k < matchedarr.length; k++) {
+        for (var k = 0; k < matched.length; k++) {
             //var LootTableIndexes = LootMatrixIndex.LootTableIndexes[k]
-            array.push(matchedarr[k].id)
+            array.push(matched[k].id)
         }
 
         var object = {
@@ -143,7 +143,7 @@ for(var i =0;i<newarr.length;i++){
 
 }
 
-fs.writeFile (`vendorComp2.json`, JSON.stringify(data), function(err) {
+fs.writeFile (`vendorComp3.json`, JSON.stringify(data), function(err) {
         if (err) throw err;
         console.log('complete');
     }
