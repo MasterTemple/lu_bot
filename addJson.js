@@ -68,14 +68,14 @@ var jsonData = require(`./lootmatrix1.json`)
 
 for(var i =0;i<924;i++){
     try{
-        var LootMatrixIndex = (jsonData.table.find(a => a.LootMatrixIndex == i).LootMatrixIndex)
+        var LootMatrixIndex = (jsonData.table.find(a => a.LootMatrixIndex == i))
 
 
-        for (var k = 0; k < jsonData["table"].length; k++) {
-            var LootTableIndexes = jsonData["table"][i].LootTableIndexes[k]
+        for (var k = 0; k < jsonData["table"][i].LootTableIndexes.length; k++) {
+            var LootTableIndexes = LootMatrixIndex.LootTableIndexes[k]
 
             var object = {
-                LootMatrixIndex: LootMatrixIndex,
+                LootMatrixIndex: LootMatrixIndex.LootMatrixIndex,
                 LootTableIndexes: LootTableIndexes
             }
             data.table.push(object)
@@ -85,7 +85,7 @@ for(var i =0;i<924;i++){
 
 }
 
-fs.writeFile (`lootmatrixedit1.json`, JSON.stringify(data), function(err) {
+fs.writeFile (`lootmatrixedit3.json`, JSON.stringify(data), function(err) {
         if (err) throw err;
         console.log('complete');
     }

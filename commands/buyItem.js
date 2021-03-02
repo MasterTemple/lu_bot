@@ -8,6 +8,7 @@ module.exports = {
         var itemID = parseInt(args[0])
         const LootMatrixIndex = require(`./../search/LootMatrixIndex.json`)
         const LootTable = require(`./../tables/LootTable/groupBy/itemid/${Math.floor(itemID/256)}/${itemID}.json`)
+        const LootMatrix = require(`./../search/LootMatrix.json`)
         const objectComponent = require(`./../objects/groupBy/component/16.json`)
         //console.log(`len ${LootTable["elements"].length}`)
         var soldByVendor = []
@@ -25,42 +26,58 @@ module.exports = {
          }
              //for(let i=0;i<LootMatrixIndex["table"].length;i++){
 
+        console.log(`lootTableIndexes`)
         console.log(lootTableIndexes)
 
 
         //I NEED TO CONVERT LOOTTABLEINDEX T0 LOOTMATRIXINDEX
 
+        //console.log(lootTableIndexes.length)
+        //console.log(LootMatrix.table)
 
         for(let i =0; i < lootTableIndexes.length;i++){
-            var value = lootTableIndexes[i]
+            var value = parseInt(lootTableIndexes[i])
+            //console.log(value)
 
-            var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(value/256)}/${value}.json`)
+            //var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(value/256)}/${value}.json`)
             //var ans = getKeyByValue(objectComponent, )
             //console.log(i)
 
-            lootMatrixIndexes.push(LootMatrix.find(a => a.comp_val == lootTableIndexes[i]).name)
-
-
-
+            try{
+                //console.log(LootMatrix.table.find(a => a.LootTableIndexes == value))
+                lootMatrixIndexes.push(LootMatrix.table.find(a => a.LootTableIndexes == value).LootMatrixIndex)
+            }catch(e){
+                //console.log(e)
+                //console.log(lootTableIndexes[i])
+            }
         }
+        console.log(`lootMatrixIndexes`)
 
-         //I NEED TO CONVERT LOOTTABLEINDEX T0 LOOTMATRIXINDEX
+        console.log(lootMatrixIndexes)
+
+
+        //I NEED TO CONVERT LOOTTABLEINDEX T0 LOOTMATRIXINDEX
 
 
 
-        // for(let i=0;i<lootTableIndexes.length;i++) {
-        //
-        //     //[lootTableIndexes[i]]
-        //     //if(LootMatrixIndex["table"].inNPCEditor == 1){
-        //     if(LootMatrixIndex.table.find(a => a.LootMatrixIndex == `${lootTableIndexes[i]}`)){
-        //
-        //         //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 1)
-        //         soldByVendor.push(lootTableIndexes[i])
-        //     } else{
-        //         //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 0)
-        //     }
-        // }
+        for(let i=0;i<lootMatrixIndexes.length;i++) {
+
+            //[lootTableIndexes[i]]
+            //if(LootMatrixIndex["table"].inNPCEditor == 1){
+            // if(LootMatrixIndex.table.find(a => a.LootMatrixIndex == lootMatrixIndexes[i])){
+            var check =LootMatrixIndex.table.find(a => a.LootMatrixIndex == lootMatrixIndexes[i]).inNPCEditor
+            //console.log(lootMatrixIndexes[i], check)
+            if(check==1){
+                //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 1)
+                soldByVendor.push(parseInt(lootMatrixIndexes[i]))
+            } else{
+                //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 0)
+            }
+        }
+        console.log(`soldByVendor`)
         console.log(soldByVendor)
+
+
 
 
 
@@ -71,12 +88,16 @@ module.exports = {
             try{
                 vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).name)
                 vendorsNames.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
-            }catch{
+            }catch(e){
+                //console.log(e)
                     //console.log(`${soldByVendor[i]} failed`)
             }
 
         }
+
+        console.log(`vendorsIDs`)
         console.log(vendorsIDs)
+        console.log(`vendorsNames`)
         console.log(vendorsNames)
         //console.log(objectComponent)
 
