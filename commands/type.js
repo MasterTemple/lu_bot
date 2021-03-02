@@ -19,7 +19,7 @@ module.exports = {
             }
 
 
-            if (type == (`NPC` || `UserGeneratedNPCs`)) {
+            if (type == (`NPC`) || type==(`UserGeneratedNPCs`)) {
                 const func = require(`./npc.js`);
                 try {
                     func.execute(message, args);
