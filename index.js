@@ -3,7 +3,7 @@ const fs = require('fs');
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-const {prefix, token, bot_age, startupStatus, bot_info, owner} = require('./config.json');
+const {prefix, token, startupStatus, bot_info, owner} = require('./config.json');
 
 for (const file of commandFiles) {
     const command = require(`./commands/${file}`);
