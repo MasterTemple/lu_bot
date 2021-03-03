@@ -267,6 +267,23 @@ https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshiel
         var priceFile = require(`./../tables/ItemComponent/${Math.floor(priceComponentID/256)}/${priceComponentID}.json`)
         var stackSize = priceFile.stackSize
         var price = priceFile.baseValue
+        var reqs = priceFile.reqPrecondition
+        var min_level
+        console.log(reqs)
+        var reqsArray = reqs.split(';');
+
+        for(var i=0;i<reqsArray.length;i++){
+            if(parseInt(reqsArray[i]) >= 210 && parseInt(reqsArray[i]) <= 229){
+                var levelReq = require(`./../tables/Preconditions/${reqsArray[i]}.json`)
+                min_level = levelReq.targetLOT
+
+                break
+            }
+        }
+        console.log(min_level)
+
+        //console.log(min_level)
+
         if(args[1] == `FROMBUYITEM`){
 
 
@@ -312,6 +329,7 @@ https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshiel
                     { name: 'Cooldown Group', value: cooldowngroup, inline: true },
                     { name: '឵឵ Stack', value: stackSize, inline: true },
                 { name: '឵឵ ឵Cost', value: price, inline: true },
+                { name: '឵឵ Level Requirement', value: min_level, inline: true },
 
 
             )
