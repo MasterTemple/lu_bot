@@ -3,14 +3,16 @@ const behaviorParameters = require(`./search/fullSortedBehaviorParameter.json`)
 var actions = ["action", "miss action", "blocked action", "action_false", "action_true", "start_action", "chain_action", "break_action", "double_jump_action", "ground_action", "jump_action", "hit_action", "hit_action_enemy", "timeout_action", "air_action", "falling_action", "jetpack_action", "spawn_fail_action", "action_failed", "action_consumed", "blocked_action", "moving_action", "on_success", "behavior","behavior 0","behavior 1","behavior 2","behavior 3","behavior 4","behavior 5","behavior 6","behavior 7","behavior 8","behavior 9","bahavior 2"]
 var numsOfActions = 0
 var behaviorActions = []
-var dmg = []
+var finalObject = {}
+finalObject.table = []
 var ogValues = []
 var ogKeys = []
 var og = new Map()
-var ogObj = {}
-ogObj.table = []
-var doubleJumpSmash = 0
-var singleJumpSmash = 0
+// var ogObj = {}
+// ogObj.table = []
+// var doubleJumpSmash = 0
+// var singleJumpSmash = 0
+// var dmg = []
 function getKids(behaviorID, ogVal, parentName){
     var tempArray = behaviorParameters.table.filter(function (el) {
         return el.behaviorID == behaviorID
@@ -89,50 +91,78 @@ function getKids(behaviorID, ogVal, parentName){
 
 }
 
+var behaviorID = [11183, 10312, 4251, 4241]
+for(var k=0;k<behaviorID.length;k++){
+    var ogObj = {}
+    ogObj.table = []
+    var doubleJumpSmash = -1
+    var singleJumpSmash = -1
+    var dmg = []
+    var tempParent = behaviorID[k]
+    //console.log(tempParent)
+    try {
+        //4314 = basic short sword
+        //13388 samurai sword attack
+        //10312 daredevil guns
+        getKids(tempParent, true, `parent`)
+        //getKids(4288)
+        //console.log(ogValues)
+        //console.log(ogKeys)
+        //console.log(og)
+        //console.log(og.size)
+        //for(var x=0;x<og.size;x++){
+        //    console.log(og[x])
+        //}
+        for (var x = 0; x < ogObj.table.length; x++) {
+            //console.log(ogObj.table[x])
+        }
+        try{
+            var ground = ogObj.table.find(a => a.name == `ground_action`)
+            getKids(ground.value, false, ground.name)
+        }catch{}
+        try{
+            var single = ogObj.table.find(a => a.name == `jump_action`)
+            getKids(single.value, false, single.name)
+        }catch{}
+        try{
+            var double = ogObj.table.find(a => a.name == `double_jump_action`)
+            getKids(double.value, false, double.name)
+        }catch{}
 
-try{
-    //4314 = basic short sword
-    //13388 samurai sword attack
-    //10312 daredevil guns
-    getKids(13388, true, `parent`)
-    //getKids(4288)
-    //console.log(ogValues)
-    //console.log(ogKeys)
-    //console.log(og)
-    //console.log(og.size)
-    //for(var x=0;x<og.size;x++){
-    //    console.log(og[x])
-    //}
-    for(var x=0;x<ogObj.table.length;x++){
-        //console.log(ogObj.table[x])
+        //console.log(numsOfActions)
+        ////getKids(17760, false)
+        //console.log(numsOfActions)
+        //getKids(4290)
+        //console.log(numsOfActions)
+        // if(dmg != []){
+        //     console.log(`dmg:${dmg.join(`+`)}`)
+        // }
+        // if(doubleJumpSmash != -1){
+        //     console.log(`doubleJumpSmash:${doubleJumpSmash}`)
+        // }
+        // if(singleJumpSmash != -1){
+        //     console.log(`singleJumpSmash:${singleJumpSmash}`)
+        // }
+
+        if(dmg != [] && singleJumpSmash != -1 && doubleJumpSmash != -1){
+            var obj = {
+                damageCombo: dmg.join(`+`),
+                doubleJumpSmash: doubleJumpSmash,
+                singleJumpSmash: singleJumpSmash
+            }
+            finalObject.table.push(obj)
+        }
+
+        // double_jump_action
+        // falling_action
+        // ground_action
+        // jetpack_action
+        // jump_action
+
+
+    } catch (e) {
+        console.log(e)
     }
-    var ground = ogObj.table.find(a => a.name == `ground_action`)
-    getKids(ground.value, false, ground.name)
-    var single = ogObj.table.find(a => a.name == `jump_action`)
-    getKids(single.value, false, single.name)
-    var double = ogObj.table.find(a => a.name == `double_jump_action`)
-    getKids(double.value, false, double.name)
-
-
-    //console.log(numsOfActions)
-    ////getKids(17760, false)
-    //console.log(numsOfActions)
-    //getKids(4290)
-    //console.log(numsOfActions)
-    console.log(`dmg`)
-    console.log(dmg)
-    console.log(`doubleJumpSmash`)
-    console.log(doubleJumpSmash)
-    console.log(`singleJumpSmash`)
-    console.log(singleJumpSmash)
-
-    // double_jump_action
-    // falling_action
-    // ground_action
-    // jetpack_action
-    // jump_action
-
-
-}catch(e){
-    console.log(e)
 }
+
+console.log(finalObject)
