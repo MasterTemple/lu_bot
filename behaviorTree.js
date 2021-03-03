@@ -9,14 +9,14 @@ var ogKeys = []
 var og = new Map()
 var ogObj = {}
 ogObj.table = []
-var doubleJumpSmash
-var singleJumpSmash
-function getKids(behaviorID, ogVal){
+var doubleJumpSmash = 0
+var singleJumpSmash = 0
+function getKids(behaviorID, ogVal, parentName){
     var tempArray = behaviorParameters.table.filter(function (el) {
         return el.behaviorID == behaviorID
     });
 
-    console.log(behaviorActions)
+    //console.log(behaviorActions)
     //console.log(tempArray[0])
     //console.log(Object.keys(tempArray[0]));
     //console.log(Object.keys(tempArray[0]).length);
@@ -46,7 +46,7 @@ function getKids(behaviorID, ogVal){
                 else if(Object.values(tempArray[0])[i] != `0` && behaviorActions.includes(Object.values(tempArray[0])[i]) == false){
                     behaviorActions.push((Object.values(tempArray[0])[i]))
 
-                    getKids((Object.values(tempArray[0])[i]))
+                    getKids((Object.values(tempArray[0])[i]),false,parentName)
                 }
                 if(ogVal){
                     ogValues.push(Object.values(tempArray[0])[i])
@@ -55,7 +55,21 @@ function getKids(behaviorID, ogVal){
                 //console.log(`${i}: ${Object.keys(tempArray[0])[i]} = VALUE [${(Object.values(tempArray[0])[i])}]`)
                 if(Object.keys(tempArray[0])[i] == "max damage"){
                     //console.log(`${i}: damage = [${(Object.values(tempArray[0])[i])}]`)
-                    dmg.push(`${behaviorID}: damage = [${(Object.values(tempArray[0])[i])}]`)
+                    //dmg.push(`${behaviorID}: damage = [${(Object.values(tempArray[0])[i])}]`)
+                    //console.log(parentName)
+                    try{
+                        if (parentName == `ground_action`) {
+                            dmg.push(Object.values(tempArray[0])[i])
+                        } else if (parentName == `jump_action`) {
+                            singleJumpSmash = (Object.values(tempArray[0])[i])
+                        } else if (parentName == `double_jump_action`) {
+                            doubleJumpSmash = (Object.values(tempArray[0])[i])
+                        } else {
+                            console.log(parentName)
+                        }
+                    }catch{
+
+                    }
                     //dmg.push(Object.values(tempArray[0])[i])
 
                 }
@@ -80,7 +94,7 @@ try{
     //4314 = basic short sword
     //13388 samurai sword attack
     //10312 daredevil guns
-    getKids(13388, true)
+    getKids(13388, true, `parent`)
     //getKids(4288)
     //console.log(ogValues)
     //console.log(ogKeys)
@@ -90,18 +104,26 @@ try{
     //    console.log(og[x])
     //}
     for(var x=0;x<ogObj.table.length;x++){
-        console.log(ogObj.table[x])
+        //console.log(ogObj.table[x])
     }
+    var ground = ogObj.table.find(a => a.name == `ground_action`)
+    getKids(ground.value, false, ground.name)
+    var single = ogObj.table.find(a => a.name == `jump_action`)
+    getKids(single.value, false, single.name)
+    var double = ogObj.table.find(a => a.name == `double_jump_action`)
+    getKids(double.value, false, double.name)
 
 
-
-    console.log(numsOfActions)
-    //getKids(17760, false)
-    console.log(numsOfActions)
+    //console.log(numsOfActions)
+    ////getKids(17760, false)
+    //console.log(numsOfActions)
     //getKids(4290)
     //console.log(numsOfActions)
+    console.log(`dmg`)
     console.log(dmg)
+    console.log(`doubleJumpSmash`)
     console.log(doubleJumpSmash)
+    console.log(`singleJumpSmash`)
     console.log(singleJumpSmash)
 
     // double_jump_action
