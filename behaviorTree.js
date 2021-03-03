@@ -4,7 +4,14 @@ var actions = ["action", "miss action", "blocked action", "action_false", "actio
 var numsOfActions = 0
 var behaviorActions = []
 var dmg = []
-function getKids(behaviorID){
+var ogValues = []
+var ogKeys = []
+var og = new Map()
+var ogObj = {}
+ogObj.table = []
+var doubleJumpSmash
+var singleJumpSmash
+function getKids(behaviorID, ogVal){
     var tempArray = behaviorParameters.table.filter(function (el) {
         return el.behaviorID == behaviorID
     });
@@ -23,13 +30,26 @@ function getKids(behaviorID){
             //console.log((Object.keys(tempArray[0])[i]),(Object.values(tempArray[0])[i]))
             //console.log(Object.keys(tempArray[0])[i])
             if(actions.includes(Object.keys(tempArray[0])[i])){
-                console.log(`${i}: ${Object.keys(tempArray[0])[i]} [${behaviorID}] = ACTION [${(Object.values(tempArray[0])[i])}]`)
+                //console.log(`${i}: ${Object.keys(tempArray[0])[i]} [${behaviorID}] = ACTION [${(Object.values(tempArray[0])[i])}]`)
                 numsOfActions++
+                if(ogVal){
+                    og.set((Object.keys(tempArray[0])[i]),(Object.values(tempArray[0])[i]))
+                    ogValues.push(Object.values(tempArray[0])[i])
+                    ogKeys.push(Object.keys(tempArray[0])[i])
+                    var object = {
+                        name: Object.keys(tempArray[0])[i],
+                        value: Object.values(tempArray[0])[i]
+                    }
+                    ogObj.table.push(object)
 
-                if(Object.values(tempArray[0])[i] != `0` && behaviorActions.includes(Object.values(tempArray[0])[i]) == false){
+                }
+                else if(Object.values(tempArray[0])[i] != `0` && behaviorActions.includes(Object.values(tempArray[0])[i]) == false){
                     behaviorActions.push((Object.values(tempArray[0])[i]))
 
                     getKids((Object.values(tempArray[0])[i]))
+                }
+                if(ogVal){
+                    ogValues.push(Object.values(tempArray[0])[i])
                 }
             }else{
                 //console.log(`${i}: ${Object.keys(tempArray[0])[i]} = VALUE [${(Object.values(tempArray[0])[i])}]`)
@@ -58,12 +78,39 @@ function getKids(behaviorID){
 
 try{
     //4314 = basic short sword
-    getKids(13388)
+    //13388 samurai sword attack
+    //10312 daredevil guns
+    getKids(13388, true)
     //getKids(4288)
+    //console.log(ogValues)
+    //console.log(ogKeys)
+    //console.log(og)
+    //console.log(og.size)
+    //for(var x=0;x<og.size;x++){
+    //    console.log(og[x])
+    //}
+    for(var x=0;x<ogObj.table.length;x++){
+        console.log(ogObj.table[x])
+    }
+
+
+
+    console.log(numsOfActions)
+    //getKids(17760, false)
     console.log(numsOfActions)
     //getKids(4290)
     //console.log(numsOfActions)
     console.log(dmg)
+    console.log(doubleJumpSmash)
+    console.log(singleJumpSmash)
+
+    // double_jump_action
+    // falling_action
+    // ground_action
+    // jetpack_action
+    // jump_action
+
+
 }catch(e){
     console.log(e)
 }
