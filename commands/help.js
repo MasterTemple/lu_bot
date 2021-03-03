@@ -27,17 +27,22 @@ module.exports = {
 
                 for (var i = 0; i < command.name.length; i++){
                     if (!exclude.includes(command.name[i])) {
-                        //desc = (`${desc}**`)
+                        desc = (`${desc}**`)
                         //helpEmbed.addFields({ name: 'Display Name', value: displayName, inline: true },)
                         var cmdNames = ``
                         for (var i = 0; i < command.name.length; i++) {
                             cmdNames = (`${cmdNames}${prefix}${command.name[i]} `)
-                        }
-                        helpEmbed.addFields({ name: cmdNames, value: command.description, inline: true },)
+                            desc = `${desc}${cmdNames}${prefix}${command.name[i]} `
 
-                        //if(i == command.name.length) {
-                        //desc = (`${desc}**${command.description}\n`)
-                        //}
+                        }
+                        //helpEmbed.addFields({ name: cmdNames, value: command.description, inline: true },)
+                        //helpEmbed.addFields({ name: cmdNames, value: command.description, inline: false },)
+
+                        if(i == command.name.length) {
+                        desc = (`${desc}**${command.description}\n`)
+                            helpEmbed.setDescription(desc)
+
+                        }
 
                     }
                 }
