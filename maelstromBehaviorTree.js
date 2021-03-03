@@ -55,10 +55,13 @@ function getKids(behaviorID, ogVal, parentName){
                 }
             }else{
                 //console.log(`${i}: ${Object.keys(tempArray[0])[i]} = VALUE [${(Object.values(tempArray[0])[i])}]`)
+                //console.log(Object.keys(tempArray[0])[i])
                 if(Object.keys(tempArray[0])[i] == "max damage"){
                     //console.log(`${i}: damage = [${(Object.values(tempArray[0])[i])}]`)
                     //dmg.push(`${behaviorID}: damage = [${(Object.values(tempArray[0])[i])}]`)
                     //console.log(parentName)
+                    //dmg.push(Object.values(tempArray[0])[i])
+
                     try{
                         if (parentName == `ground_action`) {
                             dmg.push(Object.values(tempArray[0])[i])
@@ -93,7 +96,7 @@ function getKids(behaviorID, ogVal, parentName){
 
 }
 
-var behaviorID = [1957, 1956]
+var behaviorID = [1897, 1898, 15556]
 for(var k=0;k<behaviorID.length;k++){
     var ogObj = {}
     ogObj.table = []
@@ -108,6 +111,7 @@ for(var k=0;k<behaviorID.length;k++){
         //10312 daredevil guns
         getKids(tempParent, true, `parent`)
         //getKids(4288)
+        console.log(ogObj)
         //console.log(ogValues)
         //console.log(ogKeys)
         //console.log(og)
@@ -150,11 +154,9 @@ for(var k=0;k<behaviorID.length;k++){
         //     console.log(`singleJumpSmash:${singleJumpSmash}`)
         // }
 
-        if(dmg != [] && singleJumpSmash != -1 && doubleJumpSmash != -1){
+        if(dmg != []){
             var obj = {
-                damageCombo: dmg.join(`+`),
-                doubleJumpSmash: doubleJumpSmash,
-                singleJumpSmash: singleJumpSmash
+                damageCombo: dmg.join(``)
             }
             finalObject.table.push(obj)
         }
