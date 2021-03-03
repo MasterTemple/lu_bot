@@ -36,7 +36,7 @@ Your config file should look similar to this:
 ```
 5. You can type `node index.js` in the terminal or run it through your IDE or however you prefer
 
-I am aware the overall format of this project is not pretty (as well as some of the code) and a rewrite is definitely planned. All the random files in the main directory are me messing with the client to get json data that was not easily avaiable in lu-json.
+I am aware the overall format of this project is not pretty (as well as some of the code) and a rewrite is definitely planned. All the random files in the main directory are me messing with the client to get json data that was not easily avaiable in lu-json. (Also I edited one of Xiphoseers json files, i think it was objects/groupBy/component/16.json and i changed it from [...] to "table":[...] so actually downloading his wont work perfectly but oh well, ill fix it in the rewrite)
 
 If you have any questions, suggestions, or complains feel free to contact me on Discord at `MasterTemple#0233`  :)
 
