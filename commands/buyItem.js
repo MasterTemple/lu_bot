@@ -1,9 +1,9 @@
 module.exports = {
-    name: ['buy'],
-    description: 'Info about an NPC in LEGO Universe',
+    name: ['buyid'],
+    description: 'Find Vendors that sell a certain item',
     args: true,
-    use: `buy [id]`,
-    example: [`buy 7415`],
+    use: `buyid [id]`,
+    example: [`buyid 7415`],
     execute(message, args) {
         var itemID = parseInt(args[0])
         const LootMatrixIndex = require(`./../search/LootMatrixIndex.json`)
