@@ -206,13 +206,7 @@ module.exports = {
 
 
             )
-            .addFields(
-                //{ name: 'Quests', value: missionNames, inline: false },
-                { name: 'Sells:', value: sell1, inline: true },
-                { name: '឵឵ ឵឵ ឵឵ ', value: sell2, inline: true },
 
-
-            )
 
             // .addFields(
             //     { name: 'ChargeUp', value: chargeUp, inline: true },
@@ -227,6 +221,18 @@ module.exports = {
             //.setImage(thumbnail)
             .setTimestamp()
             .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
+
+        console.log(sell1)
+        console.log(sell2)
+        if(sell1 != ``){
+        devoEmbed.addFields(
+                //{ name: 'Quests', value: missionNames, inline: false },
+                { name: 'Sells:', value: sell1, inline: true },
+                { name: '឵឵ ឵឵ ឵឵ ', value: sell2, inline: true },
+
+
+            )
+        }
 
         client.channels.cache.get(channel).send(devoEmbed);
     }
