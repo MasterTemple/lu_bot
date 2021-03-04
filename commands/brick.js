@@ -66,6 +66,33 @@ module.exports = {
             .setTimestamp()
             .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
 
-        client.channels.cache.get(channel).send(devoEmbed);
+        if(args[1] == `FROMBUYITEM`){
+            var priceComponentID = item.components["11"]
+            var priceFile = require(`./../tables/ItemComponent/${Math.floor(priceComponentID/256)}/${priceComponentID}.json`)
+            var stackSize = priceFile.stackSize
+            var price = priceFile.baseValue
+            console.log(args[2])
+
+            devoEmbed.addFields({ name: 'Offered By', value: args[2], inline: true })
+            // { name: '឵឵ ឵Cost', value: price, inline: true },
+            // { name: '឵឵ Stack', value: stackSize, inline: true },
+            if(args[3] == 1 || args[3] == 2) {
+                devoEmbed.addFields({ name: '឵឵ ឵Cost', value: price, inline: true },)
+                devoEmbed.addFields({ name: '឵឵ Stack', value: stackSize, inline: true },)
+            }
+            else if(args[3] >= 4) {
+                devoEmbed.addFields({name: '឵឵ ឵Cost', value: `${price}\n\n**Stack**\n${stackSize}`, inline: true})
+            }else{
+                devoEmbed.addFields({name: '឵឵ ឵Cost', value: `${price}\n**Stack**\n${stackSize}`, inline: true})
+            }
+
+
+            client.channels.cache.get(channel).send(devoEmbed);
+
+        }
+        else{
+            client.channels.cache.get(channel).send(devoEmbed);
+        }
+
     }
 }

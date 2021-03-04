@@ -270,17 +270,21 @@ https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshiel
         var reqs = priceFile.reqPrecondition
         var min_level
         console.log(reqs)
-        var reqsArray = reqs.split(';');
+        if(reqs != null){
+            var reqsArray = reqs.split(';');
 
-        for(var i=0;i<reqsArray.length;i++){
-            if(parseInt(reqsArray[i]) >= 210 && parseInt(reqsArray[i]) <= 229){
-                var levelReq = require(`./../tables/Preconditions/${reqsArray[i]}.json`)
-                min_level = levelReq.targetLOT
 
-                break
+            for(var i=0;i<reqsArray.length;i++){
+                if(parseInt(reqsArray[i]) >= 210 && parseInt(reqsArray[i]) <= 229){
+                    var levelReq = require(`./../tables/Preconditions/${reqsArray[i]}.json`)
+                    min_level = levelReq.targetLOT
+
+                    break
+                }
             }
+            console.log(min_level)
+
         }
-        console.log(min_level)
 
         //console.log(min_level)
 

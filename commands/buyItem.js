@@ -6,6 +6,9 @@ module.exports = {
     example: [`buyid 7415`],
     execute(message, args) {
         var itemID = parseInt(args[0])
+        var item = require(`./../objects/0/${Math.floor(itemID/256)}/${itemID}.json`);
+        var type = item.type
+        if(type == `Loot`){
         const LootMatrixIndex = require(`./../search/LootMatrixIndex.json`)
         const LootTable = require(`./../tables/LootTable/groupBy/itemid/${Math.floor(itemID/256)}/${itemID}.json`)
         const LootMatrix = require(`./../search/LootMatrix.json`)
@@ -170,13 +173,43 @@ const ComponentRegistry = require(`./../search/ComponentRegistry.json`)
             msg2=`${msg2}\n${vendorsNames[i]}: [${vendorsIDs[i]}]`
         }
 
-        const func = require(`./item.js`);
-        var newARG = [itemID, "FROMBUYITEM",msg,vendorsIDs.length]
+        // const func = require(`./item.js`);
+        // var newARG = [itemID, "FROMBUYITEM",msg,vendorsIDs.length]
+        //
+        // func.execute(message, newARG);
 
-        func.execute(message, newARG);
 
 
 
+
+            const func = require(`./item.js`);
+            var newARG = [itemID, "FROMBUYITEM", msg, vendorsIDs.length]
+            console.log(msg)
+
+            func.execute(message, newARG);
+        }else if(type == `LEGO brick`){
+            const func = require(`./brick.js`);
+            const brickVendorsIDs = [2264, 3921, 7429, 9705, 9706, 9707, 13379]
+            var msg = ``
+
+            for(var i =0;i<brickVendorsIDs.length;i++){
+
+                try{
+                    var item = require(`./../objects/0/${Math.floor(brickVendorsIDs[i] / 256)}/${brickVendorsIDs[i]}.json`);
+                    var itemName = item.displayName
+                    //msg=`${msg}\n${vendorsNames[i]}: [${vendorsIDs[i]}]
+                    if (itemName != null) {
+                        msg = `${msg}\n${itemName}: [${brickVendorsIDs[i]}]`
+                    }
+                }catch{}
+
+            }
+            var newARG = [itemID, "FROMBUYITEM", msg, brickVendorsIDs.length]
+            console.log(msg)
+            func.execute(message, newARG);
+        }else{
+            message.channel.send(`You cannot purchase this object.`)
+        }
 
 
         //console.log(msg2)

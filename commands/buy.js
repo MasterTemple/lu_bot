@@ -27,7 +27,7 @@ module.exports = {
             return
         }
         if(isNaN(args[0])==false){
-            console.log(`FALSDFA`)
+            //console.log(`FALSDFA`)
             executeFile.execute(message, args)
             return
         }else{
