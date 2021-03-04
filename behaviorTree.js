@@ -24,6 +24,13 @@ function getKids(behaviorID, ogVal, parentName){
     //console.log(Object.keys(tempArray[0]).length);
     //console.log(Object.keys(tempArray[0])[0]);
     //console.log(Object.keys(tempArray[0]).length)
+    console.log(behaviorID)
+    if(parseInt(behaviorID) == 21216) {
+        console.log(tempArray[0])
+        console.log(tempArray[0].max_duration)
+
+    }
+
     if(tempArray[0] != undefined){
         for (var i = 0; i < Object.keys(tempArray[0]).length; i++) {
             //console.log(`----------------`)
@@ -77,6 +84,27 @@ function getKids(behaviorID, ogVal, parentName){
                     //dmg.push(Object.values(tempArray[0])[i])
 
                 }
+                if(Object.keys(tempArray[0])[i] == "imag"){
+                    //console.log(`${i}: damage = [${(Object.values(tempArray[0])[i])}]`)
+                    //dmg.push(`${behaviorID}: damage = [${(Object.values(tempArray[0])[i])}]`)
+                    //console.log(parentName)
+                    try{
+                            console.log(`Imag: ${Object.values(tempArray[0])[i]}`)
+                    }catch{
+
+                    }
+                }
+                if(Object.keys(tempArray[0])[i] == "imagination"){
+                    //console.log(`${i}: damage = [${(Object.values(tempArray[0])[i])}]`)
+                    //dmg.push(`${behaviorID}: damage = [${(Object.values(tempArray[0])[i])}]`)
+                    //console.log(parentName)
+                    try{
+                        console.log(`Imagination: ${Object.values(tempArray[0])[i]}`)
+                    }catch{
+
+                    }
+                }
+
             }
             //getKids((Object.values(tempArray[0])[i]))
         }
@@ -93,7 +121,8 @@ function getKids(behaviorID, ogVal, parentName){
 
 }
 
-var behaviorID = [1957, 1956]
+//var behaviorID = [1957, 1956]
+var behaviorID = [4245, 4253, 21267, 11183]
 for(var k=0;k<behaviorID.length;k++){
     var ogObj = {}
     ogObj.table = []
@@ -101,7 +130,7 @@ for(var k=0;k<behaviorID.length;k++){
     var singleJumpSmash = -1
     var dmg = []
     var tempParent = behaviorID[k]
-    //console.log(tempParent)
+    console.log(`--${tempParent}--`)
     try {
         //4314 = basic short sword
         //13388 samurai sword attack
