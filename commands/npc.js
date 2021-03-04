@@ -128,7 +128,8 @@ module.exports = {
             iconPath = iconPath.replace(` `, "%20");
             iconPath = iconPath.toLowerCase()
             var iconURL = `https://xiphoseer.github.io/lu-res/${iconPath.substring(6)}`
-        } else if(quest == undefined) {
+        }
+        else if(sell1 != ``) {
             var iconURL = `https://xiphoseer.github.io//lu-res/mesh//overhead_indicators//icon_vendor.png`
         }
         else{
@@ -190,7 +191,11 @@ module.exports = {
         if(missionNamesStr == `` ){
             missionNamesStr = `None`
         }
-        console.log(missionNamesString)
+
+
+
+
+            console.log(missionNamesString)
         const devoEmbed = new Discord.MessageEmbed()
             .setColor('#00ffff')
             .setTitle(title)

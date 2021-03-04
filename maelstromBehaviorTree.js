@@ -97,6 +97,8 @@ function getKids(behaviorID, ogVal, parentName){
 }
 
 var behaviorID = [1897, 1898, 15556]
+//var behaviorID = [1898, 1899, 15557]
+
 for(var k=0;k<behaviorID.length;k++){
     var ogObj = {}
     ogObj.table = []
