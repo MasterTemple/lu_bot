@@ -227,9 +227,11 @@ module.exports = {
             .setTimestamp()
             .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
 
-        console.log(sell1)
-        console.log(sell2)
-        if(sell1 != ``){
+        //console.log(sell1)
+        //console.log(sell2)
+        const brickVendorsIDs = [2264, 3921, 7429, 9705, 9706, 9707, 13379]
+
+        if(sell1 != `` && brickVendorsIDs.includes(parseInt(id)) == false){
         devoEmbed.addFields(
                 //{ name: 'Quests', value: missionNames, inline: false },
                 { name: 'Sells:', value: sell1, inline: true },
@@ -237,6 +239,32 @@ module.exports = {
 
 
             )
+        }
+        console.log(lootTable["elements"].length)
+
+        if(sell1 != `` && brickVendorsIDs.includes(parseInt(id))){
+            console.log(`here`)
+            for(var i=0;i<lootTable["elements"].length/32;i++) {
+                var bricksSold = ``
+                for (var k = (i*32); k < (lootTable["elements"].length/(lootTable["elements"].length/32))+(i*32); k++) {
+                    //console.log(lootTable["elements"][k])
+                    try{
+                        var soldItemName = require(`./../objects/0/${Math.floor(lootTable["elements"][k].itemid / 256)}/${lootTable["elements"][k].itemid}.json`);
+                        var itemName = soldItemName.name
+                        bricksSold = `${bricksSold}\n${itemName} [${lootTable["elements"][k].itemid}]`
+                    }catch{}
+
+                }
+
+                if(i==0){
+                    devoEmbed.addFields({name: 'Sells:', value: bricksSold, inline: true})
+                }else{
+                    devoEmbed.addFields({ name: '឵឵ ឵឵ ឵឵ ', value: bricksSold, inline: true })
+                }
+
+
+            }
+
         }
 
         client.channels.cache.get(channel).send(devoEmbed);
