@@ -131,8 +131,8 @@ function getKids(behaviorID, ogVal, parentName){
 //var behaviorID = [4245, 4253, 21267, 11183]//powerjouster
 //var behaviorID = [11183, 10884]//daredevil
 //var behaviorID = [23451]//adventurer 3
-var behaviorID = [23302]//adventurer 2
-//var behaviorID = [23666]//adventurer 2 whip
+//var behaviorID = [23302]//adventurer 2
+var behaviorID = [14078,4251]//anything
 
 
 for(var k=0;k<behaviorID.length;k++){

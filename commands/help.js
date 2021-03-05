@@ -31,7 +31,7 @@ module.exports = {
                         //helpEmbed.addFields({ name: 'Display Name', value: displayName, inline: true },)
                         var cmdNames = ``
                         for (var i = 0; i < command.name.length; i++) {
-                            cmdNames = (`${cmdNames}${prefix}${command.name[i]} `)
+                            //cmdNames = (`${cmdNames}${prefix}${command.name[i]} `)
                             desc = `${desc}${cmdNames}${prefix}${command.name[i]} `
 
                         }
