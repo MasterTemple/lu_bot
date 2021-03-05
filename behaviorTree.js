@@ -24,11 +24,16 @@ function getKids(behaviorID, ogVal, parentName){
     //console.log(Object.keys(tempArray[0]).length);
     //console.log(Object.keys(tempArray[0])[0]);
     //console.log(Object.keys(tempArray[0]).length)
-    console.log(behaviorID)
-    if(parseInt(behaviorID) == 21216) {
-        console.log(tempArray[0])
-        console.log(tempArray[0].max_duration)
+    //console.log(behaviorID)
+    // if(parseInt(behaviorID) == 21216) {
+    //     console.log(tempArray[0])
+    //
+    // }
+    //console.log(tempArray[0].max_duration)
 
+    if(tempArray[0].max_duration != undefined){
+        console.log(`DURATION`)
+        console.log(tempArray[0].max_duration)
     }
 
     if(tempArray[0] != undefined){
@@ -69,6 +74,7 @@ function getKids(behaviorID, ogVal, parentName){
                     try{
                         if (parentName == `ground_action`) {
                             dmg.push(Object.values(tempArray[0])[i])
+                            console.log(tempArray[0])
                         } else if (parentName == `jump_action`) {
                             singleJumpSmash = (Object.values(tempArray[0])[i])
                         } else if (parentName == `double_jump_action`) {
@@ -122,7 +128,13 @@ function getKids(behaviorID, ogVal, parentName){
 }
 
 //var behaviorID = [1957, 1956]
-var behaviorID = [4245, 4253, 21267, 11183]
+//var behaviorID = [4245, 4253, 21267, 11183]//powerjouster
+//var behaviorID = [11183, 10884]//daredevil
+//var behaviorID = [23451]//adventurer 3
+var behaviorID = [23302]//adventurer 2
+//var behaviorID = [23666]//adventurer 2 whip
+
+
 for(var k=0;k<behaviorID.length;k++){
     var ogObj = {}
     ogObj.table = []
