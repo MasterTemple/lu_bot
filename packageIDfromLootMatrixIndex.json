@@ -1,0 +1,958 @@
+{
+  "table": [
+    {
+      "loc": "1",
+      "id": "1",
+      "LootMatrixIndex": "65",
+      "packageType": "0"
+    },
+    {
+      "loc": "4",
+      "id": "4",
+      "LootMatrixIndex": "145",
+      "packageType": "1"
+    },
+    {
+      "loc": "5",
+      "id": "5",
+      "LootMatrixIndex": "147",
+      "packageType": "1"
+    },
+    {
+      "loc": "2",
+      "id": "2",
+      "LootMatrixIndex": "148",
+      "packageType": "0"
+    },
+    {
+      "loc": "3",
+      "id": "3",
+      "LootMatrixIndex": "149",
+      "packageType": "0"
+    },
+    {
+      "loc": "6",
+      "id": "6",
+      "LootMatrixIndex": "246",
+      "packageType": "0"
+    },
+    {
+      "loc": "7",
+      "id": "7",
+      "LootMatrixIndex": "248",
+      "packageType": "0"
+    },
+    {
+      "loc": "8",
+      "id": "8",
+      "LootMatrixIndex": "249",
+      "packageType": "0"
+    },
+    {
+      "loc": "9",
+      "id": "9",
+      "LootMatrixIndex": "250",
+      "packageType": "0"
+    },
+    {
+      "loc": "10",
+      "id": "10",
+      "LootMatrixIndex": "256",
+      "packageType": "0"
+    },
+    {
+      "loc": "11",
+      "id": "11",
+      "LootMatrixIndex": "262",
+      "packageType": "0"
+    },
+    {
+      "loc": "12",
+      "id": "12",
+      "LootMatrixIndex": "266",
+      "packageType": "0"
+    },
+    {
+      "loc": "13",
+      "id": "13",
+      "LootMatrixIndex": "267",
+      "packageType": "0"
+    },
+    {
+      "loc": "14",
+      "id": "14",
+      "LootMatrixIndex": "268",
+      "packageType": "0"
+    },
+    {
+      "loc": "15",
+      "id": "15",
+      "LootMatrixIndex": "269",
+      "packageType": "0"
+    },
+    {
+      "loc": "16",
+      "id": "16",
+      "LootMatrixIndex": "271",
+      "packageType": "0"
+    },
+    {
+      "loc": "17",
+      "id": "17",
+      "LootMatrixIndex": "272",
+      "packageType": "0"
+    },
+    {
+      "loc": "18",
+      "id": "18",
+      "LootMatrixIndex": "273",
+      "packageType": "0"
+    },
+    {
+      "loc": "19",
+      "id": "19",
+      "LootMatrixIndex": "323",
+      "packageType": "3"
+    },
+    {
+      "loc": "20",
+      "id": "20",
+      "LootMatrixIndex": "324",
+      "packageType": "3"
+    },
+    {
+      "loc": "21",
+      "id": "21",
+      "LootMatrixIndex": "325",
+      "packageType": "3"
+    },
+    {
+      "loc": "22",
+      "id": "22",
+      "LootMatrixIndex": "326",
+      "packageType": "3"
+    },
+    {
+      "loc": "23",
+      "id": "23",
+      "LootMatrixIndex": "327",
+      "packageType": "3"
+    },
+    {
+      "loc": "24",
+      "id": "24",
+      "LootMatrixIndex": "328",
+      "packageType": "3"
+    },
+    {
+      "loc": "25",
+      "id": "25",
+      "LootMatrixIndex": "329",
+      "packageType": "3"
+    },
+    {
+      "loc": "26",
+      "id": "26",
+      "LootMatrixIndex": "381",
+      "packageType": "2"
+    },
+    {
+      "loc": "27",
+      "id": "27",
+      "LootMatrixIndex": "382",
+      "packageType": "2"
+    },
+    {
+      "loc": "28",
+      "id": "28",
+      "LootMatrixIndex": "383",
+      "packageType": "2"
+    },
+    {
+      "loc": "29",
+      "id": "29",
+      "LootMatrixIndex": "384",
+      "packageType": "2"
+    },
+    {
+      "loc": "30",
+      "id": "30",
+      "LootMatrixIndex": "385",
+      "packageType": "2"
+    },
+    {
+      "loc": "31",
+      "id": "31",
+      "LootMatrixIndex": "386",
+      "packageType": "2"
+    },
+    {
+      "loc": "32",
+      "id": "32",
+      "LootMatrixIndex": "389",
+      "packageType": "2"
+    },
+    {
+      "loc": "33",
+      "id": "33",
+      "LootMatrixIndex": "390",
+      "packageType": "2"
+    },
+    {
+      "loc": "34",
+      "id": "34",
+      "LootMatrixIndex": "391",
+      "packageType": "2"
+    },
+    {
+      "loc": "35",
+      "id": "35",
+      "LootMatrixIndex": "392",
+      "packageType": "2"
+    },
+    {
+      "loc": "36",
+      "id": "36",
+      "LootMatrixIndex": "400",
+      "packageType": "3"
+    },
+    {
+      "loc": "37",
+      "id": "37",
+      "LootMatrixIndex": "401",
+      "packageType": "3"
+    },
+    {
+      "loc": "38",
+      "id": "38",
+      "LootMatrixIndex": "402",
+      "packageType": "3"
+    },
+    {
+      "loc": "39",
+      "id": "39",
+      "LootMatrixIndex": "403",
+      "packageType": "0"
+    },
+    {
+      "loc": "40",
+      "id": "40",
+      "LootMatrixIndex": "411",
+      "packageType": "0"
+    },
+    {
+      "loc": "41",
+      "id": "41",
+      "LootMatrixIndex": "412",
+      "packageType": "0"
+    },
+    {
+      "loc": "42",
+      "id": "42",
+      "LootMatrixIndex": "414",
+      "packageType": "1"
+    },
+    {
+      "loc": "43",
+      "id": "43",
+      "LootMatrixIndex": "415",
+      "packageType": "0"
+    },
+    {
+      "loc": "44",
+      "id": "44",
+      "LootMatrixIndex": "416",
+      "packageType": "0"
+    },
+    {
+      "loc": "45",
+      "id": "46",
+      "LootMatrixIndex": "417",
+      "packageType": "0"
+    },
+    {
+      "loc": "46",
+      "id": "47",
+      "LootMatrixIndex": "419",
+      "packageType": "0"
+    },
+    {
+      "loc": "47",
+      "id": "48",
+      "LootMatrixIndex": "420",
+      "packageType": "0"
+    },
+    {
+      "loc": "48",
+      "id": "49",
+      "LootMatrixIndex": "421",
+      "packageType": "0"
+    },
+    {
+      "loc": "49",
+      "id": "50",
+      "LootMatrixIndex": "422",
+      "packageType": "0"
+    },
+    {
+      "loc": "50",
+      "id": "51",
+      "LootMatrixIndex": "423",
+      "packageType": "0"
+    },
+    {
+      "loc": "51",
+      "id": "52",
+      "LootMatrixIndex": "425",
+      "packageType": "0"
+    },
+    {
+      "loc": "52",
+      "id": "53",
+      "LootMatrixIndex": "426",
+      "packageType": "0"
+    },
+    {
+      "loc": "53",
+      "id": "54",
+      "LootMatrixIndex": "430",
+      "packageType": "0"
+    },
+    {
+      "loc": "54",
+      "id": "55",
+      "LootMatrixIndex": "431",
+      "packageType": "0"
+    },
+    {
+      "loc": "55",
+      "id": "56",
+      "LootMatrixIndex": "432",
+      "packageType": "0"
+    },
+    {
+      "loc": "56",
+      "id": "57",
+      "LootMatrixIndex": "433",
+      "packageType": "0"
+    },
+    {
+      "loc": "57",
+      "id": "58",
+      "LootMatrixIndex": "437",
+      "packageType": "0"
+    },
+    {
+      "loc": "58",
+      "id": "59",
+      "LootMatrixIndex": "441",
+      "packageType": "0"
+    },
+    {
+      "loc": "59",
+      "id": "60",
+      "LootMatrixIndex": "442",
+      "packageType": "0"
+    },
+    {
+      "loc": "60",
+      "id": "61",
+      "LootMatrixIndex": "443",
+      "packageType": "0"
+    },
+    {
+      "loc": "61",
+      "id": "62",
+      "LootMatrixIndex": "445",
+      "packageType": "0"
+    },
+    {
+      "loc": "62",
+      "id": "63",
+      "LootMatrixIndex": "447",
+      "packageType": "2"
+    },
+    {
+      "loc": "63",
+      "id": "64",
+      "LootMatrixIndex": "451",
+      "packageType": "0"
+    },
+    {
+      "loc": "64",
+      "id": "65",
+      "LootMatrixIndex": "474",
+      "packageType": "0"
+    },
+    {
+      "loc": "65",
+      "id": "66",
+      "LootMatrixIndex": "475",
+      "packageType": "0"
+    },
+    {
+      "loc": "66",
+      "id": "67",
+      "LootMatrixIndex": "476",
+      "packageType": "0"
+    },
+    {
+      "loc": "67",
+      "id": "68",
+      "LootMatrixIndex": "477",
+      "packageType": "0"
+    },
+    {
+      "loc": "68",
+      "id": "69",
+      "LootMatrixIndex": "478",
+      "packageType": "0"
+    },
+    {
+      "loc": "69",
+      "id": "70",
+      "LootMatrixIndex": "479",
+      "packageType": "0"
+    },
+    {
+      "loc": "70",
+      "id": "71",
+      "LootMatrixIndex": "480",
+      "packageType": "0"
+    },
+    {
+      "loc": "71",
+      "id": "72",
+      "LootMatrixIndex": "481",
+      "packageType": "0"
+    },
+    {
+      "loc": "72",
+      "id": "73",
+      "LootMatrixIndex": "482",
+      "packageType": "0"
+    },
+    {
+      "loc": "73",
+      "id": "74",
+      "LootMatrixIndex": "488",
+      "packageType": "0"
+    },
+    {
+      "loc": "74",
+      "id": "75",
+      "LootMatrixIndex": "489",
+      "packageType": "0"
+    },
+    {
+      "loc": "75",
+      "id": "76",
+      "LootMatrixIndex": "490",
+      "packageType": "0"
+    },
+    {
+      "loc": "76",
+      "id": "77",
+      "LootMatrixIndex": "491",
+      "packageType": "0"
+    },
+    {
+      "loc": "77",
+      "id": "78",
+      "LootMatrixIndex": "492",
+      "packageType": "0"
+    },
+    {
+      "loc": "78",
+      "id": "79",
+      "LootMatrixIndex": "493",
+      "packageType": "0"
+    },
+    {
+      "loc": "79",
+      "id": "80",
+      "LootMatrixIndex": "494",
+      "packageType": "0"
+    },
+    {
+      "loc": "81",
+      "id": "82",
+      "LootMatrixIndex": "537",
+      "packageType": "2"
+    },
+    {
+      "loc": "86",
+      "id": "87",
+      "LootMatrixIndex": "537",
+      "packageType": "2"
+    },
+    {
+      "loc": "87",
+      "id": "88",
+      "LootMatrixIndex": "537",
+      "packageType": "2"
+    },
+    {
+      "loc": "80",
+      "id": "81",
+      "LootMatrixIndex": "538",
+      "packageType": "2"
+    },
+    {
+      "loc": "82",
+      "id": "83",
+      "LootMatrixIndex": "539",
+      "packageType": "2"
+    },
+    {
+      "loc": "83",
+      "id": "84",
+      "LootMatrixIndex": "540",
+      "packageType": "2"
+    },
+    {
+      "loc": "84",
+      "id": "85",
+      "LootMatrixIndex": "596",
+      "packageType": "0"
+    },
+    {
+      "loc": "85",
+      "id": "86",
+      "LootMatrixIndex": "597",
+      "packageType": "0"
+    },
+    {
+      "loc": "88",
+      "id": "89",
+      "LootMatrixIndex": "600",
+      "packageType": "0"
+    },
+    {
+      "loc": "89",
+      "id": "90",
+      "LootMatrixIndex": "601",
+      "packageType": "0"
+    },
+    {
+      "loc": "90",
+      "id": "91",
+      "LootMatrixIndex": "602",
+      "packageType": "0"
+    },
+    {
+      "loc": "91",
+      "id": "92",
+      "LootMatrixIndex": "603",
+      "packageType": "0"
+    },
+    {
+      "loc": "92",
+      "id": "93",
+      "LootMatrixIndex": "604",
+      "packageType": "0"
+    },
+    {
+      "loc": "93",
+      "id": "94",
+      "LootMatrixIndex": "605",
+      "packageType": "0"
+    },
+    {
+      "loc": "94",
+      "id": "95",
+      "LootMatrixIndex": "606",
+      "packageType": "0"
+    },
+    {
+      "loc": "95",
+      "id": "96",
+      "LootMatrixIndex": "607",
+      "packageType": "0"
+    },
+    {
+      "loc": "96",
+      "id": "97",
+      "LootMatrixIndex": "608",
+      "packageType": "0"
+    },
+    {
+      "loc": "97",
+      "id": "98",
+      "LootMatrixIndex": "609",
+      "packageType": "0"
+    },
+    {
+      "loc": "98",
+      "id": "99",
+      "LootMatrixIndex": "613",
+      "packageType": "0"
+    },
+    {
+      "loc": "99",
+      "id": "100",
+      "LootMatrixIndex": "614",
+      "packageType": "0"
+    },
+    {
+      "loc": "100",
+      "id": "101",
+      "LootMatrixIndex": "615",
+      "packageType": "0"
+    },
+    {
+      "loc": "101",
+      "id": "102",
+      "LootMatrixIndex": "616",
+      "packageType": "0"
+    },
+    {
+      "loc": "102",
+      "id": "103",
+      "LootMatrixIndex": "626",
+      "packageType": "3"
+    },
+    {
+      "loc": "103",
+      "id": "104",
+      "LootMatrixIndex": "627",
+      "packageType": "3"
+    },
+    {
+      "loc": "104",
+      "id": "105",
+      "LootMatrixIndex": "628",
+      "packageType": "3"
+    },
+    {
+      "loc": "105",
+      "id": "106",
+      "LootMatrixIndex": "654",
+      "packageType": "0"
+    },
+    {
+      "loc": "106",
+      "id": "107",
+      "LootMatrixIndex": "656",
+      "packageType": "0"
+    },
+    {
+      "loc": "107",
+      "id": "108",
+      "LootMatrixIndex": "657",
+      "packageType": "0"
+    },
+    {
+      "loc": "108",
+      "id": "109",
+      "LootMatrixIndex": "662",
+      "packageType": "0"
+    },
+    {
+      "loc": "109",
+      "id": "110",
+      "LootMatrixIndex": "664",
+      "packageType": "0"
+    },
+    {
+      "loc": "110",
+      "id": "111",
+      "LootMatrixIndex": "665",
+      "packageType": "0"
+    },
+    {
+      "loc": "111",
+      "id": "112",
+      "LootMatrixIndex": "666",
+      "packageType": "0"
+    },
+    {
+      "loc": "112",
+      "id": "113",
+      "LootMatrixIndex": "668",
+      "packageType": "0"
+    },
+    {
+      "loc": "113",
+      "id": "114",
+      "LootMatrixIndex": "669",
+      "packageType": "0"
+    },
+    {
+      "loc": "114",
+      "id": "115",
+      "LootMatrixIndex": "671",
+      "packageType": "0"
+    },
+    {
+      "loc": "115",
+      "id": "116",
+      "LootMatrixIndex": "672",
+      "packageType": "0"
+    },
+    {
+      "loc": "116",
+      "id": "117",
+      "LootMatrixIndex": "673",
+      "packageType": "0"
+    },
+    {
+      "loc": "117",
+      "id": "118",
+      "LootMatrixIndex": "674",
+      "packageType": "0"
+    },
+    {
+      "loc": "118",
+      "id": "119",
+      "LootMatrixIndex": "675",
+      "packageType": "0"
+    },
+    {
+      "loc": "119",
+      "id": "120",
+      "LootMatrixIndex": "676",
+      "packageType": "0"
+    },
+    {
+      "loc": "120",
+      "id": "121",
+      "LootMatrixIndex": "686",
+      "packageType": "0"
+    },
+    {
+      "loc": "121",
+      "id": "122",
+      "LootMatrixIndex": "705",
+      "packageType": "0"
+    },
+    {
+      "loc": "122",
+      "id": "123",
+      "LootMatrixIndex": "706",
+      "packageType": "0"
+    },
+    {
+      "loc": "123",
+      "id": "124",
+      "LootMatrixIndex": "708",
+      "packageType": "0"
+    },
+    {
+      "loc": "124",
+      "id": "125",
+      "LootMatrixIndex": "709",
+      "packageType": "0"
+    },
+    {
+      "loc": "125",
+      "id": "126",
+      "LootMatrixIndex": "711",
+      "packageType": "0"
+    },
+    {
+      "loc": "126",
+      "id": "127",
+      "LootMatrixIndex": "727",
+      "packageType": "0"
+    },
+    {
+      "loc": "127",
+      "id": "128",
+      "LootMatrixIndex": "728",
+      "packageType": "0"
+    },
+    {
+      "loc": "128",
+      "id": "129",
+      "LootMatrixIndex": "729",
+      "packageType": "0"
+    },
+    {
+      "loc": "129",
+      "id": "130",
+      "LootMatrixIndex": "730",
+      "packageType": "0"
+    },
+    {
+      "loc": "130",
+      "id": "131",
+      "LootMatrixIndex": "731",
+      "packageType": "0"
+    },
+    {
+      "loc": "134",
+      "id": "135",
+      "LootMatrixIndex": "732",
+      "packageType": "0"
+    },
+    {
+      "loc": "135",
+      "id": "136",
+      "LootMatrixIndex": "733",
+      "packageType": "0"
+    },
+    {
+      "loc": "136",
+      "id": "137",
+      "LootMatrixIndex": "734",
+      "packageType": "0"
+    },
+    {
+      "loc": "137",
+      "id": "138",
+      "LootMatrixIndex": "735",
+      "packageType": "0"
+    },
+    {
+      "loc": "131",
+      "id": "132",
+      "LootMatrixIndex": "791",
+      "packageType": "0"
+    },
+    {
+      "loc": "132",
+      "id": "133",
+      "LootMatrixIndex": "808",
+      "packageType": "0"
+    },
+    {
+      "loc": "133",
+      "id": "134",
+      "LootMatrixIndex": "809",
+      "packageType": "0"
+    },
+    {
+      "loc": "138",
+      "id": "139",
+      "LootMatrixIndex": "810",
+      "packageType": "0"
+    },
+    {
+      "loc": "139",
+      "id": "140",
+      "LootMatrixIndex": "811",
+      "packageType": "0"
+    },
+    {
+      "loc": "140",
+      "id": "141",
+      "LootMatrixIndex": "812",
+      "packageType": "0"
+    },
+    {
+      "loc": "141",
+      "id": "142",
+      "LootMatrixIndex": "813",
+      "packageType": "0"
+    },
+    {
+      "loc": "142",
+      "id": "143",
+      "LootMatrixIndex": "814",
+      "packageType": "0"
+    },
+    {
+      "loc": "143",
+      "id": "144",
+      "LootMatrixIndex": "815",
+      "packageType": "0"
+    },
+    {
+      "loc": "144",
+      "id": "145",
+      "LootMatrixIndex": "816",
+      "packageType": "0"
+    },
+    {
+      "loc": "145",
+      "id": "146",
+      "LootMatrixIndex": "817",
+      "packageType": "0"
+    },
+    {
+      "loc": "146",
+      "id": "147",
+      "LootMatrixIndex": "818",
+      "packageType": "0"
+    },
+    {
+      "loc": "147",
+      "id": "148",
+      "LootMatrixIndex": "819",
+      "packageType": "0"
+    },
+    {
+      "loc": "148",
+      "id": "149",
+      "LootMatrixIndex": "820",
+      "packageType": "0"
+    },
+    {
+      "loc": "149",
+      "id": "150",
+      "LootMatrixIndex": "821",
+      "packageType": "0"
+    },
+    {
+      "loc": "150",
+      "id": "151",
+      "LootMatrixIndex": "829",
+      "packageType": "0"
+    },
+    {
+      "loc": "151",
+      "id": "152",
+      "LootMatrixIndex": "830",
+      "packageType": "0"
+    },
+    {
+      "loc": "152",
+      "id": "153",
+      "LootMatrixIndex": "831",
+      "packageType": "0"
+    },
+    {
+      "loc": "153",
+      "id": "154",
+      "LootMatrixIndex": "832",
+      "packageType": "0"
+    },
+    {
+      "loc": "154",
+      "id": "155",
+      "LootMatrixIndex": "833",
+      "packageType": "0"
+    },
+    {
+      "loc": "155",
+      "id": "156",
+      "LootMatrixIndex": "834",
+      "packageType": "0"
+    },
+    {
+      "loc": "156",
+      "id": "157",
+      "LootMatrixIndex": "835",
+      "packageType": "0"
+    },
+    {
+      "loc": "157",
+      "id": "158",
+      "LootMatrixIndex": "886",
+      "packageType": "0"
+    },
+    {
+      "loc": "158",
+      "id": "159",
+      "LootMatrixIndex": "890",
+      "packageType": "0"
+    },
+    {
+      "loc": "159",
+      "id": "160",
+      "LootMatrixIndex": "891",
+      "packageType": "0"
+    }
+  ]
+}
