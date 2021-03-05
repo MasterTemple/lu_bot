@@ -1,9 +1,9 @@
 module.exports = {
-    name: ['drop', 'd'],
+    name: ['drop'],
     description: 'Find packages that contain a certain item',
     args: true,
-    use: `d [args]`,
-    example: [`d 3100`],
+    use: `drop [args]`,
+    example: [`drop 3100`],
     execute(message, args) {
         var data = {}
         data.table = []
