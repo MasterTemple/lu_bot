@@ -1,9 +1,9 @@
 module.exports = {
-    name: ['missionid',`mid`],
+    name: ['a'],
     description: 'Get mission by ID',
     args: true,
     use: `missionid [id]`,
-    example:[`missionid 1665`, `mid 228`],
+    example:[`a 206`],
     execute(message, args) {
         //const client = message.client;
         //
@@ -23,11 +23,11 @@ module.exports = {
 
         var text = require(`./../locale/MissionText/${Math.floor(args[0]/256)}.json`);
         var info = require(`./../tables/Missions/${Math.floor(args[0]/256)}/${args[0]}.json`);
-        var npc = require(`./../objects/0/${Math.floor(info.offer_objectID/256)}/${info.offer_objectID}.json`);
+        //var npc = require(`./../objects/0/${Math.floor(info.offer_objectID/256)}/${info.offer_objectID}.json`);
 
-        desc = `**Giver:**\n${npc.displayName}`
-        desc = `${desc}\n**Description:**\n${text[args[0]].accept_chat_bubble}`
-        desc = `${desc}\n**Objective:**\n${text[args[0]].in_progress}`
+        //desc = `**Giver:**\n${npc.displayName}`
+        desc = `${desc}\n**Objective:**\n${text[args[0]].description}`
+        //desc = `${desc}\n**Objective:**\n${text[args[0]].in_progress}`
         //desc = `${desc}\n**On Completion:**\n${text[args[0]].completion_succeed_tip}`
 
         if(info.reward_item1 != -1 && info.reward_item2 == -1) {
@@ -52,16 +52,39 @@ module.exports = {
             desc = `${desc}\n${reward.name} [${info.reward_item4}] x ${info.reward_item4_count}`
         }
 
+        if(info.reward_maximagination != -1 && info.reward_maximagination < 2 && info.reward_maximagination != 0){
+            desc = `${desc}\n **+${info.reward_maximagination}** Imagination Point`
+        }
+        if(info.reward_maximagination != -1 && info.reward_maximagination > 1 && info.reward_maximagination != 0){
+            desc = `${desc}\n **+${info.reward_maximagination}** Imagination Points`
+        }
+        if(info.reward_maxhealth != -1 && info.reward_maxhealth < 2 && info.reward_maxhealth != 0){
+            desc = `${desc}\n **+${info.reward_maxhealth}** Health Point`
+        }
+        if(info.reward_maxhealth != -1 && info.reward_maxinventory > 1 && info.reward_maxinventory != 0){
+            desc = `${desc}\n **+${info.reward_maxhealth}** Health Points`
+        }
+        if(info.reward_maxinventory != -1 && info.reward_maxinventory < 2 && info.reward_maxinventory != 0){
+            desc = `${desc}\n **+${info.reward_maxinventory}** Inventory Slot`
+        }
+        if(info.reward_maxinventory != -1 && info.reward_maxinventory > 1 && info.reward_maxinventory != 0){
+            desc = `${desc}\n **+${info.reward_maxinventory}** Inventory Slots`
+        }
+
         desc = `${desc}\n**Universe Score:**\n${info.LegoScore} Points`
         if(info.repeatable == true){
             name = `${name} (Repeatable)`
         }
+        //console.log(info.)
 
 //DO ICON URL
+
         var MissionTasks = require(`./../tables/MissionTasks/${Math.floor(args[0]/256)}/${args[0]}.json`);
         var iconID = MissionTasks.tasks[0].IconID
         var icon = require(`./../tables/Icons/${iconID}.json`)
         var iconPath = icon.IconPath
+        console.log(iconPath)
+        //var iconURL
         if(iconPath != null) {
             iconPath = iconPath.replace('DDS', 'png')
             iconPath = iconPath.replace('dds', 'png')
@@ -73,34 +96,39 @@ module.exports = {
             var iconURL = `https://github.com/MasterTemple/lu_bot/blob/master/src/unknown.png?raw=true`
             //question mark
         }
+
+        // if(iconUrl == undefined){
+        //     iconUrl = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
+        //
+        // }
         //console.log(args[0],args[1],args[2],args[3])
 
 
-            var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
-            var url = `https://discord.com/api/oauth2/authorize?client_id=813618765685456916&permissions=52288&scope=bot`
-            var client = message.client
-            var channel = message.channel.toString()
-            channel = channel.substring(2, channel.length-1);
-            if(desc == ''){
-                desc = "**0 Results**"
-            }
-            const Discord = require('discord.js');
-            //var title = `${name} : ${npc.displayName}`
+        var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
+        var url = `https://discord.com/api/oauth2/authorize?client_id=813618765685456916&permissions=52288&scope=bot`
+        var client = message.client
+        var channel = message.channel.toString()
+        channel = channel.substring(2, channel.length-1);
+        if(desc == ''){
+            desc = "**0 Results**"
+        }
+        const Discord = require('discord.js');
+        //var title = `${name} : ${npc.displayName}`
         var title = `${name}`
 
         const Embed = new Discord.MessageEmbed()
-                .setColor('#00ffff')
-                .setTitle(title)
-                .setURL(url)
-                .setAuthor(`Nexus Force`, nexusLink, url)
-                .setDescription(desc)
+            .setColor('#00ffff')
+            .setTitle(title)
+            .setURL(url)
+            .setAuthor(`Nexus Force`, nexusLink, url)
+            .setDescription(desc)
 
-                .setThumbnail(iconURL)
+            .setThumbnail(iconURL)
 
-                .setTimestamp()
-                .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
+            .setTimestamp()
+            .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
 
-            client.channels.cache.get(channel).send(Embed);
+        client.channels.cache.get(channel).send(Embed);
 
 
 
