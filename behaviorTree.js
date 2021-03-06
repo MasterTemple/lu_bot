@@ -1,5 +1,7 @@
 //const behaviorParameters = require(`./search/BehaviorParameter.json`)
 const behaviorParameters = require(`./search/fullSortedBehaviorParameter.json`)
+const behaviorTemplate = require(`./search/behaviorTemplate.json`)
+const ObjectSkills = require(`./search/ObjectSkills.json`)
 var actions = ["action", "miss action", "blocked action", "action_false", "action_true", "start_action", "chain_action", "break_action", "double_jump_action", "ground_action", "jump_action", "hit_action", "hit_action_enemy", "timeout_action", "air_action", "falling_action", "jetpack_action", "spawn_fail_action", "action_failed", "action_consumed", "blocked_action", "moving_action", "on_success", "behavior","behavior 0","behavior 1","behavior 2","behavior 3","behavior 4","behavior 5","behavior 6","behavior 7","behavior 8","behavior 9","bahavior 2"]
 var numsOfActions = 0
 var behaviorActions = []
@@ -30,6 +32,18 @@ function getKids(behaviorID, ogVal, parentName){
     //
     // }
     //console.log(tempArray[0].max_duration)
+    //console.log(behaviorTemplate.table.find(a => parseInt(a.behaviorID) == parseInt(behaviorID)))
+
+    if(behaviorTemplate.table.find(a => parseInt(a.behaviorID) == parseInt(behaviorID)).templateID == `4`){
+        console.log(`projectile attack`)
+        //console.log(tempArray[0].LOT_ID)
+        //console.log(ObjectSkills.table.find(a => parseInt(a.objectTemplate) == parseInt(tempArray[0].LOT_ID)).skillID)
+        var skillBehavior = require(`./tables/SkillBehavior/${ObjectSkills.table.find(a => parseInt(a.objectTemplate) == parseInt(tempArray[0].LOT_ID)).skillID}.json`)
+        console.log(skillBehavior.behaviorID)
+        getKids(skillBehavior.behaviorID, false, `projectile`)
+        //projectileDMG.push(skillBehavior.behaviorID)
+
+    }
 
     if(tempArray[0].max_duration != undefined){
         console.log(`DURATION`)
@@ -39,6 +53,9 @@ function getKids(behaviorID, ogVal, parentName){
     if(tempArray[0] != undefined){
         for (var i = 0; i < Object.keys(tempArray[0]).length; i++) {
             //console.log(`----------------`)
+
+
+
 
             //console.log(`I HAVE KIDS`)
             //console.log((Object.keys(tempArray[0])[i]),(Object.values(tempArray[0])[i]))
@@ -74,12 +91,14 @@ function getKids(behaviorID, ogVal, parentName){
                     try{
                         if (parentName == `ground_action`) {
                             dmg.push(Object.values(tempArray[0])[i])
-                            console.log(tempArray[0])
+                            //console.log(tempArray[0])
                         } else if (parentName == `jump_action`) {
                             singleJumpSmash = (Object.values(tempArray[0])[i])
                         } else if (parentName == `double_jump_action`) {
                             doubleJumpSmash = (Object.values(tempArray[0])[i])
-                        }else if (parentName == `mael`) {
+                        } else if (parentName == `projectile`) {
+                            projectileDMG.push(Object.values(tempArray[0])[i])
+                        } else if (parentName == `mael`) {
                             dmg.push(Object.values(tempArray[0])[i])
                         } else {
                             console.log(parentName)
@@ -90,6 +109,16 @@ function getKids(behaviorID, ogVal, parentName){
                     //dmg.push(Object.values(tempArray[0])[i])
 
                 }
+                //console.log(Object.keys(tempArray[0]))
+                if(tempArray[0].templateID == "4" ) {
+                    //console.log(`${i}: damage = [${(Object.values(tempArray[0])[i])}]`)
+                    //dmg.push(`${behaviorID}: damage = [${(Object.values(tempArray[0])[i])}]`)
+                    //console.log(parentName)
+
+                    console.log(`Projectile attack: ${Object.values(tempArray[0])[i]}`)
+
+                }
+
                 if(Object.keys(tempArray[0])[i] == "imag"){
                     //console.log(`${i}: damage = [${(Object.values(tempArray[0])[i])}]`)
                     //dmg.push(`${behaviorID}: damage = [${(Object.values(tempArray[0])[i])}]`)
@@ -101,6 +130,8 @@ function getKids(behaviorID, ogVal, parentName){
                     }
                 }
                 if(Object.keys(tempArray[0])[i] == "imagination"){
+
+
                     //console.log(`${i}: damage = [${(Object.values(tempArray[0])[i])}]`)
                     //dmg.push(`${behaviorID}: damage = [${(Object.values(tempArray[0])[i])}]`)
                     //console.log(parentName)
@@ -132,7 +163,10 @@ function getKids(behaviorID, ogVal, parentName){
 //var behaviorID = [11183, 10884]//daredevil
 //var behaviorID = [23451]//adventurer 3
 //var behaviorID = [23302]//adventurer 2
-var behaviorID = [4244,4254,22316,11183,]//anything
+//var behaviorID = [4244,4254,22316,11183,]//wormholer
+//var behaviorID = [4244,4254,22316,11183,]//anything
+var behaviorID = [11183, 10884]//daredevil
+
 
 
 for(var k=0;k<behaviorID.length;k++){
@@ -141,6 +175,7 @@ for(var k=0;k<behaviorID.length;k++){
     var doubleJumpSmash = -1
     var singleJumpSmash = -1
     var dmg = []
+    var projectileDMG = []
     var tempParent = behaviorID[k]
     console.log(`--${tempParent}--`)
     try {
@@ -175,6 +210,9 @@ for(var k=0;k<behaviorID.length;k++){
         try{
             getKids(tempParent,false, `mael`)
         }catch{}
+        try{
+            getKids(tempParent,false, `projectile`)
+        }catch{}
 
         //console.log(numsOfActions)
         ////getKids(17760, false)
@@ -193,6 +231,7 @@ for(var k=0;k<behaviorID.length;k++){
 
         if(dmg != [] && singleJumpSmash != -1 && doubleJumpSmash != -1){
             var obj = {
+                projectileDamage: projectileDMG,
                 damageCombo: dmg.join(`+`),
                 doubleJumpSmash: doubleJumpSmash,
                 singleJumpSmash: singleJumpSmash
@@ -213,3 +252,4 @@ for(var k=0;k<behaviorID.length;k++){
 }
 
 console.log(finalObject)
+console.log(finalObject.table[0])
