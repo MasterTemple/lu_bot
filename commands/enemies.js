@@ -59,18 +59,41 @@ module.exports = {
             return Number(value.toFixed(2));
         };
 
+        dropData.LootMatrixIndex = destructibleComponent.LootMatrixIndex
         //console.log(roundToHundredth(parseFloat(LootMatrixIndexFile["elements"][k].percent)*100.0))
         for(var k=0;k<LootMatrixIndexFile["elements"].length;k++){
-            console.log(`${roundToHundredth(parseFloat(LootMatrixIndexFile["elements"][k].percent)*100.0)}% Chance to Drop ${LootMatrixIndexFile["elements"][k].minToDrop}-${LootMatrixIndexFile["elements"][k].maxToDrop} Items:`)
+            var object = {
+                LootTableIndex: LootMatrixIndexFile["elements"][k].LootTableIndex,
+                percent: roundToHundredth(parseFloat(LootMatrixIndexFile["elements"][k].percent)*100.0),
+                minToDrop: LootMatrixIndexFile["elements"][k].minToDrop,
+                maxToDrop: LootMatrixIndexFile["elements"][k].maxToDrop,
+                items: []
+            }
+            var itemNames = []
+            var itemDisplayNames = []
+            var itemIDs = []
+            //console.log(`${roundToHundredth(parseFloat(LootMatrixIndexFile["elements"][k].percent)*100.0)}% Chance to Drop ${LootMatrixIndexFile["elements"][k].minToDrop}-${LootMatrixIndexFile["elements"][k].maxToDrop} Items:`)
             var LootTableFile = require(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(LootMatrixIndexFile["elements"][k].LootTableIndex/256)}/${LootMatrixIndexFile["elements"][k].LootTableIndex}.json`)
             for(var j=0;j<LootTableFile["elements"].length;j++){
                 //console.log(LootTableFile["elements"][j].itemid)
-                var dropItemFile = require(`./../objects/0/${Math.floor(LootTableFile["elements"][j].itemid/256)}/${LootTableFile["elements"][j].itemid}`)
-                console.log(LootTableFile["elements"][j].itemid, dropItemFile.displayName)
 
+                try{
+                    var dropItemFile = require(`./../objects/0/${Math.floor(LootTableFile["elements"][j].itemid / 256)}/${LootTableFile["elements"][j].itemid}`)
+                    //console.log(LootTableFile["elements"][j].itemid, dropItemFile.displayName)
+                    var tempObj = {
+                        itemID: LootTableFile["elements"][j].itemid,
+                        displayName: dropItemFile.displayName,
+                        name: dropItemFile.name
+                    }
+
+                    object.items.push(tempObj)
+                }catch{}
             }
 
+        dropData.table.push(object)
+
         }
+        console.log(dropData)
 
 
         //console.log(`life:${destructibleComponent.life}`)
