@@ -210,26 +210,49 @@ module.exports = {
 
             return information
 
-        }else if(type == `LEGO brick`){
+        }else if(type == `LEGO brick`) {
             const func = require(`./brick.js`);
             const brickVendorsIDs = [2264, 3921, 7429, 9705, 9706, 9707, 13379]
             var msg = ``
 
-            for(var i =0;i<brickVendorsIDs.length;i++){
 
-                try{
-                    var item = require(`./../objects/0/${Math.floor(brickVendorsIDs[i] / 256)}/${brickVendorsIDs[i]}.json`);
-                    var itemName = item.displayName
-                    //msg=`${msg}\n${vendorsNames[i]}: [${vendorsIDs[i]}]
-                    if (itemName != null) {
-                        msg = `${msg}\n${itemName}: [${brickVendorsIDs[i]}]`
+            for (var i = 0; i < brickVendorsIDs.length; i++) {
+                var id = brickVendorsIDs[i]
+                var folder_loc = Math.floor(id / 256)
+                var item_loc = id
+                var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
+                var vendor = item.components["16"]
+
+                var soldObjects = require(`./../tables/VendorComponent/0/${vendor}.json`)
+                var lootMatrixIndex = soldObjects.LootMatrixIndex
+                var lootMatrixTable = require(`./../tables/LootMatrix/${Math.floor(lootMatrixIndex / 256)}/${lootMatrixIndex}.json`)
+                var lootTableIndex = lootMatrixTable["elements"][0].LootTableIndex
+                var lootTable = require(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(lootTableIndex / 256)}/${lootTableIndex}.json`)
+                //console.log(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(lootTableIndex/256)}/${lootTableIndex}.json`)
+                //console.log(lootTable["elements"])
+                for (var k = 0; k < lootTable["elements"].length; k++) {
+                    //console.log(lootTable["elements"][k].itemid)
+                    if ((lootTable["elements"][k].itemid) == itemID) {
+                        console.log(brickVendorsIDs[i])
+                        console.log(true)
+                        data.brickVendor = brickVendorsIDs[i]
                     }
-                }catch{}
+                }
+
+
 
             }
-            var newARG = [itemID, "FROMBUYITEM", msg, brickVendorsIDs.length]
-            console.log(msg)
-            func.execute(newARG);
+            //var newARG = [itemID, "FROMBUYITEM", msg, brickVendorsIDs.length]
+            //console.log(msg)
+            var returnData = func.execute([itemID]);
+
+            let information = {
+                ...returnData,
+                ...data
+            };
+
+            return information
+
         }else{
             console.log(`You cannot purchase this object.`)
         }

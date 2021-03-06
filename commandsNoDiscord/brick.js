@@ -4,7 +4,8 @@ module.exports = {
     args: true,
     use: `brick [id]`,
     example:[`brick 16`],
-    execute(message, args) {
+    execute(args) {
+        var data = {}
         var id = args[0]
         var folder_loc = Math.floor(id / 256)
         var item_loc = id
@@ -20,6 +21,8 @@ module.exports = {
             return;
         }
 
+        data.name = item.name
+        data.displayName = item.displayName
 
         var title = item.name
         //console.log(item)
@@ -30,11 +33,7 @@ module.exports = {
 
 
 
-        const client = message.client;
-        var channel = message.channel.toString();
-        channel = channel.substring(2, channel.length-1);
 
-        const Discord = require('discord.js');
         var url = `https://lu-explorer.web.app/objects/${id}/2`;
 
         var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
@@ -48,12 +47,15 @@ module.exports = {
         console.log(`displayName: ${displayName}`)
         //var item_description = `**Description**${extra_desc}`
         var iconURL = `https://xiphoseer.github.io/lu-res/textures/ui/bricks/dds/${item.name}.png`
+        data.iconURL = iconURL
         var priceComponentID = item.components["11"]
         var priceFile = require(`./../tables/ItemComponent/${Math.floor(priceComponentID/256)}/${priceComponentID}.json`)
         var stackSize = priceFile.stackSize
+        data.stackSize = priceFile.stackSize
         var price = priceFile.baseValue
+        data.price = priceFile.baseValue
 
 
-
+    return data
     }
 }

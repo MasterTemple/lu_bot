@@ -64,8 +64,8 @@ module.exports = {
             var lootMatrixTable = require(`./../tables/LootMatrix/${Math.floor(lootMatrixIndex/256)}/${lootMatrixIndex}.json`)
             var lootTableIndex = lootMatrixTable["elements"][0].LootTableIndex
             var lootTable = require(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(lootTableIndex/256)}/${lootTableIndex}.json`)
-            console.log(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(lootTableIndex/256)}/${lootTableIndex}.json`)
-            //console.log(lootTable["elements"].length)
+            //console.log(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(lootTableIndex/256)}/${lootTableIndex}.json`)
+            //console.log(lootTable["elements"])
             for(let k=0;k<lootTable["elements"].length/2;k++){
                 //console.log(lootTable["elements"][k].itemid)
                 var soldItemName = require(`./../objects/0/${Math.floor(lootTable["elements"][k].itemid/256)}/${lootTable["elements"][k].itemid}.json`);
