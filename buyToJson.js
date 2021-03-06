@@ -1,6 +1,6 @@
 var fs = require(`fs`)
 var buy = require(`./commandsNoDiscord/buy.js`)
-var num = 3
+var num = 12735
 var ok = buy.execute([num])
 
 console.log(ok)

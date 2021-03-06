@@ -14,11 +14,45 @@ module.exports = {
         data.type = type
         if(type == `Loot`){
             const LootMatrixIndex = require(`./../search/LootMatrixIndex.json`)
-            const LootTable = require(`./../tables/LootTable/groupBy/itemid/${Math.floor(itemID/256)}/${itemID}.json`)
+            var LootTable
+            try{
+                LootTable = require(`./../tables/LootTable/groupBy/itemid/${Math.floor(itemID / 256)}/${itemID}.json`)
+                data.isSoldByVendor = true
+
+            }catch{
+                const func = require(`./item.js`);
+                var returnData = func.execute([itemID]);
+                if(returnData.commendationCost != null) {
+                    data.isSoldByVendor = true
+                    //data.commendationVendorID = 13806
+                    //data.commendationVendorName = `Commendation Vendor`
+                    //data.commendationVendorDisplayName = `Honor Accolade - Commendation Vendor`
+                    data.commendationVendor = []
+                    var object = {
+                        ID: 13806,
+                        Name: `Commendation Vendor`,
+                        DisplayName: `Honor Accolade - Commendation Vendor`
+                    }
+                    data.commendationVendor.push(object)
+
+                }else{
+                    data.isSoldByVendor = false
+                }
+
+                // console.log(returnData)
+                let information = {
+                    ...returnData,
+                    ...data
+                };
+
+                return information
+                //
+                // return data
+            }
             const LootMatrix = require(`./../search/LootMatrix.json`)
             const objectComponent = require(`./../objects/groupBy/component/16.json`)
             const VendorComponent = require(`./../search/VendorComponent.json`)
-            //console.log(`len ${LootTable["elements"].length}`)
+            // //console.log(`len ${LootTable["elements"].length}`)
             var soldByVendor = []
             var vendorsIDs = []
             var vendorsNames = []
@@ -28,45 +62,45 @@ module.exports = {
 
             //for(let i=0;i<)
 
-            //console.log(LootMatrixIndex["table"])
+            // //console.log(LootMatrixIndex["table"])
             for(let i=0;i<LootTable["elements"].length;i++) {
                 lootTableIndexes.push(LootTable["elements"][i].LootTableIndex)
             }
             //for(let i=0;i<LootMatrixIndex["table"].length;i++){
 
-            console.log(`lootTableIndexes`)
-            console.log(lootTableIndexes)
+            // console.log(`lootTableIndexes`)
+            // console.log(lootTableIndexes)
 
 
             //I NEED TO CONVERT LOOTTABLEINDEX T0 LOOTMATRIXINDEX
 
 
-            //console.log(lootTableIndexes.length)
-            //console.log(LootMatrix.table)
-            //console.log(LootMatrix.table.find(a => a.ids.includes("691")))
+            // //console.log(lootTableIndexes.length)
+            // //console.log(LootMatrix.table)
+            // //console.log(LootMatrix.table.find(a => a.ids.includes("691")))
 
             for(let i =0; i < lootTableIndexes.length;i++){
                 var value = lootTableIndexes[i]
-                //console.log(value)
+                // //console.log(value)
 
                 //var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(value/256)}/${value}.json`)
                 //var ans = getKeyByValue(objectComponent, )
-                //console.log(i)
+                // //console.log(i)
 
                 try{
-                    //console.log(LootMatrix.table.find(a => a.LootTableIndexes == value))
+                    // //console.log(LootMatrix.table.find(a => a.LootTableIndexes == value))
                     //lootMatrixIndexes.push(LootMatrix.table.find(a => a.ids.includes(value)).LootMatrixIndex)
-                    //console.log(value)
-                    //console.log(LootMatrix.table.find(a => a.ids.includes(`${value}`)))
+                    // //console.log(value)
+                    // //console.log(LootMatrix.table.find(a => a.ids.includes(`${value}`)))
                     lootMatrixIndexes.push(LootMatrix.table.find(a => a.ids.includes(`${value}`)).LootMatrixIndex)
                 }catch(e){
-                    //console.log(e)
-                    //console.log(lootTableIndexes[i])
+                    // //console.log(e)
+                    // //console.log(lootTableIndexes[i])
                 }
             }
-            console.log(`lootMatrixIndexes`)
+            // console.log(`lootMatrixIndexes`)
 
-            console.log(lootMatrixIndexes)
+            // console.log(lootMatrixIndexes)
 
 
             //I NEED TO CONVERT LOOTTABLEINDEX T0 LOOTMATRIXINDEX
@@ -79,16 +113,16 @@ module.exports = {
                 //if(LootMatrixIndex["table"].inNPCEditor == 1){
                 // if(LootMatrixIndex.table.find(a => a.LootMatrixIndex == lootMatrixIndexes[i])){
                 var check =LootMatrixIndex.table.find(a => a.LootMatrixIndex == lootMatrixIndexes[i]).inNPCEditor
-                //console.log(lootMatrixIndexes[i], check)
+                // //console.log(lootMatrixIndexes[i], check)
                 if(check==1){
-                    //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 1)
+                    // //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 1)
                     soldByVendor.push(parseInt(lootMatrixIndexes[i]))
                 } else{
-                    //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 0)
+                    // //console.log(LootMatrixIndex["table"][i].LootMatrixIndex, 0)
                 }
             }
-            console.log(`soldByVendor`)
-            console.log(soldByVendor)
+            // console.log(`soldByVendor`)
+            // console.log(soldByVendor)
 
             var maybeThisOne = []
 
@@ -100,45 +134,45 @@ module.exports = {
             for(let i =0; i < soldByVendor.length;i++){
                 //var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(value/256)}/${value}.json`)
                 //var ans = getKeyByValue(objectComponent, )
-                //console.log(i)
+                // //console.log(i)
 
                 try{
                     var matched = (VendorComponent.table.find(a => a.LootMatrixIndex == soldByVendor[i]))
 
-                    //console.log(matched.ids.length)
+                    // //console.log(matched.ids.length)
                     for(var h=0;h<matched.ids.length;h++){
-                        //console.log(matched.ids[h])
+                        // //console.log(matched.ids[h])
                         maybeThisOne.push(matched.ids[h])
                     }
                     //vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
                     //vendorsNames.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).name)
                 }catch(e){
-                    console.log(e)
-                    //console.log(`${soldByVendor[i]} failed`)
+                    // console.log(e)
+                    // //console.log(`${soldByVendor[i]} failed`)
                 }
 
             }
 
-            console.log(`right before component registry ${maybeThisOne}`)
+            // console.log(`right before component registry ${maybeThisOne}`)
 
             const ComponentRegistry = require(`./../search/ComponentRegistry.json`)
             for(let i =0; i < maybeThisOne.length;i++){
                 //var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(value/256)}/${value}.json`)
                 //var ans = getKeyByValue(objectComponent, )
-                //console.log(i)
+                // //console.log(i)
                 try{
-                    // console.log(objectComponent.table.find(a => a.comp_val == soldByVendor[i]))
+                    // // console.log(objectComponent.table.find(a => a.comp_val == soldByVendor[i]))
                     // vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
                     // vendorsNames.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).name)
 
-                    //console.log(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]))
+                    // //console.log(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]))
                     //vendorsIDs.push(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]).id)
                     //vendorsNames.push(objectComponent.table.find(a => a.comp_val == maybeThisOne[i]).name)
 
-                    //console.log(ComponentRegistry.table.find(a => a.component_id == maybeThisOne[i]))
+                    // //console.log(ComponentRegistry.table.find(a => a.component_id == maybeThisOne[i]))
                     vendorsIDs.push(ComponentRegistry.table.find(a => a.component_id == maybeThisOne[i]).id)
 
-                    //console.log(ComponentRegistry.table.find(a => a.component_id == soldByVendor[i]))
+                    // //console.log(ComponentRegistry.table.find(a => a.component_id == soldByVendor[i]))
                     vendorsIDs.push(objectComponent.table.find(a => a.comp_val == soldByVendor[i]).id)
 
                     //vendorsIDs.push(ComponentRegistry.table.find(a => a.component_id == soldByVendor[i]).id)
@@ -146,17 +180,17 @@ module.exports = {
 
                     //vendorsNames.push(ComponentRegistry.table.find(a => a.component_id == maybeThisOne[i]))
                 }catch(e){
-                    //console.log(e)
-                    //console.log(`${soldByVendor[i]} failed`)
+                    // //console.log(e)
+                    // //console.log(`${soldByVendor[i]} failed`)
                 }
 
             }
-            console.log(`maybeThisOne`)
-            console.log(maybeThisOne)
-            console.log(`vendorsIDs`)
-            console.log(vendorsIDs)
-            console.log(`vendorsNames`)
-            console.log(vendorsNames)
+            // console.log(`maybeThisOne`)
+            // console.log(maybeThisOne)
+            // console.log(`vendorsIDs`)
+            // console.log(vendorsIDs)
+            // console.log(`vendorsNames`)
+            // console.log(vendorsNames)
             var msg = ``
             data.vendors = []
             for(var i =0;i<vendorsIDs.length;i++){
@@ -169,8 +203,9 @@ module.exports = {
                         //data.vendorNames.push(itemName)
                         //data.vendorIDs.push(vendorsIDs[i])
                         var obj = {
-                            vendorNames: itemName,
-                            vendorIDs: vendorsIDs[i]
+                            vendorName: item.name,
+                            vendorDisplayName: item.displayName,
+                            vendorID: vendorsIDs[i]
                         }
                         data.vendors.push(obj)
                         msg = `${msg}\n${itemName}: [${vendorsIDs[i]}]`
@@ -197,12 +232,21 @@ module.exports = {
             const func = require(`./item.js`);
             var newARG = [itemID, "FROMBUYITEM", msg, vendorsIDs.length]
             data.numberOfVendors = vendorsIDs.length
-            //console.log(msg)
-            //console.log(newARG)
+            // //console.log(msg)
+            // //console.log(newARG)
             //return data
-            //console.log(itemID, "FROMBUYITEM", msg, vendorsIDs.length)
+            // //console.log(itemID, "FROMBUYITEM", msg, vendorsIDs.length)
             var returnData = func.execute(newARG);
-            console.log(returnData)
+            // console.log(returnData)
+            if(data.vendors.length == 0){
+                data.commendationVendor = []
+                var object = {
+                    ID: 13806,
+                    Name: `Commendation Vendor`,
+                    DisplayName: `Honor Accolade - Commendation Vendor`
+                }
+                data.commendationVendor.push(object)
+            }
             let information = {
                 ...returnData,
                 ...data
@@ -228,14 +272,19 @@ module.exports = {
                 var lootMatrixTable = require(`./../tables/LootMatrix/${Math.floor(lootMatrixIndex / 256)}/${lootMatrixIndex}.json`)
                 var lootTableIndex = lootMatrixTable["elements"][0].LootTableIndex
                 var lootTable = require(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(lootTableIndex / 256)}/${lootTableIndex}.json`)
-                //console.log(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(lootTableIndex/256)}/${lootTableIndex}.json`)
-                //console.log(lootTable["elements"])
+                // //console.log(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(lootTableIndex/256)}/${lootTableIndex}.json`)
+                // //console.log(lootTable["elements"])
                 for (var k = 0; k < lootTable["elements"].length; k++) {
-                    //console.log(lootTable["elements"][k].itemid)
+                    // //console.log(lootTable["elements"][k].itemid)
                     if ((lootTable["elements"][k].itemid) == itemID) {
-                        console.log(brickVendorsIDs[i])
-                        console.log(true)
-                        data.brickVendor = brickVendorsIDs[i]
+                        // console.log(brickVendorsIDs[i])
+                        // console.log(true)
+                        data.brickVendorID = brickVendorsIDs[i]
+                        var vendorName = require(`./../objects/0/${Math.floor(brickVendorsIDs[i]/256)}/${brickVendorsIDs[i]}.json`);
+
+                        data.brickVendorName = vendorName.name
+                        data.brickVendorDisplayName = vendorName.displayName
+
                     }
                 }
 
@@ -243,7 +292,7 @@ module.exports = {
 
             }
             //var newARG = [itemID, "FROMBUYITEM", msg, brickVendorsIDs.length]
-            //console.log(msg)
+            // //console.log(msg)
             var returnData = func.execute([itemID]);
 
             let information = {
@@ -254,22 +303,22 @@ module.exports = {
             return information
 
         }else{
-            console.log(`You cannot purchase this object.`)
+            // console.log(`You cannot purchase this object.`)
         }
 
 
-        //console.log(msg2)
+        // //console.log(msg2)
         //message.channel.send(msg2)
 
-        //console.log(objectComponent)
+        // //console.log(objectComponent)
 
-        //console.log(soldByVendor)
+        // //console.log(soldByVendor)
 
         //var LootMatrix = require(`./../tables/LootMatrix/${Math.floor(itemID/256)}/${itemID}.json`)
 
 
 
-        //console.log(sell2)
+        // //console.log(sell2)
 
     }
 }

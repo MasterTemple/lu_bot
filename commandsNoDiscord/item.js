@@ -16,13 +16,13 @@ module.exports = {
             var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
         }
         catch{
-            console.log("An object for this ID does not even exist.")
+            // console.log("An object for this ID does not even exist.")
             return
         }
 
         data.name = item.name
         data.displayName = item.displayName
-        console.log(`${item.name}`)
+        // console.log(`${item.name}`)
         var isWeapon = false
         var Armor = 0
         var Health = 0
@@ -34,19 +34,19 @@ module.exports = {
         var cooldown
         var dmg_combo
         var title = item.name
-        console.log(item)
+        // console.log(item)
         var displayName = item.displayName
         var internalNotes = item._internalNotes
         var description = item.description
         var extra_desc = ''
         var renderID = item.components["2"]
-        console.log(`renderID: ${renderID}`)
+        // console.log(`renderID: ${renderID}`)
         var renderFolder = Math.floor(renderID/256)
         var renderComponent = require(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
-        console.log(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
+        // console.log(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
         var iconID = renderComponent.IconID
         //var icons = require(`./../tables/Icons/${iconID}.json`)
-        console.log(`./../tables/Icons/${iconID}.json`)
+        // console.log(`./../tables/Icons/${iconID}.json`)
         //var iconPath = icons.IconPath
         var iconPath = renderComponent.icon_asset
         if(item.skills != undefined) {
@@ -55,7 +55,7 @@ module.exports = {
                 var skillID = (item.skills[i].skillID)
                 var behav_folder_loc = Math.floor(skillID / 256)
                 var skillBehavior = require(`./../locale/SkillBehavior/${behav_folder_loc}.json`)
-                console.log(skillBehavior[skillID])
+                // console.log(skillBehavior[skillID])
                 var abilityName;
                 if (skillBehavior[skillID] == undefined){
                     //return
@@ -70,11 +70,11 @@ module.exports = {
                 if(skillBehavior[skillID] != undefined){
                     if (skillBehavior[skillID].descriptionUI.includes(`(ChargeUp)`)) {
                         var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
-                        console.log(`chargeUpLoc ${chargeUpLoc}`)
+                        // console.log(`chargeUpLoc ${chargeUpLoc}`)
                         var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
                     } else if (skillBehavior[skillID].descriptionUI.includes(`(Description)`)) {
                         var descriptionLoc = (skillBehavior[skillID].descriptionUI.search(`(Description)`)) + `(Description)`.length - 1
-                        console.log(`desc ${descriptionLoc}`)
+                        // console.log(`desc ${descriptionLoc}`)
                         var description = skillBehavior[skillID].descriptionUI.substring(descriptionLoc);
                         extra_desc = `${extra_desc}\n${abilityName}: ${description}`
                     } else if (skillBehavior[skillID].descriptionUI.includes(`+`) == false) {
@@ -86,27 +86,27 @@ module.exports = {
                     var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
                     var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
                     extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${chargeUp}`
-                    console.log(`I AM A WAND`)
+                    // console.log(`I AM A WAND`)
                 }
                 else {
                     // var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(DamageCombo)`)) + 9
-                    // console.log(chargeUpLoc)
+                    // // console.log(chargeUpLoc)
                     // var chargeUp = skillBehavior[skillID].descriptionUI.substring(12);
                     // //extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${chargeUp}`
-                    // console.log(`I AM A WAND`)
+                    // // console.log(`I AM A WAND`)
                 }
-                console.log(`chargeUp: ${chargeUp}`)
+                // console.log(`chargeUp: ${chargeUp}`)
                 var cooldownFile = require(`./../tables/SkillBehavior/${skillID}.json`)
-                console.log(cooldownFile)
-                //console.log(`cool: ${cooldownFile.cooldown}`)
+                // console.log(cooldownFile)
+                // //console.log(`cool: ${cooldownFile.cooldown}`)
                 if (cooldownFile.cooldown != 0) {
                     cooldowngroup = cooldownFile.cooldowngroup
                     cooldown = `${cooldownFile.cooldown} Seconds`
 
-                    console.log(`Cooldown Group: ${cooldownFile.cooldowngroup}\nItem Cooldown: ${cooldownFile.cooldown} seconds`)
+                    // console.log(`Cooldown Group: ${cooldownFile.cooldowngroup}\nItem Cooldown: ${cooldownFile.cooldown} seconds`)
                 }
                 if(imaginationCost > 0){
-                    console.log(`already got imagination`)
+                    // console.log(`already got imagination`)
                 }else{
                     imaginationCost = cooldownFile.imaginationcost
                 }
@@ -123,16 +123,16 @@ module.exports = {
                 }
 
                 if (i == item.skills.length - 1) {
-                    console.log(`Bonuses:`)
-                    console.log(`Armor: ${Armor}`)
-                    console.log(`Health: ${Health}`)
-                    console.log(`Imagination: ${Imagination}`)
+                    // console.log(`Bonuses:`)
+                    // console.log(`Armor: ${Armor}`)
+                    // console.log(`Health: ${Health}`)
+                    // console.log(`Imagination: ${Imagination}`)
                 }
                 try{
-                    console.log(`dmg: ${skillBehavior[skillID].descriptionUI[16]},${skillBehavior[skillID].descriptionUI[18]},${skillBehavior[skillID].descriptionUI[20]}`)
-                    console.log(`dmg: ${skillBehavior[skillID].descriptionUI}`)
+                    // console.log(`dmg: ${skillBehavior[skillID].descriptionUI[16]},${skillBehavior[skillID].descriptionUI[18]},${skillBehavior[skillID].descriptionUI[20]}`)
+                    // console.log(`dmg: ${skillBehavior[skillID].descriptionUI}`)
                 }catch{
-                    console.log(`dmg log fail`)
+                    // console.log(`dmg log fail`)
                 }
                 if(dmg_combo==undefined || dmg_combo==null){
 
@@ -147,9 +147,9 @@ module.exports = {
                             dmg_combo = skillBehavior[skillID].descriptionUI[15];
                         } else if ((skillBehavior[skillID].descriptionUI.includes('DamageCombo'))) {
                             var dmg_combo_num = skillBehavior[skillID].descriptionUI.search(`Description`);
-                            console.log(dmg_combo_num)
+                            // console.log(dmg_combo_num)
                             dmg_combo = skillBehavior[skillID].descriptionUI.substring(`%(DamageCombo) `.length, dmg_combo_num - 3)
-                            console.log(`DMG: ${dmg_combo}`)
+                            // console.log(`DMG: ${dmg_combo}`)
                         } else if ((skillBehavior[skillID].descriptionUI[15] >= '0' && skillBehavior[skillID].descriptionUI[15] <= '9')) {
                             //dmg_combo  = skillBehavior[skillID].descriptionUI[15];
                             dmg_combo = `None`
@@ -181,7 +181,7 @@ module.exports = {
             displayNameClean = `None`
         }
         //var thumbnail = `https://static.wikia.nocookie.net/legouniverse/images/5/5f/${displayNameClean}.png`
-        //console.log(`thumbnail ${thumbnail}`)
+        // //console.log(`thumbnail ${thumbnail}`)
         var maudeLink = `https://cdn.discordapp.com/attachments/641133444746838016/813618015320408074/200.png`
         var iconURL
         if(iconPath != null) {
@@ -201,7 +201,7 @@ module.exports = {
         https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/hands/kiteshield_bat.png
          */
 
-        console.log(iconURL)
+        // console.log(iconURL)
         data.iconURL = iconURL
 
         var priceComponentID = item.components["11"]
@@ -210,10 +210,11 @@ module.exports = {
         data.stackSize = priceFile.stackSize
         var price = priceFile.baseValue
         data.price = priceFile.baseValue
+        data.commendationCost = priceFile.commendationCost
         data.factionTokens = priceFile.altCurrencyCost
         var reqs = priceFile.reqPrecondition
         var min_level
-        console.log(reqs)
+        // console.log(reqs)
         if(reqs != null){
             var reqsArray = reqs.split(';');
 
@@ -226,12 +227,16 @@ module.exports = {
                     break
                 }
             }
-            console.log(min_level)
-            data.levelRequirement = min_level
+            // console.log(min_level)
 
         }
+        if(min_level == undefined) {
+            data.levelRequirement = 0
+        }else{
+            data.levelRequirement = min_level
+        }
 
-        //console.log(min_level)
+        // //console.log(min_level)
         return data
 
         if(args[1] == `FROMBUYITEM`){

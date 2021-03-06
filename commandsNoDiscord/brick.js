@@ -25,7 +25,7 @@ module.exports = {
         data.displayName = item.displayName
 
         var title = item.name
-        //console.log(item)
+        // //console.log(item)
         var displayName = item.displayName
         var internalNotes = item._internalNotes
         var description = item.description
@@ -44,17 +44,19 @@ module.exports = {
         }if(description==undefined || description==null || description==``){
             description= "None"
         }
-        console.log(`displayName: ${displayName}`)
+        // console.log(`displayName: ${displayName}`)
         //var item_description = `**Description**${extra_desc}`
         var iconURL = `https://xiphoseer.github.io/lu-res/textures/ui/bricks/dds/${item.name}.png`
         data.iconURL = iconURL
         var priceComponentID = item.components["11"]
         var priceFile = require(`./../tables/ItemComponent/${Math.floor(priceComponentID/256)}/${priceComponentID}.json`)
         var stackSize = priceFile.stackSize
-        data.stackSize = priceFile.stackSize
+        //data.stackSize = priceFile.stackSize
+        data.stackSize = 999
+
         var price = priceFile.baseValue
         data.price = priceFile.baseValue
-
+        data.isSoldByVendor = true
 
     return data
     }
