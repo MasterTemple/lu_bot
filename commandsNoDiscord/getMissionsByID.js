@@ -46,13 +46,46 @@ module.exports = {
         //desc = `${desc}\n**Description:**\n${text[args[0]].accept_chat_bubble}`
 
         try{
-            data.description = text[args[0]].accept_chat_bubble
+            var description = text[args[0]].accept_chat_bubble
+            try{
+                //var description = text[args[0]].description
+                //console.log(description)
+                //if(description.includes(`<`)){
+                    var descriptionArray = description.split(`<`)
+                    for (var i = 0; i < descriptionArray.length - 1; i++) {
+                        description = description.replace(/<[^>]*>/, '')
+                    }
+                    //console.log(description)
+                //}
+                data.description = description
+
+            }catch{
+                data.objective = undefined
+            }
+
         }catch{}
 
         //desc = `${desc}\n**Objective:**\n${text[args[0]].in_progress}
         //`
         try{
-            data.objective = text[args[0]].in_progress
+            var description = text[args[0]].in_progress
+
+            try{
+                //var description = text[args[0]].description
+                //console.log(description)
+                //if(description.includes(`<`)){
+                var descriptionArray = description.split(`<`)
+                for (var i = 0; i < descriptionArray.length - 1; i++) {
+                    description = description.replace(/<[^>]*>/, '')
+                }
+                //console.log(description)
+                //}
+                data.objective = description
+
+            }catch{
+                data.objective = undefined
+            }
+
         }catch{}
         //desc = `${desc}\n**On Completion:**\n${text[args[0]].completion_succeed_tip}`
 
