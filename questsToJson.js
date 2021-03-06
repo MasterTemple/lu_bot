@@ -4,17 +4,17 @@ var missionIDsArray = [12,13,14,16,17,18,40,81,82,83,84,95,96,97,102,103,110,111
 
 var searchMission = require(`./commandsNoDiscord/searchMission.js`)
 
-for(var num=2050;num<2078;num++){
+for(var num=0;num<2078;num++){
     if(missionIDsArray.includes(num)) {
         console.log(num)
         var returnedData = searchMission.execute([num])
 
-        //console.log(returnedData)
-        // fs.writeFile(`./MissionsAndAchievements/${Math.floor(num/256)}/${num}.json`, JSON.stringify(returnedData), function (err) {
-        //         if (err) throw err;
-        //         console.log(`completed ${num}`);
-        //     }
-        // );
+        console.log(returnedData)
+         fs.writeFile(`./MissionsAndAchievements/${Math.floor(num/256)}/${num}.json`, JSON.stringify(returnedData), function (err) {
+                 if (err) throw err;
+                 console.log(`completed ${num}`);
+             }
+         );
     }
 }
 

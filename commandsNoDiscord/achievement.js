@@ -37,7 +37,10 @@ module.exports = {
         ///desc = `${desc}\n**Objective:**\n${text[args[0]].description}`
 
         try{
-            data.objective = text[args[0]].description
+            var description = text[args[0]].description
+
+            data.objective = description
+
         }catch{
             data.objective = undefined
         }
