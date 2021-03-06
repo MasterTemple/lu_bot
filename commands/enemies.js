@@ -29,6 +29,8 @@ module.exports = {
 
         console.log(`${item.name}`)
 
+        var dropData = {}
+        dropData.table = []
         var isWeapon = false
         var Armor = 0
         var Health = 0
@@ -51,6 +53,24 @@ module.exports = {
         var LootMatrixIndex = destructibleComponent.LootMatrixIndex
         var Armor = destructibleComponent.armor
         var CurrencyIndex = destructibleComponent.CurrencyIndex
+        var LootMatrixIndexFile = require(`./../tables/LootMatrix/${Math.floor(LootMatrixIndex/256)}/${LootMatrixIndex}.json`)
+        console.log(LootMatrixIndexFile["elements"].length)
+        const roundToHundredth = (value) => {
+            return Number(value.toFixed(2));
+        };
+
+        //console.log(roundToHundredth(parseFloat(LootMatrixIndexFile["elements"][k].percent)*100.0))
+        for(var k=0;k<LootMatrixIndexFile["elements"].length;k++){
+            console.log(`${roundToHundredth(parseFloat(LootMatrixIndexFile["elements"][k].percent)*100.0)}% Chance to Drop ${LootMatrixIndexFile["elements"][k].minToDrop}-${LootMatrixIndexFile["elements"][k].maxToDrop} Items:`)
+            var LootTableFile = require(`./../tables/LootTable/groupBy/LootTableIndex/${Math.floor(LootMatrixIndexFile["elements"][k].LootTableIndex/256)}/${LootMatrixIndexFile["elements"][k].LootTableIndex}.json`)
+            for(var j=0;j<LootTableFile["elements"].length;j++){
+                //console.log(LootTableFile["elements"][j].itemid)
+                var dropItemFile = require(`./../objects/0/${Math.floor(LootTableFile["elements"][j].itemid/256)}/${LootTableFile["elements"][j].itemid}`)
+                console.log(LootTableFile["elements"][j].itemid, dropItemFile.displayName)
+
+            }
+
+        }
 
 
         //console.log(`life:${destructibleComponent.life}`)
