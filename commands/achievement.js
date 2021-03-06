@@ -18,6 +18,8 @@ module.exports = {
             item = require(`./../locale/Missions/${Math.floor(args[0]/256)}.json`);
             console.log(item[args[0]].name)
             name =item[args[0]].name
+            data.title = name
+
             console.log()
         }else{
             message.channel.send("This is not a valid mission ID")
@@ -151,8 +153,11 @@ module.exports = {
         }else{
             data.isRepeatable = 0
         }
-        data.vaultSpace = info.reward_bankinventory
-
+        if(info.reward_bankinventory != null) {
+            data.vaultSpace = info.reward_bankinventory
+        }else{
+            data.vaultSpace = 0
+        }
 
         //console.log(info.)
 

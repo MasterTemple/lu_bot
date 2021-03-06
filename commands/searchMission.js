@@ -20,10 +20,24 @@ module.exports = {
         sorted.sort();
         console.log(sorted)
         if(isNaN(args[0])==false){
-            item = require(`./../locale/Missions/${Math.floor(args[0]/256)}.json`);
-            console.log(item[args[0]].name)
-            name =item[args[0]].name
-            console.log()
+            var info = require(`./../tables/Missions/${Math.floor(args[0]/256)}/${args[0]}.json`);
+            if(info.isMission == 1) {
+                var id = [args[0]]
+                var func = require(`./getMissionsByID.js`)
+                func.execute(message, id)
+                return
+            }
+            else if(info.isMission == 0){
+                var id = [args[0]]
+                var func = require(`./achievement.js`)
+                func.execute(message, id)
+                return
+            }
+
+            // item = require(`./../locale/Missions/${Math.floor(args[0]/256)}.json`);
+            // console.log(item[args[0]].name)
+            // name =item[args[0]].name
+            // console.log()
         }else{
             //message.channel.send("This is not a valid mission ID")
 

@@ -4,7 +4,7 @@ module.exports = {
     args: true,
     use: `missionid [id]`,
     example:[`missionid 1665`, `mid 228`],
-    execute(message, args) {
+    execute(args) {
         //const client = message.client;
         //
         var data = {}
@@ -17,12 +17,11 @@ module.exports = {
         var name
         if(isNaN(args[0])==false){
             item = require(`./../locale/Missions/${Math.floor(args[0]/256)}.json`);
-            console.log(item[args[0]].name)
+            // console.log(item[args[0]].name)
             name =item[args[0]].name
             data.title = name
-            console.log()
+            // console.log()
         }else{
-            message.channel.send("This is not a valid mission ID")
             return
         }
 
@@ -192,34 +191,10 @@ module.exports = {
         }
         data.iconurl = iconURL
 
-        //console.log(args[0],args[1],args[2],args[3])
 
-        console.log(data)
-            var nexusLink = `https://cdn.discordapp.com/attachments/641133444746838016/813621671461781544/circle-cropped_1.png`
-            var url = `https://discord.com/api/oauth2/authorize?client_id=813618765685456916&permissions=52288&scope=bot`
-            var client = message.client
-            var channel = message.channel.toString()
-            channel = channel.substring(2, channel.length-1);
-            if(desc == ''){
-                desc = "**0 Results**"
-            }
-            const Discord = require('discord.js');
-            //var title = `${name} : ${npc.displayName}`
-        var title = `${name}`
+        // console.log(data)
+        return data
 
-        const Embed = new Discord.MessageEmbed()
-                .setColor('#00ffff')
-                .setTitle(title)
-                .setURL(url)
-                .setAuthor(`Nexus Force`, nexusLink, url)
-                .setDescription(desc)
-
-                .setThumbnail(iconURL)
-
-                .setTimestamp()
-                .setFooter('The LEGO Group has not endorsed or authorized the operation of this game and is not liable for any safety issues in relation to the operation of this game.', nexusLink);
-
-            client.channels.cache.get(channel).send(Embed);
 
 
 
