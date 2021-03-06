@@ -50,13 +50,15 @@ module.exports = {
             try{
                 //var description = text[args[0]].description
                 //console.log(description)
-                //if(description.includes(`<`)){
+                if(description.includes(`<`)){
                     var descriptionArray = description.split(`<`)
                     for (var i = 0; i < descriptionArray.length - 1; i++) {
                         description = description.replace(/<[^>]*>/, '')
                     }
                     //console.log(description)
-                //}
+                }else{
+                    //return
+                }
                 data.description = description
 
             }catch{
@@ -73,13 +75,17 @@ module.exports = {
             try{
                 //var description = text[args[0]].description
                 //console.log(description)
-                //if(description.includes(`<`)){
-                var descriptionArray = description.split(`<`)
+                if(description.includes(`<`)){
+                    //console.log(true)
+
+                    var descriptionArray = description.split(`<`)
                 for (var i = 0; i < descriptionArray.length - 1; i++) {
                     description = description.replace(/<[^>]*>/, '')
                 }
                 //console.log(description)
-                //}
+                }else{
+                    //return
+                }
                 data.objective = description
 
             }catch{
