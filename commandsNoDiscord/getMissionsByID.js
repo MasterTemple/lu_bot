@@ -18,8 +18,14 @@ module.exports = {
         if(isNaN(args[0])==false){
             item = require(`./../locale/Missions/${Math.floor(args[0]/256)}.json`);
             // console.log(item[args[0]].name)
-            name =item[args[0]].name
-            data.title = name
+
+            try{
+                name = item[args[0]].name
+                data.title = name
+            }catch{
+                data.title = "Hidden"
+            }
+
             // console.log()
         }else{
             return
@@ -37,15 +43,27 @@ module.exports = {
         data.returnToName = npcReturn.displayName
 
         desc = `**Giver:**\n${npc.displayName}`
-        desc = `${desc}\n**Description:**\n${text[args[0]].accept_chat_bubble}`
-        data.description = text[args[0]].accept_chat_bubble
+        //desc = `${desc}\n**Description:**\n${text[args[0]].accept_chat_bubble}`
 
-        desc = `${desc}\n**Objective:**\n${text[args[0]].in_progress}`
-        data.objective = text[args[0]].in_progress
+        try{
+            data.description = text[args[0]].accept_chat_bubble
+        }catch{}
 
+        //desc = `${desc}\n**Objective:**\n${text[args[0]].in_progress}
+        //`
+        try{
+            data.objective = text[args[0]].in_progress
+        }catch{}
         //desc = `${desc}\n**On Completion:**\n${text[args[0]].completion_succeed_tip}`
 
-        if(info.reward_item1 != -1 && info.reward_item2 == -1) {
+
+        if(info.isChoiceReward){
+            data.chooseOne = 1
+        }else{
+            data.chooseOne = 0
+        }
+
+        if(info.reward_item1 != -1 && info.reward_item1 != -0) {
             var reward = require(`./../objects/0/${Math.floor(info.reward_item1/256)}/${info.reward_item1}.json`);
             desc = `${desc}\n**Reward:**\n${reward.name} [${info.reward_item1}] x ${info.reward_item1_count}`
             var obj = {
@@ -55,26 +73,8 @@ module.exports = {
             }
             data.rewards.push(obj)
         }
-        if(info.isChoiceReward){
-            data.chooseOne = 1
-        }else{
-            data.chooseOne = 0
-        }
-
-        if(info.reward_item2 != -1 && info.isChoiceReward == true){
-            var reward1 = require(`./../objects/0/${Math.floor(info.reward_item1/256)}/${info.reward_item1}.json`);
-            var reward2 = require(`./../objects/0/${Math.floor(info.reward_item2/256)}/${info.reward_item2}.json`);
-            desc = `${desc}\n**Rewards (Choose One):**\n${reward1.name} [${info.reward_item1}] x ${info.reward_item1_count}\n${reward2.name} [${info.reward_item2}] x ${info.reward_item2_count}`
-            var obj = {
-                name:reward.name,
-                itemID: info.reward_item2,
-                count: info.reward_item2_count
-            }
-            data.rewards.push(obj)
-        }else if(info.reward_item2 != -1){
-            var reward1 = require(`./../objects/0/${Math.floor(info.reward_item1/256)}/${info.reward_item1}.json`);
-            var reward2 = require(`./../objects/0/${Math.floor(info.reward_item2/256)}/${info.reward_item2}.json`);
-            desc = `${desc}\n**Rewards:**\n${reward1.name} [${info.reward_item1}] x ${info.reward_item1_count}\n${reward2.name} [${info.reward_item2}] x ${info.reward_item2_count}`
+        if(info.reward_item2 != -1 && info.reward_item2 != -0){
+            var reward = require(`./../objects/0/${Math.floor(info.reward_item1/256)}/${info.reward_item1}.json`);
             var obj = {
                 name:reward.name,
                 itemID: info.reward_item2,
@@ -82,7 +82,7 @@ module.exports = {
             }
             data.rewards.push(obj)
         }
-        if(info.reward_item3 != -1){
+        if(info.reward_item3 != -1 && info.reward_item3 != -0){
             var reward = require(`./../objects/0/${Math.floor(info.reward_item3/256)}/${info.reward_item3}.json`);
             desc = `${desc}\n${reward.name} [${info.reward_item3}] x ${info.reward_item3_count}`
             var obj = {
@@ -92,7 +92,7 @@ module.exports = {
             }
             data.rewards.push(obj)
         }
-        if(info.reward_item4 != -1){
+        if(info.reward_item4 != -1 && info.reward_item4 != -0){
             var reward = require(`./../objects/0/${Math.floor(info.reward_item4/256)}/${info.reward_item4}.json`);
             desc = `${desc}\n${reward.name} [${info.reward_item4}] x ${info.reward_item4_count}`
             var obj = {
@@ -102,6 +102,15 @@ module.exports = {
             }
             data.rewards.push(obj)
         }
+
+        if(info.reward_emote != -1){
+            var reward = require(`./../Emote.json`);
+
+            data.emote_rewardID = info.reward_emote
+            data.emote_rewardName = reward.animationName
+
+        }
+
 
         data.stats = []
         if(info.reward_maximagination != -1 && info.reward_maximagination < 2 && info.reward_maximagination != 0){
@@ -175,21 +184,25 @@ module.exports = {
         }
 //DO ICON URL
         var MissionTasks = require(`./../tables/MissionTasks/${Math.floor(args[0]/256)}/${args[0]}.json`);
-        var iconID = MissionTasks.tasks[0].IconID
-        var icon = require(`./../tables/Icons/${iconID}.json`)
-        var iconPath = icon.IconPath
-        if(iconPath != null) {
-            iconPath = iconPath.replace('DDS', 'png')
-            iconPath = iconPath.replace('dds', 'png')
-            iconPath = iconPath.replace(/\\/g, "/");
-            iconPath = iconPath.replace(` `, "%20");
-            iconPath = iconPath.toLowerCase()
-            var iconURL = `https://xiphoseer.github.io/lu-res/${iconPath.substring(6)}`
-        }else{
-            var iconURL = `https://github.com/MasterTemple/lu_bot/blob/master/src/unknown.png?raw=true`
-            //question mark
+        try{
+            var iconID = MissionTasks.tasks[0].IconID
+            var icon = require(`./../tables/Icons/${iconID}.json`)
+            var iconPath = icon.IconPath
+            if (iconPath != null) {
+                iconPath = iconPath.replace('DDS', 'png')
+                iconPath = iconPath.replace('dds', 'png')
+                iconPath = iconPath.replace(/\\/g, "/");
+                iconPath = iconPath.replace(` `, "%20");
+                iconPath = iconPath.toLowerCase()
+                var iconURL = `https://xiphoseer.github.io/lu-res/${iconPath.substring(6)}`
+            } else {
+                var iconURL = `https://github.com/MasterTemple/lu_bot/blob/master/src/unknown.png?raw=true`
+                //question mark
+            }
+            data.iconurl = iconURL
+        }catch{
+                data.iconurl = ` https://xiphoseer.github.io/lu-res/textures/ui/missioncomics/genericicons/avant_gardens.png`
         }
-        data.iconurl = iconURL
 
 
         // console.log(data)
