@@ -7,6 +7,7 @@ var numsOfActions = 0
 var behaviorActions = []
 var finalObject = {}
 finalObject.table = []
+var chargeUp = false
 var alreadyUsedProjectiles = []
 var ogValues = []
 var maxDuration
@@ -44,6 +45,11 @@ function getKids(behaviorID, ogVal, parentName){
         console.log(skillBehavior.behaviorID)
         alreadyUsedProjectiles.push(skillBehavior.behaviorID)
         getKids(skillBehavior.behaviorID, false, `projectile`)
+        //projectileDMG.push(skillBehavior.behaviorID)
+
+    }
+    if(behaviorTemplate.table.find(a => parseInt(a.behaviorID) == parseInt(behaviorID)).templateID == `43`){
+        chargeUp = true
         //projectileDMG.push(skillBehavior.behaviorID)
 
     }
@@ -178,7 +184,7 @@ function getKids(behaviorID, ogVal, parentName){
 //var behaviorID = [4244,4254,22316,11183,]//anything
 //var behaviorID = [11183, 10884]//daredevil
 //var behaviorID = [23153]//adventurer 1
-var behaviorID = [23451]//adventurer 3
+var behaviorID = [15708]//adventurer 3
 
 
 for(var k=0;k<behaviorID.length;k++){
@@ -246,12 +252,13 @@ for(var k=0;k<behaviorID.length;k++){
 
         if(dmg != [] && singleJumpSmash != -1 && doubleJumpSmash != -1){
             var obj = {
-                projectileDamage: projectileDMG.join(`+`),
+                //projectileDamage: projectileDMG.join(`+`),
                 damageCombo: dmg.join(`+`),
                 doubleJumpSmash: doubleJumpSmash,
                 singleJumpSmash: singleJumpSmash,
                 chargeUpImaginationCost: chargeUpImaginationCost,
-                newProjectileDamage: []
+                newProjectileDamage: [],
+                maxDuration: maxDuration
             }
             finalObject.table.push(obj)
         }
@@ -284,7 +291,7 @@ function getProjectileDamage(behaviorID){
     if(tempArray[0] != undefined){
         for (var i = 0; i < Object.keys(tempArray[0]).length; i++) {
             //console.log(`----------------`)
-            console.log(tempArray[0])
+            //console.log(tempArray[0])
 
 
 
@@ -311,7 +318,7 @@ function getProjectileDamage(behaviorID){
                     // alreadyUsedProjectiles.push(skillBehavior.behaviorID)
 
                     if(actions.includes(Object.keys(tempArray[0])[i])){
-                        console.log(true)
+                        //console.log(true)
                         getProjectileDamage(Object.values(tempArray[0])[i])
                     }
 
@@ -367,4 +374,24 @@ for(var k=0;k<alreadyUsedProjectiles.length;k++){
 
 
 //finalObject.table.push(obj)
-console.log(finalObject.table[0])
+//console.log(finalObject.table[0])
+//var string = finalObject.table[0].newProjectileDamage.join(`+`)
+//console.log(string)
+// var obj ={
+//     projectileDamage: string
+// }
+finalObject.table[0].hasChargeUp = chargeUp
+if(finalObject.table[0].hasChargeUp) {
+    var string = finalObject.table[0].newProjectileDamage
+    //console.log(string[1])
+    finalObject.table[0].chargeUpDamage = string[1]
+    //console.log(string.splice(1,1))
+    //console.log(string)
+    string.splice(1,1)
+    finalObject.table[0].projectileDamage = string.join(`+`)
+}else{
+    finalObject.table[0].projectileDamage = finalObject.table[0].newProjectileDamage.join(`+`)
+}
+
+
+console.log(finalObject.table)
