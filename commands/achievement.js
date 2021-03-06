@@ -8,6 +8,7 @@ module.exports = {
         //const client = message.client;
         //
         var data = {}
+        data.id = args[0]
         data.rewards = []
         data.type = "Achievement"
         var item
@@ -150,6 +151,8 @@ module.exports = {
         }else{
             data.isRepeatable = 0
         }
+        data.vaultSpace = info.reward_bankinventory
+
 
         //console.log(info.)
 
