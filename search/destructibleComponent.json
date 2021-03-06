@@ -1,0 +1,5867 @@
+{
+  "Sheet1": [
+    {
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "LootMatrixIndex": "63",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "6",
+      "LootMatrixIndex": "63",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "8",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "11",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "12",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "18",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "22"
+    },
+    {
+      "id": "26",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "27"
+    },
+    {
+      "id": "31",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "60",
+      "LootMatrixIndex": "63",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "61",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "64"
+    },
+    {
+      "id": "66",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "78"
+    },
+    {
+      "id": "81",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "82",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "84",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "86",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "87"
+    },
+    {
+      "id": "88",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "89",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "90",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "92",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "95",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "97",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "98",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "102",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "103",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "104",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "106",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "107",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "110",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "111",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "112",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "113",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "115",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "116",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "117",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "118",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "119"
+    },
+    {
+      "id": "125",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "134"
+    },
+    {
+      "id": "135"
+    },
+    {
+      "id": "136",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "137",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "138",
+      "LootMatrixIndex": "40"
+    },
+    {
+      "id": "140",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "141"
+    },
+    {
+      "id": "146",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "148",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "150",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "154",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "156",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "157",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "158"
+    },
+    {
+      "id": "159"
+    },
+    {
+      "id": "160"
+    },
+    {
+      "id": "161"
+    },
+    {
+      "id": "162",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "163",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "164"
+    },
+    {
+      "id": "165",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "167",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "170",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "171",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "172",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "173",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "174"
+    },
+    {
+      "id": "175"
+    },
+    {
+      "id": "177",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "178",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "179",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "180",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "181",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "190",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "191",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "192",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "193",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "195",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "196",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "197"
+    },
+    {
+      "id": "198",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "199",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "200",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "201"
+    },
+    {
+      "id": "203",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "204",
+      "LootMatrixIndex": "65"
+    },
+    {
+      "id": "205"
+    },
+    {
+      "id": "206",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "208",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "210",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "213",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "214",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "215"
+    },
+    {
+      "id": "216"
+    },
+    {
+      "id": "217",
+      "LootMatrixIndex": "29"
+    },
+    {
+      "id": "218",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "219"
+    },
+    {
+      "id": "220"
+    },
+    {
+      "id": "222",
+      "LootMatrixIndex": "29"
+    },
+    {
+      "id": "223",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "224",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "225",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "226",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "227",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "228",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "229",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "232"
+    },
+    {
+      "id": "233"
+    },
+    {
+      "id": "234",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "235",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "236"
+    },
+    {
+      "id": "237",
+      "LootMatrixIndex": "64",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "241",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "242"
+    },
+    {
+      "id": "243"
+    },
+    {
+      "id": "244"
+    },
+    {
+      "id": "245"
+    },
+    {
+      "id": "246",
+      "LootMatrixIndex": "65"
+    },
+    {
+      "id": "247"
+    },
+    {
+      "id": "248"
+    },
+    {
+      "id": "249",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "250",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "251",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "252",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "253",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "254"
+    },
+    {
+      "id": "255",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "257",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "258",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "259",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "260",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "261"
+    },
+    {
+      "id": "262",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "263",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "264",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "265",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "266",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "267",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "268",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "269"
+    },
+    {
+      "id": "271",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "272",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "273",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "274",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "276"
+    },
+    {
+      "id": "277"
+    },
+    {
+      "id": "278",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "279",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "280"
+    },
+    {
+      "id": "281"
+    },
+    {
+      "id": "282"
+    },
+    {
+      "id": "283",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "284",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "285",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "286",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "287",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "288",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "289",
+      "LootMatrixIndex": "132"
+    },
+    {
+      "id": "290"
+    },
+    {
+      "id": "291",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "293"
+    },
+    {
+      "id": "295",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "296",
+      "LootMatrixIndex": "217",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "297",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "298",
+      "LootMatrixIndex": "217",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "300",
+      "LootMatrixIndex": "217",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "301",
+      "LootMatrixIndex": "218",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "302",
+      "LootMatrixIndex": "217",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "303",
+      "LootMatrixIndex": "218",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "304",
+      "LootMatrixIndex": "218",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "305"
+    },
+    {
+      "id": "306"
+    },
+    {
+      "id": "307"
+    },
+    {
+      "id": "309"
+    },
+    {
+      "id": "310"
+    },
+    {
+      "id": "311"
+    },
+    {
+      "id": "312"
+    },
+    {
+      "id": "314"
+    },
+    {
+      "id": "315",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "316"
+    },
+    {
+      "id": "317"
+    },
+    {
+      "id": "318",
+      "LootMatrixIndex": "105",
+      "CurrencyIndex": "23"
+    },
+    {
+      "id": "319",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "320",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "321"
+    },
+    {
+      "id": "322",
+      "LootMatrixIndex": "473",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "323",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "324",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "325"
+    },
+    {
+      "id": "326",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "327",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "328",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "329",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "330",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "331",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "332",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "333",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "334",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "335",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "340"
+    },
+    {
+      "id": "341"
+    },
+    {
+      "id": "342"
+    },
+    {
+      "id": "343"
+    },
+    {
+      "id": "345"
+    },
+    {
+      "id": "346",
+      "LootMatrixIndex": "29"
+    },
+    {
+      "id": "347",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "348"
+    },
+    {
+      "id": "349"
+    },
+    {
+      "id": "350"
+    },
+    {
+      "id": "351",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "352",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "353",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "354",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "355",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "356"
+    },
+    {
+      "id": "357"
+    },
+    {
+      "id": "358"
+    },
+    {
+      "id": "359"
+    },
+    {
+      "id": "360",
+      "LootMatrixIndex": "348"
+    },
+    {
+      "id": "361",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "362"
+    },
+    {
+      "id": "363",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "364",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "365",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "366",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "367",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "368",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "369",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "370"
+    },
+    {
+      "id": "371"
+    },
+    {
+      "id": "372"
+    },
+    {
+      "id": "373"
+    },
+    {
+      "id": "374"
+    },
+    {
+      "id": "375",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "376",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "377"
+    },
+    {
+      "id": "378"
+    },
+    {
+      "id": "379"
+    },
+    {
+      "id": "380"
+    },
+    {
+      "id": "381"
+    },
+    {
+      "id": "382"
+    },
+    {
+      "id": "383"
+    },
+    {
+      "id": "384",
+      "LootMatrixIndex": "305"
+    },
+    {
+      "id": "385"
+    },
+    {
+      "id": "386"
+    },
+    {
+      "id": "387"
+    },
+    {
+      "id": "388"
+    },
+    {
+      "id": "389"
+    },
+    {
+      "id": "390"
+    },
+    {
+      "id": "391"
+    },
+    {
+      "id": "392"
+    },
+    {
+      "id": "393"
+    },
+    {
+      "id": "394"
+    },
+    {
+      "id": "395"
+    },
+    {
+      "id": "396"
+    },
+    {
+      "id": "397"
+    },
+    {
+      "id": "398"
+    },
+    {
+      "id": "399",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "400",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "401",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "402"
+    },
+    {
+      "id": "403"
+    },
+    {
+      "id": "404"
+    },
+    {
+      "id": "405"
+    },
+    {
+      "id": "406"
+    },
+    {
+      "id": "407"
+    },
+    {
+      "id": "408"
+    },
+    {
+      "id": "409"
+    },
+    {
+      "id": "410"
+    },
+    {
+      "id": "411",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "412",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "413",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "414",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "415"
+    },
+    {
+      "id": "416"
+    },
+    {
+      "id": "417"
+    },
+    {
+      "id": "418"
+    },
+    {
+      "id": "419",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "420",
+      "LootMatrixIndex": "41",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "421"
+    },
+    {
+      "id": "422",
+      "LootMatrixIndex": "713"
+    },
+    {
+      "id": "423"
+    },
+    {
+      "id": "424",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "425"
+    },
+    {
+      "id": "426"
+    },
+    {
+      "id": "427"
+    },
+    {
+      "id": "428"
+    },
+    {
+      "id": "430",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "432"
+    },
+    {
+      "id": "433"
+    },
+    {
+      "id": "434"
+    },
+    {
+      "id": "435"
+    },
+    {
+      "id": "436",
+      "LootMatrixIndex": "152",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "437",
+      "LootMatrixIndex": "153",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "438",
+      "LootMatrixIndex": "154",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "439"
+    },
+    {
+      "id": "440"
+    },
+    {
+      "id": "441"
+    },
+    {
+      "id": "444"
+    },
+    {
+      "id": "445"
+    },
+    {
+      "id": "446"
+    },
+    {
+      "id": "447"
+    },
+    {
+      "id": "448",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "449"
+    },
+    {
+      "id": "450",
+      "LootMatrixIndex": "29"
+    },
+    {
+      "id": "451"
+    },
+    {
+      "id": "452",
+      "LootMatrixIndex": "139",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "454",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "455",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "456",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "457",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "458",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "459",
+      "LootMatrixIndex": "259",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "460"
+    },
+    {
+      "id": "461"
+    },
+    {
+      "id": "462",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "463",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "464"
+    },
+    {
+      "id": "465",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "466",
+      "LootMatrixIndex": "253",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "467",
+      "LootMatrixIndex": "29"
+    },
+    {
+      "id": "468",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "469"
+    },
+    {
+      "id": "470",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "471",
+      "LootMatrixIndex": "715"
+    },
+    {
+      "id": "472"
+    },
+    {
+      "id": "473"
+    },
+    {
+      "id": "474"
+    },
+    {
+      "id": "475"
+    },
+    {
+      "id": "476"
+    },
+    {
+      "id": "477"
+    },
+    {
+      "id": "478"
+    },
+    {
+      "id": "479"
+    },
+    {
+      "id": "480"
+    },
+    {
+      "id": "481"
+    },
+    {
+      "id": "482"
+    },
+    {
+      "id": "483"
+    },
+    {
+      "id": "484"
+    },
+    {
+      "id": "485"
+    },
+    {
+      "id": "486"
+    },
+    {
+      "id": "487"
+    },
+    {
+      "id": "488",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "489",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "490",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "491",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "493",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "494"
+    },
+    {
+      "id": "495"
+    },
+    {
+      "id": "496",
+      "LootMatrixIndex": "227"
+    },
+    {
+      "id": "497"
+    },
+    {
+      "id": "498",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "499",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "500",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "501"
+    },
+    {
+      "id": "502"
+    },
+    {
+      "id": "503"
+    },
+    {
+      "id": "504",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "505",
+      "LootMatrixIndex": "230",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "506",
+      "LootMatrixIndex": "196"
+    },
+    {
+      "id": "507",
+      "LootMatrixIndex": "164",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "508"
+    },
+    {
+      "id": "509"
+    },
+    {
+      "id": "510",
+      "LootMatrixIndex": "170",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "511",
+      "LootMatrixIndex": "170",
+      "CurrencyIndex": "23"
+    },
+    {
+      "id": "512",
+      "LootMatrixIndex": "171",
+      "CurrencyIndex": "23"
+    },
+    {
+      "id": "513",
+      "LootMatrixIndex": "172",
+      "CurrencyIndex": "23"
+    },
+    {
+      "id": "514"
+    },
+    {
+      "id": "515",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "516"
+    },
+    {
+      "id": "517"
+    },
+    {
+      "id": "518",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "519"
+    },
+    {
+      "id": "521",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "522"
+    },
+    {
+      "id": "523",
+      "LootMatrixIndex": "184",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "524",
+      "LootMatrixIndex": "803",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "525",
+      "LootMatrixIndex": "804",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "526",
+      "LootMatrixIndex": "804",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "527",
+      "LootMatrixIndex": "803",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "528",
+      "LootMatrixIndex": "803",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "529",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "530"
+    },
+    {
+      "id": "531",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "532"
+    },
+    {
+      "id": "533",
+      "LootMatrixIndex": "196"
+    },
+    {
+      "id": "534",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "535",
+      "LootMatrixIndex": "36"
+    },
+    {
+      "id": "536"
+    },
+    {
+      "id": "537",
+      "LootMatrixIndex": "237"
+    },
+    {
+      "id": "538",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "539"
+    },
+    {
+      "id": "540"
+    },
+    {
+      "id": "541",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "542",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "549"
+    },
+    {
+      "id": "573"
+    },
+    {
+      "id": "574"
+    },
+    {
+      "id": "575",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "576",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "577"
+    },
+    {
+      "id": "578"
+    },
+    {
+      "id": "579"
+    },
+    {
+      "id": "580",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "581",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "582"
+    },
+    {
+      "id": "583"
+    },
+    {
+      "id": "584",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "585",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "586"
+    },
+    {
+      "id": "587",
+      "LootMatrixIndex": "193"
+    },
+    {
+      "id": "595"
+    },
+    {
+      "id": "596",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "597",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "598"
+    },
+    {
+      "id": "599"
+    },
+    {
+      "id": "600",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "601",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "602"
+    },
+    {
+      "id": "603",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "604"
+    },
+    {
+      "id": "605",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "606"
+    },
+    {
+      "id": "607",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "608",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "609",
+      "LootMatrixIndex": "257"
+    },
+    {
+      "id": "610",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "611",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "612"
+    },
+    {
+      "id": "613"
+    },
+    {
+      "id": "614",
+      "LootMatrixIndex": "35",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "615"
+    },
+    {
+      "id": "616"
+    },
+    {
+      "id": "617"
+    },
+    {
+      "id": "618",
+      "LootMatrixIndex": "35",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "619"
+    },
+    {
+      "id": "620"
+    },
+    {
+      "id": "621",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "622",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "623"
+    },
+    {
+      "id": "624"
+    },
+    {
+      "id": "625"
+    },
+    {
+      "id": "626",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "627"
+    },
+    {
+      "id": "628"
+    },
+    {
+      "id": "629"
+    },
+    {
+      "id": "630",
+      "LootMatrixIndex": "207"
+    },
+    {
+      "id": "631",
+      "LootMatrixIndex": "217",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "632"
+    },
+    {
+      "id": "633",
+      "LootMatrixIndex": "218",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "634"
+    },
+    {
+      "id": "635",
+      "LootMatrixIndex": "192"
+    },
+    {
+      "id": "636",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "637",
+      "LootMatrixIndex": "348",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "638",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "639",
+      "LootMatrixIndex": "348",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "640",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "641",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "642",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "643",
+      "LootMatrixIndex": "231",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "644",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "645"
+    },
+    {
+      "id": "646"
+    },
+    {
+      "id": "647",
+      "LootMatrixIndex": "35",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "648",
+      "LootMatrixIndex": "232",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "649",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "650"
+    },
+    {
+      "id": "651"
+    },
+    {
+      "id": "652"
+    },
+    {
+      "id": "653"
+    },
+    {
+      "id": "654"
+    },
+    {
+      "id": "655",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "656",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "657"
+    },
+    {
+      "id": "658"
+    },
+    {
+      "id": "659"
+    },
+    {
+      "id": "661"
+    },
+    {
+      "id": "662"
+    },
+    {
+      "id": "663"
+    },
+    {
+      "id": "664"
+    },
+    {
+      "id": "665",
+      "LootMatrixIndex": "335",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "666",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "667",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "668",
+      "LootMatrixIndex": "29"
+    },
+    {
+      "id": "669",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "670",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "671",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "672",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "673",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "674",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "675"
+    },
+    {
+      "id": "676",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "677",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "678",
+      "LootMatrixIndex": "237",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "679"
+    },
+    {
+      "id": "680"
+    },
+    {
+      "id": "681"
+    },
+    {
+      "id": "682"
+    },
+    {
+      "id": "683"
+    },
+    {
+      "id": "684",
+      "LootMatrixIndex": "154",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "685"
+    },
+    {
+      "id": "686"
+    },
+    {
+      "id": "687",
+      "LootMatrixIndex": "244"
+    },
+    {
+      "id": "688"
+    },
+    {
+      "id": "689"
+    },
+    {
+      "id": "690",
+      "LootMatrixIndex": "253",
+      "CurrencyIndex": "23"
+    },
+    {
+      "id": "691",
+      "LootMatrixIndex": "253",
+      "CurrencyIndex": "23"
+    },
+    {
+      "id": "692"
+    },
+    {
+      "id": "693"
+    },
+    {
+      "id": "694"
+    },
+    {
+      "id": "695"
+    },
+    {
+      "id": "696"
+    },
+    {
+      "id": "697"
+    },
+    {
+      "id": "698"
+    },
+    {
+      "id": "699"
+    },
+    {
+      "id": "700"
+    },
+    {
+      "id": "701",
+      "LootMatrixIndex": "51",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "702",
+      "LootMatrixIndex": "253",
+      "CurrencyIndex": "23"
+    },
+    {
+      "id": "703",
+      "LootMatrixIndex": "52",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "704",
+      "LootMatrixIndex": "53",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "705",
+      "LootMatrixIndex": "54",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "706",
+      "LootMatrixIndex": "253"
+    },
+    {
+      "id": "707"
+    },
+    {
+      "id": "708",
+      "LootMatrixIndex": "253",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "709",
+      "LootMatrixIndex": "253",
+      "CurrencyIndex": "23"
+    },
+    {
+      "id": "710",
+      "LootMatrixIndex": "105",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "711"
+    },
+    {
+      "id": "712"
+    },
+    {
+      "id": "713",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "714",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "715",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "716"
+    },
+    {
+      "id": "717"
+    },
+    {
+      "id": "718"
+    },
+    {
+      "id": "719"
+    },
+    {
+      "id": "720"
+    },
+    {
+      "id": "721"
+    },
+    {
+      "id": "722"
+    },
+    {
+      "id": "723"
+    },
+    {
+      "id": "724"
+    },
+    {
+      "id": "725"
+    },
+    {
+      "id": "726"
+    },
+    {
+      "id": "727"
+    },
+    {
+      "id": "728"
+    },
+    {
+      "id": "729"
+    },
+    {
+      "id": "730"
+    },
+    {
+      "id": "734"
+    },
+    {
+      "id": "735"
+    },
+    {
+      "id": "736",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "737",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "738",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "739",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "740",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "741",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "742",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "743",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "744"
+    },
+    {
+      "id": "745"
+    },
+    {
+      "id": "746",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "747"
+    },
+    {
+      "id": "748",
+      "LootMatrixIndex": "348",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "749",
+      "LootMatrixIndex": "347",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "750",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "751",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "752",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "753",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "754"
+    },
+    {
+      "id": "755"
+    },
+    {
+      "id": "756",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "757",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "758",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "759",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "760",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "761",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "762",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "763",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "764",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "765",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "766",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "767",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "768",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "769",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "770",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "771",
+      "LootMatrixIndex": "465",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "772",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "773",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "774",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "775",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "776",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "777",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "778",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "779",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "780",
+      "LootMatrixIndex": "465",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "781",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "782",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "783",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "784",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "785",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "786",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "787",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "788",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "789",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "790",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "791",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "792",
+      "LootMatrixIndex": "465",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "793",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "794",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "795",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "796",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "797",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "798",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "799",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "800",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "801",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "802",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "803",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "804",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "805",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "806",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "807",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "808",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "809",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "810",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "811",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "812",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "813",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "814",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "815",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "816",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "817",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "818",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "819",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "820",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "821",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "822",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "823",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "824",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "825",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "826",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "827",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "828",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "829",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "830",
+      "LootMatrixIndex": "259",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "831",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "832",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "833",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "834",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "835",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "836",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "837",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "23"
+    },
+    {
+      "id": "838",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "839",
+      "LootMatrixIndex": "35",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "840",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "841"
+    },
+    {
+      "id": "843",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "844",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "845",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "846"
+    },
+    {
+      "id": "847"
+    },
+    {
+      "id": "848"
+    },
+    {
+      "id": "849"
+    },
+    {
+      "id": "850"
+    },
+    {
+      "id": "851"
+    },
+    {
+      "id": "852"
+    },
+    {
+      "id": "853",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "854",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "855",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "856",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "857",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "858",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "859"
+    },
+    {
+      "id": "860",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "861",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "862"
+    },
+    {
+      "id": "863",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "864"
+    },
+    {
+      "id": "865",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "866"
+    },
+    {
+      "id": "867"
+    },
+    {
+      "id": "868",
+      "LootMatrixIndex": "590",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "869"
+    },
+    {
+      "id": "870"
+    },
+    {
+      "id": "871"
+    },
+    {
+      "id": "872"
+    },
+    {
+      "id": "873",
+      "LootMatrixIndex": "308",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "874",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "875",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "876"
+    },
+    {
+      "id": "877"
+    },
+    {
+      "id": "878"
+    },
+    {
+      "id": "879"
+    },
+    {
+      "id": "880",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "881",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "882",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "883"
+    },
+    {
+      "id": "884"
+    },
+    {
+      "id": "885",
+      "LootMatrixIndex": "196"
+    },
+    {
+      "id": "886",
+      "LootMatrixIndex": "591",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "887",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "888"
+    },
+    {
+      "id": "889",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "890"
+    },
+    {
+      "id": "891"
+    },
+    {
+      "id": "893",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "894",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "895"
+    },
+    {
+      "id": "896"
+    },
+    {
+      "id": "897",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "898"
+    },
+    {
+      "id": "899",
+      "LootMatrixIndex": "132"
+    },
+    {
+      "id": "900"
+    },
+    {
+      "id": "901",
+      "LootMatrixIndex": "312"
+    },
+    {
+      "id": "902"
+    },
+    {
+      "id": "903"
+    },
+    {
+      "id": "904"
+    },
+    {
+      "id": "905"
+    },
+    {
+      "id": "906",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "907",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "908"
+    },
+    {
+      "id": "909"
+    },
+    {
+      "id": "910"
+    },
+    {
+      "id": "911"
+    },
+    {
+      "id": "912"
+    },
+    {
+      "id": "913"
+    },
+    {
+      "id": "914"
+    },
+    {
+      "id": "915",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "916"
+    },
+    {
+      "id": "917"
+    },
+    {
+      "id": "918"
+    },
+    {
+      "id": "919"
+    },
+    {
+      "id": "920"
+    },
+    {
+      "id": "921"
+    },
+    {
+      "id": "922"
+    },
+    {
+      "id": "923"
+    },
+    {
+      "id": "924",
+      "LootMatrixIndex": "330"
+    },
+    {
+      "id": "925"
+    },
+    {
+      "id": "926"
+    },
+    {
+      "id": "927"
+    },
+    {
+      "id": "928"
+    },
+    {
+      "id": "929"
+    },
+    {
+      "id": "930",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "931"
+    },
+    {
+      "id": "932",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "933",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "934"
+    },
+    {
+      "id": "935"
+    },
+    {
+      "id": "936"
+    },
+    {
+      "id": "937"
+    },
+    {
+      "id": "938",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "939"
+    },
+    {
+      "id": "940"
+    },
+    {
+      "id": "941"
+    },
+    {
+      "id": "942"
+    },
+    {
+      "id": "943",
+      "LootMatrixIndex": "590"
+    },
+    {
+      "id": "944",
+      "LootMatrixIndex": "427",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "945",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "946"
+    },
+    {
+      "id": "947"
+    },
+    {
+      "id": "948"
+    },
+    {
+      "id": "949"
+    },
+    {
+      "id": "950",
+      "LootMatrixIndex": "374"
+    },
+    {
+      "id": "951",
+      "LootMatrixIndex": "375",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "952",
+      "LootMatrixIndex": "376",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "953",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "954",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "955",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "956",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "957"
+    },
+    {
+      "id": "958"
+    },
+    {
+      "id": "959"
+    },
+    {
+      "id": "960",
+      "LootMatrixIndex": "193",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "961"
+    },
+    {
+      "id": "962"
+    },
+    {
+      "id": "963"
+    },
+    {
+      "id": "964"
+    },
+    {
+      "id": "965"
+    },
+    {
+      "id": "966"
+    },
+    {
+      "id": "967"
+    },
+    {
+      "id": "968"
+    },
+    {
+      "id": "969"
+    },
+    {
+      "id": "970"
+    },
+    {
+      "id": "971"
+    },
+    {
+      "id": "972"
+    },
+    {
+      "id": "973"
+    },
+    {
+      "id": "974"
+    },
+    {
+      "id": "975",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "976",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "977"
+    },
+    {
+      "id": "978"
+    },
+    {
+      "id": "979",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "980",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "981"
+    },
+    {
+      "id": "982"
+    },
+    {
+      "id": "983"
+    },
+    {
+      "id": "984"
+    },
+    {
+      "id": "985",
+      "LootMatrixIndex": "218",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "986"
+    },
+    {
+      "id": "987"
+    },
+    {
+      "id": "988"
+    },
+    {
+      "id": "989",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "990"
+    },
+    {
+      "id": "991",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1148"
+    },
+    {
+      "id": "1432"
+    },
+    {
+      "id": "1531"
+    },
+    {
+      "id": "1532"
+    },
+    {
+      "id": "1533",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1534",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1535",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1536",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1537",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1538"
+    },
+    {
+      "id": "1539"
+    },
+    {
+      "id": "1540"
+    },
+    {
+      "id": "1541",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1542",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1543"
+    },
+    {
+      "id": "1544"
+    },
+    {
+      "id": "1545",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1546",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1547",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1548",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1549",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1550",
+      "LootMatrixIndex": "193",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1551",
+      "LootMatrixIndex": "439",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1552",
+      "LootMatrixIndex": "439",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1553",
+      "LootMatrixIndex": "439",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1554"
+    },
+    {
+      "id": "1555"
+    },
+    {
+      "id": "1556",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1557",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1558",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1559"
+    },
+    {
+      "id": "1560",
+      "LootMatrixIndex": "352"
+    },
+    {
+      "id": "1561",
+      "LootMatrixIndex": "193"
+    },
+    {
+      "id": "1562",
+      "LootMatrixIndex": "193"
+    },
+    {
+      "id": "1563",
+      "LootMatrixIndex": "439"
+    },
+    {
+      "id": "1564"
+    },
+    {
+      "id": "1565",
+      "LootMatrixIndex": "439"
+    },
+    {
+      "id": "1566"
+    },
+    {
+      "id": "1567",
+      "LootMatrixIndex": "193"
+    },
+    {
+      "id": "1568",
+      "LootMatrixIndex": "439"
+    },
+    {
+      "id": "1569",
+      "LootMatrixIndex": "439"
+    },
+    {
+      "id": "1570",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1571",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1572",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1573",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1574",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1575",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1576",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1577",
+      "LootMatrixIndex": "453"
+    },
+    {
+      "id": "1578",
+      "LootMatrixIndex": "454"
+    },
+    {
+      "id": "1579",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1580",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1581",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1582"
+    },
+    {
+      "id": "1583"
+    },
+    {
+      "id": "1584",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1585",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1586",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1587"
+    },
+    {
+      "id": "1588",
+      "LootMatrixIndex": "452"
+    },
+    {
+      "id": "1589"
+    },
+    {
+      "id": "1590",
+      "LootMatrixIndex": "277"
+    },
+    {
+      "id": "1591",
+      "LootMatrixIndex": "277"
+    },
+    {
+      "id": "1592",
+      "LootMatrixIndex": "277"
+    },
+    {
+      "id": "1593",
+      "LootMatrixIndex": "277"
+    },
+    {
+      "id": "1594",
+      "LootMatrixIndex": "495",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1595",
+      "LootMatrixIndex": "496",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1596",
+      "LootMatrixIndex": "231",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1597",
+      "LootMatrixIndex": "507",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1598",
+      "LootMatrixIndex": "508",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1599",
+      "LootMatrixIndex": "509",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1600",
+      "LootMatrixIndex": "510",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1601",
+      "LootMatrixIndex": "511",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1602",
+      "LootMatrixIndex": "512",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1603",
+      "LootMatrixIndex": "314",
+      "CurrencyIndex": "31"
+    },
+    {
+      "id": "1604",
+      "LootMatrixIndex": "497",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1605"
+    },
+    {
+      "id": "1606",
+      "LootMatrixIndex": "469",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1607",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1608",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1609",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1610"
+    },
+    {
+      "id": "1611"
+    },
+    {
+      "id": "1612"
+    },
+    {
+      "id": "1613"
+    },
+    {
+      "id": "1614"
+    },
+    {
+      "id": "1615",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1616",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1617"
+    },
+    {
+      "id": "1618"
+    },
+    {
+      "id": "1619"
+    },
+    {
+      "id": "1620"
+    },
+    {
+      "id": "1621"
+    },
+    {
+      "id": "1622"
+    },
+    {
+      "id": "1623"
+    },
+    {
+      "id": "1624"
+    },
+    {
+      "id": "1625"
+    },
+    {
+      "id": "1626"
+    },
+    {
+      "id": "1627"
+    },
+    {
+      "id": "1628"
+    },
+    {
+      "id": "1629"
+    },
+    {
+      "id": "1630"
+    },
+    {
+      "id": "1631"
+    },
+    {
+      "id": "1632"
+    },
+    {
+      "id": "1633"
+    },
+    {
+      "id": "1634"
+    },
+    {
+      "id": "1635"
+    },
+    {
+      "id": "1636"
+    },
+    {
+      "id": "1637",
+      "LootMatrixIndex": "513",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1638",
+      "LootMatrixIndex": "514",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1639",
+      "LootMatrixIndex": "515",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1640",
+      "LootMatrixIndex": "516",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1641",
+      "LootMatrixIndex": "517",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1642",
+      "LootMatrixIndex": "518",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1643",
+      "LootMatrixIndex": "519",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1644",
+      "LootMatrixIndex": "521",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1645",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1646",
+      "LootMatrixIndex": "522",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1647",
+      "LootMatrixIndex": "523",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1648",
+      "LootMatrixIndex": "526",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1649",
+      "LootMatrixIndex": "527",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1650",
+      "LootMatrixIndex": "524",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1651",
+      "LootMatrixIndex": "525",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1652",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1653"
+    },
+    {
+      "id": "1654"
+    },
+    {
+      "id": "1655"
+    },
+    {
+      "id": "1656"
+    },
+    {
+      "id": "1657"
+    },
+    {
+      "id": "1658"
+    },
+    {
+      "id": "1659"
+    },
+    {
+      "id": "1660"
+    },
+    {
+      "id": "1661",
+      "LootMatrixIndex": "502",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1662",
+      "LootMatrixIndex": "529",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1663",
+      "LootMatrixIndex": "530",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1664",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1665",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1666"
+    },
+    {
+      "id": "1667",
+      "LootMatrixIndex": "531",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1668"
+    },
+    {
+      "id": "1669",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1670"
+    },
+    {
+      "id": "1671"
+    },
+    {
+      "id": "1672",
+      "LootMatrixIndex": "253"
+    },
+    {
+      "id": "1673"
+    },
+    {
+      "id": "1674"
+    },
+    {
+      "id": "1675"
+    },
+    {
+      "id": "1676"
+    },
+    {
+      "id": "1677"
+    },
+    {
+      "id": "1678"
+    },
+    {
+      "id": "1679"
+    },
+    {
+      "id": "1680"
+    },
+    {
+      "id": "1681"
+    },
+    {
+      "id": "1682"
+    },
+    {
+      "id": "1683"
+    },
+    {
+      "id": "1684",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1685",
+      "LootMatrixIndex": "504",
+      "CurrencyIndex": "51"
+    },
+    {
+      "id": "1686",
+      "LootMatrixIndex": "498",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1687",
+      "LootMatrixIndex": "498",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1688",
+      "LootMatrixIndex": "737",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1689",
+      "LootMatrixIndex": "737",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1690",
+      "LootMatrixIndex": "737",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1691",
+      "LootMatrixIndex": "504",
+      "CurrencyIndex": "51"
+    },
+    {
+      "id": "1692",
+      "LootMatrixIndex": "498",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1693",
+      "LootMatrixIndex": "498",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1694",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1695"
+    },
+    {
+      "id": "1696",
+      "LootMatrixIndex": "504",
+      "CurrencyIndex": "51"
+    },
+    {
+      "id": "1697",
+      "LootMatrixIndex": "504",
+      "CurrencyIndex": "51"
+    },
+    {
+      "id": "1698",
+      "LootMatrixIndex": "504",
+      "CurrencyIndex": "51"
+    },
+    {
+      "id": "1699"
+    },
+    {
+      "id": "1700",
+      "LootMatrixIndex": "498",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1701",
+      "LootMatrixIndex": "486"
+    },
+    {
+      "id": "1702"
+    },
+    {
+      "id": "1703",
+      "LootMatrixIndex": "593",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1704",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1705",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1706",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1707",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1708"
+    },
+    {
+      "id": "1709"
+    },
+    {
+      "id": "1710"
+    },
+    {
+      "id": "1711"
+    },
+    {
+      "id": "1712",
+      "LootMatrixIndex": "196"
+    },
+    {
+      "id": "1713"
+    },
+    {
+      "id": "1714",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1715",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1716",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1717",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1718",
+      "LootMatrixIndex": "227",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1719",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1720",
+      "LootMatrixIndex": "277",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1721",
+      "LootMatrixIndex": "504",
+      "CurrencyIndex": "51"
+    },
+    {
+      "id": "1722",
+      "LootMatrixIndex": "152",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1723",
+      "LootMatrixIndex": "153",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1724",
+      "LootMatrixIndex": "154",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1725"
+    },
+    {
+      "id": "1726"
+    },
+    {
+      "id": "1727"
+    },
+    {
+      "id": "1728"
+    },
+    {
+      "id": "1729",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1730",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1731",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1732"
+    },
+    {
+      "id": "1733"
+    },
+    {
+      "id": "1734"
+    },
+    {
+      "id": "1735"
+    },
+    {
+      "id": "1736",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1737"
+    },
+    {
+      "id": "1738",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1739"
+    },
+    {
+      "id": "1740",
+      "LootMatrixIndex": "590"
+    },
+    {
+      "id": "1741"
+    },
+    {
+      "id": "1742",
+      "LootMatrixIndex": "594",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1743",
+      "LootMatrixIndex": "531",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1744",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1745"
+    },
+    {
+      "id": "1746"
+    },
+    {
+      "id": "1747",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1748",
+      "LootMatrixIndex": "193",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1749",
+      "LootMatrixIndex": "193",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1750",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1751",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1752",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1753",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1754",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1755",
+      "LootMatrixIndex": "620",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1756",
+      "LootMatrixIndex": "617",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1757",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1758",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1759",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1760",
+      "LootMatrixIndex": "621",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1761",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1762",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1763",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1764",
+      "LootMatrixIndex": "623",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1765",
+      "LootMatrixIndex": "623",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1766",
+      "LootMatrixIndex": "623",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1767",
+      "LootMatrixIndex": "623",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1768"
+    },
+    {
+      "id": "1769"
+    },
+    {
+      "id": "1770"
+    },
+    {
+      "id": "1771",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1772",
+      "LootMatrixIndex": "520",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1773"
+    },
+    {
+      "id": "1774"
+    },
+    {
+      "id": "1775"
+    },
+    {
+      "id": "1776"
+    },
+    {
+      "id": "1777"
+    },
+    {
+      "id": "1778",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1779",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1780"
+    },
+    {
+      "id": "1781"
+    },
+    {
+      "id": "1782"
+    },
+    {
+      "id": "1783"
+    },
+    {
+      "id": "1784"
+    },
+    {
+      "id": "1785"
+    },
+    {
+      "id": "1786"
+    },
+    {
+      "id": "1787"
+    },
+    {
+      "id": "1788"
+    },
+    {
+      "id": "1789"
+    },
+    {
+      "id": "1790",
+      "LootMatrixIndex": "535"
+    },
+    {
+      "id": "1791"
+    },
+    {
+      "id": "1792",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1793"
+    },
+    {
+      "id": "1794"
+    },
+    {
+      "id": "1795"
+    },
+    {
+      "id": "1796",
+      "LootMatrixIndex": "504",
+      "CurrencyIndex": "51"
+    },
+    {
+      "id": "1797",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1798"
+    },
+    {
+      "id": "1799"
+    },
+    {
+      "id": "1800"
+    },
+    {
+      "id": "1801"
+    },
+    {
+      "id": "1802"
+    },
+    {
+      "id": "1803"
+    },
+    {
+      "id": "1804"
+    },
+    {
+      "id": "1805"
+    },
+    {
+      "id": "1806"
+    },
+    {
+      "id": "1807"
+    },
+    {
+      "id": "1808"
+    },
+    {
+      "id": "1809"
+    },
+    {
+      "id": "1810",
+      "LootMatrixIndex": "655",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1811",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1812",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1813",
+      "LootMatrixIndex": "498",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1814",
+      "LootMatrixIndex": "498",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1815",
+      "LootMatrixIndex": "498",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1816"
+    },
+    {
+      "id": "1817"
+    },
+    {
+      "id": "1818"
+    },
+    {
+      "id": "1819"
+    },
+    {
+      "id": "1820",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1821",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1822"
+    },
+    {
+      "id": "1823"
+    },
+    {
+      "id": "1824"
+    },
+    {
+      "id": "1825",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1826",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1827",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1828"
+    },
+    {
+      "id": "1829"
+    },
+    {
+      "id": "1830"
+    },
+    {
+      "id": "1831"
+    },
+    {
+      "id": "1832"
+    },
+    {
+      "id": "1833"
+    },
+    {
+      "id": "1837"
+    },
+    {
+      "id": "1838"
+    },
+    {
+      "id": "1839",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1840",
+      "LootMatrixIndex": "683",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1841"
+    },
+    {
+      "id": "1842"
+    },
+    {
+      "id": "1843",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1844",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1845",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1846",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1847",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1849",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1850",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1851",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1852"
+    },
+    {
+      "id": "1853"
+    },
+    {
+      "id": "1854",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1855",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1856"
+    },
+    {
+      "id": "1857"
+    },
+    {
+      "id": "1858",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1859",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1860",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1861",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1862",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1863",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1864",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1865",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1866",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1867"
+    },
+    {
+      "id": "1868"
+    },
+    {
+      "id": "1869"
+    },
+    {
+      "id": "1870",
+      "LootMatrixIndex": "623",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1871"
+    },
+    {
+      "id": "1872"
+    },
+    {
+      "id": "1873",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1874",
+      "LootMatrixIndex": "352",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "1875"
+    },
+    {
+      "id": "1876",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1877",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1878",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1879",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1880",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1881",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1882",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "2"
+    },
+    {
+      "id": "1883",
+      "LootMatrixIndex": "718",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1884"
+    },
+    {
+      "id": "1885"
+    },
+    {
+      "id": "1886"
+    },
+    {
+      "id": "1887"
+    },
+    {
+      "id": "1888"
+    },
+    {
+      "id": "1889"
+    },
+    {
+      "id": "1890"
+    },
+    {
+      "id": "1891"
+    },
+    {
+      "id": "1892",
+      "LootMatrixIndex": "216",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1893",
+      "LootMatrixIndex": "217",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1894"
+    },
+    {
+      "id": "1895",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "1896"
+    },
+    {
+      "id": "1897"
+    },
+    {
+      "id": "1898"
+    },
+    {
+      "id": "1899",
+      "LootMatrixIndex": "761",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1900",
+      "LootMatrixIndex": "793",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1901",
+      "LootMatrixIndex": "794",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1902",
+      "LootMatrixIndex": "796",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1903",
+      "LootMatrixIndex": "797",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1904",
+      "LootMatrixIndex": "798",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1905",
+      "LootMatrixIndex": "799",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1906",
+      "LootMatrixIndex": "800",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1907",
+      "LootMatrixIndex": "881",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1908",
+      "LootMatrixIndex": "881",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1909",
+      "LootMatrixIndex": "881",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1910",
+      "LootMatrixIndex": "881",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1911",
+      "LootMatrixIndex": "882",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1912",
+      "LootMatrixIndex": "880",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1913",
+      "LootMatrixIndex": "883",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1914",
+      "LootMatrixIndex": "884",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1915",
+      "LootMatrixIndex": "893",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1916"
+    },
+    {
+      "id": "1917",
+      "LootMatrixIndex": "498",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "1918"
+    },
+    {
+      "id": "1919"
+    },
+    {
+      "id": "1920"
+    },
+    {
+      "id": "1921"
+    },
+    {
+      "id": "1922",
+      "LootMatrixIndex": "36",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "1923"
+    },
+    {
+      "id": "1924"
+    },
+    {
+      "id": "1925"
+    },
+    {
+      "id": "1926",
+      "LootMatrixIndex": "740"
+    },
+    {
+      "id": "1927",
+      "LootMatrixIndex": "742"
+    },
+    {
+      "id": "1928"
+    },
+    {
+      "id": "1929"
+    },
+    {
+      "id": "1930"
+    },
+    {
+      "id": "1931"
+    },
+    {
+      "id": "1932",
+      "LootMatrixIndex": "425",
+      "CurrencyIndex": "20"
+    },
+    {
+      "id": "1933"
+    },
+    {
+      "id": "1934",
+      "LootMatrixIndex": "689",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1935"
+    },
+    {
+      "id": "1936",
+      "LootMatrixIndex": "772",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1937",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1938",
+      "LootMatrixIndex": "850",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1939"
+    },
+    {
+      "id": "1940"
+    },
+    {
+      "id": "1941",
+      "LootMatrixIndex": "862"
+    },
+    {
+      "id": "1942",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1943",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1944",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1945",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1946",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1947",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1948",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1949",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1950",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1951",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1952",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1953",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "1954",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1955",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1956",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1957",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1958",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1959",
+      "LootMatrixIndex": "753"
+    },
+    {
+      "id": "1960"
+    },
+    {
+      "id": "1961"
+    },
+    {
+      "id": "1962",
+      "LootMatrixIndex": "792",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1963",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1964",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1965",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1966",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1967",
+      "LootMatrixIndex": "792",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1968",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1969",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1970",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1971",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1972",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1973",
+      "LootMatrixIndex": "792",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1974",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1975",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1976",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1977",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1978",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1979",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1980",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1981"
+    },
+    {
+      "id": "1982",
+      "LootMatrixIndex": "759",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1983",
+      "LootMatrixIndex": "792",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1984",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1985",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1986",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1987",
+      "LootMatrixIndex": "773",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1988",
+      "LootMatrixIndex": "774",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1989",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1990",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1991",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1992",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1993",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1994",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1995",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1996",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1997",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1998",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "1999",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2000",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2001",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2002",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2003",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2004",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2005",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2006",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2007",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2008",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2009",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2010",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2011",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2012",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2013",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2014",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2015",
+      "LootMatrixIndex": "771",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2016",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2017",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2018",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2019",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2020",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2021",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2022",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2023",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2024",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2025",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2026",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2027",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2028",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2029",
+      "LootMatrixIndex": "775",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2030",
+      "LootMatrixIndex": "762",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2031",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2032",
+      "LootMatrixIndex": "231",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2033",
+      "CurrencyIndex": "12"
+    },
+    {
+      "id": "2034",
+      "LootMatrixIndex": "792",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2035",
+      "LootMatrixIndex": "792",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2036",
+      "LootMatrixIndex": "792",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2037",
+      "LootMatrixIndex": "792",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2038"
+    },
+    {
+      "id": "2039"
+    },
+    {
+      "id": "2040",
+      "LootMatrixIndex": "836",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2041"
+    },
+    {
+      "id": "2042"
+    },
+    {
+      "id": "2043"
+    },
+    {
+      "id": "2044"
+    },
+    {
+      "id": "2045"
+    },
+    {
+      "id": "2046"
+    },
+    {
+      "id": "2047",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2048",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2049",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2050"
+    },
+    {
+      "id": "2051"
+    },
+    {
+      "id": "2052"
+    },
+    {
+      "id": "2053"
+    },
+    {
+      "id": "2054"
+    },
+    {
+      "id": "2055",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2056",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2057",
+      "LootMatrixIndex": "754",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2058",
+      "LootMatrixIndex": "754",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2059",
+      "LootMatrixIndex": "754",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2060",
+      "LootMatrixIndex": "754",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2061",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2062",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2063",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2064",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2065",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2066",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2067",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2068",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2069",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2070",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2071",
+      "LootMatrixIndex": "897",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2072",
+      "LootMatrixIndex": "897",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2073",
+      "LootMatrixIndex": "897",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2074",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2075",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2076",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2077",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2078",
+      "LootMatrixIndex": "749",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2079",
+      "LootMatrixIndex": "776",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2080",
+      "LootMatrixIndex": "776",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2081",
+      "LootMatrixIndex": "776",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2082"
+    },
+    {
+      "id": "2083"
+    },
+    {
+      "id": "2084"
+    },
+    {
+      "id": "2085",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2086"
+    },
+    {
+      "id": "2087"
+    },
+    {
+      "id": "2088"
+    },
+    {
+      "id": "2089"
+    },
+    {
+      "id": "2090"
+    },
+    {
+      "id": "2091"
+    },
+    {
+      "id": "2092",
+      "LootMatrixIndex": "836",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2093",
+      "LootMatrixIndex": "836",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2094",
+      "LootMatrixIndex": "836",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2095",
+      "LootMatrixIndex": "836",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2096"
+    },
+    {
+      "id": "2097"
+    },
+    {
+      "id": "2098",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2099",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2100",
+      "LootMatrixIndex": "764",
+      "CurrencyIndex": "52"
+    },
+    {
+      "id": "2101",
+      "LootMatrixIndex": "879",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2102",
+      "LootMatrixIndex": "899"
+    },
+    {
+      "id": "2103",
+      "LootMatrixIndex": "763",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2104",
+      "LootMatrixIndex": "766",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2105",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2106"
+    },
+    {
+      "id": "2107",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2108",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2109",
+      "LootMatrixIndex": "896",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2110",
+      "LootMatrixIndex": "888",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2111",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2112",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2113",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2114",
+      "LootMatrixIndex": "783"
+    },
+    {
+      "id": "2115"
+    },
+    {
+      "id": "2116",
+      "LootMatrixIndex": "160",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2117"
+    },
+    {
+      "id": "2118",
+      "LootMatrixIndex": "230",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2119",
+      "LootMatrixIndex": "231",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2120"
+    },
+    {
+      "id": "2121",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2122",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2123",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2124",
+      "LootMatrixIndex": "783"
+    },
+    {
+      "id": "2125",
+      "LootMatrixIndex": "851"
+    },
+    {
+      "id": "2126",
+      "LootMatrixIndex": "852"
+    },
+    {
+      "id": "2127",
+      "LootMatrixIndex": "853"
+    },
+    {
+      "id": "2128",
+      "LootMatrixIndex": "854"
+    },
+    {
+      "id": "2129",
+      "LootMatrixIndex": "855"
+    },
+    {
+      "id": "2130",
+      "LootMatrixIndex": "761",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2131"
+    },
+    {
+      "id": "2132",
+      "LootMatrixIndex": "231",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2133"
+    },
+    {
+      "id": "2134",
+      "LootMatrixIndex": "858",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2135",
+      "LootMatrixIndex": "792",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2136",
+      "LootMatrixIndex": "857",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2137",
+      "LootMatrixIndex": "859",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2138",
+      "LootMatrixIndex": "29",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2139"
+    },
+    {
+      "id": "2140"
+    },
+    {
+      "id": "2141"
+    },
+    {
+      "id": "2142"
+    },
+    {
+      "id": "2143"
+    },
+    {
+      "id": "2144",
+      "LootMatrixIndex": "870",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "2145",
+      "LootMatrixIndex": "871",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "2146",
+      "LootMatrixIndex": "872",
+      "CurrencyIndex": "3"
+    },
+    {
+      "id": "2147",
+      "LootMatrixIndex": "873",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "2148",
+      "LootMatrixIndex": "874",
+      "CurrencyIndex": "4"
+    },
+    {
+      "id": "2149"
+    },
+    {
+      "id": "2150",
+      "LootMatrixIndex": "881",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2151"
+    },
+    {
+      "id": "2152",
+      "LootMatrixIndex": "895",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2153"
+    },
+    {
+      "id": "2154",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2155",
+      "LootMatrixIndex": "129",
+      "CurrencyIndex": "1"
+    },
+    {
+      "id": "2156"
+    },
+    {
+      "id": "2157"
+    },
+    {
+      "id": "2160",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2161",
+      "LootMatrixIndex": "748",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2162",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2163",
+      "LootMatrixIndex": "753",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2164",
+      "LootMatrixIndex": "752",
+      "CurrencyIndex": "122"
+    },
+    {
+      "id": "2165",
+      "LootMatrixIndex": "752"
+    },
+    {
+      "id": "2166",
+      "LootMatrixIndex": "752"
+    },
+    {
+      "id": "2229"
+    }
+  ]
+}

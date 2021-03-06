@@ -45,6 +45,16 @@ module.exports = {
         var description = item.description
         var extra_desc = ''
         var renderID = item.components["2"]
+        var destructibleComponentID = item.components["7"]
+        var destructibleComponent = require(`./../tables/DestructibleComponent/${Math.floor(destructibleComponentID/256)}/${destructibleComponentID}.json`)
+        var life = destructibleComponent.life
+        var LootMatrixIndex = destructibleComponent.LootMatrixIndex
+        var Armor = destructibleComponent.armor
+        var CurrencyIndex = destructibleComponent.CurrencyIndex
+
+
+        //console.log(`life:${destructibleComponent.life}`)
+        //console.log(destructibleComponent.life)
         console.log(`renderID: ${renderID}`)
         var renderFolder = Math.floor(renderID/256)
         var renderComponent = require(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
@@ -169,6 +179,12 @@ module.exports = {
                 { name: 'Display Name', value: displayName, inline: true },
                 { name: 'Internal Notes', value: internalNotes, inline: true },
                 { name: 'Description', value: description, inline: true },
+                { name: 'Life', value: life, inline: true },
+                { name: 'Armor', value: Armor, inline: true },
+                { name: 'LootMatrixIndex', value: LootMatrixIndex, inline: true },
+                { name: 'CurrencyIndex', value: CurrencyIndex, inline: true },
+
+
 
             )
 
