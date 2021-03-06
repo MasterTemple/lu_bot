@@ -46,10 +46,20 @@ module.exports = {
 
                 if (allMatch) {
                     console.log(`MATCH!`, allMatch)
-                    var id = [missionswithID["table"][j].id]
-                    var func = require(`./getMissionsByID.js`)
-                    func.execute(message, id)
-                    return
+
+                    var info = require(`./../tables/Missions/${Math.floor(missionswithID["table"][j].id/256)}/${missionswithID["table"][j].id}.json`);
+                    if(info.isMission == 1) {
+                        var id = [missionswithID["table"][j].id]
+                        var func = require(`./getMissionsByID.js`)
+                        func.execute(message, id)
+                        return
+                    }
+                    else if(info.isMission == 0){
+                        var id = [missionswithID["table"][j].id]
+                        var func = require(`./achievement.js`)
+                        func.execute(message, id)
+                        return
+                    }
                 }
             }catch(e){
                 console.log(e)
