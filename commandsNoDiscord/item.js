@@ -8,6 +8,7 @@ module.exports = {
         var data = {}
 
         var id = args[0]
+        data.itemID = args[0]
 
         var folder_loc = Math.floor(id / 256)
         var item_loc = id
@@ -19,11 +20,28 @@ module.exports = {
             // console.log("An object for this ID does not even exist.")
             return
         }
+        //console.log(item)
 
         data.name = item.name
         data.displayName = item.displayName
+        data.description = item.description
+        var equip = require(`./equip.js`)
+        var equipObject = equip.execute([args[0]])
+        if(equipObject.equipLocationNames.includes(`Right Hand`)){
+            console.log(`weapon!`)
+            var isWeapon = true
+            data.isWeapon = true
+
+        }else{
+            var isWeapon = false
+            data.isWeapon = false
+
+
+        }
+        //data.equipSlots = []
+        //data.equipSlots.push(equipObject)
         // console.log(`${item.name}`)
-        var isWeapon = false
+        //var isWeapon = false
         var Armor = 0
         var Health = 0
         var Imagination = 0
@@ -49,6 +67,8 @@ module.exports = {
         // console.log(`./../tables/Icons/${iconID}.json`)
         //var iconPath = icons.IconPath
         var iconPath = renderComponent.icon_asset
+        data.skillIDs = []
+        data.behaviorIDs = []
         if(item.skills != undefined) {
             for (var i = 0; i < item.skills.length; i++) {
 
@@ -57,11 +77,14 @@ module.exports = {
                 var skillBehavior = require(`./../locale/SkillBehavior/${behav_folder_loc}.json`)
                 // console.log(skillBehavior[skillID])
                 var abilityName;
+                data.skillIDs.push(skillID)
                 if (skillBehavior[skillID] == undefined){
                     //return
                 }
                 try{
                     abilityName = skillBehavior[skillID].name;
+                    data.abilityName = skillBehavior[skillID].name
+
                 }catch{
                     abilityName = `None`
                 }
@@ -101,25 +124,30 @@ module.exports = {
                 // //console.log(`cool: ${cooldownFile.cooldown}`)
                 if (cooldownFile.cooldown != 0) {
                     cooldowngroup = cooldownFile.cooldowngroup
+                    data.cooldowngroup = cooldownFile.cooldowngroup
                     cooldown = `${cooldownFile.cooldown} Seconds`
-
+                    data.cooldownTime = cooldownFile.cooldown
                     // console.log(`Cooldown Group: ${cooldownFile.cooldowngroup}\nItem Cooldown: ${cooldownFile.cooldown} seconds`)
                 }
                 if(imaginationCost > 0){
                     // console.log(`already got imagination`)
                 }else{
                     imaginationCost = cooldownFile.imaginationcost
+                    data.abilityImaginationCost = cooldownFile.imaginationcost
                 }
 
 
                 if (cooldownFile.armorBonusUI != null) {
                     Armor = cooldownFile.armorBonusUI
+                    data.Armor = cooldownFile.armorBonusUI
                 }
                 if (cooldownFile.lifeBonusUI != null) {
                     Health = cooldownFile.lifeBonusUI
+                    data.Health = cooldownFile.lifeBonusUI
                 }
                 if (cooldownFile.imBonusUI != null) {
                     Imagination = cooldownFile.imBonusUI
+                    data.Imagination = cooldownFile.imBonusUI
                 }
 
                 if (i == item.skills.length - 1) {
@@ -158,6 +186,18 @@ module.exports = {
                     catch{}
                 }
 
+            }
+        }
+        for(var l=0;l<data.skillIDs.length;l++){
+            var skillIDToBehaviorFile = require(`./../tables/SkillBehavior/${data.skillIDs[l]}.json`)
+            data.behaviorIDs.push(skillIDToBehaviorFile.behaviorID)
+        }
+        var weaponTree = require(`./weaponTree.js`)
+        for(var m=0;m<data.behaviorIDs.length;m++){
+            var weaponTreeInfo = weaponTree.execute([data.behaviorIDs[m]])
+            if(weaponTreeInfo.table.length != 0){
+                //console.log(weaponTreeInfo)
+                data.weaponTreeInfo = weaponTreeInfo.table
             }
         }
 
@@ -236,59 +276,15 @@ module.exports = {
             data.levelRequirement = min_level
         }
 
+
+        let information = {
+            ...equipObject,
+            ...data
+        };
         // //console.log(min_level)
-        return data
-
-        if(args[1] == `FROMBUYITEM`){
+        return information
 
 
 
-            devoEmbed.addFields({ name: 'Offered By', value: args[2], inline: true })
-            // { name: '឵឵ ឵Cost', value: price, inline: true },
-            // { name: '឵឵ Stack', value: stackSize, inline: true },
-            if(args[3] == 1 || args[3] == 2) {
-                devoEmbed.addFields({ name: '឵឵ ឵Cost', value: price, inline: true },)
-                devoEmbed.addFields({ name: '឵឵ Stack', value: stackSize, inline: true },)
-            }
-            else if(args[3] >= 4) {
-                devoEmbed.addFields({name: '឵឵ ឵Cost', value: `${price}\n\n**Stack**\n${stackSize}`, inline: true})
-            }else{
-                devoEmbed.addFields({name: '឵឵ ឵Cost', value: `${price}\n**Stack**\n${stackSize}`, inline: true})
-            }
-            //{ name: '឵឵ Stack', value: stackSize, inline: true },
-
-
-
-            client.channels.cache.get(channel).send(devoEmbed);
-
-        }
-        else{
-
-            devoEmbed.setDescription(item_description)
-
-            devoEmbed.addFields(
-                { name: 'Display Name', value: displayName, inline: true },
-                { name: 'Internal Notes', value: internalNotes, inline: true },
-                { name: 'ChargeUp', value: chargeUp, inline: true },
-
-            )
-            devoEmbed.addFields(
-                { name: 'Damage Combo', value: dmg_combo, inline: true },
-                { name: 'Imagination Cost', value: imaginationCost, inline: true },
-                { name: 'Cooldown Time', value: cooldown, inline: true },
-            )
-            devoEmbed.addFields(
-                {name: 'Armor', value: Armor, inline: true},
-                {name: 'Health', value: Health, inline: true},
-                {name: 'Imagination', value: Imagination, inline: true},
-                { name: 'Cooldown Group', value: cooldowngroup, inline: true },
-                { name: '឵឵ Stack', value: stackSize, inline: true },
-                { name: '឵឵ ឵Cost', value: price, inline: true },
-                { name: '឵឵ Level Requirement', value: min_level, inline: true },
-
-
-            )
-            client.channels.cache.get(channel).send(devoEmbed);
-        }
     }
 }
