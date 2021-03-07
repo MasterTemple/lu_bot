@@ -60,6 +60,7 @@ module.exports = {
         }
         data.table.push(obj)
         console.log(obj)
+        console.log(data)
 
         //(`./../objects/groupBy/component/53.json`)
 
