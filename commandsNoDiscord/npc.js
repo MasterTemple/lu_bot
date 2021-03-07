@@ -13,7 +13,7 @@ module.exports = {
         var missionNamesStr = ``
 
         try{
-            var item = require(`./objects/0/${Math.floor(id / 256)}/${id}.json`);
+            var item = require(`./../objects/0/${Math.floor(id / 256)}/${id}.json`);
         }catch{
             return
             //console.log(`fail`)
