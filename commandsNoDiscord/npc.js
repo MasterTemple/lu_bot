@@ -12,9 +12,21 @@ module.exports = {
         var missionNamesString
         var missionNamesStr = ``
 
+        try{
+            var item = require(`./objects/0/${Math.floor(id / 256)}/${id}.json`);
+        }catch{
+            console.log(`fail`)
+        }
+
         data.objectID = args[0]
-        var quest = item.components["73"]
-        var vendor = item.components["16"]
+
+        try{
+            var quest = item.components["73"]
+        }catch{}
+        try{
+            var vendor = item.components["16"]
+        }catch{}
+
         var sell1 = ``
         var sell2 = ``
         // //console.log(quest)
@@ -85,17 +97,23 @@ module.exports = {
         // //console.log(`${item.name}`)
 
 
-        var title = item.name
-        data.name = item.name
-        data.displayName = item.displayName
-        data.description = item.description
-        // console.log(item)
-        var displayName = item.displayName
-        var internalNotes = item._internalNotes
-        data.internalNotes = item._internalNotes
-        var description = item.description
+        try{
+            data.name = item.name
+        }catch{}
+        try{
+            data.displayName = item.displayName
+        }catch{}
+        try{
+            data.description = item.description
+            var description = item.description
+        }catch{}
+        try{
+            data.internalNotes = item._internalNotes
+        }catch{}
         var extra_desc = ''
-        var renderID = item.components["2"]
+        try{
+            var renderID = item.components["2"]
+
         // console.log(`renderID: ${renderID}`)
         var renderFolder = Math.floor(renderID/256)
         var renderComponent = require(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
@@ -105,7 +123,9 @@ module.exports = {
         // console.log(`./../tables/Icons/${iconID}.json`)
         //var iconPath = icons.IconPath
         var iconPath = renderComponent.icon_asset
-
+        }catch{
+            var iconPath = null
+        }
 
         if(iconPath != null) {
             iconPath = iconPath.replace('DDS', 'png')
@@ -133,10 +153,7 @@ module.exports = {
         // //console.log(missionNames)
 
 
-
-
         const brickVendorsIDs = [2264, 3921, 7429, 9705, 9706, 9707, 13379]
-
 
         // //console.log(lootTable["elements"].length)
 
@@ -157,14 +174,8 @@ module.exports = {
                         }
                         data.soldItems.push(obj)
                     }catch{}
-
                 }
-
-
-
-
             }
-
         }
         return data
     }
