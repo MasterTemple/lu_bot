@@ -184,7 +184,7 @@ function getKids(behaviorID, ogVal, parentName){
 //var behaviorID = [4244,4254,22316,11183,]//anything
 //var behaviorID = [11183, 10884]//daredevil
 //var behaviorID = [23153]//adventurer 1
-var behaviorID = [15708]//adventurer 3
+var behaviorID = [15556]//adventurer 3
 //var behaviorID = [1897, 1898, 15556]
 
 
