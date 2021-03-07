@@ -55,6 +55,7 @@ module.exports = {
                 var obj = {
                     behaviorID: behaviorID
                 }
+                console.log(tempArray[0])
                 for (var i = 0; i < Object.keys(tempArray[0]).length; i++) {
                     parents.push(Object.keys(tempArray[0])[i])
                     //console.log([Object.keys(tempArray[0])[i]], Object.values(tempArray[0])[i])
@@ -63,22 +64,42 @@ module.exports = {
                     }
 
                     if(parent === `double_jump_action`){
-                        double_jump_action.push(Object.values(tempArray[0])[i])
+                        if(actions.includes((Object.keys(tempArray[0])[i]))){
+                            if (double_jump_action.includes(parseInt(Object.values(tempArray[0])[i])) == false) {
+                                double_jump_action.push(parseInt(Object.values(tempArray[0])[i]))
+                            }
+                        }
                     }
                     if(parent === `falling_action`){
-                        falling_action.push(Object.values(tempArray[0])[i])
+                        if(actions.includes((Object.keys(tempArray[0])[i]))){
+                            if (falling_action.includes(parseInt(Object.values(tempArray[0])[i])) == false) {
+                                falling_action.push(parseInt(Object.values(tempArray[0])[i]))
+                            }
+                        }
                     }
                     if(parent === `ground_action`){
-                        ground_action.push(Object.values(tempArray[0])[i])
+                        if(actions.includes((Object.keys(tempArray[0])[i]))){
+                            if (ground_action.includes(parseInt(Object.values(tempArray[0])[i])) == false) {
+                                ground_action.push(parseInt(Object.values(tempArray[0])[i]))
+                            }
+                        }
                     }
                     if(parent === `jetpack_action`){
-                        jetpack_action.push(Object.values(tempArray[0])[i])
+                        if(actions.includes((Object.keys(tempArray[0])[i]))){
+                            if (jetpack_action.includes(parseInt(Object.values(tempArray[0])[i])) == false) {
+                                jetpack_action.push(parseInt(Object.values(tempArray[0])[i]))
+                            }
+                        }
                     }
                     if(parent === `jump_action`){
-                        jump_action.push(Object.values(tempArray[0])[i])
+                        if(actions.includes((Object.keys(tempArray[0])[i]))){
+                            if (jump_action.includes(parseInt(Object.values(tempArray[0])[i])) == false) {
+                                jump_action.push(parseInt(Object.values(tempArray[0])[i]))
+                            }
+                        }
                     }
                 }
-                console.log(obj)
+                //console.log(obj)
                 if(parent == `double_jump_action`){
                     //tree.table[0].behaviorID
 
@@ -101,25 +122,25 @@ module.exports = {
         //console.log(tree.table[0].length)
         //console.log(tree.table.length)
         //console.log(Object.keys(tree.table[0]).length)
-        var newLength = Object.keys(tree.table[0]).length
 
         if (tree.table[0].behaviorID.behaviorID == 23451){
             //console.log(true)
         }
-        console.log(Object.keys(tree.table[0]))
+        //console.log(Object.keys(tree.table[0]))
         if (tree.table[0].behaviorID.behaviorID == 23451){
             //console.log(`also true`)
         }
 
         //console.log(Object.keys(tree.table[0]))
-
+        var newLength = Object.keys(tree.table[0]).length
+        console.log(`newLength: ${newLength}`)
         do {
             for (var j = 0; j < Object.keys(tree.table[0]).length; j++) {
                 //console.log(Object.values(tree.table[0])[j])
                 //console.log(Object.(tree.table[0])[j])
                 //console.log(Object.values(tree.table[0])[j], tree.table[0][Object.keys(tree.table[0])[j]])
                 if (actions.includes(Object.keys(tree.table[0])[j])) {
-                    console.log(Object.values(tree.table[0])[j][Object.keys(tree.table[0])[j]], Object.keys(tree.table[0])[j])
+                    //console.log(Object.values(tree.table[0])[j][Object.keys(tree.table[0])[j]], Object.keys(tree.table[0])[j])
                     console.log(tree.table[0][Object.keys(tree.table[0])[j]])
                     getKidsKids(Object.values(tree.table[0])[j][Object.keys(tree.table[0])[j]], Object.keys(tree.table[0])[j])
                 } else {
@@ -130,18 +151,70 @@ module.exports = {
 
             }
             var previousLength = Object.keys(tree.table[0]).length
+            console.log(`previousLength: ${previousLength}`)
 
         }while(newLength != previousLength)
         //console.log(tree)
 
+
         console.log(double_jump_action)
-        console.log(falling_action)
         console.log(ground_action)
+        console.log(falling_action)
         console.log(jetpack_action)
         console.log(jump_action)
 
+        for(var k=1;k<double_jump_action.length;k++){
+            console.log(double_jump_action.length)
+            getKidsKids(double_jump_action[k], `double_jump_action`)
+        }
+        for(var k=1;k<ground_action.length;k++){
+            console.log(ground_action.length)
+            getKidsKids(ground_action[k], `ground_action`)
+        }
+        for(var k=1;k<falling_action.length;k++){
+            console.log(falling_action.length)
+            getKidsKids(falling_action[k], `falling_action`)
+        }
+        for(var k=1;k<jetpack_action.length;k++){
+            console.log(jetpack_action.length)
+            getKidsKids(jetpack_action[k], `jetpack_action`)
+        }
+        for(var k=1;k<jump_action.length;k++){
+            console.log(jump_action.length)
+            getKidsKids(jump_action[k], `jump_action`)
+        }
+
+
+        console.log(double_jump_action)
+        console.log(ground_action)
+        console.log(falling_action)
+        console.log(jetpack_action)
+        console.log(jump_action)
 
         return tree
+
+
+        // for(var k=0;k< double_jump_action.length;k++){
+        //     getKidsKids(Object.values(tree.table[0])[k][Object.keys(tree.table[0])[k]], `double_jump_action`)
+        // }
+        // for(var k=0;k< falling_action.length;k++){
+        //     getKidsKids(Object.values(tree.table[0])[k][Object.keys(tree.table[0])[k]], `falling_action`)
+        // }
+        // for(var k=0;k< ground_action.length;k++){
+        //     getKidsKids(Object.values(tree.table[0])[k][Object.keys(tree.table[0])[k]], `ground_action`)
+        // }
+        // for(var k=0;k< jetpack_action.length;k++){
+        //     getKidsKids(Object.values(tree.table[0])[k][Object.keys(tree.table[0])[k]], `jetpack_action`)
+        // }
+        // for(var k=0;k< jump_action.length;k++){
+        //     getKidsKids(Object.values(tree.table[0])[k][Object.keys(tree.table[0])[k]], `jump_action`)
+        // }
+        //
+        // console.log(double_jump_action)
+        // console.log(falling_action)
+        // console.log(ground_action)
+        // console.log(jetpack_action)
+        // console.log(jump_action)
 
 
     }
