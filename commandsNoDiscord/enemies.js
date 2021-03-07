@@ -40,6 +40,7 @@ module.exports = {
         var dmg_combo
         var title = item.name
         // console.log(item)
+        data.name = item.name
         var displayName = item.displayName
         data.displayName = item.displayName
         var internalNotes = item._internalNotes
