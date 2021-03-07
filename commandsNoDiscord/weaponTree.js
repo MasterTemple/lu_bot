@@ -55,10 +55,13 @@ module.exports = {
                 //projectileDMG.push(skillBehavior.behaviorID)
 
             }
-            if (behaviorTemplate.table.find(a => parseInt(a.behaviorID) == parseInt(behaviorID)).templateID == `43`) {
+            if (behaviorTemplate.table.find(a => parseInt(a.behaviorID) === parseInt(behaviorID)).templateID == `43`) {
                 chargeUp = true
-                //projectileDMG.push(skillBehavior.behaviorID)
+                //console.log(behaviorTemplate.table.find(a => parseInt(a.behaviorID) === parseInt(behaviorID)).templateID)
 
+                //projectileDMG.push(skillBehavior.behaviorID)
+            }else{
+                //console.log(behaviorTemplate.table.find(a => parseInt(a.behaviorID) === parseInt(behaviorID)).templateID)
             }
 
             if (tempArray[0].max_duration != undefined) {
@@ -304,6 +307,9 @@ module.exports = {
                     // //console.log(tempArray[0])
 
 
+
+
+
                     // //console.log(`I HAVE KIDS`)
                     // //console.log((Object.keys(tempArray[0])[i]),(Object.values(tempArray[0])[i]))
                     // //console.log(Object.keys(tempArray[0])[i])
@@ -318,6 +324,8 @@ module.exports = {
 
                             var skillBehavior = require(`./tables/SkillBehavior/${ObjectSkills.table.find(a => parseInt(a.objectTemplate) == parseInt(tempArray[0].LOT_ID)).skillID}.json`)
                             // console.log(skillBehavior.behaviorID)
+
+
                             alreadyUsedProjectiles.push(skillBehavior.behaviorID)
                             getProjectileDamage(skillBehavior.behaviorID)
                         } catch {
@@ -398,7 +406,7 @@ module.exports = {
                 finalObject.table[0].projectileDamage = finalObject.table[0].newProjectileDamage.join(`+`)
             }
         } catch (e) {
-            // console.log(e)
+             console.log(e)
         }
 
 

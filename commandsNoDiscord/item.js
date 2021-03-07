@@ -28,7 +28,7 @@ module.exports = {
         var equip = require(`./equip.js`)
         var equipObject = equip.execute([args[0]])
         if(equipObject.equipLocationNames.includes(`Right Hand`)){
-            console.log(`weapon!`)
+            //console.log(`weapon!`)
             var isWeapon = true
             data.isWeapon = true
 
@@ -55,6 +55,7 @@ module.exports = {
         // console.log(item)
         var displayName = item.displayName
         var internalNotes = item._internalNotes
+        data.internalNotes = item._internalNotes
         var description = item.description
         var extra_desc = ''
         var renderID = item.components["2"]
@@ -192,7 +193,9 @@ module.exports = {
             var skillIDToBehaviorFile = require(`./../tables/SkillBehavior/${data.skillIDs[l]}.json`)
             data.behaviorIDs.push(skillIDToBehaviorFile.behaviorID)
         }
-        var weaponTree = require(`./weaponTree.js`)
+        //var weaponTree = require(`./weaponTree.js`)
+        var weaponTree = require(`./weaponTreeRewrite.js`)
+
         for(var m=0;m<data.behaviorIDs.length;m++){
             var weaponTreeInfo = weaponTree.execute([data.behaviorIDs[m]])
             if(weaponTreeInfo.table.length != 0){

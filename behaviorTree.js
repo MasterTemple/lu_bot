@@ -8,6 +8,7 @@ var behaviorActions = []
 var finalObject = {}
 finalObject.table = []
 var chargeUp = false
+finalObject.hasChargeUp = false
 var alreadyUsedProjectiles = []
 var ogValues = []
 var maxDuration
@@ -50,6 +51,7 @@ function getKids(behaviorID, ogVal, parentName){
     }
     if(behaviorTemplate.table.find(a => parseInt(a.behaviorID) == parseInt(behaviorID)).templateID == `43`){
         chargeUp = true
+        finalObject.hasChargeUp = true
         //projectileDMG.push(skillBehavior.behaviorID)
 
     }
@@ -184,7 +186,7 @@ function getKids(behaviorID, ogVal, parentName){
 //var behaviorID = [4244,4254,22316,11183,]//anything
 //var behaviorID = [11183, 10884]//daredevil
 //var behaviorID = [23153]//adventurer 1
-var behaviorID = [15556]//adventurer 3
+var behaviorID = [7534]//adventurer 3
 //var behaviorID = [1897, 1898, 15556]
 
 
@@ -381,8 +383,9 @@ for(var k=0;k<alreadyUsedProjectiles.length;k++){
 // var obj ={
 //     projectileDamage: string
 // }
-finalObject.table[0].hasChargeUp = chargeUp
-if(finalObject.table[0].hasChargeUp) {
+//finalObject.table[0].hasChargeUp = chargeUp
+
+if(finalObject.hasChargeUp) {
     var string = finalObject.table[0].newProjectileDamage
     //console.log(string[1])
     finalObject.table[0].chargeUpDamage = string[1]
@@ -391,7 +394,11 @@ if(finalObject.table[0].hasChargeUp) {
     string.splice(1,1)
     finalObject.table[0].projectileDamage = string.join(`+`)
 }else{
-    finalObject.table[0].projectileDamage = finalObject.table[0].newProjectileDamage.join(`+`)
+
+    try{
+        finalObject.table[0].projectileDamage = finalObject.table[0].newProjectileDamage.join(`+`)
+    }catch{}
+
 }
 
 

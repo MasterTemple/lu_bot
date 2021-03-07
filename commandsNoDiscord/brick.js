@@ -13,11 +13,11 @@ module.exports = {
             var item = require(`./../objects/0/${folder_loc}/${item_loc}.json`);
         }
         catch{
-            message.channel.send("An object for this ID does not even exist.")
+            console.log("An object for this ID does not even exist.")
             return
         }
         if(item.type != "LEGO brick"){
-            message.channel.send(`Soldier that's not a LEGO brick!\nObject ${id} Type: ${item.type}`)
+            console.log(`Soldier that's not a LEGO brick!\nObject ${id} Type: ${item.type}`)
             return;
         }
 
