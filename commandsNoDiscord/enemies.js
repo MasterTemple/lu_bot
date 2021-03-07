@@ -178,14 +178,17 @@ module.exports = {
                     behaviorID:behaviorID,
                     npcskilltime: behavior.parameters["npc skill time"],
                     max_range: behavior.parameters["max range"],
-                    min_range: behavior.parameters["min range"],
-                    damage: maelstromDamage
+                    min_range: behavior.parameters["min range"]
                 }
+                let behaviorObjWithDamage = {
+                    ...behaviorObj,
+                    ...maelstromDamage
+                };
 
                 //if(i == 0){
                 //    data.behaviors = [behaviorID]
                 //}else {
-                    data.behaviors.push(behaviorObj)
+                    data.behaviors.push(behaviorObjWithDamage)
                 //}
 
             }

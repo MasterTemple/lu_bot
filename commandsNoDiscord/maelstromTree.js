@@ -7,6 +7,7 @@ module.exports = {
     execute(args) {
 
 //const behaviorParameters = require(`./search/BehaviorParameter.json`)
+        var data = {}
         const behaviorParameters = require(`./../search/fullSortedBehaviorParameter.json`)
         const behaviorTemplate = require(`./../search/behaviorTemplate.json`)
         const ObjectSkills = require(`./../search/ObjectSkills.json`)
@@ -15,6 +16,8 @@ module.exports = {
         var behaviorActions = []
         var finalObject = {}
         finalObject.table = []
+        data.attackStyles = []
+
         var ogValues = []
         var ogKeys = []
         var og = new Map()
@@ -42,6 +45,24 @@ module.exports = {
                     //projectileDMG.push(skillBehavior.behaviorID)
 
                 }
+            }catch{}
+            try{
+                if (behaviorTemplate.table.find(a => parseInt(a.behaviorID) == parseInt(behaviorID)).templateID == `7`) {
+                    if(data.attackStyles.includes(`AoE`) == false){
+                        data.attackStyles.push("AoE")
+                    }
+                }
+                if (behaviorTemplate.table.find(a => parseInt(a.behaviorID) == parseInt(behaviorID)).templateID == `17`) {
+                    if(data.attackStyles.includes(`Knockback`) == false){
+                        data.attackStyles.push("Knockback")
+                    }
+                }
+                if (behaviorTemplate.table.find(a => parseInt(a.behaviorID) == parseInt(behaviorID)).templateID == `7`) {
+                    if(data.attackStyles.includes(`AoE`) == false){
+                        data.attackStyles.push("AoE")
+                    }
+                }
+
             }catch{}
 
 
@@ -91,14 +112,24 @@ module.exports = {
                             try {
                                 if (parentName == `ground_action`) {
                                     dmg.push(Object.values(tempArray[0])[i])
+                                    data.damage = Object.values(tempArray[0])[i]
+
                                 } else if (parentName == `jump_action`) {
                                     singleJumpSmash = (Object.values(tempArray[0])[i])
+                                    data.damage = Object.values(tempArray[0])[i]
+
                                 } else if (parentName == `double_jump_action`) {
                                     doubleJumpSmash = (Object.values(tempArray[0])[i])
+                                    data.damage = Object.values(tempArray[0])[i]
+
                                 } else if (parentName == `mael`) {
-                                    dmg.push(Object.values(tempArray[0])[i])
+                                    //dmg.push(Object.values(tempArray[0])[i])
+                                    data.damage = Object.values(tempArray[0])[i]
+                                    data.type = `Melee Attack`
                                 } else if (parentName == `projectile`) {
                                     dmg.push(Object.values(tempArray[0])[i])
+                                    data.damage = Object.values(tempArray[0])[i]
+                                    data.type = `Projectile Attack`
                                 } else {
                                     // console.log(parentName)
                                 }
@@ -199,7 +230,8 @@ module.exports = {
                 }
                 //return dmg[0]
                 if(dmg[0] != undefined){
-                    return dmg[0]
+                    return data
+
                 }
 
 
@@ -300,7 +332,7 @@ module.exports = {
             getProjectileDamage(alreadyUsedProjectile)
         }
 
-        return dmg[0]
+        return data
 
 
         //return finalObject
