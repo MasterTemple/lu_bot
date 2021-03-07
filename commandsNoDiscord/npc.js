@@ -15,10 +15,12 @@ module.exports = {
         try{
             var item = require(`./objects/0/${Math.floor(id / 256)}/${id}.json`);
         }catch{
-            console.log(`fail`)
+            return
+            //console.log(`fail`)
         }
 
         data.objectID = args[0]
+        data.type = item.type
 
         try{
             var quest = item.components["73"]

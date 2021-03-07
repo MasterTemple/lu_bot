@@ -64,4 +64,4 @@ mkdir 62
 mkdir 63
 mkdir 64
 mkdir 65
-mdkir 66
+mkdir 66

@@ -11,11 +11,11 @@ try {
         //let item = require(`./objects/0/${Math.floor(num / 256)}/${num}.json`);
     //}catch{}
     let tempFile = idFile["Sheet1"][num].type
-    if(tempFile == "NPC" || tempFile == "UserGeneratedNPCs") {
+    if(tempFile === "NPC" || tempFile === "UserGeneratedNPCs") {
         console.log(num, tempFile)
         var jsonData = npc.execute([num])
 
-        console.log(jsonData)
+        //console.log(jsonData)
 
     fs.writeFile(`./NPC/${Math.floor(num / 256)}/${num}.json`, JSON.stringify(jsonData), function (err) {
             if (err) throw err;
@@ -24,7 +24,7 @@ try {
     );
 }
 }catch(e){
-    console.log(e)
+    //console.log(e)
 }
 
 }
