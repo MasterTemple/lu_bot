@@ -14,6 +14,14 @@ module.exports = {
         var parents = []
         var tree = {}
         tree.table = []
+        var skillValues = []
+        var behaviorID = []
+        var double_jump_action = []
+        var falling_action = []
+        var ground_action = []
+        var jetpack_action = []
+        var jump_action = []
+
         function getKids(behaviorID, parent) {
             var tempArray = behaviorParameters.table.filter(function (el) {
                 return el.behaviorID == behaviorID
@@ -53,8 +61,31 @@ module.exports = {
                     obj[Object.keys(tempArray[0])[i]] = {
                         [Object.keys(tempArray[0])[i]]: Object.values(tempArray[0])[i]
                     }
+
+                    if(parent === `double_jump_action`){
+                        double_jump_action.push(Object.values(tempArray[0])[i])
+                    }
+                    if(parent === `falling_action`){
+                        falling_action.push(Object.values(tempArray[0])[i])
+                    }
+                    if(parent === `ground_action`){
+                        ground_action.push(Object.values(tempArray[0])[i])
+                    }
+                    if(parent === `jetpack_action`){
+                        jetpack_action.push(Object.values(tempArray[0])[i])
+                    }
+                    if(parent === `jump_action`){
+                        jump_action.push(Object.values(tempArray[0])[i])
+                    }
                 }
                 console.log(obj)
+                if(parent == `double_jump_action`){
+                    //tree.table[0].behaviorID
+
+                }
+
+
+
                 //console.log(obj)
                 //console.log(tree.table[0])
                 //tree.table[0][parent]
@@ -75,7 +106,7 @@ module.exports = {
         if (tree.table[0].behaviorID.behaviorID == 23451){
             //console.log(true)
         }
-        //console.log(Object.keys(tree.table[0]))
+        console.log(Object.keys(tree.table[0]))
         if (tree.table[0].behaviorID.behaviorID == 23451){
             //console.log(`also true`)
         }
@@ -102,6 +133,13 @@ module.exports = {
 
         }while(newLength != previousLength)
         //console.log(tree)
+
+        console.log(double_jump_action)
+        console.log(falling_action)
+        console.log(ground_action)
+        console.log(jetpack_action)
+        console.log(jump_action)
+
 
         return tree
 
