@@ -35,7 +35,7 @@ module.exports = {
         var behaviorActions = []
         var finalObject = {}
         finalObject.table = []
-
+        var chargeUpCost
 
         function getProjectileDamage(behaviorID){
             let tempArray = behaviorParameters.table.filter(function (el) {
@@ -134,7 +134,7 @@ module.exports = {
             }
 
         }
-        var chargeUpCost
+
         function getKids(behaviorID, parent) {
             let tempArray = behaviorParameters.table.filter(function (el) {
                 return el.behaviorID == behaviorID
@@ -358,10 +358,16 @@ module.exports = {
                     //projectileDMG.push(skillBehavior.behaviorID)
 
                 }
+                // if(informationBehaviorTemplate.imagination != 0 && informationBehaviorTemplate.imagination != null){
+                //     chargeUpCost = behaviorParameters.table.filter(function (el) {
+                //         return (el.behaviorID == informationBehaviorTemplate.behaviorID).imagination
+                //     })
+                //     console.log(`FOUND! ${chargeUpCost}`)
+                // }
                 if (informationBehaviorTemplate.templateID == `43`) {
                     // //console.log(`chargeUp = true`, informationBehaviorTemplate.behaviorID)
                     var chargeUpBehavior = informationBehaviorTemplate.behaviorID
-                    console
+                    console.log(chargeUpBehavior)
                     var chargeUp = true
                     //finalObject.hasChargeUp = true
                     //projectileDMG.push(skillBehavior.behaviorID)

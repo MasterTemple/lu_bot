@@ -36,14 +36,15 @@ module.exports = {
             var isWeapon = false
             data.isWeapon = false
         }
+        var imaginationTreeCost = require(`./imaginationTreeCost.js`)
         for(var u=1;u<equipObject.allItems.length;u++){
             equipObject.allItems[u]
             var extraItem = require(`./../objects/0/${Math.floor(equipObject.allItems[u]/256)}/${equipObject.allItems[u]}.json`);
 
             for(var p=0;p<extraItem.skills.length;p++){
                 var extraSkillBehavior = require(`./../tables/SkillBehavior/${extraItem.skills[p].skillID}.json`)
-                extraSkillBehavior.behaviorID
-
+                //console.log(extraSkillBehavior.imaginationcost)
+                data.abilityImaginationCost = extraSkillBehavior.imaginationcost
             }
             //console.log(extraItem.skills)
         }
@@ -96,7 +97,7 @@ module.exports = {
                 }
                 try{
                     abilityName = skillBehavior[skillID].name;
-                    console.log(skillBehavior[skillID])
+                    //console.log(skillBehavior[skillID])
                     if(equipObject.allItems.length > 1){
                         data.abilityNames.push(skillBehavior[skillID].name)
                     }else{
@@ -153,7 +154,7 @@ module.exports = {
                     // console.log(`already got imagination`)
                 }else{
                     imaginationCost = cooldownFile.imaginationcost
-                    data.abilityImaginationCost = cooldownFile.imaginationcost
+                    //data.abilityImaginationCost = cooldownFile.imaginationcost
                 }
 
 
