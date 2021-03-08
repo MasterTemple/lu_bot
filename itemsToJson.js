@@ -14,7 +14,7 @@ var listOfItems = [20,21,2097196,80,89,16480,16488,16496,16497,16498,118,125,130
 
         // fs.writeFile(`./Enemies/${Math.floor(num / 256)}/${num}.json`, JSON.stringify(jsonData), function (err) {
         // fs.writeFile(`./Items/${Math.floor(listOfEnemies[num]/256)}/${listOfEnemies[num]}.json`, JSON.stringify(jsonData), function (err) {
-
+        console.log(`${Math.floor(num/256)}/${num}`)
         fs.writeFile(`./Items/${Math.floor(num/256)}/${num}.json`, JSON.stringify(jsonData), function (err) {
 
                 if (err) throw err;

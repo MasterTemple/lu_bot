@@ -35,9 +35,20 @@ module.exports = {
         }else{
             var isWeapon = false
             data.isWeapon = false
-
-
         }
+        for(var u=1;u<equipObject.allItems.length;u++){
+            equipObject.allItems[u]
+            var extraItem = require(`./../objects/0/${Math.floor(equipObject.allItems[u]/256)}/${equipObject.allItems[u]}.json`);
+
+            for(var p=0;p<extraItem.skills.length;p++){
+                var extraSkillBehavior = require(`./../tables/SkillBehavior/${extraItem.skills[p].skillID}.json`)
+                extraSkillBehavior.behaviorID
+
+            }
+            //console.log(extraItem.skills)
+        }
+
+
         //data.equipSlots = []
         //data.equipSlots.push(equipObject)
         // console.log(`${item.name}`)
@@ -56,6 +67,7 @@ module.exports = {
         var displayName = item.displayName
         var internalNotes = item._internalNotes
         data.internalNotes = item._internalNotes
+        data.abilityNames = []
         var description = item.description
         var extra_desc = ''
         var renderID = item.components["2"]
@@ -84,7 +96,12 @@ module.exports = {
                 }
                 try{
                     abilityName = skillBehavior[skillID].name;
-                    data.abilityName = skillBehavior[skillID].name
+                    console.log(skillBehavior[skillID])
+                    if(equipObject.allItems.length > 1){
+                        data.abilityNames.push(skillBehavior[skillID].name)
+                    }else{
+                        data.abilityName = skillBehavior[skillID].name
+                    }
 
                 }catch{
                     abilityName = `None`
@@ -96,10 +113,12 @@ module.exports = {
                         var chargeUpLoc = (skillBehavior[skillID].descriptionUI.search(`(ChargeUp)`)) + 9
                         // console.log(`chargeUpLoc ${chargeUpLoc}`)
                         var chargeUp = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
+                        data.chargeUpDescription = skillBehavior[skillID].descriptionUI.substring(chargeUpLoc);
                     } else if (skillBehavior[skillID].descriptionUI.includes(`(Description)`)) {
                         var descriptionLoc = (skillBehavior[skillID].descriptionUI.search(`(Description)`)) + `(Description)`.length - 1
                         // console.log(`desc ${descriptionLoc}`)
                         var description = skillBehavior[skillID].descriptionUI.substring(descriptionLoc);
+                        data.localeDescription = skillBehavior[skillID].descriptionUI.substring(descriptionLoc);
                         extra_desc = `${extra_desc}\n${abilityName}: ${description}`
                     } else if (skillBehavior[skillID].descriptionUI.includes(`+`) == false) {
                         extra_desc = `${extra_desc}\n${skillBehavior[skillID].name}: ${skillBehavior[skillID].descriptionUI}`
