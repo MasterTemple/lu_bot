@@ -38,7 +38,8 @@ module.exports = {
         }
         var imaginationTreeCost = require(`./imaginationTreeCost.js`)
         for(var u=1;u<equipObject.allItems.length;u++){
-            equipObject.allItems[u]
+            equipObject.allItems[u] = parseInt(equipObject.allItems[u])
+
             var extraItem = require(`./../objects/0/${Math.floor(equipObject.allItems[u]/256)}/${equipObject.allItems[u]}.json`);
 
             for(var p=0;p<extraItem.skills.length;p++){
@@ -220,12 +221,43 @@ module.exports = {
         var weaponTree = require(`./weaponTreeRewrite.js`)
 
 
-
+        data.projectileDamageInfo = {}
         for(var m=0;m<data.behaviorIDs.length;m++){
-            var weaponTreeInfo = weaponTree.execute([data.behaviorIDs[m]])
+            //console.log(parseInt(data.behaviorIDs[m]))
+            var weaponTreeInfo = weaponTree.execute([parseInt(data.behaviorIDs[m])])
             //if(weaponTreeInfo.table.length != 0){
                 //console.log(weaponTreeInfo)
-                data.projectileDamageInfo = weaponTreeInfo
+                //data.projectileDamageInfo[m] = weaponTreeInfo
+
+            if(weaponTreeInfo.chargeUpDamage !== undefined) {
+                data.projectileDamageInfo.chargeUpDamage = weaponTreeInfo.chargeUpDamage
+            }
+            if(weaponTreeInfo.projectileDamageCombo !== undefined) {
+                data.projectileDamageInfo.projectileDamageCombo = weaponTreeInfo.projectileDamageCombo
+            }
+            if(weaponTreeInfo.isChargeUp === true) {
+                data.projectileDamageInfo.isChargeUp = weaponTreeInfo.isChargeUp
+            }
+            if(weaponTreeInfo.chargeUpIsProjectile === true) {
+                data.projectileDamageInfo.chargeUpIsProjectile = weaponTreeInfo.chargeUpIsProjectile
+            }
+            if(weaponTreeInfo.isProjectileWeapon === true) {
+                data.projectileDamageInfo.isProjectileWeapon = weaponTreeInfo.isProjectileWeapon
+            }
+            if(data.projectileDamageInfo.isChargeUp !== true && weaponTreeInfo.isChargeUp === false) {
+                data.projectileDamageInfo.isChargeUp = weaponTreeInfo.isChargeUp
+            }
+            if(data.projectileDamageInfo.chargeUpIsProjectile !== true && weaponTreeInfo.chargeUpIsProjectile === false) {
+                data.projectileDamageInfo.chargeUpIsProjectile = weaponTreeInfo.chargeUpIsProjectile
+            }
+            if(data.projectileDamageInfo.isProjectileWeapon !== true && weaponTreeInfo.isProjectileWeapon === false) {
+                data.projectileDamageInfo.isProjectileWeapon = weaponTreeInfo.isProjectileWeapon
+            }
+
+
+
+
+
             //}
         }
 
