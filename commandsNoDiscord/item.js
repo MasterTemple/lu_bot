@@ -26,29 +26,34 @@ module.exports = {
         data.displayName = item.displayName
         data.description = item.description
         var equip = require(`./equip.js`)
-        var equipObject = equip.execute([args[0]])
-        if(equipObject.equipLocationNames.includes(`Right Hand`)){
-            //console.log(`weapon!`)
-            var isWeapon = true
-            data.isWeapon = true
+        try{
+            var equipObject = equip.execute([args[0]])
 
-        }else{
-            var isWeapon = false
-            data.isWeapon = false
-        }
-        var imaginationTreeCost = require(`./imaginationTreeCost.js`)
-        for(var u=1;u<equipObject.allItems.length;u++){
-            equipObject.allItems[u] = parseInt(equipObject.allItems[u])
+            if (equipObject.equipLocationNames.includes(`Right Hand`)) {
+                //console.log(`weapon!`)
+                var isWeapon = true
+                data.isWeapon = true
 
-            var extraItem = require(`./../objects/0/${Math.floor(equipObject.allItems[u]/256)}/${equipObject.allItems[u]}.json`);
-
-            for(var p=0;p<extraItem.skills.length;p++){
-                var extraSkillBehavior = require(`./../tables/SkillBehavior/${extraItem.skills[p].skillID}.json`)
-                //console.log(extraSkillBehavior.imaginationcost)
-                data.abilityImaginationCost = extraSkillBehavior.imaginationcost
+            } else {
+                var isWeapon = false
+                data.isWeapon = false
             }
-            //console.log(extraItem.skills)
-        }
+            var imaginationTreeCost = require(`./imaginationTreeCost.js`)
+
+            for (var u = 1; u < equipObject.allItems.length; u++) {
+                equipObject.allItems[u] = parseInt(equipObject.allItems[u])
+
+                var extraItem = require(`./../objects/0/${Math.floor(equipObject.allItems[u] / 256)}/${equipObject.allItems[u]}.json`);
+
+                for (var p = 0; p < extraItem.skills.length; p++) {
+                    var extraSkillBehavior = require(`./../tables/SkillBehavior/${extraItem.skills[p].skillID}.json`)
+                    //console.log(extraSkillBehavior.imaginationcost)
+                    data.abilityImaginationCost = extraSkillBehavior.imaginationcost
+                }
+
+                //console.log(extraItem.skills)
+            }
+        }catch{}
 
 
         //data.equipSlots = []
@@ -72,16 +77,21 @@ module.exports = {
         data.abilityNames = []
         var description = item.description
         var extra_desc = ''
-        var renderID = item.components["2"]
+
+        try{
+            var renderID = item.components["2"]
+            var renderFolder = Math.floor(renderID/256)
+            var renderComponent = require(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
+            var iconID = renderComponent.IconID
+            var iconPath = renderComponent.icon_asset
+
+        }catch{}
         // console.log(`renderID: ${renderID}`)
-        var renderFolder = Math.floor(renderID/256)
-        var renderComponent = require(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
+
         // console.log(`./../tables/RenderComponent/${renderFolder}/${renderID}.json`)
-        var iconID = renderComponent.IconID
         //var icons = require(`./../tables/Icons/${iconID}.json`)
         // console.log(`./../tables/Icons/${iconID}.json`)
         //var iconPath = icons.IconPath
-        var iconPath = renderComponent.icon_asset
         data.skillIDs = []
         data.behaviorIDs = []
         if(item.skills != undefined) {
@@ -304,14 +314,16 @@ module.exports = {
         // console.log(iconURL)
         data.iconURL = iconURL
 
-        var priceComponentID = item.components["11"]
-        var priceFile = require(`./../tables/ItemComponent/${Math.floor(priceComponentID/256)}/${priceComponentID}.json`)
-        var stackSize = priceFile.stackSize
-        data.stackSize = priceFile.stackSize
-        var price = priceFile.baseValue
-        data.price = priceFile.baseValue
-        data.commendationCost = priceFile.commendationCost
-        data.factionTokens = priceFile.altCurrencyCost
+        try{
+            var priceComponentID = item.components["11"]
+            var priceFile = require(`./../tables/ItemComponent/${Math.floor(priceComponentID / 256)}/${priceComponentID}.json`)
+            var stackSize = priceFile.stackSize
+            data.stackSize = priceFile.stackSize
+            var price = priceFile.baseValue
+            data.price = priceFile.baseValue
+            data.commendationCost = priceFile.commendationCost
+            data.factionTokens = priceFile.altCurrencyCost
+        }catch{}
         var reqs = priceFile.reqPrecondition
         var min_level
         // console.log(reqs)

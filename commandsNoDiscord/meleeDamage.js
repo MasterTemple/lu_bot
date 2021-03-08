@@ -23,8 +23,12 @@ module.exports = {
         }
         // console.log(skillIDs)
         for(var i=0;i<skillIDs.length;i++){
-            var cooldownFile = require(`./../tables/SkillBehavior/${skillIDs[i]}.json`)
-            behaviorIDs.push(cooldownFile.behaviorID)
+
+            try{
+                var cooldownFile = require(`./../tables/SkillBehavior/${skillIDs[i]}.json`)
+                behaviorIDs.push(cooldownFile.behaviorID)
+            }catch{}
+
         }
         // console.log(behaviorIDs)
         var chargeUpImaginationCost
