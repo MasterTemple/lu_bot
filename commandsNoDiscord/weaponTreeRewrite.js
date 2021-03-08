@@ -38,12 +38,13 @@ module.exports = {
 
 
         function getProjectileDamage(behaviorID){
-            var tempArray = behaviorParameters.table.filter(function (el) {
+            let tempArray = behaviorParameters.table.filter(function (el) {
                 return el.behaviorID == behaviorID
             });
 
 
             if(tempArray[0] != undefined){
+                //console.log(Object.keys(tempArray[0]).length)
                 for (var i = 0; i < Object.keys(tempArray[0]).length; i++) {
 
                     //console.log(`----------------`)
@@ -123,10 +124,11 @@ module.exports = {
             //if((typeof tempArray[0]["max damage"]) !== undefined){
             //     console.log(`NOT UNDEFINED`)
             //     console.log(tempArray[0]["max damage"])
-                var damage = tempArray[0]["max damage"]
+                //var damage = tempArray[0]["max damage"]
                 //return (tempArray[0][`max damage`])
+                console.log(tempArray[0].behaviorID)
                 projectile_damage_array.push(tempArray[0]["max damage"])
-                return damage
+                return
             }else{
                 return undefined
             }
@@ -134,7 +136,7 @@ module.exports = {
         }
 
         function getKids(behaviorID, parent) {
-            var tempArray = behaviorParameters.table.filter(function (el) {
+            let tempArray = behaviorParameters.table.filter(function (el) {
                 return el.behaviorID == behaviorID
             });
             if (tempArray[0] != undefined) {
@@ -212,9 +214,9 @@ module.exports = {
                     if(parent === `projectile_damage`){
                         //console.log(Object.keys(tempArray[0])[i])
                         if(actions.includes((Object.keys(tempArray[0])[i]))){
-                            if (projectileBehaviorsChildren.includes(parseInt(Object.values(tempArray[0])[i])) == false) {
+                            //if (projectileBehaviorsChildren.includes(parseInt(Object.values(tempArray[0])[i])) == false) {
                                 projectileBehaviorsChildren.push(parseInt(Object.values(tempArray[0])[i]))
-                            }
+                            //}
                         }
 
                     }
@@ -417,9 +419,13 @@ module.exports = {
 
         console.log(`projectileBehaviors`)
         console.log(projectileBehaviors)
-        for(var k=1;k<projectileBehaviors.length;k++){
+        for(var k=0;k<projectileBehaviors.length;k++){
             // console.log(jump_action.length)
             getKidsKids(projectileBehaviors[k], `projectile_damage`)
+        }
+        for(var k=0;k<projectileBehaviorsChildren.length;k++){
+            // console.log(jump_action.length)
+            getKidsKids(projectileBehaviorsChildren[k], `projectile_damage`)
         }
 
         console.log(`projectileBehaviorsChildren`)
@@ -428,7 +434,7 @@ module.exports = {
             var tempArray = behaviorParameters.table.filter(function (el) {
                 return el.behaviorID == (projectileBehaviorsChildren[x])
             });
-            console.log(tempArray[0])
+            //console.log(tempArray[0])
 
             for (var i = 0; i < Object.keys(tempArray[0]).length; i++) {
 
@@ -439,11 +445,13 @@ module.exports = {
             }
         }
         console.log(`projectile_damage`)
+        console.log(projectile_damage)
+        console.log(`projectileBehaviors`)
         console.log(projectileBehaviors.length)
 
         for(var k=0;k<projectileBehaviors.length;k++){
-            getProjectileDamage(projectileBehaviors[k])
-            console.log(projectile_damage_array)
+            //getProjectileDamage(projectileBehaviors[k])
+            //console.log(projectile_damage_array)
 
             //             var tempInfo = getProjectileDamage(projectileBehaviors[k])
             //console.log(tempInfo)
@@ -455,7 +463,8 @@ module.exports = {
             //     console.log(`tempInfo undefined`)
             // }
         }
-        console.log(projectile_damage_array)
+        //console.log(projectile_damage_array)
+
 
 
 
