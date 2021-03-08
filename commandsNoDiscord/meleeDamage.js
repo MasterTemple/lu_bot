@@ -150,7 +150,8 @@ module.exports = {
                 if(dmg != [] && singleJumpSmash != -1 && doubleJumpSmash != -1){
 
                     if(exceptions.includes(id) === false){
-                        if (hasChargeUp) {
+                        if(dmg[0] == 1 && dmg[2] == 1 && dmg[2] == 1){}
+                        else if (hasChargeUp) {
                             //console.log(dmg)
                             var chargeUpDamage = dmg[1]
                             try {
@@ -163,9 +164,9 @@ module.exports = {
                     var obj = {
                         damageCombo: dmg.join(`+`),
                         chargeUpDamage: chargeUpDamage,
-                        chargeUpImaginationCost: chargeUpImaginationCost
-                        // doubleJumpSmash: doubleJumpSmash,
-                        // singleJumpSmash: singleJumpSmash
+                        chargeUpImaginationCost: chargeUpImaginationCost,
+                        doubleJumpSmash: doubleJumpSmash,
+                        singleJumpSmash: singleJumpSmash
                     }
                     finalObject.table.push(obj)
                 }

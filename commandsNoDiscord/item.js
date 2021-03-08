@@ -87,7 +87,7 @@ module.exports = {
             for (var i = 0; i < item.skills.length; i++) {
                 var meleeDamage = require(`./meleeDamage.js`)
                 var damageCombo = meleeDamage.execute([id])
-                data.meleeDamageCombo = damageCombo
+                data.meleeDamageInfo = damageCombo
 
                 var skillID = (item.skills[i].skillID)
                 var behav_folder_loc = Math.floor(skillID / 256)
@@ -225,7 +225,7 @@ module.exports = {
             var weaponTreeInfo = weaponTree.execute([data.behaviorIDs[m]])
             //if(weaponTreeInfo.table.length != 0){
                 //console.log(weaponTreeInfo)
-                data.weaponTreeInfo = weaponTreeInfo
+                data.projectileDamageInfo = weaponTreeInfo
             //}
         }
 
