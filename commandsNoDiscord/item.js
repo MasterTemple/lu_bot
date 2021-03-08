@@ -198,10 +198,10 @@ module.exports = {
 
         for(var m=0;m<data.behaviorIDs.length;m++){
             var weaponTreeInfo = weaponTree.execute([data.behaviorIDs[m]])
-            if(weaponTreeInfo.table.length != 0){
+            //if(weaponTreeInfo.table.length != 0){
                 //console.log(weaponTreeInfo)
-                data.weaponTreeInfo = weaponTreeInfo.table
-            }
+                data.weaponTreeInfo = weaponTreeInfo
+            //}
         }
 
         if(isWeapon){

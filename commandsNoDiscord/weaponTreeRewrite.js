@@ -360,14 +360,27 @@ module.exports = {
                     //projectileDMG.push(skillBehavior.behaviorID)
 
                 }
-            }catch{}
+            }catch{
+                // for(var l=0;l<ground_action.length;l++) {
+                //     var tempArray = behaviorParameters.table.filter(function (el) {
+                //         return el.behaviorID == (ground_action[l])
+                //     });
+                //     for (var i = 0; i < Object.keys(tempArray[0]).length; i++) {
+                //
+                //         if (Object.keys(tempArray[0])[i] == "max damage") {
+                //             console.log((Object.values(tempArray[0])[i]))
+                //             ground_action_damage.push(Object.values(tempArray[0])[i])
+                //         }
+                //     }
+                // }
+            }
 
 
             for (var i = 0; i < Object.keys(tempArray[0]).length; i++) {
 
                 if (Object.keys(tempArray[0])[i] == "max damage") {
                     console.log((Object.values(tempArray[0])[i]))
-                    falling_action_damage.push(Object.values(tempArray[0])[i])
+                    ground_action_damage.push(Object.values(tempArray[0])[i])
                 }
                 // if (Object.keys(tempArray[0])[i] == "projectile_type") {
                 //     console.log((Object.values(tempArray[0])[i]))
@@ -386,7 +399,7 @@ module.exports = {
 
                 if (Object.keys(tempArray[0])[i] == "max damage") {
                     console.log((Object.values(tempArray[0])[i]))
-                    ground_action_damage.push(Object.values(tempArray[0])[i])
+                    falling_action_damage.push(Object.values(tempArray[0])[i])
                 }
             }
         }
@@ -466,10 +479,36 @@ module.exports = {
         //console.log(projectile_damage_array)
 
 
+        if(chargeUp === undefined){
+            chargeUp = false
+        }
+        if(projectile_damage.length === 1 || projectile_damage.length === 4){
+            var chargeUpIsProjectile = true
+        }else{
+            var chargeUpIsProjectile = false
+        }
+        if(chargeUp === true && chargeUpIsProjectile === true){
+            var chargeUpDamage = projectile_damage[projectile_damage.length-1]
+            projectile_damage.pop()
+        }else if (chargeUp === true){
+            var chargeUpDamage = ground_action_damage[ground_action_damage.length-1]
+            ground_action_damage.pop()
+        }
+
+
+        var damageStats = {
+            damageCombo: ground_action_damage.join("+"),
+            projectileDamageCombo: projectile_damage.join("+"),
+            doubleJumpSmash: double_jump_action_damage[0],
+            singleJumpSmash: jump_action_damage[0],
+            isChargeUp: chargeUp,
+            chargeUpDamage: chargeUpDamage,
+            chargeUpIsProjectile: chargeUpIsProjectile
+        }
 
 
 
-        return tree
+        return damageStats
 
 
         // for(var k=0;k< double_jump_action.length;k++){
