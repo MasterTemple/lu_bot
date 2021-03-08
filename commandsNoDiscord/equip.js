@@ -13,7 +13,7 @@ module.exports = {
         var equipLocation = []
         var equipLocationNames = []
         function getEquipLocationOG(id){
-            let item = require(`./../objects/0/${Math.floor(id/256)}/${id}.json`);
+            let item = require(`./../objects/0/${Math.floor(parseInt(id)/256)}/${parseInt(id)}.json`);
             //console.log(`./../objects/0/${Math.floor(id/256)}/${id}.json`)
             let itemComponentValue = item.components["11"]
             //var itemComponent = require(`./../objects/groupBy/component/${itemComponent}.json`);
@@ -36,7 +36,7 @@ module.exports = {
         }
 
         function getEquipLocation(id){
-            let item = require(`./../objects/0/${Math.floor(id/256)}/${id}.json`);
+            let item = require(`./../objects/0/${Math.floor(parseInt(id)/256)}/${parseInt(id)}.json`);
             //console.log(`./../objects/0/${Math.floor(id/256)}/${id}.json`)
             let itemComponentValue = item.components["11"]
             //var itemComponent = require(`./../objects/groupBy/component/${itemComponent}.json`);
