@@ -85,6 +85,9 @@ module.exports = {
         data.behaviorIDs = []
         if(item.skills != undefined) {
             for (var i = 0; i < item.skills.length; i++) {
+                var meleeDamage = require(`./meleeDamage.js`)
+                var damageCombo = meleeDamage.execute([id])
+                data.meleeDamageCombo = damageCombo
 
                 var skillID = (item.skills[i].skillID)
                 var behav_folder_loc = Math.floor(skillID / 256)
@@ -215,6 +218,8 @@ module.exports = {
         }
         //var weaponTree = require(`./weaponTree.js`)
         var weaponTree = require(`./weaponTreeRewrite.js`)
+
+
 
         for(var m=0;m<data.behaviorIDs.length;m++){
             var weaponTreeInfo = weaponTree.execute([data.behaviorIDs[m]])
