@@ -27,6 +27,7 @@ module.exports = {
             behaviorIDs.push(cooldownFile.behaviorID)
         }
         // console.log(behaviorIDs)
+        var chargeUpImaginationCost
         const behaviorParameters = require(`./../search/fullSortedBehaviorParameter.json`)
         var actions = ["action", "miss action", "blocked action", "action_false", "action_true", "start_action", "chain_action", "break_action", "double_jump_action", "ground_action", "jump_action", "hit_action", "hit_action_enemy", "timeout_action", "air_action", "falling_action", "jetpack_action", "spawn_fail_action", "action_failed", "action_consumed", "blocked_action", "moving_action", "on_success", "behavior","behavior 0","behavior 1","behavior 2","behavior 3","behavior 4","behavior 5","behavior 6","behavior 7","behavior 8","behavior 9","bahavior 2"]
         var exceptions = [7535,7536,7537,12994,12982,7402,7401,7400,8492,12723,8491,7727,6923,14108,12574,16588,13340,14168,12927,2589]
@@ -45,6 +46,14 @@ module.exports = {
             });
 
             if(tempArray[0] != undefined){
+                //console.log(tempArray[0])
+
+                if(tempArray[0].imagination !== undefined){
+                    if(tempArray[0].imagination < 0) {
+                        chargeUpImaginationCost = (tempArray[0].imagination * -1)
+                    }
+                }
+
                 if(tempArray[0].charge_time !== undefined){
                 //console.log(`charge time ${tempArray[0].charge_time}`)
                 //console.log(`duration ${tempArray[0].duration}`)
@@ -153,7 +162,8 @@ module.exports = {
 
                     var obj = {
                         damageCombo: dmg.join(`+`),
-                        chargeUpDamage: chargeUpDamage
+                        chargeUpDamage: chargeUpDamage,
+                        chargeUpImaginationCost: chargeUpImaginationCost
                         // doubleJumpSmash: doubleJumpSmash,
                         // singleJumpSmash: singleJumpSmash
                     }
