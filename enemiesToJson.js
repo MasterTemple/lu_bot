@@ -8,7 +8,10 @@ for(var num = 0;num < listOfEnemies.length;num++){
 try{
     var jsonData = enemies.execute([listOfEnemies[num]])
     //var jsonData = enemies.execute([num])
+
     var keptData = {
+        LootTable: jsonData.LootTable,
+        LootMatrixIndex: jsonData.LootMatrixIndex,
         name: jsonData.name,
         displayName: jsonData.displayName,
         internalNotes: jsonData.internalNotes,
@@ -20,7 +23,6 @@ try{
         currencyTable: jsonData.currencyTable,
         behaviors: jsonData.behaviors,
         iconURL: jsonData.iconURL,
-
     }
 
     //console.log(jsonData)
@@ -36,4 +38,38 @@ try{
 }
 
 }
+/*
+//MODELS:
+var keptData = {
+    LootTable: jsonData.LootTable,
+    LootMatrixIndex: jsonData.LootMatrixIndex,
+    name: jsonData.name,
+    displayName: jsonData.displayName,
+    internalNotes: jsonData.internalNotes,
+    description: jsonData.description,
+    // life: jsonData.life,
+    // armor: jsonData.armor,
+    currencyIndex: jsonData.currencyIndex,
+    level: jsonData.level,
+    currencyTable: jsonData.currencyTable,
+    //behaviors: jsonData.behaviors,
+    iconURL: jsonData.iconURL,
+}
 
+//Info:
+var keptData = {
+    //LootTable: jsonData.LootTable,
+    //LootMatrixIndex: jsonData.LootMatrixIndex,
+    name: jsonData.name,
+    displayName: jsonData.displayName,
+    internalNotes: jsonData.internalNotes,
+    description: jsonData.description,
+    life: jsonData.life,
+    armor: jsonData.armor,
+    currencyIndex: jsonData.currencyIndex,
+    level: jsonData.level,
+    currencyTable: jsonData.currencyTable,
+    behaviors: jsonData.behaviors,
+    iconURL: jsonData.iconURL,
+}
+ */

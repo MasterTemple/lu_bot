@@ -104,13 +104,19 @@ module.exports = {
                 try{
                     var dropItemFile = require(`./../objects/0/${Math.floor(LootTableFile["elements"][j].itemid / 256)}/${LootTableFile["elements"][j].itemid}`)
                     // //console.log(LootTableFile["elements"][j].itemid, dropItemFile.displayName)
-                    var tempObj = {
-                        itemID: LootTableFile["elements"][j].itemid,
-                        displayName: dropItemFile.displayName,
-                        name: dropItemFile.name
-                    }
+                    var itemType = require(`./../objects/0/${Math.floor(LootTableFile["elements"][j].itemid/256)}/${LootTableFile["elements"][j].itemid}.json`);
+                    //if(itemType.type == "LEGO brick") {
+                    //if(itemType.type == "LEGO brick" === false && dropItemFile.displayName.includes("Model") === false) {
+                    if(dropItemFile.name.includes("point")) {
 
-                    object.items.push(tempObj)
+                        //if(dropItemFile.displayName.includes("Model")) {
+                        var tempObj = {
+                            itemID: LootTableFile["elements"][j].itemid,
+                            displayName: dropItemFile.displayName,
+                            name: dropItemFile.name
+                        }
+                        object.items.push(tempObj)
+                    }
                 }catch{}
             }
 
