@@ -14,7 +14,7 @@ for(var num = 0;num < listOfItems.length;num++){
         //console.log(jsonData)
 
         // fs.writeFile(`./Enemies/${Math.floor(num / 256)}/${num}.json`, JSON.stringify(jsonData), function (err) {
-        fs.writeFile(`./Items/${Math.floor(listOfItems[num]/256)}/${listOfItems[num]}.json`, JSON.stringify(jsonData), function (err) {
+        fs.writeFile(`./ItemDrops/${Math.floor(listOfItems[num]/256)}/${listOfItems[num]}.json`, JSON.stringify(jsonData), function (err) {
         //console.log(`${Math.floor(num/256)}/${num}`)
         //fs.writeFile(`./Items/${Math.floor(num/256)}/${num}.json`, JSON.stringify(jsonData), function (err) {
 
