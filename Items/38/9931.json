@@ -1,1 +1,28 @@
-{"allItems":[9931],"equipLocationNames":[""],"equipLocation":[""],"isPackage":false,"itemID":9931,"name":"Maelstrom Infected Anchor","displayName":"Maelstrom Infected Anchor","description":null,"isWeapon":false,"internalNotes":"Mission Item - Mission ID 835 - Hidden","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/anchor.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    9931
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": false,
+  "itemID": 9931,
+  "name": "Maelstrom Infected Anchor",
+  "displayName": "Maelstrom Infected Anchor",
+  "description": null,
+  "isWeapon": false,
+  "internalNotes": "Mission Item - Mission ID 835 - Hidden",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/anchor.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

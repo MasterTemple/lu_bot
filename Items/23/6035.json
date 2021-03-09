@@ -1,1 +1,28 @@
-{"allItems":[6035],"equipLocationNames":["Extra_1"],"equipLocation":["Extra_1"],"isPackage":false,"itemID":6035,"name":"Model Reward Barrel","displayName":"Wooden Barrel Model","description":"A model for your Property!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/smash_won_gnar_barrel.png","stackSize":10,"price":140,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    6035
+  ],
+  "equipLocationNames": [
+    "Extra_1"
+  ],
+  "equipLocation": [
+    "Extra_1"
+  ],
+  "isPackage": false,
+  "itemID": 6035,
+  "name": "Model Reward Barrel",
+  "displayName": "Wooden Barrel Model",
+  "description": "A model for your Property!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/smash_won_gnar_barrel.png",
+  "stackSize": 10,
+  "price": 140,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

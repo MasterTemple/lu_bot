@@ -1,1 +1,723 @@
-{"allItems":[13604],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":114,"maxToDrop":5,"minToDrop":1,"percent":1,"items":[{"itemID":9488,"itemName":"Model Reward Television","itemDisplayName":"Television Model"},{"itemID":9490,"itemName":"Model Reward Troll Cart","itemDisplayName":"Troll Cart Model"},{"itemID":9493,"itemName":"Model Reward Castle Weapon Rack","itemDisplayName":"Castle Weapon Rack Model"},{"itemID":9591,"itemName":"Model Reward Medieval Wagon","itemDisplayName":"Medieval Wagon Model"},{"itemID":9596,"itemName":"Model Reward Medieval Vendor ","itemDisplayName":"Medieval Vendor Model"},{"itemID":9648,"itemName":"Model Reward Medieval Village Stable","itemDisplayName":"Medieval Village Stable Model"},{"itemID":9649,"itemName":"Model Reward Medieval Village Forge","itemDisplayName":"Medieval Village Forge Model"},{"itemID":9650,"itemName":"Model Reward Medieval Village Inn","itemDisplayName":"Medieval Village Inn Model"},{"itemID":9651,"itemName":"Model Reward Medieval Village House","itemDisplayName":"Medieval Village House Model"},{"itemID":9652,"itemName":"Model Reward Castle Arbalest","itemDisplayName":"Castle Arbalest Model"},{"itemID":9653,"itemName":"Model Reward Castle BarrelGun","itemDisplayName":"Castle Barrel Gun Model"},{"itemID":9654,"itemName":"Model Reward Castle Catapult","itemDisplayName":"Castle Catapult Model"},{"itemID":9656,"itemName":"Model Reward Castle Corner Inner","itemDisplayName":"Castle Inner Corner Model"},{"itemID":9657,"itemName":"Model Reward Castle Corner Outside","itemDisplayName":"Castle Outside Corner Model"},{"itemID":9658,"itemName":"Model Reward Castle Corner Small","itemDisplayName":"Castle Small Corner Model"},{"itemID":9659,"itemName":"Model Reward Castle Crossing","itemDisplayName":"Castle Crossing Model"},{"itemID":9660,"itemName":"Model Reward Castle Gate","itemDisplayName":"Castle Gate Model"},{"itemID":9661,"itemName":"Model Reward Castle Outhouse","itemDisplayName":"Castle Outhouse Model"},{"itemID":9662,"itemName":"Model Reward Castle Ramp","itemDisplayName":"Castle Ramp Model"},{"itemID":9663,"itemName":"Model Reward Castle Staircase","itemDisplayName":"Castle Staircase Model"},{"itemID":9664,"itemName":"Model Reward Castle Tower","itemDisplayName":"Castle Tower Model"},{"itemID":9665,"itemName":"Model Reward Castle Wall Bridge","itemDisplayName":"Castle Wall Bridge Model"},{"itemID":9666,"itemName":"Model Reward Castle Wall End","itemDisplayName":"Castle Wall End Model"},{"itemID":9667,"itemName":"Model Reward Castle Wall Small 1","itemDisplayName":"Castle Small Wall Model 1"},{"itemID":9668,"itemName":"Model Reward Castle Wall Small 2","itemDisplayName":"Castle Small Wall Model 2"},{"itemID":9669,"itemName":"Model Reward Castle Wall Small 3","itemDisplayName":"Castle Small Wall Model 3"},{"itemID":9670,"itemName":"Model Reward Castle Wall Small 4","itemDisplayName":"Castle Small Wall Model 4"},{"itemID":9671,"itemName":"Model Reward Castle Wall Straight","itemDisplayName":"Castle Straight Wall Model"},{"itemID":9672,"itemName":"Model Reward Castle Wall Straight Medium","itemDisplayName":"Castle Medium Straight Wall Model"},{"itemID":9673,"itemName":"Model Reward Castle Wall Medium Spikes","itemDisplayName":"Castle Medium Spikes Wall Model"},{"itemID":9674,"itemName":"Model Reward Castle Wall T","itemDisplayName":"Castle T-Wall Model"},{"itemID":9675,"itemName":"Model Reward Castle Wall Tower No Top","itemDisplayName":"Castle Tower Wall With No Top Model"},{"itemID":9676,"itemName":"Model Reward Castle Wall Tower With Top","itemDisplayName":"Castle Tower Wall With Top Model"},{"itemID":9677,"itemName":"Model Reward Castle Wall Widening","itemDisplayName":"Castle Widening Wall Model"},{"itemID":9678,"itemName":"Model Reward Castle Wall With Stairs","itemDisplayName":"Castle Wall With Stairs Model"},{"itemID":10328,"itemName":"Model Reward Cottage Bathtub 1","itemDisplayName":"House Bathtub Model 1"},{"itemID":10329,"itemName":"Model Reward Cottage Bathtub 2","itemDisplayName":"House Bathtub Model 2"},{"itemID":10330,"itemName":"Model Reward Cottage Door 1 closed","itemDisplayName":"House Closed Door Model 1"},{"itemID":10331,"itemName":"Model Reward Cottage Door 1 open","itemDisplayName":"House Open Door Model 1"},{"itemID":10332,"itemName":"Model Reward Cottage Door 2 closed","itemDisplayName":"House Closed Door Model 2"},{"itemID":10333,"itemName":"Model Reward Cottage Door 2 open","itemDisplayName":"House Open Door Model 2"},{"itemID":10334,"itemName":"Model Reward Cottage Door 3 closed","itemDisplayName":"House Closed Door Model 3"},{"itemID":10335,"itemName":"Model Reward Cottage Door 3 open","itemDisplayName":"House Open Door Model 3"},{"itemID":10336,"itemName":"Model Reward Cottage Kitchen 1","itemDisplayName":"House Kitchen Model 1"},{"itemID":10337,"itemName":"Model Reward Cottage Kitchen 2","itemDisplayName":"House Kitchen Model 2"},{"itemID":10338,"itemName":"Model Reward Cottage Kitchen 3","itemDisplayName":"House Kitchen Model 3"},{"itemID":10339,"itemName":"Model Reward Cottage Laundry 1","itemDisplayName":"House Laundry Model 1"},{"itemID":10340,"itemName":"Model Reward Cottage Laundry 2","itemDisplayName":"House Laundry Model 2"},{"itemID":10341,"itemName":"Model Reward Cottage Library 1","itemDisplayName":"House Library Model 1"},{"itemID":10342,"itemName":"Model Reward Cottage Library 2","itemDisplayName":"House Library Model 2"},{"itemID":10343,"itemName":"Model Reward Cottage Library 3","itemDisplayName":"House Library Model 3"},{"itemID":10344,"itemName":"Model Reward Cottage Library 4","itemDisplayName":"House Library Model 4"},{"itemID":10345,"itemName":"Model Reward Cottage Toilet 2","itemDisplayName":"House Toilet Model 2"},{"itemID":10346,"itemName":"Model Reward Cottage Vanity 1","itemDisplayName":"House Vanity Model 1"},{"itemID":10347,"itemName":"Model Reward Cottage Vanity 2","itemDisplayName":"House Vanity Model 2"},{"itemID":10348,"itemName":"Model Reward Cottage Vanity 3","itemDisplayName":"House Vanity Model 3"},{"itemID":10349,"itemName":"Model Reward Cottage Vanity 4","itemDisplayName":"House Vanity Model 4"},{"itemID":10350,"itemName":"Model Reward Cottage Wall Arch","itemDisplayName":"House Wall Arch Model"},{"itemID":10351,"itemName":"Model Reward Cottage Wall Art 1","itemDisplayName":"House Wall Art Model 1"},{"itemID":10352,"itemName":"Model Reward Cottage Wall Art 2","itemDisplayName":"House Wall Art Model 2"},{"itemID":10353,"itemName":"Model Reward Cottage Wall Blank 1","itemDisplayName":"House Wall Blank Model 1"},{"itemID":10354,"itemName":"Model Reward Cottage Wall Blank 2","itemDisplayName":"House Wall Blank Model 2"},{"itemID":10355,"itemName":"Model Reward Cottage Wall Blank 3","itemDisplayName":"House Wall Blank Model 3"},{"itemID":10356,"itemName":"Model Reward Cottage Wall Corner 1","itemDisplayName":"House Wall Corner Model 1"},{"itemID":10357,"itemName":"Model Reward Cottage Wall Corner 2","itemDisplayName":"House Wall Corner Model 2"},{"itemID":10358,"itemName":"Model Reward Cottage Wall Corner 3","itemDisplayName":"House Wall Corner Model 3"},{"itemID":10359,"itemName":"Model Reward Cottage Wall Fireplace 1","itemDisplayName":"House Wall Fireplace Model 1"},{"itemID":10360,"itemName":"Model Reward Cottage Window 1","itemDisplayName":"House Window Model 1"},{"itemID":10361,"itemName":"Model Reward Cottage Window 2","itemDisplayName":"House Window Model 2"},{"itemID":10362,"itemName":"Model Reward Cottage Window 3","itemDisplayName":"House Window Model 3"},{"itemID":10363,"itemName":"Model Reward Cottage Window 4","itemDisplayName":"House Window Model 4"},{"itemID":10364,"itemName":"Model Reward Cottage Window 5","itemDisplayName":"House Window Model 5"},{"itemID":10365,"itemName":"Model Reward Cottage Window 6","itemDisplayName":"House Window Model 6"},{"itemID":6027,"itemName":"Model Reward Mushroom 1","itemDisplayName":"Tiny Mushroom Model"},{"itemID":6028,"itemName":"Model Reward Mushroom 2","itemDisplayName":"Small Mushroom Model"},{"itemID":6029,"itemName":"Model Reward Mushroom 3","itemDisplayName":"Medium Mushroom Model"},{"itemID":6030,"itemName":"Model Reward Mushroom 4","itemDisplayName":"Large Mushroom Model"},{"itemID":6031,"itemName":"Model Reward Tiny Crate","itemDisplayName":"Tiny Crate Model"},{"itemID":6032,"itemName":"Model Reward Small Crate","itemDisplayName":"Small Crate Model"},{"itemID":6033,"itemName":"Model Reward Medium Crate","itemDisplayName":"Medium Crate Model"},{"itemID":6034,"itemName":"Model Reward Large Crate","itemDisplayName":"Large Crate Model"},{"itemID":6035,"itemName":"Model Reward Barrel","itemDisplayName":"Wooden Barrel Model"},{"itemID":6036,"itemName":"Model Reward Tent","itemDisplayName":"Tent Model"},{"itemID":6037,"itemName":"Model Reward Desk","itemDisplayName":"Desk Model"},{"itemID":6039,"itemName":"Model Reward Water Cooler","itemDisplayName":"Water Cooler Model"},{"itemID":6044,"itemName":"Model Reward Pirate Table Small","itemDisplayName":"Small Table Model"},{"itemID":6056,"itemName":"Model Reward Weaponrack","itemDisplayName":"Weapon Rack Model"},{"itemID":6060,"itemName":"Model Reward Hut","itemDisplayName":"Hut Model"},{"itemID":6064,"itemName":"Model Reward Table","itemDisplayName":"Coffee Table Model"},{"itemID":6065,"itemName":"Model Reward Cart","itemDisplayName":"Cart Model"},{"itemID":6071,"itemName":"Model Reward Fence","itemDisplayName":"Fence Model"},{"itemID":6072,"itemName":"Model Reward Wood Pile","itemDisplayName":"Wood Pile Model"},{"itemID":6778,"itemName":"Model Reward Box of cups","itemDisplayName":"Box of Cups Model"},{"itemID":7122,"itemName":"Model Reward Candle Holder","itemDisplayName":"Candle Holder Model"},{"itemID":7123,"itemName":"Model Reward Dock Model","itemDisplayName":"Dock Model"},{"itemID":7134,"itemName":"Model Reward Cabinet","itemDisplayName":"Cabinet Model"},{"itemID":7135,"itemName":"Model Reward Chair","itemDisplayName":"Antique Chair Model"},{"itemID":7759,"itemName":"Model Reward Double Trash Can","itemDisplayName":"Double Trash Can Model"},{"itemID":7761,"itemName":"Model Reward Small trash can","itemDisplayName":"Trash Can Model"},{"itemID":7770,"itemName":"Model Reward Park bench","itemDisplayName":"Bench Model"},{"itemID":8055,"itemName":"Model Reward Gobletbox","itemDisplayName":"Goblet Box Model"},{"itemID":8068,"itemName":"Model Reward Battlefield Outpost Console","itemDisplayName":"Console Model"},{"itemID":8069,"itemName":"Model Reward Hazmat Barricade Yellow","itemDisplayName":"Yellow Barricade Model"},{"itemID":8073,"itemName":"Model Reward Hedgehog Barrier","itemDisplayName":"Barricade Model"},{"itemID":8077,"itemName":"Model Reward Bird House","itemDisplayName":"Birdhouse Model"}]},{"LootTableIndex":184,"maxToDrop":3,"minToDrop":1,"percent":1,"items":[{"itemID":8270,"itemName":"Model Reward Double Lamp","itemDisplayName":"Double Lamppost Model"},{"itemID":9484,"itemName":"Model Reward Brown Bench","itemDisplayName":"Brown Bench Model"},{"itemID":9491,"itemName":"Model Reward Hotdog Cart","itemDisplayName":"Hotdog Cart Model"},{"itemID":9492,"itemName":"Model Reward Hotdog Stand","itemDisplayName":"Hotdog Stand Model"},{"itemID":9495,"itemName":"Model Reward Dustbin","itemDisplayName":"Dustbin Model"},{"itemID":9496,"itemName":"Model Reward Sleek Sofa","itemDisplayName":"Sleek Sofa Model"},{"itemID":9497,"itemName":"Model Reward Traffic Light","itemDisplayName":"Traffic Light Model"},{"itemID":9568,"itemName":"Model Reward Wagon","itemDisplayName":"Wagon Model"},{"itemID":9570,"itemName":"Model Reward BBQ Grill","itemDisplayName":"BBQ Grill Model"},{"itemID":9574,"itemName":"Model Reward Mailbox","itemDisplayName":"Mailbox Model"},{"itemID":9811,"itemName":"Model Reward Big Red Magnet","itemDisplayName":"Big Red Magnet Model"},{"itemID":7758,"itemName":"Model Reward Picnic Table","itemDisplayName":"Picnic Table Model"},{"itemID":7759,"itemName":"Model Reward Double Trash Can","itemDisplayName":"Double Trash Can Model"},{"itemID":7761,"itemName":"Model Reward Small trash can","itemDisplayName":"Trash Can Model"},{"itemID":7770,"itemName":"Model Reward Park bench","itemDisplayName":"Bench Model"},{"itemID":7771,"itemName":"Model Reward Concert Cooler","itemDisplayName":"Cooler Model"},{"itemID":7773,"itemName":"Model Reward Keyboards","itemDisplayName":"Piano Model"},{"itemID":7774,"itemName":"Model Reward Guitar","itemDisplayName":"Guitar Model"},{"itemID":7775,"itemName":"Model Reward Bass Guitar","itemDisplayName":"Bass Guitar Model"},{"itemID":7808,"itemName":"Model Reward Fire Hydrant","itemDisplayName":"Fire Hydrant Model"},{"itemID":7813,"itemName":"Model Reward Drumset","itemDisplayName":"Drumset Model"},{"itemID":7818,"itemName":"Model Reward Table with Register","itemDisplayName":"Cash Register Model"},{"itemID":7822,"itemName":"Model Reward DJ Mixer","itemDisplayName":"DJ Table Model"},{"itemID":7825,"itemName":"Model Reward Tank Pallet","itemDisplayName":"Tank Pallet Model"},{"itemID":7826,"itemName":"Model Reward Barrel","itemDisplayName":"Oil Drum Model"},{"itemID":7827,"itemName":"Model Reward Dolly","itemDisplayName":"Dolly Model"},{"itemID":7828,"itemName":"Model Reward Torch Cart","itemDisplayName":"Torch Cart Model"},{"itemID":7829,"itemName":"Model Reward Engine","itemDisplayName":"Engine Model"},{"itemID":7830,"itemName":"Model Reward Pallet","itemDisplayName":"Pallet Model"},{"itemID":7832,"itemName":"Model Reward Vendor Gear Rack","itemDisplayName":"Vendor Rack Model"}]}]},"itemID":13604,"name":"AG-NS Model Surprise Pack","displayName":"Surprise Model Pack","description":"Double-click to use!","isWeapon":false,"internalNotes":"Mission reward that pulls from loot table - idea is to trade/sell to other players","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_rectangle_red_blue.png","stackSize":5,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":"5"}
+{
+  "allItems": [
+    13604
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 114,
+        "maxToDrop": 5,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9488,
+            "itemName": "Model Reward Television",
+            "itemDisplayName": "Television Model"
+          },
+          {
+            "itemID": 9490,
+            "itemName": "Model Reward Troll Cart",
+            "itemDisplayName": "Troll Cart Model"
+          },
+          {
+            "itemID": 9493,
+            "itemName": "Model Reward Castle Weapon Rack",
+            "itemDisplayName": "Castle Weapon Rack Model"
+          },
+          {
+            "itemID": 9591,
+            "itemName": "Model Reward Medieval Wagon",
+            "itemDisplayName": "Medieval Wagon Model"
+          },
+          {
+            "itemID": 9596,
+            "itemName": "Model Reward Medieval Vendor ",
+            "itemDisplayName": "Medieval Vendor Model"
+          },
+          {
+            "itemID": 9648,
+            "itemName": "Model Reward Medieval Village Stable",
+            "itemDisplayName": "Medieval Village Stable Model"
+          },
+          {
+            "itemID": 9649,
+            "itemName": "Model Reward Medieval Village Forge",
+            "itemDisplayName": "Medieval Village Forge Model"
+          },
+          {
+            "itemID": 9650,
+            "itemName": "Model Reward Medieval Village Inn",
+            "itemDisplayName": "Medieval Village Inn Model"
+          },
+          {
+            "itemID": 9651,
+            "itemName": "Model Reward Medieval Village House",
+            "itemDisplayName": "Medieval Village House Model"
+          },
+          {
+            "itemID": 9652,
+            "itemName": "Model Reward Castle Arbalest",
+            "itemDisplayName": "Castle Arbalest Model"
+          },
+          {
+            "itemID": 9653,
+            "itemName": "Model Reward Castle BarrelGun",
+            "itemDisplayName": "Castle Barrel Gun Model"
+          },
+          {
+            "itemID": 9654,
+            "itemName": "Model Reward Castle Catapult",
+            "itemDisplayName": "Castle Catapult Model"
+          },
+          {
+            "itemID": 9656,
+            "itemName": "Model Reward Castle Corner Inner",
+            "itemDisplayName": "Castle Inner Corner Model"
+          },
+          {
+            "itemID": 9657,
+            "itemName": "Model Reward Castle Corner Outside",
+            "itemDisplayName": "Castle Outside Corner Model"
+          },
+          {
+            "itemID": 9658,
+            "itemName": "Model Reward Castle Corner Small",
+            "itemDisplayName": "Castle Small Corner Model"
+          },
+          {
+            "itemID": 9659,
+            "itemName": "Model Reward Castle Crossing",
+            "itemDisplayName": "Castle Crossing Model"
+          },
+          {
+            "itemID": 9660,
+            "itemName": "Model Reward Castle Gate",
+            "itemDisplayName": "Castle Gate Model"
+          },
+          {
+            "itemID": 9661,
+            "itemName": "Model Reward Castle Outhouse",
+            "itemDisplayName": "Castle Outhouse Model"
+          },
+          {
+            "itemID": 9662,
+            "itemName": "Model Reward Castle Ramp",
+            "itemDisplayName": "Castle Ramp Model"
+          },
+          {
+            "itemID": 9663,
+            "itemName": "Model Reward Castle Staircase",
+            "itemDisplayName": "Castle Staircase Model"
+          },
+          {
+            "itemID": 9664,
+            "itemName": "Model Reward Castle Tower",
+            "itemDisplayName": "Castle Tower Model"
+          },
+          {
+            "itemID": 9665,
+            "itemName": "Model Reward Castle Wall Bridge",
+            "itemDisplayName": "Castle Wall Bridge Model"
+          },
+          {
+            "itemID": 9666,
+            "itemName": "Model Reward Castle Wall End",
+            "itemDisplayName": "Castle Wall End Model"
+          },
+          {
+            "itemID": 9667,
+            "itemName": "Model Reward Castle Wall Small 1",
+            "itemDisplayName": "Castle Small Wall Model 1"
+          },
+          {
+            "itemID": 9668,
+            "itemName": "Model Reward Castle Wall Small 2",
+            "itemDisplayName": "Castle Small Wall Model 2"
+          },
+          {
+            "itemID": 9669,
+            "itemName": "Model Reward Castle Wall Small 3",
+            "itemDisplayName": "Castle Small Wall Model 3"
+          },
+          {
+            "itemID": 9670,
+            "itemName": "Model Reward Castle Wall Small 4",
+            "itemDisplayName": "Castle Small Wall Model 4"
+          },
+          {
+            "itemID": 9671,
+            "itemName": "Model Reward Castle Wall Straight",
+            "itemDisplayName": "Castle Straight Wall Model"
+          },
+          {
+            "itemID": 9672,
+            "itemName": "Model Reward Castle Wall Straight Medium",
+            "itemDisplayName": "Castle Medium Straight Wall Model"
+          },
+          {
+            "itemID": 9673,
+            "itemName": "Model Reward Castle Wall Medium Spikes",
+            "itemDisplayName": "Castle Medium Spikes Wall Model"
+          },
+          {
+            "itemID": 9674,
+            "itemName": "Model Reward Castle Wall T",
+            "itemDisplayName": "Castle T-Wall Model"
+          },
+          {
+            "itemID": 9675,
+            "itemName": "Model Reward Castle Wall Tower No Top",
+            "itemDisplayName": "Castle Tower Wall With No Top Model"
+          },
+          {
+            "itemID": 9676,
+            "itemName": "Model Reward Castle Wall Tower With Top",
+            "itemDisplayName": "Castle Tower Wall With Top Model"
+          },
+          {
+            "itemID": 9677,
+            "itemName": "Model Reward Castle Wall Widening",
+            "itemDisplayName": "Castle Widening Wall Model"
+          },
+          {
+            "itemID": 9678,
+            "itemName": "Model Reward Castle Wall With Stairs",
+            "itemDisplayName": "Castle Wall With Stairs Model"
+          },
+          {
+            "itemID": 10328,
+            "itemName": "Model Reward Cottage Bathtub 1",
+            "itemDisplayName": "House Bathtub Model 1"
+          },
+          {
+            "itemID": 10329,
+            "itemName": "Model Reward Cottage Bathtub 2",
+            "itemDisplayName": "House Bathtub Model 2"
+          },
+          {
+            "itemID": 10330,
+            "itemName": "Model Reward Cottage Door 1 closed",
+            "itemDisplayName": "House Closed Door Model 1"
+          },
+          {
+            "itemID": 10331,
+            "itemName": "Model Reward Cottage Door 1 open",
+            "itemDisplayName": "House Open Door Model 1"
+          },
+          {
+            "itemID": 10332,
+            "itemName": "Model Reward Cottage Door 2 closed",
+            "itemDisplayName": "House Closed Door Model 2"
+          },
+          {
+            "itemID": 10333,
+            "itemName": "Model Reward Cottage Door 2 open",
+            "itemDisplayName": "House Open Door Model 2"
+          },
+          {
+            "itemID": 10334,
+            "itemName": "Model Reward Cottage Door 3 closed",
+            "itemDisplayName": "House Closed Door Model 3"
+          },
+          {
+            "itemID": 10335,
+            "itemName": "Model Reward Cottage Door 3 open",
+            "itemDisplayName": "House Open Door Model 3"
+          },
+          {
+            "itemID": 10336,
+            "itemName": "Model Reward Cottage Kitchen 1",
+            "itemDisplayName": "House Kitchen Model 1"
+          },
+          {
+            "itemID": 10337,
+            "itemName": "Model Reward Cottage Kitchen 2",
+            "itemDisplayName": "House Kitchen Model 2"
+          },
+          {
+            "itemID": 10338,
+            "itemName": "Model Reward Cottage Kitchen 3",
+            "itemDisplayName": "House Kitchen Model 3"
+          },
+          {
+            "itemID": 10339,
+            "itemName": "Model Reward Cottage Laundry 1",
+            "itemDisplayName": "House Laundry Model 1"
+          },
+          {
+            "itemID": 10340,
+            "itemName": "Model Reward Cottage Laundry 2",
+            "itemDisplayName": "House Laundry Model 2"
+          },
+          {
+            "itemID": 10341,
+            "itemName": "Model Reward Cottage Library 1",
+            "itemDisplayName": "House Library Model 1"
+          },
+          {
+            "itemID": 10342,
+            "itemName": "Model Reward Cottage Library 2",
+            "itemDisplayName": "House Library Model 2"
+          },
+          {
+            "itemID": 10343,
+            "itemName": "Model Reward Cottage Library 3",
+            "itemDisplayName": "House Library Model 3"
+          },
+          {
+            "itemID": 10344,
+            "itemName": "Model Reward Cottage Library 4",
+            "itemDisplayName": "House Library Model 4"
+          },
+          {
+            "itemID": 10345,
+            "itemName": "Model Reward Cottage Toilet 2",
+            "itemDisplayName": "House Toilet Model 2"
+          },
+          {
+            "itemID": 10346,
+            "itemName": "Model Reward Cottage Vanity 1",
+            "itemDisplayName": "House Vanity Model 1"
+          },
+          {
+            "itemID": 10347,
+            "itemName": "Model Reward Cottage Vanity 2",
+            "itemDisplayName": "House Vanity Model 2"
+          },
+          {
+            "itemID": 10348,
+            "itemName": "Model Reward Cottage Vanity 3",
+            "itemDisplayName": "House Vanity Model 3"
+          },
+          {
+            "itemID": 10349,
+            "itemName": "Model Reward Cottage Vanity 4",
+            "itemDisplayName": "House Vanity Model 4"
+          },
+          {
+            "itemID": 10350,
+            "itemName": "Model Reward Cottage Wall Arch",
+            "itemDisplayName": "House Wall Arch Model"
+          },
+          {
+            "itemID": 10351,
+            "itemName": "Model Reward Cottage Wall Art 1",
+            "itemDisplayName": "House Wall Art Model 1"
+          },
+          {
+            "itemID": 10352,
+            "itemName": "Model Reward Cottage Wall Art 2",
+            "itemDisplayName": "House Wall Art Model 2"
+          },
+          {
+            "itemID": 10353,
+            "itemName": "Model Reward Cottage Wall Blank 1",
+            "itemDisplayName": "House Wall Blank Model 1"
+          },
+          {
+            "itemID": 10354,
+            "itemName": "Model Reward Cottage Wall Blank 2",
+            "itemDisplayName": "House Wall Blank Model 2"
+          },
+          {
+            "itemID": 10355,
+            "itemName": "Model Reward Cottage Wall Blank 3",
+            "itemDisplayName": "House Wall Blank Model 3"
+          },
+          {
+            "itemID": 10356,
+            "itemName": "Model Reward Cottage Wall Corner 1",
+            "itemDisplayName": "House Wall Corner Model 1"
+          },
+          {
+            "itemID": 10357,
+            "itemName": "Model Reward Cottage Wall Corner 2",
+            "itemDisplayName": "House Wall Corner Model 2"
+          },
+          {
+            "itemID": 10358,
+            "itemName": "Model Reward Cottage Wall Corner 3",
+            "itemDisplayName": "House Wall Corner Model 3"
+          },
+          {
+            "itemID": 10359,
+            "itemName": "Model Reward Cottage Wall Fireplace 1",
+            "itemDisplayName": "House Wall Fireplace Model 1"
+          },
+          {
+            "itemID": 10360,
+            "itemName": "Model Reward Cottage Window 1",
+            "itemDisplayName": "House Window Model 1"
+          },
+          {
+            "itemID": 10361,
+            "itemName": "Model Reward Cottage Window 2",
+            "itemDisplayName": "House Window Model 2"
+          },
+          {
+            "itemID": 10362,
+            "itemName": "Model Reward Cottage Window 3",
+            "itemDisplayName": "House Window Model 3"
+          },
+          {
+            "itemID": 10363,
+            "itemName": "Model Reward Cottage Window 4",
+            "itemDisplayName": "House Window Model 4"
+          },
+          {
+            "itemID": 10364,
+            "itemName": "Model Reward Cottage Window 5",
+            "itemDisplayName": "House Window Model 5"
+          },
+          {
+            "itemID": 10365,
+            "itemName": "Model Reward Cottage Window 6",
+            "itemDisplayName": "House Window Model 6"
+          },
+          {
+            "itemID": 6027,
+            "itemName": "Model Reward Mushroom 1",
+            "itemDisplayName": "Tiny Mushroom Model"
+          },
+          {
+            "itemID": 6028,
+            "itemName": "Model Reward Mushroom 2",
+            "itemDisplayName": "Small Mushroom Model"
+          },
+          {
+            "itemID": 6029,
+            "itemName": "Model Reward Mushroom 3",
+            "itemDisplayName": "Medium Mushroom Model"
+          },
+          {
+            "itemID": 6030,
+            "itemName": "Model Reward Mushroom 4",
+            "itemDisplayName": "Large Mushroom Model"
+          },
+          {
+            "itemID": 6031,
+            "itemName": "Model Reward Tiny Crate",
+            "itemDisplayName": "Tiny Crate Model"
+          },
+          {
+            "itemID": 6032,
+            "itemName": "Model Reward Small Crate",
+            "itemDisplayName": "Small Crate Model"
+          },
+          {
+            "itemID": 6033,
+            "itemName": "Model Reward Medium Crate",
+            "itemDisplayName": "Medium Crate Model"
+          },
+          {
+            "itemID": 6034,
+            "itemName": "Model Reward Large Crate",
+            "itemDisplayName": "Large Crate Model"
+          },
+          {
+            "itemID": 6035,
+            "itemName": "Model Reward Barrel",
+            "itemDisplayName": "Wooden Barrel Model"
+          },
+          {
+            "itemID": 6036,
+            "itemName": "Model Reward Tent",
+            "itemDisplayName": "Tent Model"
+          },
+          {
+            "itemID": 6037,
+            "itemName": "Model Reward Desk",
+            "itemDisplayName": "Desk Model"
+          },
+          {
+            "itemID": 6039,
+            "itemName": "Model Reward Water Cooler",
+            "itemDisplayName": "Water Cooler Model"
+          },
+          {
+            "itemID": 6044,
+            "itemName": "Model Reward Pirate Table Small",
+            "itemDisplayName": "Small Table Model"
+          },
+          {
+            "itemID": 6056,
+            "itemName": "Model Reward Weaponrack",
+            "itemDisplayName": "Weapon Rack Model"
+          },
+          {
+            "itemID": 6060,
+            "itemName": "Model Reward Hut",
+            "itemDisplayName": "Hut Model"
+          },
+          {
+            "itemID": 6064,
+            "itemName": "Model Reward Table",
+            "itemDisplayName": "Coffee Table Model"
+          },
+          {
+            "itemID": 6065,
+            "itemName": "Model Reward Cart",
+            "itemDisplayName": "Cart Model"
+          },
+          {
+            "itemID": 6071,
+            "itemName": "Model Reward Fence",
+            "itemDisplayName": "Fence Model"
+          },
+          {
+            "itemID": 6072,
+            "itemName": "Model Reward Wood Pile",
+            "itemDisplayName": "Wood Pile Model"
+          },
+          {
+            "itemID": 6778,
+            "itemName": "Model Reward Box of cups",
+            "itemDisplayName": "Box of Cups Model"
+          },
+          {
+            "itemID": 7122,
+            "itemName": "Model Reward Candle Holder",
+            "itemDisplayName": "Candle Holder Model"
+          },
+          {
+            "itemID": 7123,
+            "itemName": "Model Reward Dock Model",
+            "itemDisplayName": "Dock Model"
+          },
+          {
+            "itemID": 7134,
+            "itemName": "Model Reward Cabinet",
+            "itemDisplayName": "Cabinet Model"
+          },
+          {
+            "itemID": 7135,
+            "itemName": "Model Reward Chair",
+            "itemDisplayName": "Antique Chair Model"
+          },
+          {
+            "itemID": 7759,
+            "itemName": "Model Reward Double Trash Can",
+            "itemDisplayName": "Double Trash Can Model"
+          },
+          {
+            "itemID": 7761,
+            "itemName": "Model Reward Small trash can",
+            "itemDisplayName": "Trash Can Model"
+          },
+          {
+            "itemID": 7770,
+            "itemName": "Model Reward Park bench",
+            "itemDisplayName": "Bench Model"
+          },
+          {
+            "itemID": 8055,
+            "itemName": "Model Reward Gobletbox",
+            "itemDisplayName": "Goblet Box Model"
+          },
+          {
+            "itemID": 8068,
+            "itemName": "Model Reward Battlefield Outpost Console",
+            "itemDisplayName": "Console Model"
+          },
+          {
+            "itemID": 8069,
+            "itemName": "Model Reward Hazmat Barricade Yellow",
+            "itemDisplayName": "Yellow Barricade Model"
+          },
+          {
+            "itemID": 8073,
+            "itemName": "Model Reward Hedgehog Barrier",
+            "itemDisplayName": "Barricade Model"
+          },
+          {
+            "itemID": 8077,
+            "itemName": "Model Reward Bird House",
+            "itemDisplayName": "Birdhouse Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 184,
+        "maxToDrop": 3,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 8270,
+            "itemName": "Model Reward Double Lamp",
+            "itemDisplayName": "Double Lamppost Model"
+          },
+          {
+            "itemID": 9484,
+            "itemName": "Model Reward Brown Bench",
+            "itemDisplayName": "Brown Bench Model"
+          },
+          {
+            "itemID": 9491,
+            "itemName": "Model Reward Hotdog Cart",
+            "itemDisplayName": "Hotdog Cart Model"
+          },
+          {
+            "itemID": 9492,
+            "itemName": "Model Reward Hotdog Stand",
+            "itemDisplayName": "Hotdog Stand Model"
+          },
+          {
+            "itemID": 9495,
+            "itemName": "Model Reward Dustbin",
+            "itemDisplayName": "Dustbin Model"
+          },
+          {
+            "itemID": 9496,
+            "itemName": "Model Reward Sleek Sofa",
+            "itemDisplayName": "Sleek Sofa Model"
+          },
+          {
+            "itemID": 9497,
+            "itemName": "Model Reward Traffic Light",
+            "itemDisplayName": "Traffic Light Model"
+          },
+          {
+            "itemID": 9568,
+            "itemName": "Model Reward Wagon",
+            "itemDisplayName": "Wagon Model"
+          },
+          {
+            "itemID": 9570,
+            "itemName": "Model Reward BBQ Grill",
+            "itemDisplayName": "BBQ Grill Model"
+          },
+          {
+            "itemID": 9574,
+            "itemName": "Model Reward Mailbox",
+            "itemDisplayName": "Mailbox Model"
+          },
+          {
+            "itemID": 9811,
+            "itemName": "Model Reward Big Red Magnet",
+            "itemDisplayName": "Big Red Magnet Model"
+          },
+          {
+            "itemID": 7758,
+            "itemName": "Model Reward Picnic Table",
+            "itemDisplayName": "Picnic Table Model"
+          },
+          {
+            "itemID": 7759,
+            "itemName": "Model Reward Double Trash Can",
+            "itemDisplayName": "Double Trash Can Model"
+          },
+          {
+            "itemID": 7761,
+            "itemName": "Model Reward Small trash can",
+            "itemDisplayName": "Trash Can Model"
+          },
+          {
+            "itemID": 7770,
+            "itemName": "Model Reward Park bench",
+            "itemDisplayName": "Bench Model"
+          },
+          {
+            "itemID": 7771,
+            "itemName": "Model Reward Concert Cooler",
+            "itemDisplayName": "Cooler Model"
+          },
+          {
+            "itemID": 7773,
+            "itemName": "Model Reward Keyboards",
+            "itemDisplayName": "Piano Model"
+          },
+          {
+            "itemID": 7774,
+            "itemName": "Model Reward Guitar",
+            "itemDisplayName": "Guitar Model"
+          },
+          {
+            "itemID": 7775,
+            "itemName": "Model Reward Bass Guitar",
+            "itemDisplayName": "Bass Guitar Model"
+          },
+          {
+            "itemID": 7808,
+            "itemName": "Model Reward Fire Hydrant",
+            "itemDisplayName": "Fire Hydrant Model"
+          },
+          {
+            "itemID": 7813,
+            "itemName": "Model Reward Drumset",
+            "itemDisplayName": "Drumset Model"
+          },
+          {
+            "itemID": 7818,
+            "itemName": "Model Reward Table with Register",
+            "itemDisplayName": "Cash Register Model"
+          },
+          {
+            "itemID": 7822,
+            "itemName": "Model Reward DJ Mixer",
+            "itemDisplayName": "DJ Table Model"
+          },
+          {
+            "itemID": 7825,
+            "itemName": "Model Reward Tank Pallet",
+            "itemDisplayName": "Tank Pallet Model"
+          },
+          {
+            "itemID": 7826,
+            "itemName": "Model Reward Barrel",
+            "itemDisplayName": "Oil Drum Model"
+          },
+          {
+            "itemID": 7827,
+            "itemName": "Model Reward Dolly",
+            "itemDisplayName": "Dolly Model"
+          },
+          {
+            "itemID": 7828,
+            "itemName": "Model Reward Torch Cart",
+            "itemDisplayName": "Torch Cart Model"
+          },
+          {
+            "itemID": 7829,
+            "itemName": "Model Reward Engine",
+            "itemDisplayName": "Engine Model"
+          },
+          {
+            "itemID": 7830,
+            "itemName": "Model Reward Pallet",
+            "itemDisplayName": "Pallet Model"
+          },
+          {
+            "itemID": 7832,
+            "itemName": "Model Reward Vendor Gear Rack",
+            "itemDisplayName": "Vendor Rack Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 13604,
+  "name": "AG-NS Model Surprise Pack",
+  "displayName": "Surprise Model Pack",
+  "description": "Double-click to use!",
+  "isWeapon": false,
+  "internalNotes": "Mission reward that pulls from loot table - idea is to trade/sell to other players",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_rectangle_red_blue.png",
+  "stackSize": 5,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": "5"
+}

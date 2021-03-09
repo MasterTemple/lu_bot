@@ -1,1 +1,84 @@
-{"allItems":[10515],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":334,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10086,"itemName":"Model Reward Pirate Medium Wall","itemDisplayName":"Pirate Medium Wall Model"}]},{"LootTableIndex":336,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10087,"itemName":"Model Reward Pirate Small Wall ","itemDisplayName":"Pirate Small Wall Model"}]},{"LootTableIndex":335,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10079,"itemName":"Model Reward Pirate Wall with Gunport","itemDisplayName":"Pirate Wall With Gunport Model"}]},{"LootTableIndex":328,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10078,"itemName":"Model Reward Pirate Wall End","itemDisplayName":"Pirate Wall End Model"}]}]},"itemID":10515,"name":"Pirate Fort Model Pack 3","displayName":"Pirate Fort Model Pack 3","description":"Double-click to open this pack of models!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png","stackSize":10,"price":0,"commendationCost":12,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    10515
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 334,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10086,
+            "itemName": "Model Reward Pirate Medium Wall",
+            "itemDisplayName": "Pirate Medium Wall Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 336,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10087,
+            "itemName": "Model Reward Pirate Small Wall ",
+            "itemDisplayName": "Pirate Small Wall Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 335,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10079,
+            "itemName": "Model Reward Pirate Wall with Gunport",
+            "itemDisplayName": "Pirate Wall With Gunport Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 328,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10078,
+            "itemName": "Model Reward Pirate Wall End",
+            "itemDisplayName": "Pirate Wall End Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 10515,
+  "name": "Pirate Fort Model Pack 3",
+  "displayName": "Pirate Fort Model Pack 3",
+  "description": "Double-click to open this pack of models!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": 12,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

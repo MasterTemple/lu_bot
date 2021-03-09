@@ -1,1 +1,28 @@
-{"allItems":[10771],"equipLocationNames":["Extra_1"],"equipLocation":["Extra_1"],"isPackage":false,"itemID":10771,"name":"Model Reward Fortress Watch Tower","displayName":"Fortress Watch Tower Model","description":"A model for your property!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/rew_ninjafortress-watchtower.png","stackSize":10,"price":4560,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    10771
+  ],
+  "equipLocationNames": [
+    "Extra_1"
+  ],
+  "equipLocation": [
+    "Extra_1"
+  ],
+  "isPackage": false,
+  "itemID": 10771,
+  "name": "Model Reward Fortress Watch Tower",
+  "displayName": "Fortress Watch Tower Model",
+  "description": "A model for your property!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/rew_ninjafortress-watchtower.png",
+  "stackSize": 10,
+  "price": 4560,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

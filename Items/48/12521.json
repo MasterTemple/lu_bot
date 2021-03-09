@@ -1,1 +1,97 @@
-{"allItems":[12521],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":485,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11715,"itemName":"Model Reward Farm Truck","itemDisplayName":"Farm Truck Model"}]},{"LootTableIndex":486,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11714,"itemName":"Model Reward Farm Trailer","itemDisplayName":"Farm Trailer Model"}]},{"LootTableIndex":487,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11712,"itemName":"Model Reward Farm Silo 2","itemDisplayName":"Farm Silo Model 2"}]},{"LootTableIndex":488,"maxToDrop":4,"minToDrop":4,"percent":1,"items":[{"itemID":11705,"itemName":"Model Reward Farm Garden1","itemDisplayName":"Farm Garden Model 1"}]},{"LootTableIndex":489,"maxToDrop":4,"minToDrop":4,"percent":1,"items":[{"itemID":11706,"itemName":"Model Reward Farm Garden2","itemDisplayName":"Farm Garden Model 2"}]}]},"itemID":12521,"name":"Farm Model Pack 1","displayName":"Farm Model Pack 1","description":"Double-click to use!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_orange.png","stackSize":10,"price":0,"commendationCost":15,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    12521
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 485,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11715,
+            "itemName": "Model Reward Farm Truck",
+            "itemDisplayName": "Farm Truck Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 486,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11714,
+            "itemName": "Model Reward Farm Trailer",
+            "itemDisplayName": "Farm Trailer Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 487,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11712,
+            "itemName": "Model Reward Farm Silo 2",
+            "itemDisplayName": "Farm Silo Model 2"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 488,
+        "maxToDrop": 4,
+        "minToDrop": 4,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11705,
+            "itemName": "Model Reward Farm Garden1",
+            "itemDisplayName": "Farm Garden Model 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 489,
+        "maxToDrop": 4,
+        "minToDrop": 4,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11706,
+            "itemName": "Model Reward Farm Garden2",
+            "itemDisplayName": "Farm Garden Model 2"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 12521,
+  "name": "Farm Model Pack 1",
+  "displayName": "Farm Model Pack 1",
+  "description": "Double-click to use!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_orange.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": 15,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

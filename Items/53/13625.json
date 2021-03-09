@@ -1,1 +1,123 @@
-{"allItems":[13625],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":659,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11734,"itemName":"Model Reward Micro City Block 3","itemDisplayName":"Micro City Block 3 Model"}]},{"LootTableIndex":660,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11739,"itemName":"Model Reward Micro City Block Corner 4","itemDisplayName":"Micro City Block Corner 4 Model"}]},{"LootTableIndex":661,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11759,"itemName":"Model Reward Micro City Crawler Crane","itemDisplayName":"Micro City Crawler Crane Model"}]},{"LootTableIndex":662,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11776,"itemName":"Model Reward Micro City Van 3","itemDisplayName":"Micro City Van 3 Model"}]},{"LootTableIndex":663,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11740,"itemName":"Model Reward Micro City Gas Station 1","itemDisplayName":"Micro City Gas Station 1 Model"}]},{"LootTableIndex":664,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11752,"itemName":"Model Reward Micro City Trees","itemDisplayName":"Micro City Trees Model"}]},{"LootTableIndex":665,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11735,"itemName":"Model Reward Micro City Block 4","itemDisplayName":"Micro City Block 4 Model"}]}]},"itemID":13625,"name":"Micro City Model Pack 3","displayName":"Micro City Model Pack 3","description":"Double-click to use!","isWeapon":false,"internalNotes":"","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_red.png","stackSize":5,"price":0,"commendationCost":27,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    13625
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 659,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11734,
+            "itemName": "Model Reward Micro City Block 3",
+            "itemDisplayName": "Micro City Block 3 Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 660,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11739,
+            "itemName": "Model Reward Micro City Block Corner 4",
+            "itemDisplayName": "Micro City Block Corner 4 Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 661,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11759,
+            "itemName": "Model Reward Micro City Crawler Crane",
+            "itemDisplayName": "Micro City Crawler Crane Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 662,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11776,
+            "itemName": "Model Reward Micro City Van 3",
+            "itemDisplayName": "Micro City Van 3 Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 663,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11740,
+            "itemName": "Model Reward Micro City Gas Station 1",
+            "itemDisplayName": "Micro City Gas Station 1 Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 664,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11752,
+            "itemName": "Model Reward Micro City Trees",
+            "itemDisplayName": "Micro City Trees Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 665,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11735,
+            "itemName": "Model Reward Micro City Block 4",
+            "itemDisplayName": "Micro City Block 4 Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 13625,
+  "name": "Micro City Model Pack 3",
+  "displayName": "Micro City Model Pack 3",
+  "description": "Double-click to use!",
+  "isWeapon": false,
+  "internalNotes": "",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_red.png",
+  "stackSize": 5,
+  "price": 0,
+  "commendationCost": 27,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

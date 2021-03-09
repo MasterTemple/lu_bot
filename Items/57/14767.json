@@ -1,1 +1,58 @@
-{"allItems":[14767],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":697,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":14125,"itemName":"Faction Token Bag - 50 tokens","itemDisplayName":"Mega Bag of Faction Tokens"}]},{"LootTableIndex":781,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":14561,"itemName":"Hatchling Frog's Egg - Yellow","itemDisplayName":"Yellow Frog's Egg"}]}]},"itemID":14767,"name":"Game Card Reward Pack","displayName":"Game Card Reward Pack","description":"Double-click to open!","isWeapon":false,"internalNotes":"Marketing Reward - Retailer 1 Month 2","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/bag_green_brown_extralarge.png","stackSize":10,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    14767
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 697,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 14125,
+            "itemName": "Faction Token Bag - 50 tokens",
+            "itemDisplayName": "Mega Bag of Faction Tokens"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 781,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 14561,
+            "itemName": "Hatchling Frog's Egg - Yellow",
+            "itemDisplayName": "Yellow Frog's Egg"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 14767,
+  "name": "Game Card Reward Pack",
+  "displayName": "Game Card Reward Pack",
+  "description": "Double-click to open!",
+  "isWeapon": false,
+  "internalNotes": "Marketing Reward - Retailer 1 Month 2",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/bag_green_brown_extralarge.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

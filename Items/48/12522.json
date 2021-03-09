@@ -1,1 +1,97 @@
-{"allItems":[12522],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":490,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11713,"itemName":"Model Reward Farm Tractor 1","itemDisplayName":"Farm Tractor Model 1"}]},{"LootTableIndex":491,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11702,"itemName":"Model Reward Farm Disc","itemDisplayName":"Farm Disc Model"}]},{"LootTableIndex":492,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11700,"itemName":"Model Reward Farm Chopper","itemDisplayName":"Farm Chopper Model"}]},{"LootTableIndex":493,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11694,"itemName":"Model Reward Farm Baler","itemDisplayName":"Farm Baler Model"}]},{"LootTableIndex":494,"maxToDrop":3,"minToDrop":3,"percent":1,"items":[{"itemID":11693,"itemName":"Model Reward Farm Bale","itemDisplayName":"Farm Bale Model"}]}]},"itemID":12522,"name":"Farm Model Pack 2","displayName":"Farm Model Pack 2","description":"Double-click to use!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_orange.png","stackSize":10,"price":0,"commendationCost":15,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    12522
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 490,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11713,
+            "itemName": "Model Reward Farm Tractor 1",
+            "itemDisplayName": "Farm Tractor Model 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 491,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11702,
+            "itemName": "Model Reward Farm Disc",
+            "itemDisplayName": "Farm Disc Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 492,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11700,
+            "itemName": "Model Reward Farm Chopper",
+            "itemDisplayName": "Farm Chopper Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 493,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11694,
+            "itemName": "Model Reward Farm Baler",
+            "itemDisplayName": "Farm Baler Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 494,
+        "maxToDrop": 3,
+        "minToDrop": 3,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11693,
+            "itemName": "Model Reward Farm Bale",
+            "itemDisplayName": "Farm Bale Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 12522,
+  "name": "Farm Model Pack 2",
+  "displayName": "Farm Model Pack 2",
+  "description": "Double-click to use!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_orange.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": 15,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

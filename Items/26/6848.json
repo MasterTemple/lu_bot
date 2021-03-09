@@ -1,1 +1,46 @@
-{"allItems":[6848],"equipLocationNames":["Right Hand"],"equipLocation":["special_r"],"isPackage":false,"itemID":6848,"name":"Captain Jack's Volleygun","displayName":"Captain Jack's Volleygun","description":"Requires Imagination to fire.","isWeapon":true,"internalNotes":"3/3/3 Ranged + PBAoE","abilityNames":[],"skillIDs":[872],"behaviorIDs":[16888],"meleeDamageInfo":{"damageCombo":"1+1+1+4","chargeUpImaginationCost":3,"doubleJumpSmash":"2","singleJumpSmash":"3"},"abilityName":"Elite Ranged Attack","chargeUpDescription":"Spins you around, doing 4 damage to nearby enemies","projectileDamageInfo":{"chargeUpDamage":"1","projectileDamageCombo":"3+3+3","isChargeUp":true,"isProjectileWeapon":true,"chargeUpIsProjectile":false},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/hands/m2561_131.png","stackSize":1,"price":15000,"commendationCost":83,"factionTokens":null,"levelRequirement":"27"}
+{
+  "allItems": [
+    6848
+  ],
+  "equipLocationNames": [
+    "Right Hand"
+  ],
+  "equipLocation": [
+    "special_r"
+  ],
+  "isPackage": false,
+  "itemID": 6848,
+  "name": "Captain Jack's Volleygun",
+  "displayName": "Captain Jack's Volleygun",
+  "description": "Requires Imagination to fire.",
+  "isWeapon": true,
+  "internalNotes": "3/3/3 Ranged + PBAoE",
+  "abilityNames": [],
+  "skillIDs": [
+    872
+  ],
+  "behaviorIDs": [
+    16888
+  ],
+  "meleeDamageInfo": {
+    "damageCombo": "1+1+1+4",
+    "chargeUpImaginationCost": 3,
+    "doubleJumpSmash": "2",
+    "singleJumpSmash": "3"
+  },
+  "abilityName": "Elite Ranged Attack",
+  "chargeUpDescription": "Spins you around, doing 4 damage to nearby enemies",
+  "projectileDamageInfo": {
+    "chargeUpDamage": "1",
+    "projectileDamageCombo": "3+3+3",
+    "isChargeUp": true,
+    "isProjectileWeapon": true,
+    "chargeUpIsProjectile": false
+  },
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/hands/m2561_131.png",
+  "stackSize": 1,
+  "price": 15000,
+  "commendationCost": 83,
+  "factionTokens": null,
+  "levelRequirement": "27"
+}

@@ -1,1 +1,110 @@
-{"allItems":[9955],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":200,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":8130,"itemName":"CarModule_Wheels_gr","itemDisplayName":"Steel Rim Wheels"}]},{"LootTableIndex":211,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9320,"itemName":"Car1_FrontBumper1_b","itemDisplayName":"Hyperstarter Front Bumper"}]},{"LootTableIndex":212,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9330,"itemName":"Car1_EnginePanel1_b","itemDisplayName":"Hyperstarter Engine Panel"}]},{"LootTableIndex":213,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9345,"itemName":"Car1_SidePanels1_b","itemDisplayName":"Hyperstarter Side Panels"}]},{"LootTableIndex":214,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9355,"itemName":"Car1_RearPanel1_b","itemDisplayName":"Hyperstarter Rear Panel"}]},{"LootTableIndex":215,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9365,"itemName":"Car1_RearBumper1_b","itemDisplayName":"Hyperstarter Rear Bumper"}]}]},"itemID":9955,"name":"Hyperstarter Blue Pack for Beta","displayName":"Hyperstarter Blue Pack for Beta","description":"Double-click to get the blue Starter Car modules!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    9955
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 200,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 8130,
+            "itemName": "CarModule_Wheels_gr",
+            "itemDisplayName": "Steel Rim Wheels"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 211,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9320,
+            "itemName": "Car1_FrontBumper1_b",
+            "itemDisplayName": "Hyperstarter Front Bumper"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 212,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9330,
+            "itemName": "Car1_EnginePanel1_b",
+            "itemDisplayName": "Hyperstarter Engine Panel"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 213,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9345,
+            "itemName": "Car1_SidePanels1_b",
+            "itemDisplayName": "Hyperstarter Side Panels"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 214,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9355,
+            "itemName": "Car1_RearPanel1_b",
+            "itemDisplayName": "Hyperstarter Rear Panel"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 215,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9365,
+            "itemName": "Car1_RearBumper1_b",
+            "itemDisplayName": "Hyperstarter Rear Bumper"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 9955,
+  "name": "Hyperstarter Blue Pack for Beta",
+  "displayName": "Hyperstarter Blue Pack for Beta",
+  "description": "Double-click to get the blue Starter Car modules!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

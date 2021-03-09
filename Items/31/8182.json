@@ -1,1 +1,28 @@
-{"allItems":[8182],"equipLocationNames":["Extra_1"],"equipLocation":["Extra_1"],"isPackage":false,"itemID":8182,"name":"Test Nexus Force Faction Token","displayName":null,"description":null,"isWeapon":false,"internalNotes":"test","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/missioncomics/genericicons/faction_nexusforce.png","stackSize":10,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    8182
+  ],
+  "equipLocationNames": [
+    "Extra_1"
+  ],
+  "equipLocation": [
+    "Extra_1"
+  ],
+  "isPackage": false,
+  "itemID": 8182,
+  "name": "Test Nexus Force Faction Token",
+  "displayName": null,
+  "description": null,
+  "isWeapon": false,
+  "internalNotes": "test",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/missioncomics/genericicons/faction_nexusforce.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

@@ -1,1 +1,28 @@
-{"allItems":[4522],"equipLocationNames":["Torso"],"equipLocation":["chest"],"isPackage":false,"itemID":4522,"name":"Earth Green Shirt 32","displayName":"Starry Tank Top","description":null,"isWeapon":false,"internalNotes":"Character Create Shirt","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/torso_40_141.png","stackSize":1,"price":100,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    4522
+  ],
+  "equipLocationNames": [
+    "Torso"
+  ],
+  "equipLocation": [
+    "chest"
+  ],
+  "isPackage": false,
+  "itemID": 4522,
+  "name": "Earth Green Shirt 32",
+  "displayName": "Starry Tank Top",
+  "description": null,
+  "isWeapon": false,
+  "internalNotes": "Character Create Shirt",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/torso_40_141.png",
+  "stackSize": 1,
+  "price": 100,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

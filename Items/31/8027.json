@@ -1,1 +1,97 @@
-{"allItems":[8027],"equipLocationNames":[null],"equipLocation":[null],"isPackage":true,"packageData":{"table":[{"LootTableIndex":141,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7442,"itemName":"Space Ranger Head 1","itemDisplayName":"Space Ranger Helmet 1"}]},{"LootTableIndex":142,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7466,"itemName":"Space Ranger Chest 1","itemDisplayName":"Space Ranger Armor 1"}]},{"LootTableIndex":143,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7490,"itemName":"Space Ranger Legs 1","itemDisplayName":"Space Ranger Pants 1"}]},{"LootTableIndex":144,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7514,"itemName":"Space Ranger Gun 1","itemDisplayName":"Space Ranger Zipgun 1"}]},{"LootTableIndex":777,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11924,"itemName":"Rank 1 Space Ranger Book","itemDisplayName":null}]}]},"itemID":8027,"name":"Rank 1 Space Ranger Kit Package","displayName":"Rank 1 Space Ranger Kit Package","description":"Double-click to get the Rank 1 Space Ranger Specialty Gear!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_sentinel.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":"6"}
+{
+  "allItems": [
+    8027
+  ],
+  "equipLocationNames": [
+    null
+  ],
+  "equipLocation": [
+    null
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 141,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7442,
+            "itemName": "Space Ranger Head 1",
+            "itemDisplayName": "Space Ranger Helmet 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 142,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7466,
+            "itemName": "Space Ranger Chest 1",
+            "itemDisplayName": "Space Ranger Armor 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 143,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7490,
+            "itemName": "Space Ranger Legs 1",
+            "itemDisplayName": "Space Ranger Pants 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 144,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7514,
+            "itemName": "Space Ranger Gun 1",
+            "itemDisplayName": "Space Ranger Zipgun 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 777,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11924,
+            "itemName": "Rank 1 Space Ranger Book",
+            "itemDisplayName": null
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 8027,
+  "name": "Rank 1 Space Ranger Kit Package",
+  "displayName": "Rank 1 Space Ranger Kit Package",
+  "description": "Double-click to get the Rank 1 Space Ranger Specialty Gear!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_sentinel.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": "6"
+}

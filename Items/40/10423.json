@@ -1,1 +1,28 @@
-{"allItems":[10423],"equipLocationNames":["Extra_1"],"equipLocation":["Extra_1"],"isPackage":false,"itemID":10423,"name":"Broombot","displayName":"Broombot","description":"Punk Cleaner","isWeapon":false,"internalNotes":"test","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/golden_brick.png","stackSize":10,"price":999,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    10423
+  ],
+  "equipLocationNames": [
+    "Extra_1"
+  ],
+  "equipLocation": [
+    "Extra_1"
+  ],
+  "isPackage": false,
+  "itemID": 10423,
+  "name": "Broombot",
+  "displayName": "Broombot",
+  "description": "Punk Cleaner",
+  "isWeapon": false,
+  "internalNotes": "test",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/golden_brick.png",
+  "stackSize": 10,
+  "price": 999,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

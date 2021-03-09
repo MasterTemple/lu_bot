@@ -1,1 +1,58 @@
-{"allItems":[12223],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":433,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10171,"itemName":"Pod 4 Captain Shirt","itemDisplayName":"Pod 4 Captain Shirt"}]},{"LootTableIndex":434,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9580,"itemName":"Model Reward Pod Model 4","itemDisplayName":"Pod 4 Model"}]}]},"itemID":12223,"name":"Pod Captain 4 Pack","displayName":"","description":"Double-click to open this pack of rewards!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_orange.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    12223
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 433,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10171,
+            "itemName": "Pod 4 Captain Shirt",
+            "itemDisplayName": "Pod 4 Captain Shirt"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 434,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9580,
+            "itemName": "Model Reward Pod Model 4",
+            "itemDisplayName": "Pod 4 Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 12223,
+  "name": "Pod Captain 4 Pack",
+  "displayName": "",
+  "description": "Double-click to open this pack of rewards!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_orange.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

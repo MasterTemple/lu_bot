@@ -1,1 +1,84 @@
-{"allItems":[10398],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":302,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10345,"itemName":"Model Reward Cottage Toilet 2","itemDisplayName":"House Toilet Model 2"}]},{"LootTableIndex":303,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10348,"itemName":"Model Reward Cottage Vanity 3","itemDisplayName":"House Vanity Model 3"}]},{"LootTableIndex":299,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10336,"itemName":"Model Reward Cottage Kitchen 1","itemDisplayName":"House Kitchen Model 1"}]},{"LootTableIndex":300,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10337,"itemName":"Model Reward Cottage Kitchen 2","itemDisplayName":"House Kitchen Model 2"}]}]},"itemID":10398,"name":"House Model Pack 3","displayName":"House Model Pack 3","description":"Double-click to open this pack of models!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_green.png","stackSize":10,"price":0,"commendationCost":10,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    10398
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 302,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10345,
+            "itemName": "Model Reward Cottage Toilet 2",
+            "itemDisplayName": "House Toilet Model 2"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 303,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10348,
+            "itemName": "Model Reward Cottage Vanity 3",
+            "itemDisplayName": "House Vanity Model 3"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 299,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10336,
+            "itemName": "Model Reward Cottage Kitchen 1",
+            "itemDisplayName": "House Kitchen Model 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 300,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10337,
+            "itemName": "Model Reward Cottage Kitchen 2",
+            "itemDisplayName": "House Kitchen Model 2"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 10398,
+  "name": "House Model Pack 3",
+  "displayName": "House Model Pack 3",
+  "description": "Double-click to open this pack of models!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_green.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": 10,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

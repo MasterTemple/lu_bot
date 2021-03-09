@@ -1,1 +1,123 @@
-{"allItems":[13624],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":652,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11733,"itemName":"Model Reward Micro City Block 2","itemDisplayName":"Micro City Block 2 Model"}]},{"LootTableIndex":653,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11738,"itemName":"Model Reward Micro City Block Corner 3","itemDisplayName":"Micro City Block Corner 3 Model"}]},{"LootTableIndex":654,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11770,"itemName":"Model Reward Micro City Semi Truck and Trailer","itemDisplayName":"Micro City Semi Truck and Trailer Model"}]},{"LootTableIndex":655,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11767,"itemName":"Model Reward Micro City Firetruck 5","itemDisplayName":"Micro City Fire Truck 5 Model"}]},{"LootTableIndex":656,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11743,"itemName":"Model Reward Micro City House 2","itemDisplayName":"Micro City House 2 Model"}]},{"LootTableIndex":657,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11751,"itemName":"Model Reward Micro City Statue","itemDisplayName":"Micro City Statue Model"}]},{"LootTableIndex":658,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11747,"itemName":"Model Reward Micro City Townhall","itemDisplayName":"Micro City Town Hall Model"}]}]},"itemID":13624,"name":"Micro City Model Pack 2","displayName":"Micro City Model Pack 2","description":"Double-click to use!","isWeapon":false,"internalNotes":"","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png","stackSize":5,"price":0,"commendationCost":27,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    13624
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 652,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11733,
+            "itemName": "Model Reward Micro City Block 2",
+            "itemDisplayName": "Micro City Block 2 Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 653,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11738,
+            "itemName": "Model Reward Micro City Block Corner 3",
+            "itemDisplayName": "Micro City Block Corner 3 Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 654,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11770,
+            "itemName": "Model Reward Micro City Semi Truck and Trailer",
+            "itemDisplayName": "Micro City Semi Truck and Trailer Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 655,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11767,
+            "itemName": "Model Reward Micro City Firetruck 5",
+            "itemDisplayName": "Micro City Fire Truck 5 Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 656,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11743,
+            "itemName": "Model Reward Micro City House 2",
+            "itemDisplayName": "Micro City House 2 Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 657,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11751,
+            "itemName": "Model Reward Micro City Statue",
+            "itemDisplayName": "Micro City Statue Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 658,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11747,
+            "itemName": "Model Reward Micro City Townhall",
+            "itemDisplayName": "Micro City Town Hall Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 13624,
+  "name": "Micro City Model Pack 2",
+  "displayName": "Micro City Model Pack 2",
+  "description": "Double-click to use!",
+  "isWeapon": false,
+  "internalNotes": "",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png",
+  "stackSize": 5,
+  "price": 0,
+  "commendationCost": 27,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

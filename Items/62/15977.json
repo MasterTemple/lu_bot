@@ -1,1 +1,71 @@
-{"allItems":[15977],"equipLocationNames":[null],"equipLocation":[null],"isPackage":true,"packageData":{"table":[{"LootTableIndex":816,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":14692,"itemName":"MOD Rocket Shark Nose Cone","itemDisplayName":"Shark Rocket Nose Cone"}]},{"LootTableIndex":817,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":14693,"itemName":"MOD Rocket Shark Cockpit","itemDisplayName":"Shark Rocket Cockpit"}]},{"LootTableIndex":818,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":14694,"itemName":"MOD Rocket Shark Engine","itemDisplayName":"Shark Rocket Engine"}]}]},"itemID":15977,"name":"Shark Rocket Reward Pack","displayName":"Shark Rocket Reward Pack","description":"Double-click to open!","isWeapon":false,"internalNotes":"Community Reward - 09 2011","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_gray.png","stackSize":10,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    15977
+  ],
+  "equipLocationNames": [
+    null
+  ],
+  "equipLocation": [
+    null
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 816,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 14692,
+            "itemName": "MOD Rocket Shark Nose Cone",
+            "itemDisplayName": "Shark Rocket Nose Cone"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 817,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 14693,
+            "itemName": "MOD Rocket Shark Cockpit",
+            "itemDisplayName": "Shark Rocket Cockpit"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 818,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 14694,
+            "itemName": "MOD Rocket Shark Engine",
+            "itemDisplayName": "Shark Rocket Engine"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 15977,
+  "name": "Shark Rocket Reward Pack",
+  "displayName": "Shark Rocket Reward Pack",
+  "description": "Double-click to open!",
+  "isWeapon": false,
+  "internalNotes": "Community Reward - 09 2011",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_gray.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

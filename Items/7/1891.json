@@ -1,1 +1,46 @@
-{"allItems":[1891],"equipLocationNames":["Right Hand"],"equipLocation":["special_r"],"isPackage":false,"itemID":1891,"name":"Exceptional Flintlock Rifle of Blasting","displayName":"Exceptional Flintlock Rifle of Blasting","description":"Requires Imagination to fire.","isWeapon":true,"internalNotes":"2/2/2 Ranged + 3 chargeup","abilityNames":[],"skillIDs":[898],"behaviorIDs":[18237],"meleeDamageInfo":{"damageCombo":"1+1+1","chargeUpImaginationCost":3,"doubleJumpSmash":"1","singleJumpSmash":"2"},"abilityName":"Exceptional Ranged Attack","chargeUpDescription":"Fires a 3 damage projectile","projectileDamageInfo":{"chargeUpDamage":"3","projectileDamageCombo":"2+2+2","isChargeUp":true,"chargeUpIsProjectile":true,"isProjectileWeapon":true},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/hands/m2561_192.png","stackSize":1,"price":11000,"commendationCost":61,"factionTokens":null,"levelRequirement":"15"}
+{
+  "allItems": [
+    1891
+  ],
+  "equipLocationNames": [
+    "Right Hand"
+  ],
+  "equipLocation": [
+    "special_r"
+  ],
+  "isPackage": false,
+  "itemID": 1891,
+  "name": "Exceptional Flintlock Rifle of Blasting",
+  "displayName": "Exceptional Flintlock Rifle of Blasting",
+  "description": "Requires Imagination to fire.",
+  "isWeapon": true,
+  "internalNotes": "2/2/2 Ranged + 3 chargeup",
+  "abilityNames": [],
+  "skillIDs": [
+    898
+  ],
+  "behaviorIDs": [
+    18237
+  ],
+  "meleeDamageInfo": {
+    "damageCombo": "1+1+1",
+    "chargeUpImaginationCost": 3,
+    "doubleJumpSmash": "1",
+    "singleJumpSmash": "2"
+  },
+  "abilityName": "Exceptional Ranged Attack",
+  "chargeUpDescription": "Fires a 3 damage projectile",
+  "projectileDamageInfo": {
+    "chargeUpDamage": "3",
+    "projectileDamageCombo": "2+2+2",
+    "isChargeUp": true,
+    "chargeUpIsProjectile": true,
+    "isProjectileWeapon": true
+  },
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/hands/m2561_192.png",
+  "stackSize": 1,
+  "price": 11000,
+  "commendationCost": 61,
+  "factionTokens": null,
+  "levelRequirement": "15"
+}

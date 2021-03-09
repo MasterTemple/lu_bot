@@ -1,1 +1,136 @@
-{"allItems":[11315],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":398,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10359,"itemName":"Model Reward Cottage Wall Fireplace 1","itemDisplayName":"House Wall Fireplace Model 1"}]},{"LootTableIndex":399,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10352,"itemName":"Model Reward Cottage Wall Art 2","itemDisplayName":"House Wall Art Model 2"}]},{"LootTableIndex":400,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10363,"itemName":"Model Reward Cottage Window 4","itemDisplayName":"House Window Model 4"}]},{"LootTableIndex":401,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10358,"itemName":"Model Reward Cottage Wall Corner 3","itemDisplayName":"House Wall Corner Model 3"}]},{"LootTableIndex":402,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10340,"itemName":"Model Reward Cottage Laundry 2","itemDisplayName":"House Laundry Model 2"}]},{"LootTableIndex":403,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10347,"itemName":"Model Reward Cottage Vanity 2","itemDisplayName":"House Vanity Model 2"}]},{"LootTableIndex":404,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10338,"itemName":"Model Reward Cottage Kitchen 3","itemDisplayName":"House Kitchen Model 3"}]},{"LootTableIndex":405,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10345,"itemName":"Model Reward Cottage Toilet 2","itemDisplayName":"House Toilet Model 2"}]}]},"itemID":11315,"name":"Founder's Reward Pack","displayName":"Founder's Reward Pack","description":"Double-click to open this pack of rewards!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    11315
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 398,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10359,
+            "itemName": "Model Reward Cottage Wall Fireplace 1",
+            "itemDisplayName": "House Wall Fireplace Model 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 399,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10352,
+            "itemName": "Model Reward Cottage Wall Art 2",
+            "itemDisplayName": "House Wall Art Model 2"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 400,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10363,
+            "itemName": "Model Reward Cottage Window 4",
+            "itemDisplayName": "House Window Model 4"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 401,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10358,
+            "itemName": "Model Reward Cottage Wall Corner 3",
+            "itemDisplayName": "House Wall Corner Model 3"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 402,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10340,
+            "itemName": "Model Reward Cottage Laundry 2",
+            "itemDisplayName": "House Laundry Model 2"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 403,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10347,
+            "itemName": "Model Reward Cottage Vanity 2",
+            "itemDisplayName": "House Vanity Model 2"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 404,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10338,
+            "itemName": "Model Reward Cottage Kitchen 3",
+            "itemDisplayName": "House Kitchen Model 3"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 405,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10345,
+            "itemName": "Model Reward Cottage Toilet 2",
+            "itemDisplayName": "House Toilet Model 2"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 11315,
+  "name": "Founder's Reward Pack",
+  "displayName": "Founder's Reward Pack",
+  "description": "Double-click to open this pack of rewards!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

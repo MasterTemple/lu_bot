@@ -1,1 +1,41 @@
-{"allItems":[7785],"equipLocationNames":[null],"equipLocation":[null],"isPackage":false,"itemID":7785,"name":"Flash Bulb","displayName":"Flash Bulb","description":null,"isWeapon":false,"internalNotes":"AoE Stun, everlasting","abilityNames":[],"skillIDs":[610],"behaviorIDs":[10521],"abilityName":"Flash Bulb","cooldowngroup":74,"cooldownTime":8,"projectileDamageInfo":{"projectileDamageCombo":"","isChargeUp":false,"chargeUpIsProjectile":false,"isProjectileWeapon":false},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/hands/30089_26.png","stackSize":1,"price":5675,"commendationCost":32,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    7785
+  ],
+  "equipLocationNames": [
+    null
+  ],
+  "equipLocation": [
+    null
+  ],
+  "isPackage": false,
+  "itemID": 7785,
+  "name": "Flash Bulb",
+  "displayName": "Flash Bulb",
+  "description": null,
+  "isWeapon": false,
+  "internalNotes": "AoE Stun, everlasting",
+  "abilityNames": [],
+  "skillIDs": [
+    610
+  ],
+  "behaviorIDs": [
+    10521
+  ],
+  "abilityName": "Flash Bulb",
+  "abilityImaginationCost": 0,
+  "cooldowngroup": 74,
+  "cooldownTime": 8,
+  "projectileDamageInfo": {
+    "projectileDamageCombo": "",
+    "isChargeUp": false,
+    "chargeUpIsProjectile": false,
+    "isProjectileWeapon": false
+  },
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/hands/30089_26.png",
+  "stackSize": 1,
+  "price": 5675,
+  "commendationCost": 32,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

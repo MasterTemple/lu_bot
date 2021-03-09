@@ -1,1 +1,71 @@
-{"allItems":[9774],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":262,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9649,"itemName":"Model Reward Medieval Village Forge","itemDisplayName":"Medieval Village Forge Model"}]},{"LootTableIndex":263,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9591,"itemName":"Model Reward Medieval Wagon","itemDisplayName":"Medieval Wagon Model"}]},{"LootTableIndex":264,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9493,"itemName":"Model Reward Castle Weapon Rack","itemDisplayName":"Castle Weapon Rack Model"}]}]},"itemID":9774,"name":"Medieval Village Pack 2","displayName":"Medieval Village Pack 2","description":"Double-click to open this pack of models!","isWeapon":false,"internalNotes":"Forge, wagon, and weapon rack","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png","stackSize":1,"price":0,"commendationCost":10,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    9774
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 262,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9649,
+            "itemName": "Model Reward Medieval Village Forge",
+            "itemDisplayName": "Medieval Village Forge Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 263,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9591,
+            "itemName": "Model Reward Medieval Wagon",
+            "itemDisplayName": "Medieval Wagon Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 264,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9493,
+            "itemName": "Model Reward Castle Weapon Rack",
+            "itemDisplayName": "Castle Weapon Rack Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 9774,
+  "name": "Medieval Village Pack 2",
+  "displayName": "Medieval Village Pack 2",
+  "description": "Double-click to open this pack of models!",
+  "isWeapon": false,
+  "internalNotes": "Forge, wagon, and weapon rack",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": 10,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

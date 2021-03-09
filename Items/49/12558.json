@@ -1,1 +1,84 @@
-{"allItems":[12558],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":555,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":12499,"itemName":"Model Reward Skeleton T Wall","itemDisplayName":"Skeleton T-Wall Model"}]},{"LootTableIndex":556,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":12500,"itemName":"Model Reward Skeleton Skull Tower","itemDisplayName":"Skeleton Skull Tower Model"}]},{"LootTableIndex":557,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":12501,"itemName":"Model Reward Skeleton Short Wall","itemDisplayName":"Skeleton Short Wall Model"}]},{"LootTableIndex":558,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":12502,"itemName":"Model Reward Skeleton Ribcage Bridge","itemDisplayName":"Skeleton Ribcage Bridge Model"}]}]},"itemID":12558,"name":"Skeleton Fort Model Pack 2","displayName":"Skeleton Model Pack 2","description":"Double-click to use!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png","stackSize":10,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    12558
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 555,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 12499,
+            "itemName": "Model Reward Skeleton T Wall",
+            "itemDisplayName": "Skeleton T-Wall Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 556,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 12500,
+            "itemName": "Model Reward Skeleton Skull Tower",
+            "itemDisplayName": "Skeleton Skull Tower Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 557,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 12501,
+            "itemName": "Model Reward Skeleton Short Wall",
+            "itemDisplayName": "Skeleton Short Wall Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 558,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 12502,
+            "itemName": "Model Reward Skeleton Ribcage Bridge",
+            "itemDisplayName": "Skeleton Ribcage Bridge Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 12558,
+  "name": "Skeleton Fort Model Pack 2",
+  "displayName": "Skeleton Model Pack 2",
+  "description": "Double-click to use!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

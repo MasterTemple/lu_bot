@@ -1,1 +1,71 @@
-{"allItems":[10397],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":305,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10354,"itemName":"Model Reward Cottage Wall Blank 2","itemDisplayName":"House Wall Blank Model 2"}]},{"LootTableIndex":308,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10360,"itemName":"Model Reward Cottage Window 1","itemDisplayName":"House Window Model 1"}]},{"LootTableIndex":298,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10331,"itemName":"Model Reward Cottage Door 1 open","itemDisplayName":"House Open Door Model 1"}]}]},"itemID":10397,"name":"House Model Pack 2","displayName":"House Model Pack 2","description":"Double-click to open this pack of models!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_green.png","stackSize":10,"price":0,"commendationCost":10,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    10397
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 305,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10354,
+            "itemName": "Model Reward Cottage Wall Blank 2",
+            "itemDisplayName": "House Wall Blank Model 2"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 308,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10360,
+            "itemName": "Model Reward Cottage Window 1",
+            "itemDisplayName": "House Window Model 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 298,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10331,
+            "itemName": "Model Reward Cottage Door 1 open",
+            "itemDisplayName": "House Open Door Model 1"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 10397,
+  "name": "House Model Pack 2",
+  "displayName": "House Model Pack 2",
+  "description": "Double-click to open this pack of models!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_green.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": 10,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

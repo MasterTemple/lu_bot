@@ -1,1 +1,97 @@
-{"allItems":[8028],"equipLocationNames":[null],"equipLocation":[null],"isPackage":true,"packageData":{"table":[{"LootTableIndex":149,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7493,"itemName":"Samurai Legs 1","itemDisplayName":"Samurai Leggings 1"}]},{"LootTableIndex":150,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7469,"itemName":"Samurai Chest 1","itemDisplayName":"Samurai Breastplate 1"}]},{"LootTableIndex":151,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7445,"itemName":"Samurai Head 1","itemDisplayName":"Samurai Helm 1"}]},{"LootTableIndex":152,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7517,"itemName":"Samurai Weapon 1","itemDisplayName":"Samurai Katana 1"}]},{"LootTableIndex":373,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":89,"itemName":"Rank 1 Samurai Book","itemDisplayName":null}]}]},"itemID":8028,"name":"Rank 1 Samurai Kit Package","displayName":"Rank 1 Samurai Kit Package","description":"Double-click to get the Rank 1 Samurai Specialty Gear!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_sentinel.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":"6"}
+{
+  "allItems": [
+    8028
+  ],
+  "equipLocationNames": [
+    null
+  ],
+  "equipLocation": [
+    null
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 149,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7493,
+            "itemName": "Samurai Legs 1",
+            "itemDisplayName": "Samurai Leggings 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 150,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7469,
+            "itemName": "Samurai Chest 1",
+            "itemDisplayName": "Samurai Breastplate 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 151,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7445,
+            "itemName": "Samurai Head 1",
+            "itemDisplayName": "Samurai Helm 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 152,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7517,
+            "itemName": "Samurai Weapon 1",
+            "itemDisplayName": "Samurai Katana 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 373,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 89,
+            "itemName": "Rank 1 Samurai Book",
+            "itemDisplayName": null
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 8028,
+  "name": "Rank 1 Samurai Kit Package",
+  "displayName": "Rank 1 Samurai Kit Package",
+  "description": "Double-click to get the Rank 1 Samurai Specialty Gear!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_sentinel.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": "6"
+}

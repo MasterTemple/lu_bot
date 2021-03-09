@@ -1,1 +1,97 @@
-{"allItems":[8029],"equipLocationNames":[null],"equipLocation":[null],"isPackage":true,"packageData":{"table":[{"LootTableIndex":153,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7496,"itemName":"Space Marauder Legs 1","itemDisplayName":"Space Marauder Pants 1"}]},{"LootTableIndex":154,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7472,"itemName":"Space Marauder Chest 1","itemDisplayName":"Space Marauder Jacket 1"}]},{"LootTableIndex":155,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7448,"itemName":"Space Marauder Head 1","itemDisplayName":"Space Marauder Helm 1"}]},{"LootTableIndex":156,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7520,"itemName":"Space Marauder Gun 1","itemDisplayName":"Space Marauder Blaster 1"}]},{"LootTableIndex":375,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":125,"itemName":"Rank 1 Space Marauder Book","itemDisplayName":null}]}]},"itemID":8029,"name":"Rank 1 Space Marauder Kit Package","displayName":"Rank 1 Space Marauder Kit Package","description":"Double-click to get the Rank 1 Space Marauder Specialty Gear!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_paradox.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":"6"}
+{
+  "allItems": [
+    8029
+  ],
+  "equipLocationNames": [
+    null
+  ],
+  "equipLocation": [
+    null
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 153,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7496,
+            "itemName": "Space Marauder Legs 1",
+            "itemDisplayName": "Space Marauder Pants 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 154,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7472,
+            "itemName": "Space Marauder Chest 1",
+            "itemDisplayName": "Space Marauder Jacket 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 155,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7448,
+            "itemName": "Space Marauder Head 1",
+            "itemDisplayName": "Space Marauder Helm 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 156,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7520,
+            "itemName": "Space Marauder Gun 1",
+            "itemDisplayName": "Space Marauder Blaster 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 375,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 125,
+            "itemName": "Rank 1 Space Marauder Book",
+            "itemDisplayName": null
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 8029,
+  "name": "Rank 1 Space Marauder Kit Package",
+  "displayName": "Rank 1 Space Marauder Kit Package",
+  "description": "Double-click to get the Rank 1 Space Marauder Specialty Gear!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_paradox.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": "6"
+}

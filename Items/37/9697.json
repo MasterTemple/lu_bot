@@ -1,1 +1,28 @@
-{"allItems":[9697],"equipLocationNames":["Torso"],"equipLocation":["chest"],"isPackage":false,"itemID":9697,"name":"Fish Skeleton Shirt","displayName":"Fish Skeleton Shirt","description":null,"isWeapon":false,"internalNotes":"Emote","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/torso_49_102.png","stackSize":1,"price":2100,"commendationCost":12,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    9697
+  ],
+  "equipLocationNames": [
+    "Torso"
+  ],
+  "equipLocation": [
+    "chest"
+  ],
+  "isPackage": false,
+  "itemID": 9697,
+  "name": "Fish Skeleton Shirt",
+  "displayName": "Fish Skeleton Shirt",
+  "description": null,
+  "isWeapon": false,
+  "internalNotes": "Emote",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/torso_49_102.png",
+  "stackSize": 1,
+  "price": 2100,
+  "commendationCost": 12,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

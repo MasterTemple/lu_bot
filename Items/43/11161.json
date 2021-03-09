@@ -1,1 +1,110 @@
-{"allItems":[11161],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":344,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10765,"itemName":"Model Reward Fortress Ramp","itemDisplayName":"Fortress Ramp Model"}]},{"LootTableIndex":343,"maxToDrop":4,"minToDrop":4,"percent":1,"items":[{"itemID":10762,"itemName":"Model Reward Fortress Large Wall","itemDisplayName":"Fortress Large Wall Model"}]},{"LootTableIndex":348,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10771,"itemName":"Model Reward Fortress Watch Tower","itemDisplayName":"Fortress Watch Tower Model"}]},{"LootTableIndex":346,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10767,"itemName":"Model Reward Fortress Small Wall","itemDisplayName":"Fortress Small Wall Model"}]},{"LootTableIndex":342,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10761,"itemName":"Model Reward Fortress Large Outside Corner","itemDisplayName":"Fortress Large Outside Corner Model"}]},{"LootTableIndex":345,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10766,"itemName":"Model Reward Fortress Small Outside Corner","itemDisplayName":"Fortress Small Outside Corner Model"}]}]},"itemID":11161,"name":"Ninja Fortress Model Pack 2","displayName":"Ninja Fortress Model Pack 2","description":"Double-click to open this pack of models!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_black.png","stackSize":10,"price":0,"commendationCost":75,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    11161
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 344,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10765,
+            "itemName": "Model Reward Fortress Ramp",
+            "itemDisplayName": "Fortress Ramp Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 343,
+        "maxToDrop": 4,
+        "minToDrop": 4,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10762,
+            "itemName": "Model Reward Fortress Large Wall",
+            "itemDisplayName": "Fortress Large Wall Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 348,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10771,
+            "itemName": "Model Reward Fortress Watch Tower",
+            "itemDisplayName": "Fortress Watch Tower Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 346,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10767,
+            "itemName": "Model Reward Fortress Small Wall",
+            "itemDisplayName": "Fortress Small Wall Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 342,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10761,
+            "itemName": "Model Reward Fortress Large Outside Corner",
+            "itemDisplayName": "Fortress Large Outside Corner Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 345,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10766,
+            "itemName": "Model Reward Fortress Small Outside Corner",
+            "itemDisplayName": "Fortress Small Outside Corner Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 11161,
+  "name": "Ninja Fortress Model Pack 2",
+  "displayName": "Ninja Fortress Model Pack 2",
+  "description": "Double-click to open this pack of models!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_black.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": 75,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

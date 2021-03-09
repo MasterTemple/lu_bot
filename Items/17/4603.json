@@ -1,1 +1,28 @@
-{"allItems":[4603],"equipLocationNames":["Torso"],"equipLocation":["chest"],"isPackage":false,"itemID":4603,"name":"Sand Green Shirt 11","displayName":"Rumpled Jacket","description":null,"isWeapon":false,"internalNotes":"Character Create Shirt","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/torso_77_151.png","stackSize":1,"price":100,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    4603
+  ],
+  "equipLocationNames": [
+    "Torso"
+  ],
+  "equipLocation": [
+    "chest"
+  ],
+  "isPackage": false,
+  "itemID": 4603,
+  "name": "Sand Green Shirt 11",
+  "displayName": "Rumpled Jacket",
+  "description": null,
+  "isWeapon": false,
+  "internalNotes": "Character Create Shirt",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/torso_77_151.png",
+  "stackSize": 1,
+  "price": 100,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

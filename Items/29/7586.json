@@ -1,1 +1,97 @@
-{"allItems":[7586],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":122,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7358,"itemName":"Buccaneer Head 1","itemDisplayName":"Buccaneer Scarf 1"}]},{"LootTableIndex":123,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7376,"itemName":"Buccaneer Chest 1","itemDisplayName":"Buccaneer Shirt 1"}]},{"LootTableIndex":124,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7388,"itemName":"Buccaneer Legs 1","itemDisplayName":"Buccaneer Pantaloons 1"}]},{"LootTableIndex":145,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7400,"itemName":"Buccaneer Weapon 1","itemDisplayName":"Buccaneer Pistol & Cutlass 1"}]},{"LootTableIndex":370,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":20,"itemName":"Rank 1 Buccaneer Book","itemDisplayName":null}]}]},"itemID":7586,"name":"Rank 1 Buccaneer Kit Package","displayName":"Rank 1 Buccaneer Kit Package","description":"Double-click to get the Rank 1 Buccaneer Specialty Gear!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_venture.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":"6"}
+{
+  "allItems": [
+    7586
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 122,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7358,
+            "itemName": "Buccaneer Head 1",
+            "itemDisplayName": "Buccaneer Scarf 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 123,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7376,
+            "itemName": "Buccaneer Chest 1",
+            "itemDisplayName": "Buccaneer Shirt 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 124,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7388,
+            "itemName": "Buccaneer Legs 1",
+            "itemDisplayName": "Buccaneer Pantaloons 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 145,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7400,
+            "itemName": "Buccaneer Weapon 1",
+            "itemDisplayName": "Buccaneer Pistol & Cutlass 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 370,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 20,
+            "itemName": "Rank 1 Buccaneer Book",
+            "itemDisplayName": null
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 7586,
+  "name": "Rank 1 Buccaneer Kit Package",
+  "displayName": "Rank 1 Buccaneer Kit Package",
+  "description": "Double-click to get the Rank 1 Buccaneer Specialty Gear!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_venture.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": "6"
+}

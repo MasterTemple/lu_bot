@@ -1,1 +1,28 @@
-{"allItems":[10062],"equipLocationNames":["0"],"equipLocation":["0"],"isPackage":false,"itemID":10062,"name":"Behavior - Auto Elevator","displayName":"Auto Elevator Behavior","description":"Auto Elevator","isWeapon":false,"internalNotes":"Auto Elevator","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/model_icon.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    10062
+  ],
+  "equipLocationNames": [
+    "0"
+  ],
+  "equipLocation": [
+    "0"
+  ],
+  "isPackage": false,
+  "itemID": 10062,
+  "name": "Behavior - Auto Elevator",
+  "displayName": "Auto Elevator Behavior",
+  "description": "Auto Elevator",
+  "isWeapon": false,
+  "internalNotes": "Auto Elevator",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/model_icon.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

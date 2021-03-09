@@ -1,1 +1,97 @@
-{"allItems":[7589],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":125,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7385,"itemName":"Sorcerer Legs 1","itemDisplayName":"Sorcerer Pants 1"}]},{"LootTableIndex":126,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7373,"itemName":"Sorcerer Chest 1","itemDisplayName":"Sorcerer Breastplate 1"}]},{"LootTableIndex":127,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7357,"itemName":"Sorcerer Head 1","itemDisplayName":"Sorcerer Hat 1"}]},{"LootTableIndex":146,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7397,"itemName":"Sorcerer Weapon 1","itemDisplayName":"Sorcerer Wand 1"}]},{"LootTableIndex":374,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":118,"itemName":"Rank 1 Sorcerer Book","itemDisplayName":null}]}]},"itemID":7589,"name":"Rank 1 Sorcerer Kit Package","displayName":"Rank 1 Sorcerer Kit Package","description":"Double-click to get the Rank 1 Sorcerer Specialty Gear!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_paradox.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":"6"}
+{
+  "allItems": [
+    7589
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 125,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7385,
+            "itemName": "Sorcerer Legs 1",
+            "itemDisplayName": "Sorcerer Pants 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 126,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7373,
+            "itemName": "Sorcerer Chest 1",
+            "itemDisplayName": "Sorcerer Breastplate 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 127,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7357,
+            "itemName": "Sorcerer Head 1",
+            "itemDisplayName": "Sorcerer Hat 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 146,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7397,
+            "itemName": "Sorcerer Weapon 1",
+            "itemDisplayName": "Sorcerer Wand 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 374,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 118,
+            "itemName": "Rank 1 Sorcerer Book",
+            "itemDisplayName": null
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 7589,
+  "name": "Rank 1 Sorcerer Kit Package",
+  "displayName": "Rank 1 Sorcerer Kit Package",
+  "description": "Double-click to get the Rank 1 Sorcerer Specialty Gear!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_paradox.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": "6"
+}

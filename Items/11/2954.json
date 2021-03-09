@@ -1,1 +1,28 @@
-{"allItems":[2954],"equipLocationNames":["Torso"],"equipLocation":["chest"],"isPackage":false,"itemID":2954,"name":"Black Ship Shirt","displayName":"Black Pirate Ship Shirt","description":null,"isWeapon":false,"internalNotes":"no stats","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/torso_60_26.png","stackSize":1,"price":5150,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    2954
+  ],
+  "equipLocationNames": [
+    "Torso"
+  ],
+  "equipLocation": [
+    "chest"
+  ],
+  "isPackage": false,
+  "itemID": 2954,
+  "name": "Black Ship Shirt",
+  "displayName": "Black Pirate Ship Shirt",
+  "description": null,
+  "isWeapon": false,
+  "internalNotes": "no stats",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/torso_60_26.png",
+  "stackSize": 1,
+  "price": 5150,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

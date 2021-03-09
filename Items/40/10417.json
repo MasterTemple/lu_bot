@@ -1,1 +1,110 @@
-{"allItems":[10417],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":314,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9597,"itemName":"Model Reward Swamp Tree","itemDisplayName":"Swamp Tree Model"}]},{"LootTableIndex":315,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10072,"itemName":"Model Reward Pirate Palm Tree","itemDisplayName":"Palm Tree Model 2"}]},{"LootTableIndex":316,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9910,"itemName":"Model Reward Tree 4 red","itemDisplayName":"Small Red Tree Model 1"}]},{"LootTableIndex":317,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9911,"itemName":"Model Reward Tree 4 yellow","itemDisplayName":"Small Yellow Tree Model 1"}]},{"LootTableIndex":318,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9912,"itemName":"Model Reward Tree 5 red","itemDisplayName":"Small Red Tree Model 2"}]},{"LootTableIndex":319,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9913,"itemName":"Model Reward Tree 5 yellow","itemDisplayName":"Small Yellow Tree Model 2"}]}]},"itemID":10417,"name":"Fancy Tree Model Pack","displayName":"Fancy Tree Model Pack","description":"Double-click to open this pack of models!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png","stackSize":1,"price":0,"commendationCost":10,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    10417
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 314,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9597,
+            "itemName": "Model Reward Swamp Tree",
+            "itemDisplayName": "Swamp Tree Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 315,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10072,
+            "itemName": "Model Reward Pirate Palm Tree",
+            "itemDisplayName": "Palm Tree Model 2"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 316,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9910,
+            "itemName": "Model Reward Tree 4 red",
+            "itemDisplayName": "Small Red Tree Model 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 317,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9911,
+            "itemName": "Model Reward Tree 4 yellow",
+            "itemDisplayName": "Small Yellow Tree Model 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 318,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9912,
+            "itemName": "Model Reward Tree 5 red",
+            "itemDisplayName": "Small Red Tree Model 2"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 319,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9913,
+            "itemName": "Model Reward Tree 5 yellow",
+            "itemDisplayName": "Small Yellow Tree Model 2"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 10417,
+  "name": "Fancy Tree Model Pack",
+  "displayName": "Fancy Tree Model Pack",
+  "description": "Double-click to open this pack of models!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": 10,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

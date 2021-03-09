@@ -1,1 +1,58 @@
-{"allItems":[9726],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":248,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9674,"itemName":"Model Reward Castle Wall T","itemDisplayName":"Castle T-Wall Model"}]},{"LootTableIndex":254,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9662,"itemName":"Model Reward Castle Ramp","itemDisplayName":"Castle Ramp Model"}]}]},"itemID":9726,"name":"Castle Model Pack 6","displayName":"Castle Model Pack 6","description":"Double-click to open this pack of models!","isWeapon":false,"internalNotes":"1 T wall section, 1 ramp segment","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_gray.png","stackSize":10,"price":0,"commendationCost":10,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    9726
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 248,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9674,
+            "itemName": "Model Reward Castle Wall T",
+            "itemDisplayName": "Castle T-Wall Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 254,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9662,
+            "itemName": "Model Reward Castle Ramp",
+            "itemDisplayName": "Castle Ramp Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 9726,
+  "name": "Castle Model Pack 6",
+  "displayName": "Castle Model Pack 6",
+  "description": "Double-click to open this pack of models!",
+  "isWeapon": false,
+  "internalNotes": "1 T wall section, 1 ramp segment",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_gray.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": 10,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

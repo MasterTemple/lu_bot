@@ -1,1 +1,28 @@
-{"allItems":[10082],"equipLocationNames":["Extra_1"],"equipLocation":["Extra_1"],"isPackage":false,"itemID":10082,"name":"Model Reward Pirate Barrel Hut 2","displayName":"Pirate Barrel Hut Model 2","description":"A model for your Property!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/rew_pirates_barrelhut2.png","stackSize":10,"price":2000,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    10082
+  ],
+  "equipLocationNames": [
+    "Extra_1"
+  ],
+  "equipLocation": [
+    "Extra_1"
+  ],
+  "isPackage": false,
+  "itemID": 10082,
+  "name": "Model Reward Pirate Barrel Hut 2",
+  "displayName": "Pirate Barrel Hut Model 2",
+  "description": "A model for your Property!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/rew_pirates_barrelhut2.png",
+  "stackSize": 10,
+  "price": 2000,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

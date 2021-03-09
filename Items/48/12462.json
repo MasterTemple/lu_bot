@@ -1,1 +1,97 @@
-{"allItems":[12462],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":473,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":12030,"itemName":"CarFV2_FrontBumper_p","itemDisplayName":"Mach Lava Front Bumper"}]},{"LootTableIndex":474,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":12032,"itemName":"CarFV2_FrontPanel_p","itemDisplayName":"Mach Lava Engine Panel"}]},{"LootTableIndex":475,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":12038,"itemName":"CarFV2_SidePanels_p","itemDisplayName":"Mach Lava Side Panels"}]},{"LootTableIndex":476,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":12036,"itemName":"CarFV2_RearPanel_p","itemDisplayName":"Mach Lava Rear Panel"}]},{"LootTableIndex":477,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":12034,"itemName":"CarFV2_RearBumper_p","itemDisplayName":"Mach Lava Rear Bumper"}]}]},"itemID":12462,"name":"FV Mach Lava Car Pack","displayName":"Mach Lava Car Pack","description":"Double-click to open this pack of rewards!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_red.png","stackSize":1,"price":0,"commendationCost":10,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    12462
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 473,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 12030,
+            "itemName": "CarFV2_FrontBumper_p",
+            "itemDisplayName": "Mach Lava Front Bumper"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 474,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 12032,
+            "itemName": "CarFV2_FrontPanel_p",
+            "itemDisplayName": "Mach Lava Engine Panel"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 475,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 12038,
+            "itemName": "CarFV2_SidePanels_p",
+            "itemDisplayName": "Mach Lava Side Panels"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 476,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 12036,
+            "itemName": "CarFV2_RearPanel_p",
+            "itemDisplayName": "Mach Lava Rear Panel"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 477,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 12034,
+            "itemName": "CarFV2_RearBumper_p",
+            "itemDisplayName": "Mach Lava Rear Bumper"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 12462,
+  "name": "FV Mach Lava Car Pack",
+  "displayName": "Mach Lava Car Pack",
+  "description": "Double-click to open this pack of rewards!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_red.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": 10,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

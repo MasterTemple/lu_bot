@@ -1,1 +1,75 @@
-{"allItems":[10316],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":296,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9604,"itemName":"Model Reward Radar Truck","itemDisplayName":"Radar Truck Model"},{"itemID":9605,"itemName":"Model Reward Mini Car","itemDisplayName":"Mini Car Model"},{"itemID":9606,"itemName":"Model Reward Tractor","itemDisplayName":"Tractor Model"},{"itemID":9607,"itemName":"Model Reward Jet Ski","itemDisplayName":"Jet Ski Model"},{"itemID":9608,"itemName":"Model Reward Life Guard Tower","itemDisplayName":"Life Guard Tower Model"},{"itemID":9646,"itemName":"Model Reward Rover 1","itemDisplayName":"Rover Model 1"},{"itemID":9647,"itemName":"Model Reward Rover 2","itemDisplayName":"Rover Model 2"}]}]},"itemID":10316,"name":"DVD Order Model Pack","displayName":"Surprise Model Pack","description":"Double-click to open this pack of models!","isWeapon":false,"internalNotes":"Promo Item - Contains randomly selected small reward model","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_gray.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    10316
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 296,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9604,
+            "itemName": "Model Reward Radar Truck",
+            "itemDisplayName": "Radar Truck Model"
+          },
+          {
+            "itemID": 9605,
+            "itemName": "Model Reward Mini Car",
+            "itemDisplayName": "Mini Car Model"
+          },
+          {
+            "itemID": 9606,
+            "itemName": "Model Reward Tractor",
+            "itemDisplayName": "Tractor Model"
+          },
+          {
+            "itemID": 9607,
+            "itemName": "Model Reward Jet Ski",
+            "itemDisplayName": "Jet Ski Model"
+          },
+          {
+            "itemID": 9608,
+            "itemName": "Model Reward Life Guard Tower",
+            "itemDisplayName": "Life Guard Tower Model"
+          },
+          {
+            "itemID": 9646,
+            "itemName": "Model Reward Rover 1",
+            "itemDisplayName": "Rover Model 1"
+          },
+          {
+            "itemID": 9647,
+            "itemName": "Model Reward Rover 2",
+            "itemDisplayName": "Rover Model 2"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 10316,
+  "name": "DVD Order Model Pack",
+  "displayName": "Surprise Model Pack",
+  "description": "Double-click to open this pack of models!",
+  "isWeapon": false,
+  "internalNotes": "Promo Item - Contains randomly selected small reward model",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_gray.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

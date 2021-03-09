@@ -1,1 +1,87 @@
-{"isPackage":true,"packageData":{"table":[{"LootTableIndex":825,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":14739,"itemName":"MOD Car Dune Buggy Front Bumper","itemDisplayName":"Dune Buggy Front Bumper"}]},{"LootTableIndex":826,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":14740,"itemName":"MOD Car Dune Buggy Engine Panel","itemDisplayName":"Dune Buggy Engine Panel"}]},{"LootTableIndex":827,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":14741,"itemName":"MOD Car Dune Buggy Side Panels","itemDisplayName":"Dune Buggy Side Panels"}]},{"LootTableIndex":828,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":14742,"itemName":"MOD Car Dune Buggy Rear Panel","itemDisplayName":"Dune Buggy Rear Panel"}]},{"LootTableIndex":829,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":14743,"itemName":"MOD Car Dune Buggy Rear Bumper","itemDisplayName":"Dune Buggy Rear Bumper"}]}]},"itemID":15980,"name":"Dune Buggy Reward Pack","displayName":"Dune Buggy Reward Pack","description":"Double-click to open!","internalNotes":"Community Reward - 12 2011","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_dark_green.png","stackSize":10,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 825,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 14739,
+            "itemName": "MOD Car Dune Buggy Front Bumper",
+            "itemDisplayName": "Dune Buggy Front Bumper"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 826,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 14740,
+            "itemName": "MOD Car Dune Buggy Engine Panel",
+            "itemDisplayName": "Dune Buggy Engine Panel"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 827,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 14741,
+            "itemName": "MOD Car Dune Buggy Side Panels",
+            "itemDisplayName": "Dune Buggy Side Panels"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 828,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 14742,
+            "itemName": "MOD Car Dune Buggy Rear Panel",
+            "itemDisplayName": "Dune Buggy Rear Panel"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 829,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 14743,
+            "itemName": "MOD Car Dune Buggy Rear Bumper",
+            "itemDisplayName": "Dune Buggy Rear Bumper"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 15980,
+  "name": "Dune Buggy Reward Pack",
+  "displayName": "Dune Buggy Reward Pack",
+  "description": "Double-click to open!",
+  "internalNotes": "Community Reward - 12 2011",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_dark_green.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

@@ -1,1 +1,42 @@
-{"allItems":[13279],"equipLocationNames":["Left Hand"],"equipLocation":["special_l"],"isPackage":false,"itemID":13279,"name":"Engineer Valiant Weapon Proxy","displayName":"Engineer Valiant Weapon Proxy","description":"","isWeapon":false,"internalNotes":"Engineerr Valiant Weapon Proxy","abilityNames":[],"skillIDs":[1010],"behaviorIDs":[21054],"abilityName":"Create Bot","localeDescription":"Creates a Bot Quick Build that assists you in battle","cooldowngroup":24,"cooldownTime":45,"projectileDamageInfo":{"projectileDamageCombo":"","isChargeUp":false,"chargeUpIsProjectile":false,"isProjectileWeapon":false},"iconURL":"https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/faction%20kits/fackit_engineervaliant_master.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    13279
+  ],
+  "equipLocationNames": [
+    "Left Hand"
+  ],
+  "equipLocation": [
+    "special_l"
+  ],
+  "isPackage": false,
+  "itemID": 13279,
+  "name": "Engineer Valiant Weapon Proxy",
+  "displayName": "Engineer Valiant Weapon Proxy",
+  "description": "",
+  "isWeapon": false,
+  "internalNotes": "Engineerr Valiant Weapon Proxy",
+  "abilityNames": [],
+  "skillIDs": [
+    1010
+  ],
+  "behaviorIDs": [
+    21054
+  ],
+  "abilityName": "Create Bot",
+  "localeDescription": "Creates a Bot Quick Build that assists you in battle",
+  "abilityImaginationCost": 8,
+  "cooldowngroup": 24,
+  "cooldownTime": 45,
+  "projectileDamageInfo": {
+    "projectileDamageCombo": "",
+    "isChargeUp": false,
+    "chargeUpIsProjectile": false,
+    "isProjectileWeapon": false
+  },
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/auramar/ui/inventory/faction%20kits/fackit_engineervaliant_master.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

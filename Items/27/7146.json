@@ -1,1 +1,28 @@
-{"allItems":[7146],"equipLocationNames":[""],"equipLocation":[""],"isPackage":false,"itemID":7146,"name":"Test for Media team 3","displayName":null,"description":"Test Model 3","isWeapon":false,"internalNotes":"Test Model 3","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/media3.png","stackSize":10,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    7146
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": false,
+  "itemID": 7146,
+  "name": "Test for Media team 3",
+  "displayName": null,
+  "description": "Test Model 3",
+  "isWeapon": false,
+  "internalNotes": "Test Model 3",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/media3.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

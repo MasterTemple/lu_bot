@@ -1,1 +1,28 @@
-{"allItems":[10763],"equipLocationNames":["Extra_1"],"equipLocation":["Extra_1"],"isPackage":false,"itemID":10763,"name":"Model Reward Fortress Big Lizard Shrine","displayName":"Fortress Big Lizard Shrine Model","description":"A model for your property!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/rew_ninjafortress-legodzillashrine.png","stackSize":10,"price":260,"commendationCost":10,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    10763
+  ],
+  "equipLocationNames": [
+    "Extra_1"
+  ],
+  "equipLocation": [
+    "Extra_1"
+  ],
+  "isPackage": false,
+  "itemID": 10763,
+  "name": "Model Reward Fortress Big Lizard Shrine",
+  "displayName": "Fortress Big Lizard Shrine Model",
+  "description": "A model for your property!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/models/rew_ninjafortress-legodzillashrine.png",
+  "stackSize": 10,
+  "price": 260,
+  "commendationCost": 10,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

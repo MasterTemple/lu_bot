@@ -1,1 +1,97 @@
-{"allItems":[8032],"equipLocationNames":[null],"equipLocation":[null],"isPackage":true,"packageData":{"table":[{"LootTableIndex":169,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7487,"itemName":"Daredevil Chest 1","itemDisplayName":"Daredevil Jacket 1"}]},{"LootTableIndex":170,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7511,"itemName":"Daredevil Legs 1","itemDisplayName":"Daredevil Pants 1"}]},{"LootTableIndex":171,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7463,"itemName":"Daredevil Head 1","itemDisplayName":"Daredevil Helmet 1"}]},{"LootTableIndex":172,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":7535,"itemName":"Daredevil Weapon 1","itemDisplayName":"Daredevil Flareguns 1"}]},{"LootTableIndex":371,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":21,"itemName":"Rank 1 Daredevil Book","itemDisplayName":null}]}]},"itemID":8032,"name":"Rank 1 Daredevil Kit Package","displayName":"Rank 1 Daredevil Kit Package","description":"Double-click to get the Rank 1 Daredevil Specialty Gear!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_venture.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":"6"}
+{
+  "allItems": [
+    8032
+  ],
+  "equipLocationNames": [
+    null
+  ],
+  "equipLocation": [
+    null
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 169,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7487,
+            "itemName": "Daredevil Chest 1",
+            "itemDisplayName": "Daredevil Jacket 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 170,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7511,
+            "itemName": "Daredevil Legs 1",
+            "itemDisplayName": "Daredevil Pants 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 171,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7463,
+            "itemName": "Daredevil Head 1",
+            "itemDisplayName": "Daredevil Helmet 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 172,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 7535,
+            "itemName": "Daredevil Weapon 1",
+            "itemDisplayName": "Daredevil Flareguns 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 371,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 21,
+            "itemName": "Rank 1 Daredevil Book",
+            "itemDisplayName": null
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 8032,
+  "name": "Rank 1 Daredevil Kit Package",
+  "displayName": "Rank 1 Daredevil Kit Package",
+  "description": "Double-click to get the Rank 1 Daredevil Specialty Gear!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/kits/kit_venture.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": "6"
+}

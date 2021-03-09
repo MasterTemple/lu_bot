@@ -1,1 +1,97 @@
-{"allItems":[9775],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":265,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9598,"itemName":"Model Reward Tree 1 green","itemDisplayName":"Pine Tree Model 1"}]},{"LootTableIndex":266,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9599,"itemName":"Model Reward Tree 2 green","itemDisplayName":"Pine Tree Model 2"}]},{"LootTableIndex":267,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9600,"itemName":"Model Reward Tree 3 green","itemDisplayName":"Green Tree Model 3"}]},{"LootTableIndex":268,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9908,"itemName":"Model Reward Tree 3 red","itemDisplayName":"Red Tree Model 3"}]},{"LootTableIndex":269,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9909,"itemName":"Model Reward Tree 3 yellow","itemDisplayName":"Yellow Tree Model 3"}]}]},"itemID":9775,"name":"Basic Tree Model Pack","displayName":"Basic Tree Model Pack","description":"Double-click to open this pack of models!","isWeapon":false,"internalNotes":"5 basic trees","abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_gray.png","stackSize":1,"price":0,"commendationCost":10,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    9775
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 265,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9598,
+            "itemName": "Model Reward Tree 1 green",
+            "itemDisplayName": "Pine Tree Model 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 266,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9599,
+            "itemName": "Model Reward Tree 2 green",
+            "itemDisplayName": "Pine Tree Model 2"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 267,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9600,
+            "itemName": "Model Reward Tree 3 green",
+            "itemDisplayName": "Green Tree Model 3"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 268,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9908,
+            "itemName": "Model Reward Tree 3 red",
+            "itemDisplayName": "Red Tree Model 3"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 269,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9909,
+            "itemName": "Model Reward Tree 3 yellow",
+            "itemDisplayName": "Yellow Tree Model 3"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 9775,
+  "name": "Basic Tree Model Pack",
+  "displayName": "Basic Tree Model Pack",
+  "description": "Double-click to open this pack of models!",
+  "isWeapon": false,
+  "internalNotes": "5 basic trees",
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_gray.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": 10,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

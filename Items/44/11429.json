@@ -1,1 +1,28 @@
-{"allItems":[11429],"equipLocationNames":["Torso"],"equipLocation":["chest"],"isPackage":false,"itemID":11429,"name":"LUP Starbase Shirt","displayName":"LUP Starbase Shirt","description":"NPC for Starbase 3001","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/reward/m73200_checkerflag.png","stackSize":1,"price":425,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    11429
+  ],
+  "equipLocationNames": [
+    "Torso"
+  ],
+  "equipLocation": [
+    "chest"
+  ],
+  "isPackage": false,
+  "itemID": 11429,
+  "name": "LUP Starbase Shirt",
+  "displayName": "LUP Starbase Shirt",
+  "description": "NPC for Starbase 3001",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/reward/m73200_checkerflag.png",
+  "stackSize": 1,
+  "price": 425,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

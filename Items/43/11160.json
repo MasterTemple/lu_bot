@@ -1,1 +1,110 @@
-{"allItems":[11160],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":341,"maxToDrop":4,"minToDrop":4,"percent":1,"items":[{"itemID":10759,"itemName":"Model Reward Fortress Inside Corner","itemDisplayName":"Fortress Inside Corner Model"}]},{"LootTableIndex":342,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10761,"itemName":"Model Reward Fortress Large Outside Corner","itemDisplayName":"Fortress Large Outside Corner Model"}]},{"LootTableIndex":345,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10766,"itemName":"Model Reward Fortress Small Outside Corner","itemDisplayName":"Fortress Small Outside Corner Model"}]},{"LootTableIndex":343,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10762,"itemName":"Model Reward Fortress Large Wall","itemDisplayName":"Fortress Large Wall Model"}]},{"LootTableIndex":347,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":10769,"itemName":"Model Reward Fortress Wall Gate","itemDisplayName":"Fortress Wall Gate Model"}]},{"LootTableIndex":346,"maxToDrop":2,"minToDrop":2,"percent":1,"items":[{"itemID":10767,"itemName":"Model Reward Fortress Small Wall","itemDisplayName":"Fortress Small Wall Model"}]}]},"itemID":11160,"name":"Ninja Fortress Model Pack 1","displayName":"Ninja Fortress Model Pack 1","description":"Double-click to open this pack of models!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_red.png","stackSize":10,"price":0,"commendationCost":95,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    11160
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 341,
+        "maxToDrop": 4,
+        "minToDrop": 4,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10759,
+            "itemName": "Model Reward Fortress Inside Corner",
+            "itemDisplayName": "Fortress Inside Corner Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 342,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10761,
+            "itemName": "Model Reward Fortress Large Outside Corner",
+            "itemDisplayName": "Fortress Large Outside Corner Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 345,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10766,
+            "itemName": "Model Reward Fortress Small Outside Corner",
+            "itemDisplayName": "Fortress Small Outside Corner Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 343,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10762,
+            "itemName": "Model Reward Fortress Large Wall",
+            "itemDisplayName": "Fortress Large Wall Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 347,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10769,
+            "itemName": "Model Reward Fortress Wall Gate",
+            "itemDisplayName": "Fortress Wall Gate Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 346,
+        "maxToDrop": 2,
+        "minToDrop": 2,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 10767,
+            "itemName": "Model Reward Fortress Small Wall",
+            "itemDisplayName": "Fortress Small Wall Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 11160,
+  "name": "Ninja Fortress Model Pack 1",
+  "displayName": "Ninja Fortress Model Pack 1",
+  "description": "Double-click to open this pack of models!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_red.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": 95,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

@@ -1,1 +1,39 @@
-{"allItems":[8631],"equipLocationNames":["Torso"],"equipLocation":["chest"],"isPackage":false,"itemID":8631,"name":"Grey Cavalry Shirt","displayName":"Confederate Shirt","description":"","isWeapon":false,"internalNotes":"3 AP","abilityNames":[],"skillIDs":[362],"behaviorIDs":[4244],"abilityName":"Armor Boost 3","Armor":3,"projectileDamageInfo":{"projectileDamageCombo":"","isChargeUp":false,"chargeUpIsProjectile":false,"isProjectileWeapon":false},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/reward/m73200_calvary_grey.png","stackSize":1,"price":4750,"commendationCost":null,"factionTokens":null,"levelRequirement":"15"}
+{
+  "allItems": [
+    8631
+  ],
+  "equipLocationNames": [
+    "Torso"
+  ],
+  "equipLocation": [
+    "chest"
+  ],
+  "isPackage": false,
+  "itemID": 8631,
+  "name": "Grey Cavalry Shirt",
+  "displayName": "Confederate Shirt",
+  "description": "",
+  "isWeapon": false,
+  "internalNotes": "3 AP",
+  "abilityNames": [],
+  "skillIDs": [
+    362
+  ],
+  "behaviorIDs": [
+    4244
+  ],
+  "abilityName": "Armor Boost 3",
+  "Armor": 3,
+  "projectileDamageInfo": {
+    "projectileDamageCombo": "",
+    "isChargeUp": false,
+    "chargeUpIsProjectile": false,
+    "isProjectileWeapon": false
+  },
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/torsos/reward/m73200_calvary_grey.png",
+  "stackSize": 1,
+  "price": 4750,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": "15"
+}

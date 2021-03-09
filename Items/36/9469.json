@@ -1,1 +1,97 @@
-{"allItems":[9469],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":216,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9435,"itemName":"Car4_FrontBumper1_y","itemDisplayName":"Burst Tamale Front Bumper"}]},{"LootTableIndex":217,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9438,"itemName":"Car4_EnginePanel1_y","itemDisplayName":"Burst Tamale Engine Panel"}]},{"LootTableIndex":218,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9441,"itemName":"Car4_SidePanels1_y","itemDisplayName":"Burst Tamale Side Panels"}]},{"LootTableIndex":219,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9444,"itemName":"Car4_RearPanel1_y","itemDisplayName":"Burst Tamale Rear Panel"}]},{"LootTableIndex":220,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":9447,"itemName":"Car4_RearBumper1_y","itemDisplayName":"Burst Tamale Rear Bumper"}]}]},"itemID":9469,"name":"Outburst Car 1 Package Yellow","displayName":"Burst Tamale Package","description":"Double-click to open this pack of car modules!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_orange.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    9469
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 216,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9435,
+            "itemName": "Car4_FrontBumper1_y",
+            "itemDisplayName": "Burst Tamale Front Bumper"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 217,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9438,
+            "itemName": "Car4_EnginePanel1_y",
+            "itemDisplayName": "Burst Tamale Engine Panel"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 218,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9441,
+            "itemName": "Car4_SidePanels1_y",
+            "itemDisplayName": "Burst Tamale Side Panels"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 219,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9444,
+            "itemName": "Car4_RearPanel1_y",
+            "itemDisplayName": "Burst Tamale Rear Panel"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 220,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 9447,
+            "itemName": "Car4_RearBumper1_y",
+            "itemDisplayName": "Burst Tamale Rear Bumper"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 9469,
+  "name": "Outburst Car 1 Package Yellow",
+  "displayName": "Burst Tamale Package",
+  "description": "Double-click to open this pack of car modules!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_orange.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

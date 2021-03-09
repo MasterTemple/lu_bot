@@ -1,1 +1,162 @@
-{"allItems":[12529],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":533,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11679,"itemName":"Model Reward Doom Star Module 13","itemDisplayName":"Doom Star Module Model 13"}]},{"LootTableIndex":534,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11680,"itemName":"Model Reward Doom Star Module 14","itemDisplayName":"Doom Star Module Model 14"}]},{"LootTableIndex":535,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11681,"itemName":"Model Reward Doom Star Module 15","itemDisplayName":"Doom Star Module Model 15"}]},{"LootTableIndex":536,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11682,"itemName":"Model Reward Doom Star Module 16","itemDisplayName":"Doom Star Module Model 16"}]},{"LootTableIndex":537,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11683,"itemName":"Model Reward Doom Star Trench 1","itemDisplayName":"Doom Star Trench Model 1"}]},{"LootTableIndex":538,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11684,"itemName":"Model Reward Doom Star Trench 2","itemDisplayName":"Doom Star Trench Model 2"}]},{"LootTableIndex":539,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11685,"itemName":"Model Reward Doom Star Trench 3","itemDisplayName":"Doom Star Trench Model 3"}]},{"LootTableIndex":540,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11686,"itemName":"Model Reward Doom Star Trench 4","itemDisplayName":"Doom Star Trench Model 4"}]},{"LootTableIndex":545,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11691,"itemName":"Model Reward Doom Star Trench Inside Corner","itemDisplayName":"Doom Star Trench Inside Corner Model"}]},{"LootTableIndex":546,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11692,"itemName":"Model Reward Doom Star Trench Outside Corner","itemDisplayName":"Doom Star Trench Outside Corner Model"}]}]},"itemID":12529,"name":"Doom Star Model Pack 3","displayName":"Doom Star Model Pack 3","description":"Double-click to use!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png","stackSize":10,"price":0,"commendationCost":20,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    12529
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 533,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11679,
+            "itemName": "Model Reward Doom Star Module 13",
+            "itemDisplayName": "Doom Star Module Model 13"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 534,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11680,
+            "itemName": "Model Reward Doom Star Module 14",
+            "itemDisplayName": "Doom Star Module Model 14"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 535,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11681,
+            "itemName": "Model Reward Doom Star Module 15",
+            "itemDisplayName": "Doom Star Module Model 15"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 536,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11682,
+            "itemName": "Model Reward Doom Star Module 16",
+            "itemDisplayName": "Doom Star Module Model 16"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 537,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11683,
+            "itemName": "Model Reward Doom Star Trench 1",
+            "itemDisplayName": "Doom Star Trench Model 1"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 538,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11684,
+            "itemName": "Model Reward Doom Star Trench 2",
+            "itemDisplayName": "Doom Star Trench Model 2"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 539,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11685,
+            "itemName": "Model Reward Doom Star Trench 3",
+            "itemDisplayName": "Doom Star Trench Model 3"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 540,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11686,
+            "itemName": "Model Reward Doom Star Trench 4",
+            "itemDisplayName": "Doom Star Trench Model 4"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 545,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11691,
+            "itemName": "Model Reward Doom Star Trench Inside Corner",
+            "itemDisplayName": "Doom Star Trench Inside Corner Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 546,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11692,
+            "itemName": "Model Reward Doom Star Trench Outside Corner",
+            "itemDisplayName": "Doom Star Trench Outside Corner Model"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 12529,
+  "name": "Doom Star Model Pack 3",
+  "displayName": "Doom Star Model Pack 3",
+  "description": "Double-click to use!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": 20,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

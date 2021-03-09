@@ -1,1 +1,55 @@
-{"allItems":[12890],"equipLocationNames":[null],"equipLocation":[null],"isPackage":true,"packageData":{"table":[{"LootTableIndex":568,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":12839,"itemName":"MOD Rocket Skeleton Cockpit 1","itemDisplayName":"Morbid Orbit Rocket Cockpit"},{"itemID":12849,"itemName":"MOD Rocket Skeleton Cockpit 2","itemDisplayName":"Starskull Rocket Cockpit"},{"itemID":12852,"itemName":"MOD Rocket Skeleton Cockpit 3","itemDisplayName":"Terror Comet Rocket Cockpit"}]}]},"itemID":12890,"name":"Skeleton Rocket Cockpit Package","displayName":"Skeleton Rocket Cockpit Package","description":"Double-click to use!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_green.png","stackSize":1,"price":0,"commendationCost":10,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    12890
+  ],
+  "equipLocationNames": [
+    null
+  ],
+  "equipLocation": [
+    null
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 568,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 12839,
+            "itemName": "MOD Rocket Skeleton Cockpit 1",
+            "itemDisplayName": "Morbid Orbit Rocket Cockpit"
+          },
+          {
+            "itemID": 12849,
+            "itemName": "MOD Rocket Skeleton Cockpit 2",
+            "itemDisplayName": "Starskull Rocket Cockpit"
+          },
+          {
+            "itemID": 12852,
+            "itemName": "MOD Rocket Skeleton Cockpit 3",
+            "itemDisplayName": "Terror Comet Rocket Cockpit"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 12890,
+  "name": "Skeleton Rocket Cockpit Package",
+  "displayName": "Skeleton Rocket Cockpit Package",
+  "description": "Double-click to use!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_green.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": 10,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

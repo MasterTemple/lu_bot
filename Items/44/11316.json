@@ -1,1 +1,97 @@
-{"allItems":[11316],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":408,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":8600,"itemName":"Old Skool Shirt","itemDisplayName":"Old Skool Shirt"}]},{"LootTableIndex":409,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11695,"itemName":"Model Reward Farm Barn Back","itemDisplayName":"Farm Barn Back Model"}]},{"LootTableIndex":410,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11696,"itemName":"Model Reward Farm Barn Front","itemDisplayName":"Farm Barn Front Model"}]},{"LootTableIndex":411,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11697,"itemName":"Model Reward Farm Barn Middle","itemDisplayName":"Farm Barn Middle Model"}]},{"LootTableIndex":412,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":11711,"itemName":"Model Reward Farm Silo 1","itemDisplayName":"Farm Silo Model 1"}]}]},"itemID":11316,"name":"12 Month Subscriber Reward Pack","displayName":"12 Month Subscriber Reward Pack","description":"Double-click to open this pack of rewards!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png","stackSize":1,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    11316
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 408,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 8600,
+            "itemName": "Old Skool Shirt",
+            "itemDisplayName": "Old Skool Shirt"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 409,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11695,
+            "itemName": "Model Reward Farm Barn Back",
+            "itemDisplayName": "Farm Barn Back Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 410,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11696,
+            "itemName": "Model Reward Farm Barn Front",
+            "itemDisplayName": "Farm Barn Front Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 411,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11697,
+            "itemName": "Model Reward Farm Barn Middle",
+            "itemDisplayName": "Farm Barn Middle Model"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 412,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 11711,
+            "itemName": "Model Reward Farm Silo 1",
+            "itemDisplayName": "Farm Silo Model 1"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 11316,
+  "name": "12 Month Subscriber Reward Pack",
+  "displayName": "12 Month Subscriber Reward Pack",
+  "description": "Double-click to open this pack of rewards!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png",
+  "stackSize": 1,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

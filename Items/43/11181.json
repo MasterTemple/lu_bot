@@ -1,1 +1,159 @@
-{"allItems":[11181],"equipLocationNames":[""],"equipLocation":[""],"isPackage":true,"packageData":{"table":[{"LootTableIndex":359,"maxToDrop":5,"minToDrop":5,"percent":1,"items":[{"itemID":5835,"itemName":"Super Brick Booster Pack","itemDisplayName":"Super Brick Booster Pack"}]},{"LootTableIndex":360,"maxToDrop":15,"minToDrop":15,"percent":1,"items":[{"itemID":6862,"itemName":"Dark Red Gem","itemDisplayName":"Dark Red Gem"}]},{"LootTableIndex":361,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":8497,"itemName":"Quality Cutlass","itemDisplayName":"Quality Cutlass"},{"itemID":8499,"itemName":"Quality Shortsword","itemDisplayName":"Quality Shortsword"},{"itemID":8500,"itemName":"Quality Woodsman's Axe","itemDisplayName":"Quality Woodsman's Axe"},{"itemID":8503,"itemName":"Quality Corseque","itemDisplayName":"Quality Corseque"},{"itemID":8506,"itemName":"Quality Dirk","itemDisplayName":"Quality Dirk"}]},{"LootTableIndex":362,"maxToDrop":1,"minToDrop":1,"percent":1,"items":[{"itemID":8530,"itemName":"Imagination Tanks","itemDisplayName":"Imagination Tanks"},{"itemID":8533,"itemName":"Quiver","itemDisplayName":"Quiver"},{"itemID":8534,"itemName":"Utility Harness","itemDisplayName":"Utility Harness"},{"itemID":8535,"itemName":"Explorer Air Tank","itemDisplayName":"Explorer Air Tank"},{"itemID":8539,"itemName":"Messenger Bag","itemDisplayName":"Messenger Bag"},{"itemID":8682,"itemName":"Knapsack","itemDisplayName":"Knapsack"},{"itemID":8683,"itemName":"Epaulets of Authority","itemDisplayName":"Epaulets of Authority"},{"itemID":6792,"itemName":"Shoulder Parrot Blue","itemDisplayName":"Blue Shoulder Parrot"},{"itemID":6854,"itemName":"Shoulder Parrot Green","itemDisplayName":"Green Shoulder Parrot"},{"itemID":6855,"itemName":"Shoulder Parrot Yellow","itemDisplayName":"Yellow Shoulder Parrot"},{"itemID":6856,"itemName":"Shoulder Parrot Orange","itemDisplayName":"Orange Shoulder Parrot"},{"itemID":7570,"itemName":"Shoulder Parrot Red","itemDisplayName":"Red Shoulder Parrot"}]}]},"itemID":11181,"name":"Beta Testing Gear Pack","displayName":"Beta Testing Gear Pack","description":"Double-click to open this pack of gear!","isWeapon":false,"internalNotes":null,"abilityNames":[],"skillIDs":[],"behaviorIDs":[],"projectileDamageInfo":{},"iconURL":"https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png","stackSize":10,"price":0,"commendationCost":null,"factionTokens":null,"levelRequirement":0}
+{
+  "allItems": [
+    11181
+  ],
+  "equipLocationNames": [
+    ""
+  ],
+  "equipLocation": [
+    ""
+  ],
+  "isPackage": true,
+  "packageData": {
+    "table": [
+      {
+        "LootTableIndex": 359,
+        "maxToDrop": 5,
+        "minToDrop": 5,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 5835,
+            "itemName": "Super Brick Booster Pack",
+            "itemDisplayName": "Super Brick Booster Pack"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 360,
+        "maxToDrop": 15,
+        "minToDrop": 15,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 6862,
+            "itemName": "Dark Red Gem",
+            "itemDisplayName": "Dark Red Gem"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 361,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 8497,
+            "itemName": "Quality Cutlass",
+            "itemDisplayName": "Quality Cutlass"
+          },
+          {
+            "itemID": 8499,
+            "itemName": "Quality Shortsword",
+            "itemDisplayName": "Quality Shortsword"
+          },
+          {
+            "itemID": 8500,
+            "itemName": "Quality Woodsman's Axe",
+            "itemDisplayName": "Quality Woodsman's Axe"
+          },
+          {
+            "itemID": 8503,
+            "itemName": "Quality Corseque",
+            "itemDisplayName": "Quality Corseque"
+          },
+          {
+            "itemID": 8506,
+            "itemName": "Quality Dirk",
+            "itemDisplayName": "Quality Dirk"
+          }
+        ]
+      },
+      {
+        "LootTableIndex": 362,
+        "maxToDrop": 1,
+        "minToDrop": 1,
+        "percent": 1,
+        "items": [
+          {
+            "itemID": 8530,
+            "itemName": "Imagination Tanks",
+            "itemDisplayName": "Imagination Tanks"
+          },
+          {
+            "itemID": 8533,
+            "itemName": "Quiver",
+            "itemDisplayName": "Quiver"
+          },
+          {
+            "itemID": 8534,
+            "itemName": "Utility Harness",
+            "itemDisplayName": "Utility Harness"
+          },
+          {
+            "itemID": 8535,
+            "itemName": "Explorer Air Tank",
+            "itemDisplayName": "Explorer Air Tank"
+          },
+          {
+            "itemID": 8539,
+            "itemName": "Messenger Bag",
+            "itemDisplayName": "Messenger Bag"
+          },
+          {
+            "itemID": 8682,
+            "itemName": "Knapsack",
+            "itemDisplayName": "Knapsack"
+          },
+          {
+            "itemID": 8683,
+            "itemName": "Epaulets of Authority",
+            "itemDisplayName": "Epaulets of Authority"
+          },
+          {
+            "itemID": 6792,
+            "itemName": "Shoulder Parrot Blue",
+            "itemDisplayName": "Blue Shoulder Parrot"
+          },
+          {
+            "itemID": 6854,
+            "itemName": "Shoulder Parrot Green",
+            "itemDisplayName": "Green Shoulder Parrot"
+          },
+          {
+            "itemID": 6855,
+            "itemName": "Shoulder Parrot Yellow",
+            "itemDisplayName": "Yellow Shoulder Parrot"
+          },
+          {
+            "itemID": 6856,
+            "itemName": "Shoulder Parrot Orange",
+            "itemDisplayName": "Orange Shoulder Parrot"
+          },
+          {
+            "itemID": 7570,
+            "itemName": "Shoulder Parrot Red",
+            "itemDisplayName": "Red Shoulder Parrot"
+          }
+        ]
+      }
+    ]
+  },
+  "itemID": 11181,
+  "name": "Beta Testing Gear Pack",
+  "displayName": "Beta Testing Gear Pack",
+  "description": "Double-click to open this pack of gear!",
+  "isWeapon": false,
+  "internalNotes": null,
+  "abilityNames": [],
+  "skillIDs": [],
+  "behaviorIDs": [],
+  "projectileDamageInfo": {},
+  "iconURL": "https://xiphoseer.github.io/lu-res/textures/ui/inventory/presents/present_blue.png",
+  "stackSize": 10,
+  "price": 0,
+  "commendationCost": null,
+  "factionTokens": null,
+  "levelRequirement": 0
+}

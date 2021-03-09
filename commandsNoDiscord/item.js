@@ -59,11 +59,15 @@ module.exports = {
                     var extraSkillBehavior = require(`./../tables/SkillBehavior/${extraItem.skills[p].skillID}.json`)
                     //console.log(extraSkillBehavior.imaginationcost)
                     data.abilityImaginationCost = extraSkillBehavior.imaginationcost
+                    //console.log(extraSkillBehavior)
                 }
 
                 //console.log(extraItem.skills)
             }
-        }catch{}
+
+        }catch(e){
+            console.log(e)
+        }
 
 
         //data.equipSlots = []
@@ -169,7 +173,10 @@ module.exports = {
                 // //console.log(`cool: ${cooldownFile.cooldown}`)
                 if (cooldownFile.cooldown != 0) {
                     cooldowngroup = cooldownFile.cooldowngroup
+                    //console.log(cooldownFile)
+                    data.abilityImaginationCost = cooldownFile.imaginationcost
                     data.cooldowngroup = cooldownFile.cooldowngroup
+
                     cooldown = `${cooldownFile.cooldown} Seconds`
                     data.cooldownTime = cooldownFile.cooldown
                     // console.log(`Cooldown Group: ${cooldownFile.cooldowngroup}\nItem Cooldown: ${cooldownFile.cooldown} seconds`)
