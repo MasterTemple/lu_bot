@@ -10,6 +10,7 @@ module.exports = {
         const ObjectSkills = require(`./../search/ObjectSkills.json`)
         var actions = ["action", "miss action", "blocked action", "action_false", "action_true", "start_action", "chain_action", "break_action", "double_jump_action", "ground_action", "jump_action", "hit_action", "hit_action_enemy", "timeout_action", "air_action", "falling_action", "jetpack_action", "spawn_fail_action", "action_failed", "action_consumed", "blocked_action", "moving_action", "on_success", "behavior", "behavior 0", "behavior 1", "behavior 2", "behavior 3", "behavior 4", "behavior 5", "behavior 6", "behavior 7", "behavior 8", "behavior 9", "bahavior 2"]
         var projectile_damage_array = []
+        var chargeUpExceptions = [12984,7399,7398,7397,7528,7527,7526,7534,7533,7532]
         var chargeUp = false
         //var chargeUp = false
         var stuff = {}
@@ -470,13 +471,16 @@ module.exports = {
             });
             // // //console.log(tempArray[0])
 
-            for (var i = 0; i < Object.keys(tempArray[0]).length; i++) {
+            try{
+                for (var i = 0; i < Object.keys(tempArray[0]).length; i++) {
 
-                if (Object.keys(tempArray[0])[i] == "max damage") {
-                    // // console.log((Object.values(tempArray[0])[i]))
-                    projectile_damage.push(Object.values(tempArray[0])[i])
+                    if (Object.keys(tempArray[0])[i] == "max damage") {
+                        // // console.log((Object.values(tempArray[0])[i]))
+                        projectile_damage.push(Object.values(tempArray[0])[i])
+                    }
                 }
-            }
+            }catch{}
+
         }
         // // console.log(`projectile_damage`)
         // // console.log(projectile_damage)
@@ -514,14 +518,17 @@ module.exports = {
         }else{
             var chargeUpIsProjectile = false
         }
-        if(chargeUp === true && chargeUpIsProjectile === true){
+        if(chargeUp === true && chargeUpIsProjectile === true ){
+            console.log(`${args[1]}: 1`)
             var chargeUpDamage = projectile_damage[projectile_damage.length-1]
             projectile_damage.pop()
         }else if (chargeUp === true && isProjectileWeapon == true){
+            console.log(`${args[1]}: 2`)
             var chargeUpDamage = ground_action_damage[1]
             ground_action_damage.shift()
         }else if (chargeUp === true){
             // console.log(`here`)
+            console.log(`${args[1]}: 3`)
             var chargeUpDamage = ground_action_damage[ground_action_damage.length-1]
             ground_action_damage.pop()
         }

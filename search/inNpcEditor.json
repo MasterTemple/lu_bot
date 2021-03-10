@@ -1,0 +1,2328 @@
+{
+    "table": [
+        {
+            "LootMatrixIndex": 29,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 34,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 35,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 36,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 40,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 41,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 42,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 44,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 51,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 52,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 53,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 54,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 59,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 63,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 64,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 65,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 105,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 115,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 117,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 118,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 123,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 126,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 127,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 129,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 132,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 135,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 137,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 139,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 143,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 145,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 147,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 148,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 149,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 150,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 152,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 153,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 154,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 157,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 160,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 162,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 164,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 170,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 171,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 172,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 184,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 185,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 187,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 188,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 189,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 190,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 192,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 193,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 196,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 197,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 198,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 199,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 200,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 201,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 202,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 207,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 209,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 210,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 211,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 212,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 213,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 214,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 216,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 217,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 218,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 227,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 230,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 231,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 232,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 235,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 236,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 237,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 239,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 240,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 241,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 242,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 244,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 246,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 248,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 249,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 250,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 253,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 256,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 257,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 259,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 262,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 266,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 267,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 268,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 269,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 271,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 272,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 273,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 275,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 277,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 279,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 280,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 281,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 282,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 283,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 285,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 293,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 294,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 295,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 296,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 297,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 299,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 305,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 307,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 308,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 309,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 310,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 312,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 314,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 321,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 323,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 324,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 325,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 326,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 327,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 328,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 329,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 330,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 332,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 335,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 337,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 340,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 343,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 346,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 347,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 348,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 350,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 351,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 352,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 353,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 354,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 355,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 356,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 357,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 359,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 360,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 362,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 363,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 364,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 365,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 366,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 367,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 369,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 370,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 371,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 372,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 373,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 374,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 375,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 376,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 381,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 382,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 383,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 384,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 385,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 386,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 387,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 389,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 390,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 391,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 392,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 393,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 394,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 395,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 396,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 397,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 398,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 399,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 400,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 401,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 402,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 403,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 404,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 405,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 406,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 407,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 408,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 409,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 411,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 412,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 413,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 414,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 415,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 416,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 417,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 419,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 420,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 421,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 422,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 423,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 425,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 426,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 427,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 428,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 429,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 430,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 431,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 432,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 433,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 437,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 438,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 439,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 441,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 442,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 443,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 445,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 447,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 449,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 451,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 452,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 453,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 454,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 455,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 456,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 457,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 458,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 459,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 460,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 461,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 462,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 463,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 465,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 469,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 472,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 473,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 474,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 475,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 476,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 477,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 478,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 479,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 480,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 481,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 482,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 483,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 484,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 485,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 486,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 487,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 488,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 489,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 490,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 491,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 492,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 493,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 494,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 495,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 496,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 497,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 498,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 499,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 500,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 501,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 502,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 504,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 505,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 506,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 507,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 508,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 509,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 510,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 511,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 512,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 513,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 514,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 515,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 516,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 517,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 518,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 519,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 520,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 521,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 522,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 523,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 524,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 525,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 526,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 527,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 528,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 529,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 530,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 531,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 532,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 533,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 534,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 535,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 536,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 537,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 538,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 539,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 540,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 566,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 567,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 568,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 569,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 570,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 571,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 572,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 573,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 574,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 575,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 576,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 577,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 578,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 579,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 580,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 581,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 582,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 583,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 584,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 585,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 586,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 587,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 588,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 589,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 590,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 591,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 593,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 594,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 595,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 596,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 597,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 598,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 599,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 600,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 601,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 602,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 603,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 604,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 605,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 606,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 607,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 608,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 609,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 610,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 611,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 612,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 613,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 614,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 615,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 616,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 617,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 620,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 621,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 622,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 623,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 624,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 625,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 626,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 627,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 628,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 629,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 630,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 631,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 633,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 634,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 635,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 637,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 638,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 639,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 640,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 641,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 642,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 643,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 644,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 645,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 646,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 647,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 648,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 649,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 650,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 651,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 652,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 654,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 655,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 656,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 657,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 662,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 664,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 665,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 666,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 667,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 668,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 669,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 671,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 672,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 673,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 674,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 675,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 676,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 677,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 678,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 679,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 680,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 681,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 682,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 683,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 686,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 689,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 690,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 691,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 692,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 693,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 694,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 695,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 696,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 697,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 698,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 699,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 700,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 701,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 703,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 705,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 706,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 708,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 709,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 711,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 713,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 715,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 718,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 719,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 720,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 721,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 722,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 723,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 724,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 725,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 726,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 727,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 728,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 729,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 730,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 731,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 732,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 733,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 734,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 735,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 737,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 740,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 742,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 748,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 749,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 750,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 751,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 752,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 753,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 754,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 755,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 756,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 757,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 758,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 759,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 760,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 761,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 762,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 763,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 764,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 765,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 766,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 769,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 770,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 771,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 772,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 773,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 774,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 775,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 776,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 777,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 778,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 779,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 780,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 781,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 783,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 788,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 789,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 790,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 791,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 792,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 793,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 794,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 796,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 797,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 798,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 799,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 800,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 803,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 804,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 808,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 809,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 810,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 811,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 812,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 813,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 814,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 815,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 816,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 817,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 818,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 819,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 820,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 821,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 822,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 823,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 824,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 825,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 826,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 827,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 828,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 829,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 830,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 831,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 832,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 833,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 834,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 835,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 836,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 837,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 838,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 839,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 840,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 841,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 842,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 843,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 844,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 845,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 846,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 847,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 850,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 851,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 852,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 853,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 854,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 855,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 856,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 857,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 858,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 859,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 860,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 861,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 862,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 864,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 865,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 866,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 867,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 869,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 870,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 871,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 872,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 873,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 874,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 875,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 876,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 877,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 879,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 880,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 881,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 882,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 883,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 884,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 886,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 888,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 890,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 891,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 892,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 893,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 894,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 895,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 896,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 897,
+            "inNpcEditor": 1
+        },
+        {
+            "LootMatrixIndex": 898,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 899,
+            "inNpcEditor": 0
+        },
+        {
+            "LootMatrixIndex": 924,
+            "inNpcEditor": 0
+        }
+    ]
+}

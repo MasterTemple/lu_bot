@@ -154,14 +154,24 @@ module.exports = {
                 if(dmg != [] && singleJumpSmash != -1 && doubleJumpSmash != -1){
 
                     if(exceptions.includes(id) === false){
-                        if(dmg[0] == 1 && dmg[2] == 1 && dmg[2] == 1){}
-                        else if (hasChargeUp) {
+                        if(dmg[0] == 1 && dmg[2] == 1 && dmg[2] == 1){
+                            var chargeUpDoesDamage = true
+                            var chargeUpDamage = dmg[3]
+                            try {
+                                dmg.splice(3, 1)
+                            } catch {
+                            }
+                        }
+                        else if (hasChargeUp && dmg.length !== 3) {
                             //console.log(dmg)
+                            var chargeUpDoesDamage = true
                             var chargeUpDamage = dmg[1]
                             try {
                                 dmg.splice(1, 1)
                             } catch {
                             }
+                        }else if(hasChargeUp){
+                            var chargeUpDoesDamage = false
                         }
                     }
 
@@ -170,7 +180,9 @@ module.exports = {
                         chargeUpDamage: chargeUpDamage,
                         chargeUpImaginationCost: chargeUpImaginationCost,
                         doubleJumpSmash: doubleJumpSmash,
-                        singleJumpSmash: singleJumpSmash
+                        singleJumpSmash: singleJumpSmash,
+                        chargeUpDoesDamage: chargeUpDoesDamage,
+                        hasChargeUp: hasChargeUp
                     }
                     finalObject.table.push(obj)
                 }

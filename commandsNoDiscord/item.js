@@ -251,7 +251,7 @@ module.exports = {
         data.projectileDamageInfo = {}
         for(var m=0;m<data.behaviorIDs.length;m++){
             //console.log(parseInt(data.behaviorIDs[m]))
-            var weaponTreeInfo = weaponTree.execute([parseInt(data.behaviorIDs[m])])
+            var weaponTreeInfo = weaponTree.execute([parseInt(data.behaviorIDs[m]), id])
             //if(weaponTreeInfo.table.length != 0){
                 //console.log(weaponTreeInfo)
                 //data.projectileDamageInfo[m] = weaponTreeInfo
@@ -371,6 +371,26 @@ module.exports = {
             ...data
         };
         // //console.log(min_level)
+        if(information.Armor === undefined){
+            information.Armor = 0
+        }
+        if(information.Health === undefined){
+            information.Health = 0
+        }
+        if(information.Imagination === undefined){
+            information.Imagination = 0
+        }
+        if(information.description === null){
+            information.description = "None"
+        }
+        if(information.internalNotes === null){
+            information.internalNotes = "None"
+        }
+        if(information.levelRequirement === null){
+            information.levelRequirement = "None"
+        }
+
+
         return information
 
 
