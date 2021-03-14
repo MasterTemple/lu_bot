@@ -1,0 +1,464 @@
+{
+  "table": [
+    {
+      "id": 6359,
+      "name": "AG - Dark Spiderling",
+      "displayName": "Dark Spiderling"
+    },
+    {
+      "id": 16197,
+      "name": "AG - Dark Spiderling (Spider Boss Version)",
+      "displayName": "Dark Spiderling"
+    },
+    {
+      "id": 14572,
+      "name": "AG - Dark Spiderling - Spider Cave only",
+      "displayName": "Dark Spiderling"
+    },
+    {
+      "id": 6454,
+      "name": "AG - Dark Spiderling Survival",
+      "displayName": "Dark Spiderling"
+    },
+    {
+      "id": 8096,
+      "name": "AG - Dark Spiderling Survival Lvl 2",
+      "displayName": "Dark Spiderling"
+    },
+    {
+      "id": 8097,
+      "name": "AG - Dark Spiderling Survival Lvl 3",
+      "displayName": "Dark Spiderling"
+    },
+    {
+      "id": 14381,
+      "name": "AG - Spider Queen",
+      "displayName": "Maelstrom Spider Queen"
+    },
+    {
+      "id": 4712,
+      "name": "AG - Stromling",
+      "displayName": "Stromling"
+    },
+    {
+      "id": 6253,
+      "name": "AG - Stromling Mech",
+      "displayName": "Stromling Mech"
+    },
+    {
+      "id": 6668,
+      "name": "AG - Stromling Mech Survival",
+      "displayName": "Stromling Mech"
+    },
+    {
+      "id": 8090,
+      "name": "AG - Stromling Mech Survival Lvl 2",
+      "displayName": "Stromling Mech"
+    },
+    {
+      "id": 8091,
+      "name": "AG - Stromling Mech Survival Lvl 3",
+      "displayName": "Stromling Mech"
+    },
+    {
+      "id": 6351,
+      "name": "AG - Survival Stromling Lvl 1",
+      "displayName": "Stromling"
+    },
+    {
+      "id": 8088,
+      "name": "AG - Survival Stromling Lvl 2",
+      "displayName": "Chainsaw Stromling"
+    },
+    {
+      "id": 8089,
+      "name": "AG - Survival Stromling Lvl 3",
+      "displayName": "Hammer Stromling"
+    },
+    {
+      "id": 11218,
+      "name": "AM - Dark Ronin",
+      "displayName": "Dark Ronin Invader"
+    },
+    {
+      "id": 11988,
+      "name": "AM - Dark Ronin NAMED",
+      "displayName": "Grim Daisho - Dark Ronin Invader"
+    },
+    {
+      "id": 11214,
+      "name": "AM - Dark Spiderling",
+      "displayName": "Dark Spiderling Invader"
+    },
+    {
+      "id": 11984,
+      "name": "AM - Dark Spiderling NAMED",
+      "displayName": "Muffet Bane - Dark Spiderling Invader"
+    },
+    {
+      "id": 11220,
+      "name": "AM - Maelstrom Dragon",
+      "displayName": "Maelstrom Dragon Invader"
+    },
+    {
+      "id": 11989,
+      "name": "AM - Maelstrom Dragon NAMED",
+      "displayName": "Butterscorch - Maelstrom Dragon Invader"
+    },
+    {
+      "id": 11219,
+      "name": "AM - Maelstrom Horseman",
+      "displayName": "Maelstrom Horseman Invader"
+    },
+    {
+      "id": 12654,
+      "name": "AM - Maelstrom Horseman NAMED",
+      "displayName": "Vargas the Tormented - Maelstrom Horseman Invader"
+    },
+    {
+      "id": 12002,
+      "name": "AM - Skeleton Engineer",
+      "displayName": "Skeleton Engineer"
+    },
+    {
+      "id": 12003,
+      "name": "AM - Skeleton Engineer NAMED",
+      "displayName": "Blackmarrow - Skeleton Engineer"
+    },
+    {
+      "id": 12000,
+      "name": "AM - Skeleton Miner",
+      "displayName": "Skeleton Miner"
+    },
+    {
+      "id": 12001,
+      "name": "AM - Skeleton Miner NAMED",
+      "displayName": "Hardhead - Skeleton Miner"
+    },
+    {
+      "id": 12004,
+      "name": "AM - Skeleton Patroller",
+      "displayName": "Skeleton Pit Boss"
+    },
+    {
+      "id": 12005,
+      "name": "AM - Skeleton Patroller NAMED Nuckal",
+      "displayName": "Nuckal - Skeleton Lightning General"
+    },
+    {
+      "id": 11212,
+      "name": "AM - Stromling",
+      "displayName": "Stromling Invader"
+    },
+    {
+      "id": 11216,
+      "name": "AM - Stromling Admiral",
+      "displayName": "Stromling Admiral Invader"
+    },
+    {
+      "id": 11986,
+      "name": "AM - Stromling Admiral NAMED",
+      "displayName": "Admiral Flogmore - Stromling Admiral Invader"
+    },
+    {
+      "id": 11217,
+      "name": "AM - Stromling Ape",
+      "displayName": "Stromling Ape Invader"
+    },
+    {
+      "id": 11987,
+      "name": "AM - Stromling Ape NAMED",
+      "displayName": "Roo Morgg - Stromling Ape Invader"
+    },
+    {
+      "id": 11213,
+      "name": "AM - Stromling Mech",
+      "displayName": "Stromling Mech Invader"
+    },
+    {
+      "id": 11983,
+      "name": "AM - Stromling Mech NAMED",
+      "displayName": "ED-902 - Stromling Mech Invader"
+    },
+    {
+      "id": 11982,
+      "name": "AM - Stromling NAMED",
+      "displayName": "Talli Reeko - Stromling Invader"
+    },
+    {
+      "id": 11215,
+      "name": "AM - Stromling Pirate",
+      "displayName": "Stromling Pirate Invader"
+    },
+    {
+      "id": 11985,
+      "name": "AM - Stromling Pirate NAMED",
+      "displayName": "Gull Rawstew - Stromling Pirate Invader"
+    },
+    {
+      "id": 13068,
+      "name": "AM - Watchtower Skeleton",
+      "displayName": "Skeleton Watchman"
+    },
+    {
+      "id": 10512,
+      "name": "FV - Dragon Spawned Ronin",
+      "displayName": "Dark Ronin"
+    },
+    {
+      "id": 7815,
+      "name": "FV Dark Ronin",
+      "displayName": "Dark Ronin"
+    },
+    {
+      "id": 7816,
+      "name": "FV Maelstrom Cavalry",
+      "displayName": "Maelstrom Horseman"
+    },
+    {
+      "id": 7805,
+      "name": "FV Maelstrom Dragon 1",
+      "displayName": "Blastbreath - Maelstrom Dragon"
+    },
+    {
+      "id": 11225,
+      "name": "FV Maelstrom Dragon 2",
+      "displayName": "Torchblight - Maelstrom Dragon"
+    },
+    {
+      "id": 11226,
+      "name": "FV Maelstrom Dragon 3",
+      "displayName": "Burnshout - Maelstrom Dragon"
+    },
+    {
+      "id": 6789,
+      "name": "GF - Stromling Admiral",
+      "displayName": "Stromling Admiral"
+    },
+    {
+      "id": 6806,
+      "name": "GF - Stromling Ape",
+      "displayName": "Stromling Ape"
+    },
+    {
+      "id": 6550,
+      "name": "GF - Stromling Pirate",
+      "displayName": "Stromling Pirate"
+    },
+    {
+      "id": 13995,
+      "name": "NJ - Bone Wolf",
+      "displayName": "Bone Wolf"
+    },
+    {
+      "id": 16050,
+      "name": "NJ - Bonezai Skeleton Lieutenant",
+      "displayName": "Bonezai - Skeleton of Ice"
+    },
+    {
+      "id": 16047,
+      "name": "NJ - Chopov Skeleton Lieutenant",
+      "displayName": "Chopov - Skeleton of Earth"
+    },
+    {
+      "id": 16048,
+      "name": "NJ - Frakjaw Skeleton Lieutenant",
+      "displayName": "Frakjaw - Skeleton of Fire"
+    },
+    {
+      "id": 16049,
+      "name": "NJ - Krazi Skeleton Lieutenant",
+      "displayName": "Krazi - Skeleton of Lightning"
+    },
+    {
+      "id": 16289,
+      "name": "NJ - Platform Frakjaw Skeleton Lieutenant",
+      "displayName": "Frakjaw - Skeleton of Fire"
+    },
+    {
+      "id": 14024,
+      "name": "NJ - Skeleton Blacksmith",
+      "displayName": "Skeleton Blacksmith"
+    },
+    {
+      "id": 14026,
+      "name": "NJ - Skeleton Commando",
+      "displayName": "Skeleton Commando"
+    },
+    {
+      "id": 14029,
+      "name": "NJ - Skeleton Mad Scientist",
+      "displayName": "Skeleton Mad Scientist"
+    },
+    {
+      "id": 14028,
+      "name": "NJ - Skeleton Marksman",
+      "displayName": "Skeleton Marksman"
+    },
+    {
+      "id": 14027,
+      "name": "NJ - Skeleton Overseer",
+      "displayName": "Skeleton Overseer"
+    },
+    {
+      "id": 14025,
+      "name": "NJ - Skeleton Raider",
+      "displayName": "Skeleton Raider"
+    },
+    {
+      "id": 14491,
+      "name": "NJ - Skeleton Trooper",
+      "displayName": "Skeleton Trooper"
+    },
+    {
+      "id": 16191,
+      "name": "NJD - Bone Wolf - Frakjaw instance",
+      "displayName": "Bone Wolf"
+    },
+    {
+      "id": 14007,
+      "name": "NJD - Skeleton Blacksmith - Frakjaw instance",
+      "displayName": "Skeleton Blacksmith"
+    },
+    {
+      "id": 14009,
+      "name": "NJD - Skeleton Commando - Frakjaw instance",
+      "displayName": "Skeleton Commando"
+    },
+    {
+      "id": 16511,
+      "name": "NJD - Skeleton Mad Scientist - Frakjaw instance",
+      "displayName": "Skeleton Mad Scientist"
+    },
+    {
+      "id": 14008,
+      "name": "NJD - Skeleton Marksman - Frakjaw instance",
+      "displayName": "Skeleton Marksman"
+    },
+    {
+      "id": 12610,
+      "name": "NSI - Dark Ronin",
+      "displayName": "Dark Ronin"
+    },
+    {
+      "id": 12588,
+      "name": "NSI - Dark Spiderling",
+      "displayName": "Dark Spiderling"
+    },
+    {
+      "id": 12609,
+      "name": "NSI - Dark Spiderling Boss",
+      "displayName": "Whack Bliddo - Dark Spiderling Invader"
+    },
+    {
+      "id": 12605,
+      "name": "NSI - Elite Dark Spiderling",
+      "displayName": "Elite Dark Spiderling"
+    },
+    {
+      "id": 12612,
+      "name": "NSI - Maelstrom Dragon",
+      "displayName": "Borborygmus - Maelstrom Dragon"
+    },
+    {
+      "id": 12611,
+      "name": "NSI - Maelstrom Horseman",
+      "displayName": "Maelstrom Horseman"
+    },
+    {
+      "id": 11999,
+      "name": "NSI - Maelstrom Horseman NAMED Boss",
+      "displayName": "Oni Rider Ikusa - Maelstrom Horseman"
+    },
+    {
+      "id": 12467,
+      "name": "NSI - Maelstrom Horseman NAMED Boss",
+      "displayName": "Oni Rider Seibatsu - Maelstrom Horseman"
+    },
+    {
+      "id": 12468,
+      "name": "NSI - Maelstrom Horseman NAMED Boss",
+      "displayName": "Oni Rider Kikin - Maelstrom Horseman"
+    },
+    {
+      "id": 12469,
+      "name": "NSI - Maelstrom Horseman NAMED Boss",
+      "displayName": "Oni Rider Shi - Maelstrom Horseman"
+    },
+    {
+      "id": 12590,
+      "name": "NSI - Stromling Admiral",
+      "displayName": "Stromling Admiral"
+    },
+    {
+      "id": 13523,
+      "name": "NSI - Stromling Admiral 2",
+      "displayName": "Stromling Admiral Elite"
+    },
+    {
+      "id": 13524,
+      "name": "NSI - Stromling Ape 2",
+      "displayName": "Stromling Ape Elite"
+    },
+    {
+      "id": 12591,
+      "name": "NSI - Stromling Ape Boss",
+      "displayName": "Kinga Hurl - Stromling Ape"
+    },
+    {
+      "id": 12653,
+      "name": "NSI - Stromling Hammerling Melee",
+      "displayName": "Hammer Stromling"
+    },
+    {
+      "id": 12602,
+      "name": "NSI - Stromling Hammerling Ranged",
+      "displayName": "Hammerhurl Stromling"
+    },
+    {
+      "id": 12586,
+      "name": "NSI - Stromling Lvl 1",
+      "displayName": "Stromling"
+    },
+    {
+      "id": 12604,
+      "name": "NSI - Stromling Mech Corrupted Sentry",
+      "displayName": "Stromling Mech Invader"
+    },
+    {
+      "id": 12587,
+      "name": "NSI - Stromling Mech Survival",
+      "displayName": "Stromling Mech"
+    },
+    {
+      "id": 12589,
+      "name": "NSI - Stromling Pirate",
+      "displayName": "Stromling Pirate"
+    },
+    {
+      "id": 12600,
+      "name": "NSI - Super Stromling Boss",
+      "displayName": "Murgle Blotch - Stromling Champion"
+    },
+    {
+      "id": 12387,
+      "name": "VE Instance - Elite Dark Spiderling",
+      "displayName": "Elite Dark Spiderling"
+    },
+    {
+      "id": 12542,
+      "name": "VE Instance - Stromling Hammerling Melee",
+      "displayName": "Hammer Stromling"
+    },
+    {
+      "id": 8238,
+      "name": "VE Instance - Stromling Hammerling Ranged",
+      "displayName": "Hammerhurl Stromling"
+    },
+    {
+      "id": 8433,
+      "name": "VE Instance - Stromling Mech 2",
+      "displayName": "Corrupted Sentry"
+    }
+  ]
+}
