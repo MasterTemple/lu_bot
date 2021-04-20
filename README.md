@@ -1,3 +1,9 @@
+# Update
+
+This project is no longer continued. See https://github.com/MasterTemple/NexusForce
+
+# Info
+
 This is a LEGO Universe Discord Bot.\
 To run this program successfully you must:
 1. Install Node.js\
